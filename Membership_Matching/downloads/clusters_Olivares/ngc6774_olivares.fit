@@ -1,0 +1,1514 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                71114 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.3"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.2-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2019-03-20T14:49:30
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="259">
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="19: match(2,16)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="20: match(4,19)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="22: match(4,20)"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="19: match(2,16)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="20: match(4,19)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="22: match(4,20)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="6: members_all_2.fits"/>
+<PARAM arraysize="18" datatype="char" name="Second input table" value="17: ALL_literature"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="6: members_all_2.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="25: new_members"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_2.fits"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="2: Rvel_Ruprecht147_unique.csv"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="19: match(2,16)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="20: match(4,19)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="22: match(4,20)"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="1" datatype="char" name="queryParameters" value="9">
+<DESCRIPTION>request=xmatch
+		responseformat=votable
+		distmaxarcsec=1.0
+		selection=best
+		cat2=vizier:IV/34/epic
+		colra1=__UPLOAD_RA__
+		coldec1=__UPLOAD_DEC__
+		cols1=__UPLOAD_ID__
+		cat1=cat1</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="nTuples" value="224"/>
+<PARAM arraysize="12" datatype="char" name="computationTime" value="00:00:00.535"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="7" datatype="char" name="Second input table" value="2: epic"/>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM arraysize="9" datatype="char" name="PROVIDER" value="TAPVizieR">
+<DESCRIPTION>VizieR TAP service.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="QUERY" value="">
+<DESCRIPTION>SELECT TOP 1000 * FROM "J/AJ/145/134/table3"</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: Curtis_2013_table3.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="2: Herve_SB_OHP"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="19: match(2,16)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="20: match(4,19)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="4: members_ALL.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="22: match(4,20)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="6: members_all_2.fits"/>
+<PARAM arraysize="18" datatype="char" name="Second input table" value="17: ALL_literature"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="6: members_all_2.fits"/>
+<PARAM arraysize="15" datatype="char" name="Second input table" value="25: new_members"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_2.fits"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="2: Rvel_Ruprecht147_unique.csv"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_4.fits"/>
+<PARAM arraysize="21" datatype="char" name="Second input table" value="2: members_all_3.fits"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2018-09-11T09:23:16">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="3.2-2">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="23" datatype="char" name="First input table" value="1: ngc6774_central.fits"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="2: probability_0"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="8: ngc_central_RS_2"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="4: probability_1"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,4)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="5: probability_2"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,5)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="6: probability_3"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="First input table" value="11: match(10,6)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="7: probability_4"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_4.fits"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="2: ngc6774_DANCe_central_rs_2.fits"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: ngc6774_small.fits"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="2: probability_0"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="7: match(1,2)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="3: probability_1"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(7,3)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="4: probability_2"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,4)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="5: probability_3"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,5)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="6: probability_4"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_5.fits"/>
+<PARAM arraysize="26" datatype="char" name="Second input table" value="2: ngc6774_DANCe_rs_2.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="1: NGC6774_6deg.fits"/>
+<PARAM arraysize="21" datatype="char" name="Second input table" value="2: ngc6774_small.fits"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="First input table" value="1: NGC6774_6deg_IDs.fits"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="2: probability_1"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="6: match(1,2)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="3: probability_2"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="7: match(6,3)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="4: probability_3"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(7,4)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="5: probability_4"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="First input table" value="1: members_all_6.fits"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="2: ngc6774_GDR2_rs_0.fits"/>
+<FIELD datatype="long" name="ID_member">
+<DESCRIPTION>Member identifier</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="RAJ2000"/>
+<FIELD datatype="double" name="DEJ2000"/>
+<FIELD datatype="boolean" name="member_GDR2">
+<DESCRIPTION>Member of GDR2? (Expression: $27 &gt;= 0.859)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="member_DANCe">
+<DESCRIPTION>Expression: $46 &gt;= 0.697</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="member_DANCe_Central">
+<DESCRIPTION>Expression: $47 &gt;= 0.737</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="new_member">
+<DESCRIPTION>Expression: NULL_new_member_2 ? false : new_member_2</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="Full_region">
+<DESCRIPTION>Expression: true</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="Middle_region">
+<DESCRIPTION>Object inDANCe region (Expression: DEJ2000 &gt;= -19.55 &amp;&amp; DEJ2000 &lt;= -13.48 &amp;&amp; RAJ2000 &gt;= 285.08 &amp;&amp; RAJ2000 &lt;= 293.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="Core_region">
+<DESCRIPTION>Expression: DEJ2000 &gt;= -17.83 &amp;&amp; DEJ2000 &lt;= -14.98 &amp;&amp; RAJ2000 &gt;= 287.4 &amp;&amp; RAJ2000 &lt;= 290.4</DESCRIPTION>
+</FIELD>
+<FIELD datatype="boolean" name="WD">
+<DESCRIPTION>Is a WD candidate? (Expression: Index &lt; 0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="int" name="EPIC" ucd="meta.id;meta.main">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD ID="Star" datatype="short" name="CWW" ucd="meta.id;meta.main">
+<DESCRIPTION>[1/108] Running star number (1)</DESCRIPTION>
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD arraysize="22" datatype="char" name="Comments"/>
+<FIELD datatype="double" name="probability_DANCe_Central"/>
+<FIELD datatype="long" name="ID_DANCe">
+<DESCRIPTION>DANCe id</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="e_Y"/>
+<FIELD datatype="double" name="Y"/>
+<FIELD datatype="double" name="g_sdss"/>
+<FIELD datatype="double" name="i_sdss"/>
+<FIELD datatype="double" name="e_r_sdss"/>
+<FIELD datatype="double" name="e_Ks"/>
+<FIELD datatype="float" name="H"/>
+<FIELD datatype="double" name="e_i_sdss"/>
+<FIELD datatype="double" name="z_sdss"/>
+<FIELD datatype="double" name="e_z_sdss"/>
+<FIELD datatype="double" name="Ks"/>
+<FIELD datatype="double" name="e_g_sdss"/>
+<FIELD datatype="double" name="u_sdss"/>
+<FIELD datatype="float" name="e_H"/>
+<FIELD datatype="double" name="e_u_sdss"/>
+<FIELD datatype="double" name="e_RAJ2000" unit="mas">
+<DESCRIPTION>error in RAJ2000 (Expression: $24 &lt; 1e-4 ? $24 * 3.6e6 : $24)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_DEJ2000" unit="mas">
+<DESCRIPTION>error in DEJ2000 (Expression: $33 &lt; 1e-4 ? $33 * 3.6e6 : $33)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_J"/>
+<FIELD datatype="double" name="r_sdss"/>
+<FIELD datatype="double" name="J"/>
+<FIELD datatype="double" name="probability_DANCe"/>
+<FIELD datatype="long" name="source_id">
+<DESCRIPTION>Gaia DR2 identifier</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="ra"/>
+<FIELD datatype="float" name="ra_error"/>
+<FIELD datatype="double" name="dec"/>
+<FIELD datatype="float" name="dec_error"/>
+<FIELD datatype="double" name="parallax"/>
+<FIELD datatype="float" name="parallax_error"/>
+<FIELD datatype="float" name="pmra_error">
+<DESCRIPTION>Expression: NULL_$50 ? $38 : $50</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="pmdec_error">
+<DESCRIPTION>Expression: NULL_$52 ? $26 : $52</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="parallax_pmra_corr"/>
+<FIELD datatype="float" name="parallax_pmdec_corr"/>
+<FIELD datatype="float" name="pmra_pmdec_corr"/>
+<FIELD datatype="short" name="duplicated_source">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="phot_g_mean_mag"/>
+<FIELD datatype="float" name="phot_g_mean_mag_error"/>
+<FIELD datatype="float" name="phot_bp_mean_mag"/>
+<FIELD datatype="double" name="phot_bp_mean_mag_error"/>
+<FIELD datatype="float" name="phot_rp_mean_mag"/>
+<FIELD datatype="float" name="phot_rp_mean_mag_error"/>
+<FIELD datatype="float" name="radial_velocity"/>
+<FIELD datatype="float" name="radial_velocity_error"/>
+<FIELD datatype="float" name="astrometric_excess_noise"/>
+<FIELD datatype="double" name="phot_g_mean_flux_over_error"/>
+<FIELD datatype="double" name="phot_bp_mean_flux_over_error"/>
+<FIELD datatype="double" name="phot_rp_mean_flux_over_error"/>
+<FIELD arraysize="13" datatype="char" name="phot_variable_flag"/>
+<FIELD datatype="double" name="ra_epoch2000"/>
+<FIELD datatype="float" name="ra_epoch2000_error"/>
+<FIELD datatype="double" name="dec_epoch2000"/>
+<FIELD datatype="float" name="dec_epoch2000_error"/>
+<FIELD datatype="float" name="a_g_val"/>
+<FIELD datatype="long" name="ID_GDR2">
+<DESCRIPTION>Identifier from the GDR2 catalogue (table_6)</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="probability_GDR2"/>
+<FIELD datatype="double" name="pmra">
+<DESCRIPTION>Expression: NULL_$49 ? $17 : $49</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="pmdec">
+<DESCRIPTION>Expression: NULL_$51 ? $36 : $51</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  439 / width of table in bytes                        NAXIS2  =                  259 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   72 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'ID_member'          / label for column 1                             TFORM1  = 'K       '           / format for column 1                            TNULL1  = -9223372036854775808 / blank value for column 1                       TCOMM1  = 'Member identifier'                                                   TTYPE2  = 'RAJ2000 '           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TTYPE3  = 'DEJ2000 '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TTYPE4  = 'member_GDR2'        / label for column 4                             TFORM4  = 'L       '           / format for column 4                            TCOMM4  = 'Member of GDR2? (Expression: $27 >= 0.859)'                          TTYPE5  = 'member_DANCe'       / label for column 5                             TFORM5  = 'L       '           / format for column 5                            TCOMM5  = 'Expression: $46 >= 0.697'                                            TTYPE6  = 'member_DANCe_Central' / label for column 6                           TFORM6  = 'L       '           / format for column 6                            TCOMM6  = 'Expression: $47 >= 0.737'                                            TTYPE7  = 'new_member'         / label for column 7                             TFORM7  = 'L       '           / format for column 7                            TCOMM7  = 'Expression: NULL_new_member_2 ? false : new_member_2'                TTYPE8  = 'Full_region'        / label for column 8                             TFORM8  = 'L       '           / format for column 8                            TCOMM8  = 'Expression: true'                                                    TTYPE9  = 'Middle_region'      / label for column 9                             TFORM9  = 'L       '           / format for column 9                            TTYPE10 = 'Core_region'        / label for column 10                            TFORM10 = 'L       '           / format for column 10                           TTYPE11 = 'WD      '           / label for column 11                            TFORM11 = 'L       '           / format for column 11                           TCOMM11 = 'Is a WD candidate? (Expression: Index < 0)'                          TTYPE12 = 'EPIC    '           / label for column 12                            TFORM12 = 'J       '           / format for column 12                           TNULL12 =          -2147483648 / blank value for column 12                      TUCD12  = 'meta.id;meta.main'                                                   TTYPE13 = 'CWW     '           / label for column 13                            TFORM13 = 'I       '           / format for column 13                           TNULL13 =               -32768 / blank value for column 13                      TCOMM13 = '[1/108] Running star number (1)'                                     TUCD13  = 'meta.id;meta.main'                                                   TTYPE14 = 'Comments'           / label for column 14                            TFORM14 = '22A     '           / format for column 14                           TTYPE15 = 'probability_DANCe_Central' / label for column 15                     TFORM15 = 'D       '           / format for column 15                           TTYPE16 = 'ID_DANCe'           / label for column 16                            TFORM16 = 'K       '           / format for column 16                           TNULL16 = -9223372036854775808 / blank value for column 16                      TCOMM16 = 'DANCe id'                                                            TTYPE17 = 'e_Y     '           / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TTYPE18 = 'Y       '           / label for column 18                            TFORM18 = 'D       '           / format for column 18                           TTYPE19 = 'g_sdss  '           / label for column 19                            TFORM19 = 'D       '           / format for column 19                           TTYPE20 = 'i_sdss  '           / label for column 20                            TFORM20 = 'D       '           / format for column 20                           TTYPE21 = 'e_r_sdss'           / label for column 21                            TFORM21 = 'D       '           / format for column 21                           TTYPE22 = 'e_Ks    '           / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TTYPE23 = 'H       '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TTYPE24 = 'e_i_sdss'           / label for column 24                            TFORM24 = 'D       '           / format for column 24                           TTYPE25 = 'z_sdss  '           / label for column 25                            TFORM25 = 'D       '           / format for column 25                           TTYPE26 = 'e_z_sdss'           / label for column 26                            TFORM26 = 'D       '           / format for column 26                           TTYPE27 = 'Ks      '           / label for column 27                            TFORM27 = 'D       '           / format for column 27                           TTYPE28 = 'e_g_sdss'           / label for column 28                            TFORM28 = 'D       '           / format for column 28                           TTYPE29 = 'u_sdss  '           / label for column 29                            TFORM29 = 'D       '           / format for column 29                           TTYPE30 = 'e_H     '           / label for column 30                            TFORM30 = 'E       '           / format for column 30                           TTYPE31 = 'e_u_sdss'           / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TTYPE32 = 'e_RAJ2000'          / label for column 32                            TFORM32 = 'D       '           / format for column 32                           TUNIT32 = 'mas     '           / units for column 32                            TCOMM32 = 'error in RAJ2000 (Expression: $24 < 1e-4 ? $24 * 3.6e6 : $24)'       TTYPE33 = 'e_DEJ2000'          / label for column 33                            TFORM33 = 'D       '           / format for column 33                           TUNIT33 = 'mas     '           / units for column 33                            TCOMM33 = 'error in DEJ2000 (Expression: $33 < 1e-4 ? $33 * 3.6e6 : $33)'       TTYPE34 = 'e_J     '           / label for column 34                            TFORM34 = 'D       '           / format for column 34                           TTYPE35 = 'r_sdss  '           / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TTYPE36 = 'J       '           / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TTYPE37 = 'probability_DANCe'  / label for column 37                            TFORM37 = 'D       '           / format for column 37                           TTYPE38 = 'source_id'          / label for column 38                            TFORM38 = 'K       '           / format for column 38                           TNULL38 = -9223372036854775808 / blank value for column 38                      TCOMM38 = 'Gaia DR2 identifier'                                                 TTYPE39 = 'ra      '           / label for column 39                            TFORM39 = 'D       '           / format for column 39                           TTYPE40 = 'ra_error'           / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'dec     '           / label for column 41                            TFORM41 = 'D       '           / format for column 41                           TTYPE42 = 'dec_error'          / label for column 42                            TFORM42 = 'E       '           / format for column 42                           TTYPE43 = 'parallax'           / label for column 43                            TFORM43 = 'D       '           / format for column 43                           TTYPE44 = 'parallax_error'     / label for column 44                            TFORM44 = 'E       '           / format for column 44                           TTYPE45 = 'pmra_error'         / label for column 45                            TFORM45 = 'E       '           / format for column 45                           TCOMM45 = 'Expression: NULL_$50 ? $38 : $50'                                    TTYPE46 = 'pmdec_error'        / label for column 46                            TFORM46 = 'E       '           / format for column 46                           TCOMM46 = 'Expression: NULL_$52 ? $26 : $52'                                    TTYPE47 = 'parallax_pmra_corr' / label for column 47                            TFORM47 = 'E       '           / format for column 47                           TTYPE48 = 'parallax_pmdec_corr' / label for column 48                           TFORM48 = 'E       '           / format for column 48                           TTYPE49 = 'pmra_pmdec_corr'    / label for column 49                            TFORM49 = 'E       '           / format for column 49                           TTYPE50 = 'duplicated_source'  / label for column 50                            TFORM50 = 'I       '           / format for column 50                           TNULL50 =               -32768 / blank value for column 50                      TTYPE51 = 'phot_g_mean_mag'    / label for column 51                            TFORM51 = 'E       '           / format for column 51                           TTYPE52 = 'phot_g_mean_mag_error' / label for column 52                         TFORM52 = 'E       '           / format for column 52                           TTYPE53 = 'phot_bp_mean_mag'   / label for column 53                            TFORM53 = 'E       '           / format for column 53                           TTYPE54 = 'phot_bp_mean_mag_error' / label for column 54                        TFORM54 = 'D       '           / format for column 54                           TTYPE55 = 'phot_rp_mean_mag'   / label for column 55                            TFORM55 = 'E       '           / format for column 55                           TTYPE56 = 'phot_rp_mean_mag_error' / label for column 56                        TFORM56 = 'E       '           / format for column 56                           TTYPE57 = 'radial_velocity'    / label for column 57                            TFORM57 = 'E       '           / format for column 57                           TTYPE58 = 'radial_velocity_error' / label for column 58                         TFORM58 = 'E       '           / format for column 58                           TTYPE59 = 'astrometric_excess_noise' / label for column 59                      TFORM59 = 'E       '           / format for column 59                           TTYPE60 = 'phot_g_mean_flux_over_error' / label for column 60                   TFORM60 = 'D       '           / format for column 60                           TTYPE61 = 'phot_bp_mean_flux_over_error' / label for column 61                  TFORM61 = 'D       '           / format for column 61                           TTYPE62 = 'phot_rp_mean_flux_over_error' / label for column 62                  TFORM62 = 'D       '           / format for column 62                           TTYPE63 = 'phot_variable_flag' / label for column 63                            TFORM63 = '13A     '           / format for column 63                           TTYPE64 = 'ra_epoch2000'       / label for column 64                            TFORM64 = 'D       '           / format for column 64                           TTYPE65 = 'ra_epoch2000_error' / label for column 65                            TFORM65 = 'E       '           / format for column 65                           TTYPE66 = 'dec_epoch2000'      / label for column 66                            TFORM66 = 'D       '           / format for column 66                           TTYPE67 = 'dec_epoch2000_error' / label for column 67                           TFORM67 = 'E       '           / format for column 67                           TTYPE68 = 'a_g_val '           / label for column 68                            TFORM68 = 'E       '           / format for column 68                           TTYPE69 = 'ID_GDR2 '           / label for column 69                            TFORM69 = 'K       '           / format for column 69                           TNULL69 = -9223372036854775808 / blank value for column 69                      TCOMM69 = 'Identifier from the GDR2 catalogue (table_6)'                        TTYPE70 = 'probability_GDR2'   / label for column 70                            TFORM70 = 'D       '           / format for column 70                           TTYPE71 = 'pmra    '           / label for column 71                            TFORM71 = 'D       '           / format for column 71                           TCOMM71 = 'Expression: NULL_$49 ? $17 : $49'                                    TTYPE72 = 'pmdec   '           / label for column 72                            TFORM72 = 'D       '           / format for column 72                           TCOMM72 = 'Expression: NULL_$51 ? $36 : $51'                                    DATE-HDU= '2019-03-20T14:49:30' / Date of HDU creation (UTC)                    STILVERS= '3.2-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @qé>Ğà$:À+š\¥óDFTFTTTFF€   €                       ø           ™ãC?©™™    @*“€   @,\)    @*ŠÀ€   ?©™™    ?¬(õÀ   A:´9?©™™    @*["à   ?ª¬    @''l€   ?©™™    @/ª    =hÀ–?Á‰7@   ?ì]c€   ?çŒ~    ?¬(õÀ   @+1&à   @(‡    ?ç’<«…†:@X‰¡ú @qé>ËÉSŞ<ôğØÀ+š›×,9=
+Úº?÷œàuöı"=0ò|=ixÕ=@ƒ¾¥`B=·€4=ğ:û  AX‡+9IRA`ˆf?dzáG®{AN4:kíúÀ  À      @«`°£×
+=@{……¸Qì@’ùn—NOT_AVAILABLE@qé>Ğà$:?bëÀ+š\¥óD?<cñÀ       ÈNş* Ó˜‹‹û¿ñ…À   À9>¸`         @qò¢UéÛÀ+L² GIöFTFTTTFF€   €                       ø           ™U?©™™    @/yÛ    @39™    @0£`   ?ª¬    @XÀ     A\vÉ?©™™    @01    ?©™™    @XÀ     ?ª¬    @XÀ     =’ES@XÀ     @d%    @œw    ?±©ûà   @1ê    @,µ?€   ?îu¬­í;:@?—p€@qò¡ü 0Ù=½ÈÀ+LÀş¢Ò=­BÄ@›qu!–=ÑN<>8Qì>!ÊÁ¾4Ö¡=Gâ‚=ºÇ  A‰Ó:·€4A•wÏ?Ÿö”Fs‚A€Z†;§çÀ  À  >ˆ´9@ˆ
+7KÆ§ğ@Aé‡+@j‰?|í‘hNOT_AVAILABLE@qò¢UéÛ@3!-À+L² GIö@ã½À       ÇÀ¼?«íY¶Õ:§¿ú\    À:XÕ          @r59€mEÀ,#uI»kFTFTTTFF€   €                       ø           ‘E$?ª¬    @0YÛ    @4+    @1Gï    ?ªŸ¾€   ?²n—€   Ad›¦?©™™    @0ª=€   ?ª¬    @,tÀ   ?ª¬    @XÀ     =_¿ƒ@XÀ     @ãˆ`   @‚@À   ?° Ä    @2³¶@   @-ã×    ?íÓ'z*²:è - @r59~èÃ>¡bÀ,#„·ünn>x@˜*™0¾>'°>“t¼>ˆ1'¾ˆÁU=y	l>IR  A:ëíúA›¬?±$İ/ A…»d<"3œÀ  À  ?¾w@‚Ûİ/Ÿ¾@0V“t¼@[oß;dZNOT_AVAILABLE@r59€mE@CÀ,#uI»k@„À       «?ª§DbHá¿ß®€   À;WÎà          @qÓÙ1ÚİKÀ-|àüÛb†FTFTTTFFy€                       ø           …ºl?ª¬    @0tÀ   @3¥À   @0ù™    ?ª¬    ?²-`   A^éy?©™™    @0[d`   ?©™™    @+‰7@   ?«"Ğà   @XÀ     =_è@XÀ     @›    @*0`   ?° Ä    @2Fé€   @-gl€   ?é“™m¹¸8êu©øˆ @qÓÙ(	sÆ>(XyÀ-|ğVÙn>'»@¯ìVÕÏ«>UÏ«>™™š>Òò¾å¡Ë>¨Œç>Qhs  A)ü:Ñ·A˜ Å?¯Š	Ş ÒAƒ`ª<ÑNÀ  À  ?"Ñ@…Ä›¥ãT@1Ÿ|í‘hs@^\ÌÌÌÌÍNOT_AVAILABLE@qÓÙ1ÚİK@”ØEÀ-|àüÛb†@‰QƒÀ       w\à?\¹ö›À Òñ    À;3÷À          ÿ@qãÜÏn	?À/0‹vğfFTFTTTFFÀ'€                       ø           ‚
+‚?©™™    @.¸`   @2¯    @0#`   ?©™™    ?¯¾vÀ   AU¥ã?ª¬    @/.€   ?©™™    @*ë€   ?©™™    @XÀ     =€ô@XÀ     @	¾«@   @¿±`   ?®5?€   @1bMà   @+÷KÀ   ?ëê’y6Q8¿bI¾e @qãÜË¼Ì»=Ù³ĞÀ/0›C‰ñ=Ì/ƒ@ÿb¶®}V=àªe>Tıô>C•¾:’£=a°Š>¡:“  A†\Æ:IRA‘?Šu%F
+¦Az~;IRÀ  À  >ÂJ@ŒÇdZ¬@UJÀƒn˜@l„“t¼jNOT_AVAILABLE@qãÜÏn	?@MõZÀ/0‹vğf@=ı‹À       ]fR?ŒR{àk¦¿é7KÀ   À;şùà          ş@qåûàYÀ0>•Oñ¥ŒFTFTTTFF^?€                       ø           €œÿ?µÂ`   @*1&à   @-qª    @*ó3@   ?©™™    ?±&é€   A9&é?ª¬    @*¼í    ?©™™    @&Á‰@   ?©™™    @0Òñ    =™À?Ç®€   ?ò0U@   ?ğà   ?²-`   @+Ó    @(h€   ?ïŠ*R>¿08¾W‡c€@qåö”¹=_À0>œç¿‘Û=+@ıVlô!=3Ğ}=•=…¸¾_¾w=¥ãT>|…  Ant¼:ƒoÀ  ø      À  À  À  À  =—P@‘‰7KÆ¨ø      ø      NOT_AVAILABLE@qåûàY?‘‚ªÀ0>•Oñ¥Œ?€è§À       X];SÇJ	I¿ò    À:è´@          ı@r’ 3•óÀ3`İú%-^FTFFTTFF 9„€                       ø           r¯?ª¬    @/øQà   @3hõÀ   @0×
+@   ?ª¬    ?²° À   AaC–?©™™    @0Fé€   ?©™™    @+qª    ?«"Ğà   @XÀ     =ˆgP@XÀ     @õ÷    @	k`   ?° Ä    @2)    @-yÛ    ?ét¨Ğqé08¬¶¹ ÜÛ€@r’šŞõ=ş‘ À3`åábß=Õ›=@gl‹C•> 7>€  >NÙ½Ë)<Åm]=rä  A‹´n:ëíúA—'?²-VA‚U2<	 'À  À      @ƒ"Ğå`B@B¿²-V@`&ñ©ûçmNOT_AVAILABLE@r’ 3•ó@w¯¸À3`İú%-^@HÓ[À       ÆÅ?êÁæœÍ¾¿èb@   À8ûç`          ü@qñ_ı0SÀ1ãäAüğCFTFTTTFF“8€                       ø           m…½?©™™    @*'l€   @,şvÀ   @*Ğå`   ?©™™    ?¬¬@   A8j?° Ä    @*qª    ?©™™    @&°£à   ?©™™    @0oÀ   =s&ì?ÂMÓ    ?ö“€   ?ï[W@   ?­²-    @+vÈÀ   @(ñ    ?ïšĞO5?<8¹‹IQÂ @qñ_÷@²°=EÀ1ãëè—GÌ=#S@şÿ—$t=:“=¶E¢=%¾Mj¾ƒ×
+¾„M  AZı":oAdŠÛ?a4êJŒAOl‹:Ñ·À  À      @¢lÔzáG®@€bIº^@…MÒñ©üNOT_AVAILABLE@qñ_ı0S?°ÄœÀ1ãäAüğC?zÚº?MÒò     B$£=ƒÊVy=Ù6¿ô    À;/           û@qåÃ[ğşÀ0>îí‰FTFTTTFF^?€                       ø           lü—?µÂ`   @*1&à   @-qª    @*ó3@   ?©™™    ?±&é€   A9&é?ª¬    @*¼í    ?©™™    @&Á‰@   ?©™™    @0Òñ    =™À?Ç®€   ?í'»    ?éÒ     ?²-`   @+Ó    @(h€   ?î¡£±nŠu8¾W ê @qå¼|æb<óMjÀ0>‰Ÿ·O<îc @n—P=Šr=q©ü=Tıô¾eı‹=¡ÊÁ>…ğo  Ad|î:oAh_Ù?‡Oß;dZAR!<c¼ÓÀ  À      @ xq©ûçm@W®“t¼@S~Ù‡+NOT_AVAILABLE@qåÃ[ğş?i=ÙÀ0>îí‰?N‘ À       X]‘:ÖñŒÇûñ—¿÷`A€   À;AG           ú@rBÊõQ6À/ò0ó°îFTFTTTFFÛƒ€                       ø           Yuƒ?©™™    @/öE    @3®V    @0ñ&à   ?ª¬    ?´zá@   Achs?ª¬    @0Tzà   ?©™™    @+Ş5@   ?ªŸ¾€   @XÀ     =³†C@XÀ     @¥à   @iûà   ?³t¼`   @2X“€   @-{ç`   ?é¿
+Šrm: 8 +ğ @rBÊöÿ„>¸RÀ/ò?Ö|Fu>İ˜@‡ÈK]Ìd>9X>•>‡®¾¶»™=’:*>Çâ‚  A+6;oAšòå? –»˜Çâ‚A„Ä3<Ÿ¾wÀ  À  >úáH@Ft¼j~ú@@Ç+Iº@KÛdZ¬NOT_AVAILABLE@rBÊõQ6@İ/À/ò0ó°î@ƒOßÀ       š²R>şê¦»¨+r?Äzá@   À:`Ä           ù@r/³HRÀ-Î¤İ…ÜÂFTFTTTFF€   €                       ø           U·Õ?©™™    @/ ƒ    @2      @0B`   ?ª¬    ?©™™™™™šAXff?©™™    @/Ù    ?©™™    @*{ç`   ?ª¬    @XÀ     =~ÆÇ@XÀ     @Ö    @‹    ?©™™™™™š@1NV    @,oÀ   ?ê“·ø ğ:p) °Û€@r/©ë*=®{À-Î³¾¯æÖ=£×
+@¦L/ƒ{J=Áò>#×
+>bN¾Å<LÌÍ>³İ˜  A†ç¡:-àA¤@?˜­«ŸU›=A{÷Ï;†YKÀ  À  >ß;@:Oß;d@F†E¡ÊÀƒ@pºĞå`A‰NOT_AVAILABLE@r/³HR@°!À-Î¤İ…ÜÂ@Xy?eÂ     ¨J[> …ŒMu$¼À 1    À:]²           ø@r@5"¸"À.œ—Ú§«ÖFTFTTTFF€   €                       ø           I`?ªŸ¾€   @/Ğb@   @3”¼`   @1`   ?° Ä    ?±ë…    A_X?­²-    @0KÆ    ?ª¬    @+m`   ?°å`@   @XÀ     =Œ‰Å@XÀ     @Ìd    @Ï€   ?²-`   @2HrÀ   @-["à   ?íŒ©”ŒŠ:nğ 6¯ @r@5€Ÿ…>d¨ÁÀ.œ§s·\Î>LM@kíúCş]>oÒ >Ôıô>´9X¾ÇË=-à>ÏªÎ  A¸»:ù	lA˜MŸ?Ä¾ß¤?æAƒ ù<-àÀ  À  ?G®@š¬1&é@·KÆ§ï@NÇÎÙ‡+NOT_AVAILABLE@r@5"¸"@Îc À.œ—Ú§«Ö@®xlÀ       ›W1?“ÍûÒ¿ø¬@   À;£•€          ÷@r%	OäcÀ+İIü[,FTFTTTFF€   €                       ø           C~œ?ª¬    @-å`@   @1Äİ    @/)xà   ?©™™    ?­²-    AOçm?©™™    @.cT    ?©™™    @)†$à   ?©™™    @XÀ     =wª@XÀ     @FÜ`   @·é    ?­/    @0h´@   @+LÌÀ   ?éAyG‡(Ã:P 8õ€@r%	FÒ»¼>yrGÀ+İ)Fë`Ş>Z¬?ÿ-àqv>“á>ùÛ#>Ã•¾ŠÚº<ø7µ½šŸ¾  An/;D›¦AŠı?‚n—Oß;Aqé;y	lÀ  À  ?ºÀƒ@vå?|í‘h@^‡+J@qæ^5?|îNOT_AVAILABLE@r%	Oäc@ò6ãÀ+İIü[,@½¿HÀ       ªë?0îg—ø8Œ¿üff`   À8Éxà          ö@r57½rfĞÀ1,ƒ”ïrFTFTTTFF€                       ø           .ß?ª¬    @0=p    @3—@   @1Ù    ?ª¬    ?©™™™™™šAa¾w?©™™    @0ƒ×    ?©™™    @+Û"à   ?ªŸ¾€   @XÀ     =‹$»@XÀ     @ûÀ   @Üú    ?©™™™™™š@2Gï    @-Ä    ?í¹só’6:nè Z @r57»Axˆ>8GÀ1,‹'¸û>&€@´¢3œ¿>]IR>­V>‹C–½€  ½8Qì=ŞÒ‰  AŠÛ;	 'A™Ov?¢ˆÎp:ûA„HK<Gâ‚À  À  >Ö‡+@€Š‡+@>S÷ÎÙ@V7¾vÈ´9NOT_AVAILABLE@r57½rfĞ@§Ø®À1,ƒ”ïr@†çÕÀ       •‰?LêÈ¹Ì†õ¿İ²-    À:ØQà          õ@r :[ı=À-İ›&0FTFTTTFFpó€                       ø           +¬N?©™™    @)È1    @+ÚŸÀ   @XÀ     @XÀ     ?¬¬@   A81'@XÀ     @XÀ     @XÀ     @&å`@   ?©™™    @/D›    =dù.?ºáG    ?ì-`   ?ån.À   ?­/    @XÀ     @'Ö‡    ?çIu…Ê‚ë:¼¸ Y€@r :W0°¥<Ğ©À-İ,Æ~ËS<¶®}@â‚@·€4<÷eş=ixÕ=0 Å=İÌd¾(>B¾‹Æ¨  ATôˆ9IRA\?Vğ¸ºÇAJğØ:·€4À  À      @ªTÌÌÌÍ@‡üÈ´9X@ˆçÒñ©ûçNOT_AVAILABLE@r :[ı=?ahsÀ-İ›&0?+qv>¡o      ¦i? sd ÿ¿ğn—€   À:+Æ           ô@rTK?aÀ4Â2ÜITFFTTFFT€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      _U ‰  
+ @rTK4Ó>ƒ9ÁÀ4É‡\›>o²@dŠqŞj>v`?%>ë¾hŒç=#n/>±u  A–¶ã;e`BA–É†? £×
+=p¤A–wÏ=U›À  À      @s~ Ä›¥ã@@·l‹C•@;îÙ‡+NOT_AVAILABLE@rTK?a@ú5?À4Â2ÜI@ã“ŞÀ       ò	D?ïşïD©5âÀj    À9ú^@          ó@r9×ß"²)À5>õuì`ÿTFFTTFFFğ
+C€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      ]ı¯ñ š€@r9×â2™–=.{À5>üÜ|P´=£@	%œàu÷=P|…=ñ©ü=®{>¿åÉ¾¢ë¾HÌ  @Ìù	:o@éE9?l¬1&éy@°c ;»™Á÷
+=?p£×    @ T=ó¶E¢@s‰çl‹C–@}‘p£×
+=NOT_AVAILABLE@r9×ß"²)?ê©“À5>õuì`ÿ?¨bN?O²     íõ-?ïúŞ#áü6?ä9X    À::^@          ò@r˜ªtŞ#À%†ß×ËÁPTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :I3Ù‡ @r˜¥l©~=àvÀ%†ïšDé=Šr@w1Å=1Ä3=—P=ƒo¾ªŒ>˜_>8   A.v`9Ñ·A4€?S©*0U2aA&¿:kíúBõÃ?—
+=    @¦‹ÌIº^5@ŒÊC•%@’Š8Që…NOT_AVAILABLE@r˜ªtŞ#?’‘À%†ß×ËÁP?|ôÀ       êo_?î5™B™¿ñ…À   À;í`          ñ@rLš$%qÀ%»—+oäLTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :HÑh Y€@rL“‹ìh>×ÜÀ%»¦M ÷y>a-w@1[W>«6>ß¾w?yX?1&é?Fff¿P©¿JQ  A
+Û;	 'A™ò?«J#9ÀëîA„€4<-àÀ  À  >äZ@€|í‘hs@4`     @^°Që…¸NOT_AVAILABLE@rLš$%qAq À%»—+oäLA+³ĞÀ       éB?í—º)Õ„(¿öõÂ€   À:Ğå`          ğ@qô-ä#¼¯À'ßlÒÕêTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :CXñG,€@qô-ßÏŞx=ä%¯À'ß{T­”î=ŞÒ‰@£S&Â>	Ş>fff>^5?¾BÄ>jçÕ>Õsë  A‰·é:·€4A•h
+?’:)Çy¦µA€*e;­«ŸÀ  À  ?l‹@ˆÏIº^5@N€bMÒñª@i½Û"Ğå`NOT_AVAILABLE@qô-ä#¼¯@^ŞÀ'ßlÒÕê@W.IÀ       Ö?îŠGü¿î    À9´ş           ï@r6m”o¶À&¢N½¸“ÍTFFTTFFT€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :¹x g‚€@r6m‚<ÔÉ?y§À&¢]é¨AQ?ÛŒ@	£×
+=p¤?zá?—
+=?¸R¾â3œ<ô!?e•  A¬q;ŞÒ‰A¥F?®i­BÃÉïAœéâ=ÅÖ9À  À      @cğbMÒñª@2Hr° Äœ@&záG®{NOT_AVAILABLE@r6m”o¶A’aHÀ&¢N½¸“ÍA™Î¥À       Ä²?ï…³îãÀáG    À:âMà          î@r!,î|¶À(†@›n¹zTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :@˜ 4! @r!,ê‚XÍ=¯·éÀ(†Ot‡Pi=§ï@´Ö¡aä÷=çÕg><j>1'>
+Úº¾-à½Ü(ö  A…Ó:ªdÃAmú?U›=ÈKAyë…;ŞÒ‰À  À  >$İ@Š”
+=p£×@Q½$İ/@cÙOß;dZNOT_AVAILABLE@r!,î|¶@6œxÀ(†@›n¹z@Iº=Â\     ÃIL?ï±şŸÉça¿ëOà   À:OÀ          í@r.F2°<¯À(Umúq«TFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :"¹ Ë•€@r.F)Tdí=‚@¸À(U|Åù^ÿ=M„@òGE8ï5=‹àß=ıó¶=ÊÀƒ¾µsë>wš»>í  A|—:7€4A‡p¤?{šu%FAkØ;0ò|À  À  >xÔş@™,`A‰7L@d¬Që…¸@y3º^5?}NOT_AVAILABLE@r.F2°<¯?ö8†À(Umúq«?Ä!À       Âóğ?í´êRj ÚÀ 5?€   À:7KÀ          ì@r­PUágÀ)YÄP(ATFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :Ù‰ î¤ @r­Bg2†=@¸À)hUùúŠ<ğØE@	™0¾í)=¸»=}ó¶=Y‡¾¤%¯=nc >Y³Ğ  A&y§9IRA-ÛŒ?J6âëC-Aú­:Ä›¦Aæ£×>8Qì    @¯F™™™™š@•»|í‘hs@†ÿÛ"Ğå`NOT_AVAILABLE@r­PUág?tŠÀ)YÄP(A?TZÀ       º:ú?ï€Â(vÕÀ“€   À9Ğå`          ë@r)”VÜ…§À)ÍíıŞ“TFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :î) Óä€@r)”Nª¿P=Ö¡bÀ)ÍûæP=«ÓÃ@)^š>£n>dZ>F§ğ½ê³h>g»0>“Z†  A„A¾:Ä›¦A1[?§Ûô‡ü¹$Aw3œ:ù	lÀ  À  >ª~ú@†¥G®zá@7Hr° Äœ@Ôå`A‰7NOT_AVAILABLE@r)”VÜ…§@\è§À)ÍíıŞ“@@l">§ï     ·y?ìğ´EÛJ¿üMÓ    À:Dİ           ê@rS?YKÀ*ë…ëú´TFFFTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :z 	º€@rS<ë=#SÀ*ë”EG‹ó=İ˜@	šu%F=<Ó[=§ï=%=Ca½Í„¾|£  Aj¨Á:7€4Av‘h?t¼£nA]‘;	 'À  À      @˜®>vÈ´9@kn° Ä›¦@€d‹C•NOT_AVAILABLE@rS?YK?£ØÀ*ë…ëú´?{¥ã?™š     µÄ?ïµ
+];Œ;¿æ\    À:ã`          é@rÒÀ,Ú†×g^TFFFTTFF€   €                       ø           –|u@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   A¶F@XÀ     @XÀ     @XÀ     @!š    @XÀ     @({ç`   =…»¥?º^5@   ?öy¦À   ?ó/ƒ€   ?¬(õÀ   @XÀ     @"@ƒ    ?ÈöXt,<å: ‘ Ö| @r	;Õ=>vÉÀ,Ú 7Hı±=-BÄ@
+L˜_÷=Y‡=º^5=²-¾µ">y>=Ä2Ê  A$dÃ9Ñ·A*{³?R¼£n/A
+¦:oÀ  À      @¤5£×
+=q@àÄ›¥ãT@ ‰ò-VNOT_AVAILABLE@rÒ?³Í6À,Ú†×g^?™|À       ´J?ïü*Ußá“¿ó/    À;Í`          è@rÇrgŒ½À,hÖ& ´uTFFFTTFF€   €                       ø           ’¤r?©™™    @(‰@   @*!ÊÀ   @*\)    ?¿;d`   ?«¥ã`   A,n˜?©™™    @,÷KÀ   ?©™™    @%X“€   ?©™™    @,vE    =^!P?¹Û"à   ?ñÑ·    ?îb@   ?¬(õÀ   @*Ó÷À   @&&é€   >‹[–3K:òQ4î @rÇnŠ¿=kQÀ,hä­†ıà=!–@vı!ÿ.I=$?æ=“t¼=yÛ#¾_!-½Š¦L=ñŞj  AD!–9Q·AJR½?[ÚQÎ_A;ƒ{:ƒoÀ  À      @´7¾vÈ´9@„kIº^5?@2ó¶E¡ËNOT_AVAILABLE@rÇrgŒ½?¹À,hÖ& ´u?pƒ>Éá±     ¯Ä#?ï}[Htœt¿î$İ    À9¾ùà          ç@r-nÇV/%À+¶!ÉÕ%ÖTFFFTTFF€   €                       ø           Cî–?©™™    @/Ä›    @2úŸÀ   @0° À   ?²n—€   ?°£×    A_o?©™™    @0*    ?©™™    @+yÛ    ?°£×    @XÀ     =İĞ@XÀ     @	A‰@   @÷1€   ?®¸Qà   @1Ö‡    @-!ÊÀ   ?d_CHåÛ:ÌÑ ¯4€@r-n¼9÷=×>«À+¶0c8K=¾ß¤@
+éùrGE=ô‡ı>På`>-V¾ra|=.{>9¦µ  AŒŞ:ªdÃA–¶ã?¨ -àA‚VÖ;ù	lÀ  À  >µÂ@‰Ôƒn—@6•?|í‘h@aß•$İNOT_AVAILABLE@r-nÇV/%@JJÀ+¶!ÉÕ%Ö@'¹ŒÀ       ««m?ì³“w¨À¸`   À9Ş5@          æ@r'\*Ò€ZÀ-&÷qÚ“TFFTTTFT€   €                       ø           »ƒ?ªŸ¾€   @.V    @2C•€   @1âMà   @XÀ     @XÀ     BÆ  ?«"Ğà   @2—@   ?²-`   @XÀ     ?±hrÀ   @XÀ     BÆ  @XÀ     @Òn    @×Xà   @XÀ     @XÀ     @XÀ     04
+&qEi±:ñ Q @r'\#ÂI>?.IÀ-'•m¶w>E¸@œàuöı">hÁU>´9X>£×
+¾ÊdÃ=ğ£×>¬Iº  A”4;D›¦A“_?“t¼j~ùÛA“h§=‹C–À  À      @vŠõÂ\)@LŠ=p£×
+@/íV“NOT_AVAILABLE@r'\*Ò€Z@®“uÀ-&÷qÚ“@ºÇÀ       ©×S?ïñ_T³pæ¿ø9X    À<™€          å@rò¢6À.] Œ‘Ğ TFFFTTTF‰`€                       ?ãÕ.ê¸     5@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   A'?}@XÀ     @XÀ     @XÀ     @$ÍÓ    @XÀ     @+Ñë€   =amÌ?¹™™    ?ô¯À   ?ò,<    ?¬(õÀ   @XÀ     @%r°    ?Ò*«
+YT:Åø €@rí	d¢=wšÀ.],F‘«=(ÁU@
+¾ß¤?æ=h>B=¥ãT=•¾ûW?>™	l>HÎp  A>Ş9Q·AEÂ?]}¿HË’A68†:IRB ÌÍ>£×
+    @¹ˆG®{@‚ÿ&éxÔş@‹±33333NOT_AVAILABLE@rò¢6? ~À.] Œ‘Ğ ?‘aå>Ïß;     ¦…ã?ï¬´'
+¸:¿ñ7KÀ   À;¯\           ä@r#pø‰`‰À.JTÁ¼7#TFFTTTTF­P€                       ?®‡âû     f'@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?©™™™™™šA)²@XÀ     @XÀ     @XÀ     @%Û"à   @XÀ     @,uÂ€   =c+Î?¹Û"à   ?òO€   ?îu%@   ?¬(õÀ   @XÀ     @%Ğå`   ?…Í¸‹:©™ î‘€@r#pócg= ù	À.Jdîæ(ô=Oß@ö”FsØ=0‰ =—P=yÛ#¾“İ˜ºÄ›¦>~(  AB_9Q·AI	l?[ÚQÎ_A9Y´:kíúB+\)>Š=q    @³ghr°!@ƒƒß;dZ@’*’n—PNOT_AVAILABLE@r#pø‰`‰?’xlÀ.JTÁ¼7#?s©*>š^5     ¦2ó?ìl,èí¦¿ò¸Qà   À<©ûà          ã@r s
+ÛóÀ.T|ÍéªTFFFTTTF(J€                       ?¶Ÿãò     +„@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?©™™™™™šAxÕ@XÀ     @XÀ     @XÀ     @$'l€   @XÀ     @*1ª    =c+Î?º¬    @ po`   ?üğo`   ?¬(õÀ   @XÀ     @#wKÀ   ?w…ST˜£J:¤9 ìC€@r ug	 =Ïv`À.cÅd])=¬q@ËÆ§ï²>&>+=ï²¿)Ç>§®>Ìd A0¿:IRA6ãT?fğ¸ºÇA&ı":ëíúÂG®?LÌÍ    @š	7KÆ¨@xJQë…¸@‚ÌéxÔıôNOT_AVAILABLE@r s
+Ûó@ƒ{À.T|Íéª?çƒ{?º¬     ¦#i?ìéú¢6Œ?à Ä    À;ş           â@r•÷ørÀ.ĞÈ™ólÛTFFFTTTF™v N                      ?°/U´³÷À     oK@XÀ     @XÀ     @'²-    @%j    ?©™™    ?«¥ã`   A!²?©™™    @&Ç+    ?©™™    @$ş    ?©™™    @*E¡À   =fÕ?¹™™    @É†    @§†À   ?¬(õÀ   @&¢Mà   @$²°    >„&Ô­D:m1= @r•ñ—4¢=nËûÀ.ĞØ$4Ş=EÖ9@
+Åo =±Å>uÂ>™š?3S¿":*¿>{  A6„9Ñ·A;õÃ?Vğ¸ºÇA.á±:kíúÀ  À      @£bÖ“u@ˆïIº^@‘àIº^5?NOT_AVAILABLE@r•÷ør@nL0À.ĞÈ™ólÛ@<6>Ø“u     ¥tY?ïï]Ìß`¿ò§ï    À;V           á@r	ğ"¾lÀ/¢ğ†˜’TFFFTTTF¨Õ 1                      ?ÀKô©r~³     h»Ë@XÀ     @XÀ     @XÀ     @XÀ     ?©™™    ?¬(õÀ   A\)@XÀ     @$§l€   ?©™™    @!ıóÀ   @XÀ     @*zá@   =amÌ?¹™™™™™š?ö      ?ò~‘    ?¬(õÀ   @$çl€   @"¸Õ    ?¦îß‹ÕÀ:Fp ]V @r	ğ((Ü=EÖ9À/¢ş©xC=+6z@¿HË’:=Y‡=¶E¢=™™š¾ÆÂ»IR>U2a A&Ãa:IRA,•?Vğ¸ºÇAÉ:·€4B*ë…?İp¤    @›z1&éy@‡ú÷ÎÙ‡@‡›l‹C•NOT_AVAILABLE@r	ğ"¾l?°  À/¢ğ†˜’?“ôˆÀ       ¤ës?ïø_Í=j¿èr°    À9@          à@r.œMSÀ/ÍÈáİ_TFFFTTTF; 	                      ?ÃtjL«€     =@XÀ     @XÀ     @XÀ     @XÀ     ?©™™    ?«¥ã`   @¸1@XÀ     @%KC    ?·
+=€   @?|à   @XÀ     @XÀ     =hÀ–@XÀ     ?ú^5@   ?õF
+    ?«"Ğà   @%Ç®    @?|à   ?²(Üa¯…:DQ @ğ @r.œÀÉ=b‚AÀ/Í¬°˜$Ù=P|…@	·KÆ§ï=‹C–=Ù‡=° Å¿g¡=ÓZ†>TFt  A é:IRA=q?j6âëC-@ê?æ;>íB[ë…@¤zá>   @éixÔıô@u†     @w©t¼j~úNOT_AVAILABLE@r.œMS?ÒñªÀ/ÍÈáİ_?ª0U>Éº^     ¤ã¡?ïÿqb2Ô?¬(õÀ   À:ixà          ß@rx!ËåÀ/ŠÎbJ¹<TFFFTTTFå1 ]                      ?æÜB €÷     =„?ªŸ¾€   @(„    @XÀ     @XÀ     @XÀ     ?¬(õÀ   A0b@XÀ     @(Àƒ    ?©™™    @%·Îà   @XÀ     @-4¼`   =fÕ?¹™™™™™š?ğ9X    ?ì`ª`   ?¬(õÀ   @XÀ     @&–‡    ?Ü3!©â:4  j @rx®c=–¼À/ŠİÛ?V=M@®Hè§ç=#n/=…¸=ixÕ¾Ÿ.I¼-à>qŞj AHòå9Q·AOÇz?UL˜_ö”A?À:-àB(¸R@ë…    @´ğÄ›¥ãT@‰qzáG®@<j~ùÛNOT_AVAILABLE@rx!Ëå?ÊÁÀ/ŠÎbJ¹<?cS>á-w     ¤¯4?ïV”Í9Ô¥¿íûç`   À:Mà          Ş@r¼j1«À0€ko@©TFFFTTTF€   €                       =ç>‹yk®V     (/?Ã33@   @,J=€   @3    @0ç`   ?©™™    @XÀ     BÆ  ?©™™™™™š@0m‘`   ?©™™    @XÀ     ?©™™™™™š@6StÀ   BÆ  ?Â° À   @b3    @ê    @XÀ     @2N€   @XÀ     >ÁFá¹û:ø n¡ @r¹ƒÜÓ>¤@À0ˆ
+Æ> A‰@	”¯O„M>7é>—P>‹Æ¨¾Àu÷=óM>ÒÊX  A¦:ëíúA—ï5?¼ÌÌÌÌÌÍA„`ß<•+À  À  ?Z@‚nE¡ÊÀƒ@#NV“u@MÉXbMÓNOT_AVAILABLE@r¼j1«@“À0€ko@©@‡P±À       ¤C]?í9ub¿ã¾vÀ   À;           İ@rjáb†À0 xt²ü¹TFFFTTTF 3                      6Á\+eq     G—ü?É7KÀ   @'r°    @)2°    @(wKÀ   @XÀ     ?¬¬@   AÂ?±hrÀ   @'Å¡À   ?©™™    @!‡+    ?Óçl€   @'dİ    =lÁ%?¹™™    @¸Qà   @†$à   ?­²-    @XÀ     @";d`   6ËVÙ
+$:q ` @rjŞKP=®±ÄÀ0 €>Ş‰=° Å@
+œàuöı=ixÕ>"Ğå> Äœ¿	¾Æö”?X´9  A+¬Ú:ªdÃA*Š?²e+ÓÃaA‘Ñ=y	lÀ  À      @Š›`A‰7L@.´¼j~ùÛ@1ÚŸ¾vÈ´NOT_AVAILABLE@rjáb†@ÂÀ0 xt²ü¹@1'À       ¤#w?ïşÌ*ñëÁ¿åV    À;˜Qà          Ü@rñtm&À0™‰ü´TFFFTTTFø€                       ?Ğ è¤”	     5@?©™™    @%NV    @&ˆ1    @%m‘`   ?©™™    ?¬(õÀ   AõÃ?©™™    @%å`   ?©™™    @"®€   ?©™™    @+X`   =fÕ?¹™™™™™š?ù¼    ?ö-à    ?¬(õÀ   @%­`   @#uÂ€   ?GÚJ\·1:ñ 
+Ñ€@rñqÊtº=UfÏÀ0¡#‚=Lcñ@	o4Ö¡aå={çm=ÎÙ=¶E¢¾Î—>Jõ>€4n  A.Zî;7€4A37µ?r×süPHA%Â;‰ 'AùG®@úáH>%ãT@xc$İ/@m>§ï²-@p=…¸QìNOT_AVAILABLE@rñtm&?È-àÀ0™‰ü´?±o À       ¤N?ïü•v8“;¿áó¶@   À:£`          Û@r Z$¦À/§Ğ7<TFFFTTTF$Å€                       ?äóÂà’      e¯@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?©™™™™™šA'‡@XÀ     @XÀ     @XÀ     @%<í    @XÀ     @+…À   =c+Î?¹Û"à   ?ïbÀ   ?ìtS€   ?©™™™™™š@XÀ     @&$Z    ?ÖÅ±?Gø:ŞX 7ş @r Z¤Hş=e•À/<åƒ={J@	C,¥zxl=u=%=ixÕ¾³ü=€hÜ>ªJŒ  A>9Q·ACÿ—?X“t¼j~úA5˜_:kíúB,p¤?Y™š    @²m¡G®{@…ô~ùÛ"Ñ@’]¡ÊÀƒNOT_AVAILABLE@r Z$¦?{ûÀ/§Ğ7<?c¢œ>ÚáH     £¬…?ï¾+8k‡¿òV    À9Õ           Ú@r Y(9À//ËV£LaTFFFTTTFÁí 8                      ?Ü»…\¡ûÈ     Ê@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   Azá@XÀ     @XÀ     @XÀ     @"ÿ|à   @XÀ     @)1ª    =^!P?¹™™    ?ğ¾à   ?íæ    ?¬(õÀ   @XÀ     @#§ï    ?ÄÁÊˆ™b:ÙÙ Ë‡€@r Y4¦(=
+ÚºÀ//Úæµ©=‡”@
+_¤?åÉ=¿=…¸=q©ü¾ªÍŸ=A½¥>¨Îp  A,ù	9IRA2RT?X“t¼j~úA%JŒ:Q·B#\?(ö    @¨xbMÒò@†0
+=p£×@”‡+NOT_AVAILABLE@r Y(9?€u÷À//ËV£La?hï5À       £Ÿ?ïî¿À®>²¿÷º^@   À;“¶@          Ù@r(Ò™¿aÀ/Ç+NŒTFFFTTFFKÛ€                       ø           ?©™™    @)Ã`   @-@   @XÀ     ?©™™    ?¬(õÀ   A3/@XÀ     @*tÀ   ?©™™    @&$Z    ?©™™    @1	7@   =dù.?»çl€   ?ä.±À   ?âDĞ    ?¬(õÀ   @+>vÀ   @'„    ?ÛÌ‹Ât+:ñ Ûä€@r(Ò’{@<¬1À/ÇõƒR<šÔ,@	«ŸU›=<Àƒ='ï=P¾²:*>—>[=  AY]d:oAdL˜?b¼£n/ALÜ];oÀ  À      @ eÙ™™™š@~æ\(õÃ@\(õÃNOT_AVAILABLE@r(Ò™¿a?!uÀ/Ç+NŒ?&À       ¢Ú?ï±r¹-\T¿øÀƒ    À:stÀ          Ø@ro¬™·³À0õÛ RTFFFTTTF[W                       4Bµ®Xßß     ÿ@XÀ     @XÀ     @)‡    @(âĞà   @XÀ     ?«¥ã`   Aéy?©™™    @'h€   ?Àå`@   @!l@   ?¾¸Qà   @(,‹@   =_è?¹™™    ?ş|„À   ?õŞÒ€   ?«¥ã`   @XÀ     @"€   5šFŞÜ)L:j0 Ê€@ro¦—¨W=K’:À0ü˜ú#Ó=/O@	5?|í‘h=v+k=ûçm=´9X>’şÅ¾Á|¾»š  A"¤©:7€4A(ó?@bMÒñ©üA—ö:-àÀ  À      @˜;Që…¸@ŸáG®{@û9XbNNOT_AVAILABLE@ro¬™·³?óä&À0õÛ R?®ö”À       ¢sN?ïÿ%C¹“œ¿ôvÈÀ   À:»ç`          ×@r–èÊÀ0ÌO.;}TFFFTTTFQ                       ?æ =	O·p     G˜@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬¬@   @°!@XÀ     @¿|à   ?©™™    @Æ§à   @XÀ     @XÀ     >ƒŠ@XÀ     ?ó,¥€   ?ğ"Ğà   ?¯¾vÀ   @XÀ     @@   ?Üyí¢İpX:_¡ ÛÆ @r–æDŒ="œxÀ0ÓÆ Uì=ƒä@	åıŠÚ¹õ=HK^=²-=…¸¾À>(	Õ>9õZ  @åÊÁ9IR@ıØ®?Z6âëC-@Ì6;-àB
+=>.{    @¨Ls3333@…ÅMÒñ©ü@~lIº^5?NOT_AVAILABLE@r–èÊ?™e,À0ÌO.;}?‡>Òò     ¢Tã?ïÿöYCmE¿á/    À:s÷À          Ö@rp.Ì‡À0Qü¥è[TFFFTTTFîê€                       ?İİà­„g5     1¢?©™™™™™š@,ŒÌÀ   @1	xà   @-«    ?©™™™™™š?«¥ã`   AEÒò?©™™™™™š@-‰@   ?©™™™™™š@(NV    ?©™™™™™š@4"`   =dù.?½ó¶@   ?ôÿ—    ?òdZ    ?¬¬@   @/p À   @*C    ?Àñ–d`(:Rñ Ùy€@rp#ñB>=4¢4À0R7‰+}=5@
+e+ÓÃa=cSø=®{=—P¾ÑÑN=Ö¡b>£ä&  Aw9Á:7€4A„:^?„¯O„MAf·€;-àÀ  À  >C–@—oæffff@Zı²-V@C…¸QìNOT_AVAILABLE@rp.Ì‡?§ü¹À0Qü¥è[?“"ÑÀ       ¢,¹?ëŞ/h,ÏÀt¼`   À9|)           Õ@rJ²SÀ0ctš[HlTFFFTTTF‹Z 9                      ?å#_™k™ª     5¢8?©™™    @%Š=€   @&ñª    @%´¼`   ?©™™    ?¬(õÀ   A¥ã?©™™    @%ÍOà   ?©™™    @#Tş    ?©™™    @+ÓtÀ   =fÕ?¹™™™™™š?ô“à   ?ğÒ     ?¬(õÀ   @%å`@   @#İ/    ?lUŸ†01:R! ØÊ @rJÔĞ}=(ÁUÀ0c|üí>=,q@	$xFÜ=e`B=©ûç=‹C–¿	kº>Kàß>*  A/_9Ñ·A45¨?S©*0U2aA'‡”:oB+\)?ğ£×    @¤fkIº@‹ĞMÒñ©ü@Ÿˆüí‘hsNOT_AVAILABLE@rJ²S?¤˜_À0ctš[Hl?†‘ ?™‡     ¢*+?ïø²ø0ñÑ¿óïÀ   À:VÈÀ          Ô@rÅ8ı*@À0|½B-[ŠTFFFTTTF÷Ø !                      9ºGU…óo     W€É?Ã×
+@   @&î—€   @)¡À   @%ºá@   ?©™™™™™š?¬(õÀ   A=q?©™™™™™š@%§l€   ?©™™™™™š@"3¶@   ?¿¾vÀ   @*vÈÀ   =_¿ƒ?¹™™™™™š?òS&    ?îí‘`   ?¬(õÀ   @%E¡À   @"Éº`   :¬6ïÌáv:H . @rÅ4ÍÁ=0¾À0|Ä­­òr=:*@	§RT`ªe=5=—P=}ó¶¾»ôˆ>"¶®>àv  A%é:oA+³?PbMÒñ©üA¡Ë:IRÀ  À      @ ÔÔzáG®@‘Fl‹C•@x     NOT_AVAILABLE@rÅ8ı*@?’™1À0|½B-[Š?wl‹À       ¡•s?ïÿ— ¿ğáG    À:KÆ           Ó@rñ€‚¿À0œYÖTFFFTTTF<P                       9Kf±N€á     w–?¯;d`   @&¸`   @(	º`   @$ÎÙ    ?³33@   ?«¥ã`   AbN?©™™™™™š@&+    ?©™™™™™š@!Y™    ?Ò=p    @*‰º`   =Œ‰Å?¹™™™™™š?òê³`   ?ñÚ`   ?¯¾vÀ   @(Qh€   @"‰@   5©¨öºŒ·:É +€@rôŞ'=IRÀ0œEBú°==@
+¦Á½¥=P|…=›¥ã=Oß¾Ô!>K)_>€Ñ· A!Vm:oA'o?UL˜_ö”A‡+:ù	lB@  ?¡G®    @ äîzáH@‹²-V@n—OßNOT_AVAILABLE@rñ€‚¿?—U›À0œYÖ?ˆŞÓÀ       ¡9?ïK³ùÆê€?áX`   À9tş           Ò@r*-º<É¬À1±­18TFFFTTFF]€                       ø           ;¥ï?©™™    @%A‰@   @XÀ     @XÀ     @XÀ     ?«"Ğà   AõÃ@XÀ     @XÀ     @XÀ     @"õ?€   @XÀ     @(äZ    =_¿ƒ?¹™™    ?öÎ    ?ò¼j€   ?¬(õÀ   @XÀ     @#Ÿ¾€   ?Nc‰a:EÙ “ï @r*-°Om=>íÀ1±´k‚ø=#×
+@
+)*0U2a=f1ù=¶E¢=›¥ã¾«Æ¨>Fö”=—$  A+å`9Ñ·A0â‚?a4êJŒA$¸R:IRB)™š?@      @§°H1&éy@€     @Œ›Û"Ğå`NOT_AVAILABLE@r*-º<É¬?°ÎpÀ1±­18?•ãTÀ       ”­T?ïÖXG°o/À Â`   À:0£à          Ñ@r_-Ñ	‰À0÷TÏ÷4æTFFTTFFFı€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      :Õ 1Ê€@r_-Æ%– <°ò|À0÷\L”à¥<ìÀ@õ%F
+¦L<¾ß¤=0 Å='ï¾¢3œ=Q·>é '  A[„¶9Ñ·AdM?j6âëC-APÎÙ:ªdÃÀ  À      @¥ôSt¼j@téxÔıó¶@Šó“t¼jNOT_AVAILABLE@r_-Ñ	‰?,ÚÀ0÷TÏ÷4æ?"h
+>1©ü     ’1²?í'¶Õ„x\Àt¼`   À:ˆrÀ          Ğ@rY˜ƒnÆÀ2-YşÕ ĞTFFTTFFF
+@d€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      : ­y io @rY˜‚úN=‡“ŞÀ2-axø›§=t!@JŒL˜_=”zá>o=ë…¾¾<„µİ>ßb·  A…ä&:-àA­w?”•*™0¾Az=;“t¼À  À  ;å`B@ŞÄ›¥ãT@KÌÌÌÌÍ@n`1&éyNOT_AVAILABLE@rY˜ƒnÆ?ş\’À2-YşÕ Ğ?å>ÎÙ     |í?î¬qø•¿Ó@   À:¾€          Ï@rTÂÃŠÀ2N’€ï«SFFFTTFFF	4ª€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      : ›é jÒ @rTÂÀ¢ø^=ìôÀ2N™ÂG¦p=ÉQƒ@¶®}Vlô>®>aG®>6E¢¾o·é¼?±[>_p  AŒ+:Ä›¦A—ÿ—?ŸòäŠqŞA‚†;Ñ·À  À  >#×
+@‡ÌÌÌÌÍ@A`ƒn—@e5Û"Ğå`NOT_AVAILABLE@rTÂÃŠ@Z	À2N’€ï«S@0÷fÀ       a?ïYPü	>¿ã…À   À9¶E           Î@q³h/H]À.[8¨RšTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8ì(È š”€@q³h0ÅÊ>@OÀ.[GEÂœ>å`@
+be+ÓÃ>%`B>ˆ´9>wÎÙ¾…É=
+	>–R½  A…®²;‰ 'AK’?šQÎ_pAx%F;´9XÀ  À  ?R-@oı&éxÔş@E ƒn—@hŸ+IºNOT_AVAILABLE@q³h/H]@„»™À.[8¨Rš@pµİÀ       3Ÿ?íFg{à¨]?ÔZ    À9åã`          Í@qü5¿]NÀ/İGây©²TFFFTTTF€                       ?ÁÌpQ@œ     %ÓŸ@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?©™™™™™šA(Àƒ@XÀ     @XÀ     @XÀ     @%H´@   @XÀ     @XÀ     =hÀ–@XÀ     ?óTÉ€   ?ğ—ö    ?¬(õÀ   @XÀ     @%âMà   ?¢ã,Š/8¾ˆ  €@qü5x_>=!ÊÁÀ/İW2î1=“Ş@ïÒòä='†Â=Ÿ¾w=‰7L¾‘hs=×Ü>+  ACó9Q·AIÊX?b¼£n/A:;oAª\?O\)    @³‘^5?|î@%p£×
+=@€ı Ä›¥ãNOT_AVAILABLE@qü5¿]N?š¦LÀ/İGây©²?„¿±?÷     Ygz?î-0\
+ïÈ¿ÿó¶@   À;#`          Ì@qï¹3¦±ÁÀ/ì«ğozTFFFTTFFê€                       ø           Qw?©™™    @*?|à   @,/    @XÀ     ?©™™    ?¬¬@   A:  @XÀ     @*yÛ    ?©™™    @';`   ?©™™    @0E`@   =_¿ƒ?½ó¶@   ?ì;Í@   ?è¡aà   ?¬(õÀ   @+49`   @('ï    ?ÂólV¿8¾o@ xj @qï¹38—Æ=¸À/ìŸL2ú<ñ©ü@{çl‹C–=M=ixÕ=LÌÍ¾µöı=±Å>š  AY¹9Ñ·Ab~?S©*0U2aANä÷:ªdÃÀ  À      @£I§ï²@ŒØbMÒò@Š}Ù‡+NOT_AVAILABLE@qï¹3¦±Á?aŞjÀ/ì«ğoz?E>ƒo     XÏ‡?î€V^q¿·Oà   À9êÀ€          Ë@qôYgDÀ0¼Ür¨TFFFTTFF%>€                       ø           €i­?©™™    @(Ó÷À   @XÀ     @XÀ     @XÀ     ?®¸Qà   A0vÉ@XÀ     @XÀ     @XÀ     @&•€   @XÀ     @-öÈÀ   =€ô?»¥ã`   ?ï²şÀ   ?íTÉ€   ?¯;d`   @XÀ     @&ãT    ?àDWùö•8¾>™vÂ @qôYƒ’Æ=-àÀ0Ä ¼ß'=Å@	{J#9Àì=0¾=ƒo=q©ü¾¸*™=¾í>˜Ôş  ALŠ9Q·ASÚº?[ÚQÎ_ABõZ:ƒoÂ¸R@Y™š    @±˜eãS÷Ï@ƒÓn—Oß@‘pD›¥ãTNOT_AVAILABLE@qôYgD?}—öÀ0¼Ür¨?j¦L>Ìç     WŞ‚?ïÈ(ÏsS¿ã®€   À:¸`          Ê@rÀSÔàºÀ0,Şœ„»TFFFTTTFÅ! S                      *Cş’¡$Ì     5œ5?ª¬    @,C`   @(/    @)Pb@   ?©™™    ?©™™™™™šA$V?©™™™™™š@'U    ?©™™    @$¾ùà   ?©™™    @,‡    =^!P?¹™™™™™š@×s    @Å    ?¬(õÀ   @'Á‰@   @%Iº`   .Ò§W˜*8»â° Ö€@rÀH|‚Ê=x À0,!8²uŸ=GË@
+#n.±Ä3=®Hé>vÈ´>!ÊÁ?   ¿&ff¿KÚQ  A=G9IRACç?]}¿HË’A4e•:Ñ·À  À      @¬ì‹C•@ƒŸ¾vÈ´@…3¬1&éNOT_AVAILABLE@rÀSÔàº@n»™À0,Şœ„»@~(?1'     K'%?ì6•ùoÀMÓ    À:€          É@qÿ'zÀÀ0‹ıÍ…5]TFFFTTTF¶ <SB2?                  ?åÕ{vV¶B     |1Ÿ@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     @XÀ     AbN@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     @*¹X    =yı‚?¹™™™™™š?òå`@   ?ğä÷`   @XÀ     @XÀ     @XÀ     ?Û³u…63È8»Áˆ W¿€@qÿ'wÊÁú="œxÀ0ŒM{l¶=%zx@	âMÒñ©ü=@ƒ=›¥ã=‹C–¾ÜÓ[=ÑN<>¦s‚  A0b:kíúA5/?Z6âëC-A(Ë’:kíúÀ  À      @’“C•%@…Ÿ5?|í‘@“ï¢Ğå`BNOT_AVAILABLE@qÿ'zÀ?—+À0‹ıÍ…5]?‡'»?4¼j     J¤?ïüè¿ßŸÀ   À:”9`          È@rš¸"[À0]LV0«rTFFFTTTF®Ì R                      9•Vğ‰N+•     °(?©™™    @*MOà   @(A‰@   @'¾€   ?©™™    ?«¥ã`   A$“u?©™™    @'ñ    ?©™™    @$bĞà   ?©™™    @,À   =c+Î?¹™™™™™š?ó"h    ?îıóÀ   ?¬(õÀ   @'D    @%™    :…AŠx¤u8»«+ @rš´€L¯=(ÁUÀ0]SĞ[©r=¸@	Š	Ş Ò=*ÍŸ=²-=}ó¶¾ªÎ>;/ì½¥ãT  A9·é9IRA?<Ÿ?dzáG®{A1Şj:Ä›¦B+ë…>…¸    @ªÆ§ï²@{©C•%@†æ÷ÎÙ‡NOT_AVAILABLE@rš¸"[?™@À0]LV0«r?wï>éxÕ     JV—?ïõÌÿˆŸ/¿çß;`   À:¾€          Ç@rØ—ñ£ÇÀ0)¢CiëTFFFTTTF–Ê                       ?à"5ŸlÁ     5¤›?©™™    @&ƒ•€   @'Oà   @(#T    ?©™™™™™š?©™™™™™šA"‡+?©™™™™™š@&¥ã`   ?©™™    @$àÄ    ?©™™    @+Ÿ;`   =j¹ç?¹™™™™™š@…S    ?ùáG    ?¬(õÀ   @'¿|à   @$Àƒ    ?Í–‹ı©k	8ºùqÈ @rØ”K¢=`À01,%uw=>ß¤@kP°ò|=¾à> Äœ=Ôıô>×$t¾§Õg¾ûÍ6  A62a:oA;^?Z6âëC-A.œà;oB)×
+?«…    @ çï²-@……Oß;d@Æ§ï²NOT_AVAILABLE@rØ—ñ£Ç@*™À0)¢Cië?Ï
+=>¤›¦     Gı?ïî|JQù¿æŸ¾€   À:·@          Æ@rÇš³ËÀ0–òI ªQTFFFTTTF[ü                       ?,„RíŠ     G–z@XÀ     @XÀ     @XÀ     @ –    @XÀ     ?«¥ã`   @Ü9X?©™™    @!`A€   ?©™™    @äZ    @XÀ     @.“tÀ   =lÁ%?À Ä    ?õ:)À   ?ñn    ?­²-    @XÀ     @‰7@   ?zOriëc’8ºî‘"€@rÂ@'s=<jÀ0–ù¾İâ==@
+kP°ò|=NÙ=° Å=Oß¾Ÿ¤@=H´9<ëíú  ASø9IRAÜÆ?UL˜_ö”A!-:Ñ·À  À      @©LIº^5@‹“t¼@…5?|í‘NOT_AVAILABLE@rÇš³Ë?©ÑNÀ0–òI ªQ?ˆ“uÀ       GlE?ïıö N¹p¿ò1&à   À:nV           Å@rõòÔÉFÀ0—C
+BƒpTFFFTTTFZ U                      ?ãîBÊ     5¤á?©™™    @(@     @XÀ     @XÀ     @XÀ     ?«¥ã`   A.—@XÀ     @(˜“€   ?©™™    @%”ş    @XÀ     @,·KÀ   =lÁ%?¹™™™™™š?ózá@   ?ğDĞ    ?­/    @XÀ     @&xQà   ?ÒvÜ"…Ò08ºëà  €@rõìÿ”@="3œÀ0—JML=	7L@
+:^5?|î=&µ=¡ÊÁ=‡+¾o²;ŞÒ‰=ˆ1'  AFµİ:oAM>«?fğ¸ºÇA=Ò‰:Ñ·B+33@>{    @¡f¬1&é@xc¸Që…@…Š33333NOT_AVAILABLE@rõòÔÉF?›×
+À0—C
+Bƒp?‚&>ß;     GcÓ?ï—ŠÚ€»´¿óÎÙ    À9»¥à          Ä@r•¯Ëµ À0½½iû˜ÓTFFFTTTFlv€ SB2                   =xŒ¾¹½Õ\     W€+?©™™    @&­‘`   @*´¼`   @'ë…    ?©™™™™™š?¬(õÀ   A!X?©™™™™™š@'‚@   ?©™™™™™š@$¡À   ?©™™™™™š@*õ?€   =c+Î?¹Û"à   @
+ö”@   @×s    ?¬(õÀ   @'#×    @$À     =ns“–%Ï8ºæqñ€@r•ª°æè=e`BÀ0½ÄÃÓ,Ï=>í@	§æšÔ,=±Ä3>^5?>t¼?3t¼¿2&¿<ô  A8œx9IRA>Ô,?Z6âëC-A0Ë:IRB-¸R@       @©T_¾vÈ´@„Ä›¥ãT@‹cÒñ©ûçNOT_AVAILABLE@r•¯Ëµ @W´¢À0½½iû˜Ó@»™?6     GRì?ïåji“ıÀ¿ñS÷À   À:Oà          Ã@r¤Üf¼À0Û/ı}”ŒTFFFTTTF±Õ @SB2, EB(K2)           <®ƒ¯‘     5§@XÀ     @XÀ     @+‡    @'*    ?©™™™™™š?«¥ã`   A^5?©™™™™™š@'c×    ?©™™™™™š@#™™    ?©™™™™™š@+ß;`   =^!P?¹™™™™™š?ñà    ?ï¹Œ€   ?¬(õÀ   @'•    @$hõÀ   ;<9ì)=/8ºÎù õ- @r¤ÙSMò=0¾À0Û7ŠRğ=hs@
+|PHğ=#n/=“t¼=ƒo¾a°Š»e`B>‰xÕ  A50¾:7€4A;1?fğ¸ºÇA,Òò:·€4À  À      @™!s¶E¡Ë@xq;dZ¬@ˆÃ5?|í‘NOT_AVAILABLE@r¤Üf¼? iÀ0Û/ı}”Œ?}Ìd?&     G?ïõm_lE¿äÔş    À:Â`          Â@r’Ë´ã‘À0ö$¦JTFFFTTTFñ -                      ;ÏôfËˆ'      5ª•?©™™™™™š@%ñª    @)    @'<í    ?ÁÊÀ€   ?«¥ã`   Azá?©™™™™™š@'\    ?±©ûà   @"m‘`   ?¬¬@   @*‚@   =c+Î?¹™™™™™š?ôÇâ€   ?ñÁÀ   ?«¥ã`   @)gl€   @"şùà   <d IX8ºÌ¡ ôc @r’Æv{Å=*dÃÀ0ö+{Ìóš=2-@
+"h	Ô•=jJŒ=¬1=Oß¿P±>Gü¹>F
+¦  A(-w9Ñ·A-L˜?S©*0U2aA çm:Ä›¦B(  ?(ö    @£V'l‹C–@ŒÂÔıó¶F@†‘¼j~ùÛNOT_AVAILABLE@r’Ë´ã‘?¦?À0ö$¦J?ˆ¾À       Fùn?ïşVü[óK¿ñÆ§à   À:#•€          Á@r£^|bÀ0ÔçÏÔsrTFFFTTTFÙ¿€                       ?ÚğWŒŠÖ     5§¢?©™™    @&s¶@   @'»ç`   @&Ù    ?©™™    ?©™™™™™šA Àƒ?©™™    @&5@   ?©™™    @$èõÀ   ?©™™    @,(rÀ   =amÌ?¹™™™™™š@áå    @4    ?©™™™™™š@&Ï\    @%¬‹@   ?Cx_x·›8º¼ î] @r£³ë=„µİÀ0Ôï‹CÚ‘=Yc@¡aä÷eş=Ç®>ƒ•>%ãT?2J¿+"Ñ¿L¹$  A7›¦9IRA=~‘?kšu%FA/K^:ŞÒ‰À  À      @«¢şùÛ"Ñ@tM‰7KÆ¨@ƒÜÔıó¶FNOT_AVAILABLE@r£^|b@(À0ÔçÏÔsr@ ‰ ?“     FÃ[?ïÄJû
+ÏN¿Ñë…    À;g+           À@r¦×xŞtÀ1	sü”8TFFFTTTF…¡ "                      ±œÚëú\     5”??«"Ğà   @,î—€   @)”ş    @)ûd`   @XÀ     ?«¥ã`   Azá?®5?€   @%ş    ?©™™™™™š@"5Â€   ?°å`@   @)o    =_¿ƒ?¹™™™™™š?óß¤@   ?ñÀ   ?¬(õÀ   @XÀ     @"ÓtÀ   `	Ï¥
+XÏ8º°© è" @r¦Ò 'j=$¨ÁÀ1	{ğ¦=»™@
+Â&€IR=2şÅ=£×
+=Oß¾É†¼—$>Aò A$æ›:oA)Åm?M}¿HË’Aê³:-àB*Qì?¥¸    @ ¬ë…¸@“7Iº^5@ÄÌÌÌÌÍNOT_AVAILABLE@r¦×xŞt?ı"À1	sü”8?ˆ.À       FŸF?ïş'6%@¿ò‹C    À:Ñë€          ¿@rYš|öÿÀ1ßÿ™¦TFFFTTTF3ş .                      ?¸.îœÚ+     5“â?©™™    @'Ù    @(Ş¸`   @&"Mà   ?©™™™™™š?©™™™™™šA¬?©™™™™™š@%^5@   ?©™™™™™š@#ûd`   ?Äzá@   @(["à   =dù.?¹™™    ?ğËû    ?ìÊW    ?¬(õÀ   @&    @#´@   >Ù…$v'*Ú8º°A è7€@rY”k¼M=çÀ1çO¡%D<îc @
+}ŠÚ¹õZ=u=‹C–=m‘h½`ŞÓ<™0¾=¡ÊÁ  A'×
+9Q·A-;?PbMÒñ©üA u%:-àÀ  À      @²éûçl‹@‘4s¶E¡Ë@¤\(õÃNOT_AVAILABLE@rYš|öÿ?†_ÙÀ1ßÿ™¦?fR½À       Fî?ïû>.Ğ0µ¿ô\    À9ê           ¾@rñ³GbÀ1"^R¥9TFFFTTTFàø€ SB2                   >nL¾àD     5­¹@XÀ     @XÀ     @(Ï\    @%}p    ?©™™    ?«¥ã`   A$‡+?©™™    @'På`   ?©™™    @$_;`   ?©™™    @+­‘`   =_¿ƒ?¹™™™™™š?ó:    ?îu    ?¬(õÀ   @'‘ë€   @%6ÈÀ   <ˆ08×9ø‡8º™è  Œ€@rñË¹=$?æÀ1"e°ª=P@
+mÅÖ8†Y=D›¦=²-=uÂ¾óĞ}>`ª=ú¬Ú  A=À9Q·ADwš?M}¿HË’A4¹$:kíúB0õÃ@€õÃ    @³4&ffff@“Y.záH@“Zıó¶E¢NOT_AVAILABLE@rñ³Gb?˜	ÕÀ1"^R¥9?p©?&é     FZE?ïlúî3–ğ¿ğ›¥à   À9ÚŸÀ          ½@r7iõÖËÀ1EõïL¿ÑTFFFTTTFò&€                       ?ç*¾/Ç¹Í     å?©™™    @)°£à   @+àA€   @XÀ     ?©™™    ?¬(õÀ   A6^5@XÀ     @)ïÀ   ?©™™    @&´9`   ?©™™™™™š@0›    =dù.?¹™™™™™š?åŠÚÀ   ?äóM`   ?­²-    @*dİ    @' A€   ?â¯ûòB38º‹  ¨ @r7g³·<³g¡À1EıY±†ÿ<±Ä3@
+ÚQÎ<È´9=0 Å=,1¾/=ĞH>äŠ  AT!–9Ñ·A\ó?[ÚQÎ_AIãT:Q·À  À      @¥bMÒò@„C\(õÃ@•h$İ/NOT_AVAILABLE@r7iõÖË?,VÖÀ1EõïL¿Ñ?'šk>|î     F*L?ï¯t™=¥<¿Ş—@   À:Gï           ¼@r#]—À1ªd¬£TFFFTTTF%                       ?æÿ[[DÁ     |@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«¥ã`   @ÙG®@XÀ     @XÀ     @XÀ     @‹C    @XÀ     @(    =•9#?¹™™    ?ñìÀ   ?ğqu€   ?«¥ã`   @XÀ     @#×    ?ÜwìÑÉïÕ8º{I+`€@r‹ M6=t¼À1MìÇ’=	 '@àŞÒ‰=	=‘hs=‡+¾ªJŒ=¿åÉ>²•ê  A›=9IRA&?b¼£n/Ao :ŞÒ‰À  À      @«Ù÷ÎÙ‡@~]ë…¸R@„ Ä›¥ãTNOT_AVAILABLE@r#]—?Œ÷fÀ1ªd¬£?ƒ‹¬>¨š     EõÅ?ïùíb¿á$à   À;n           »@qòÍ¸«zÀ1nOq	TFFFTTFFİo€                       ø           {®@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«"Ğà   Aj@XÀ     @XÀ     @XÀ     @!c×    @XÀ     @'.€   =‹$»?¹Û"à   ?ò¬Ùà   ?ïw1€   ?«¥ã`   @XÀ     @!î€   ?gŸK.1Ô.8¹¼Élï€@qòÍ¸òZ="3œÀ1nV'hB=ƒä@óMjO=D2Ê=™™š=%¾ãa=Í„>K(  A„9Ñ·A$ŞÓ?UL˜_ö”AFt;oÀ  À      @¤”Æ§ï²@ŠğIº^5?@‰7KÆ¨NOT_AVAILABLE@qòÍ¸«z?•fÏÀ1nOq	?{¹ŒÀ       BûK?ï± ¸•¥?®5?€   À9+C           º@qÔG‚OÒÀ2…æ'->ÈTFFTTTFFqv€                       ø           wa@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   A¥ã@XÀ     @XÀ     @XÀ     @"+    @XÀ     @(gï    =c+Î?¹™™    ?úzà   ?ö+ÓÀ   ?¬(õÀ   @XÀ     @"×@   ?J5‹ÜpE8³ô±šo€@qÔGvÛ–L=nc À2…í@ 1d=V¡b@£n.±Ä3=•L˜=×
+==¶E¢¾ÿØ®>j>(r°  A'-à9IRA,ß;?]}¿HË’A;d:ëíúÀ  À  =áG®@©™ì1&é@ƒ +Iº@‚€İ/Ÿ¾NOT_AVAILABLE@qÔG‚OÒ?Ğ£×À2…æ'->È?±^?Ó•     -İº?ï©·ãÍÀÆ§à   À9&§à          ¹@qç‰;qù À3Á¥º»ETFFTTFFFüö;€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8²Šø 
+ @qç‰<çd=,qÀ3Á¬Ù•Ò¢=Çã@
+âëC,¥=6®}=¥ãT=•¾8G=}¿>cˆf A$Hé9Ñ·A)Û#?Vğ¸ºÇAŠÛ:ªdÃÀ  À      @£«¬1'@‡
+=p£×@Šì²-VNOT_AVAILABLE@qç‰;qù ? XyÀ3Á¥º»E?ºÇ?ÅV     &È*?ïóEÕ„Ê{?Ót¼`   À;º           ¸@r‹üV8‚À1İvoaTFFFTTTF'(€                       ?Ô3èƒÀ     5®±?©™™    @)fé€   @+|í    @XÀ     @XÀ     ?¯¾vÀ   A3ó¶@XÀ     @XÀ     @XÀ     @&9X    ?«¥ã`   @0D    =bÒ?¹™™™™™š?è@·€   ?âHè    ?­/    @XÀ     @'Qh€   ?ÁúL¾€È8¯üé àQ€@r‹ó´š2<Ğ©À1äş³uø<§ï@
+ÀN¤¨ÁU<ŞÒ‰=H´9=P½ƒo½IR½Á½¥  AQı‹9IRAYï5?[ÚQÎ_AG¤@;oÀ  À      @ª¬1@„eOß;d@U     NOT_AVAILABLE@r‹üV8‚?B¼À1İvoa?GE>¨Œç     !‡À?ï	‹Cš¿ı;d`   À:±ª           ·@rw#DuÀ17Kª‡9TFFFTTTFUJ                        =#¦¤     st@XÀ     @XÀ     @)KÆ    @(\¬    ?©™™    ?«¥ã`   @¼A‰?Ê¬    @XÀ     @XÀ     @ğ£à   ?¹Û"à   @XÀ     =…»¥@XÀ     @¬@   ?û¼j€   ?«¥ã`   @'ß@   @Ÿ¾€   #lq¹÷¨8¯ù N› @rrÀJ=q©üÀ17Rn"6¨=K’:@	şùÛ"Ğå=Œ²–>+=å`B>Â3œ¾×Ü¾Ò{³  A ™1:7€4A
+%?@bMÒñ©ü@ë‡:oB(õÃ>¸    @—ùn—P@¢¦A$İ/@¡èG+JNOT_AVAILABLE@rw#Du@%`BÀ17Kª‡9?İãT>Iº     !|¹?ïÿãøP÷7¿í²-    À9ú           ¶@r ;fŞ[À1ákâäTFFFTTFF§”€                       ø           ;¦k?©™™™™™š@(&é€   @XÀ     @XÀ     @XÀ     ?¬(õÀ   A-+@XÀ     @XÀ     @XÀ     @%xÕ    @XÀ     @,Ç+    =dù.?¹™™    ?ğâ`   ?í=Ù€   ?¬(õÀ   @XÀ     @&9Û    ?Öƒ®_j‘˜8¯“q ¹ü€@r 4> £=–¼À1ár‚½`Ó=+@
+‚u%F
+¦=$?æ=‹C–=q©ü¾æ1ù=ª0U>•2a  AE¿±9IRAL9X?_!-w1ÅA<¬Ú;oB/zá?ë…    @¨jØbMÓ@¬/Ÿ¾w@€üİ/Ÿ¾NOT_AVAILABLE@r ;fŞ[?‡ËÀ1ákâä?iîÌ>©Qƒ      ^’?ïÈB´Ç²¿ø$İ    À:‰@          µ@r‰µÅÀ2Æ+©DTFFFTTFF55€                       ø           F@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?©™™™™™šA¬@XÀ     @XÀ     @XÀ     @!àA€   @XÀ     @&µÂ€   =^!P?¹™™    ?òê³`   ?ğ»˜À   ?¬(õÀ   @XÀ     @!33@   ?Ú«@xê[Ì8¯]) é€@r‰9p= ù	À2Íê+fè="3œ@wškP±=Gâ‚=›¥ã=‰7L¾Ùè>> N¥>—eş Aø¡9IRA?Vğ¸ºÇAS:ëíúB.¸R?å¸    @°zŸ¾vÉ@ˆÿG®zá@ƒ9$İ/NOT_AVAILABLE@r‰µÅ?—U›À2Æ+©D?…ÜÆÀ       ¿&?ïÿ±ò«k¿ïŸÀ   À;që€          ´@r$	XmC>À1Òr€B^TFFTTTTFJ€                       ?Êš]0(ÍA     s[ @XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   AV@XÀ     @XÀ     @XÀ     @#c×    @XÀ     @XÀ     =c+Î@XÀ     ?ó.Hà   ?î²•à   ?¬(õÀ   @XÀ     @#ıp    ?©¦€HÜå8®öÉ ·7€@r$	Ráÿ°=%À1Òz{ÜY=á@‚©“àß=-BÄ=²-=}ó¶¾…8ï½Ft=¼j  A/½¥9Ñ·A4Ç?S©*0U2aA(o :7€4B*®>×
+=    @¦°õ?|í‘@Y(õÂ\@–³t¼jNOT_AVAILABLE@r$	XmC>?™rGÀ1Òr€B^?u”¯>öÈ´     ‰-?ï›«>Dp¿ò´9`   À<J           ³@r¸yÀ2¡q·³õTFFFTTFFŒĞ€                       ø           6¾æ?©™™    @*¬@   @-Éº`   @XÀ     ?©™™    ?­²-    A;÷Ï@XÀ     @*ò°    ?©™™    @'7KÀ   ?©™™    @0ê=€   =€ô?ËC•€   ?óI`   ?ë™™    ?­²-    @+èõÀ   @(    ?ÛÒ÷ÉFH8­ç	Ê @rùJ=–¼À2¡y$9ÀH<ÓZ†@
+âMÒñ©ü<ùÛ#=¡ÊÁ=e`B½•µt½ÑN¾©Ô•  A_o :ªdÃAiÈ´?Š	Ş ÒASL0;ƒoÀ  À      @ŠÁ
+=p£×@a¼å`A‰7@pÃ¸Që…NOT_AVAILABLE@r¸y?œêKÀ2¡q·³õ?\ÌÍ>ÇRT     ¹?ïD˜PÌäŞ¿ÎùÛ    À:Qª           ²@qóÇ/×èÀ3¹¥Ô¼¢ŒTFFTTFFFı:l€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8­@h L @qóÇ Z¦<¨ÁUÀ3¹­1—<¤¨Á@x7´¢3œ<ÁTÊ=¥ã=\)¾œ]d>ü¹>m‘h  AWK^:oA_û?a4êJŒALo :ëíúÀ  À      @¢U²-V@€~Ğå`A‰@‚}›¥ãSøNOT_AVAILABLE@qóÇ/×è?DĞÀ3¹¥Ô¼¢Œ?	³Ğ>Ù=Ù     z©?îöîWt›­¿İ/    À:Â€          ±@r5õMïˆÀ2•b¿ªßÄTFFFTTFFñM€                       ø           ¼x@XÀ     @XÀ     @XÀ     @(5Â€   @XÀ     ?¬(õÀ   A(ö?©™™    @&¯À   ?³¶E    @#{ç`   @XÀ     @)NÙ    =_¿ƒ?¹™™    ?ôŞÒ€   ?ñS÷À   ?©™™™™™š@XÀ     @%À   ?ÙœFÒ#°8«ê  ,€@r5õ“º¬?=2•êÀ2•j`n†B=)ûç@Á½¥œà=;/ì=¬1=\)¾”9X=²ÊX:ªdÃ A/Ş9IRA3åÉ?j6âëC-A'ìW:Ä›¦B,ÌÍ?k…    @¨ÈV“@u4ñ©ûçm@†ªp£×
+=NOT_AVAILABLE@r5õMïˆ?¦ö”À2•b¿ªßÄ?ŠŸ¾?J     x=?îbN­^Q›ÀÂ`   À;rÀ          °@r<SaØÑØÀ3ôQã3TFFTTFFT€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8ª„¡ B @r<SUƒH?]ÌÀ3ôZBÂV>ßH€@U›=ÈK>ø_?‘©ü?Z¬»·€4½¼6¾)ûç  A™Ì˜;–»™A™=<?®Åm\ú¬ÚA—o5=h>BÀ  À  ?·ï@mw+Iº@2&éxÔş@3(´9XbNOT_AVAILABLE@r<SaØÑØAŠÀ3ôQã3AS}¿À       |ß?ìD{<îÀ‹C    À=­`          ¯@qé›ï8¡KÀ47às~WTFFTTFFFøóo€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8§ÃÈ ˆ
+€@qé›ëZ=Í5¨À47çŒ¯=Ú…ˆ@
+Ü(õÂ\>©>¸R>%½6E¢½â‚A¼–»™  A0!:ù	lA‰‰Õ?Œ¾ß¤?æApG<49XÀ  À  >‹Æ¨@ÇõÂ\)@S×KÆ§ï@XŸß;dZNOT_AVAILABLE@qé›ï8¡K@¦µÀ47às~W?úkQÀ       yÓ?íf5Çp
+7¿ëÆ§à   À9(1           ®@qñ··\3À4Õ¸!dÂTFFTTFFFú1€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8§¶±± @qñ·?]ˆ>.{À4İ0¿ê×>‡@	CÉîËû>=<6>§ï>Òò¾Õsë=‘hs>@4n  AH€:-àAŠ/ƒ?ˆüPHğAq*0;£×
+À  À  ?†È´@]t¼j~ú@VVÙ‡+@kW"Ğå`BNOT_AVAILABLE@qñ··\3@¢ÄœÀ4Õ¸!dÂ@‰|?R-     H:?ï%ûÚ#^¿ü1&à   À:z^@          ­@qôM\)aÀ4iËk¿:TFFTTFFF÷F€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8¦õ`   @qôMbŒrÛ=+6zÀ4i¨3½«=	@
+ÙJôğØE=F?=£×
+=‰7L¾#S=†ö”< .  A7|…9Ñ·A=‹D?a4êJŒA/¿:Q·BM¸@y™š    @¢Ú•%@€E¡ÊÀƒ@“ı‡+JNOT_AVAILABLE@qôM\)a?«6À4iËk¿:?…”¯À       <†?ìÅ"¤£²‹?õ7KÀ   À;İ/           ¬@qıÈÏÅòàÀ4t³¤B (TFFTTFFFöáx€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8¦ê8 d°€@qıÈÑRf=ôSÀ4t»ƒ"Ñ“=èÛŒ@
+ÿË’:)Ç>(>Z¬>G®¾¼£>7šk>°ò  A‹­w:Ä›¦A—f?ŸoÒòäA‚%;—$À  À  >À  @‡3¬1'@A¨Që…¸@q° Ä›¦NOT_AVAILABLE@qıÈÏÅòà@SĞ}À4t³¤B (@B_À       <?íw°$ÍÅ§?Ô‹C    À;ä›           «@qıIÚ}u³À4áaš­HTFFTTFFF€   €                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8¦¥‘ Ô: @qıIØ|¼=>vÉÀ4áii%Á„<ı!ÿ@•µsê³h=,q>F§ğ=ñ©ü>Ç ù¾Şí¿[‹¬  AXìW;-àÀ  ø      À  À  À  À      @~Ÿ¸Që…ø      ø      NOT_AVAILABLE@qıIÚ}u³@@†YÀ4áaš­H?éø¡À       < ?ëë¿ÉLÒ¿ß²    À;ª           ª@qÕfÄCïÍÀ5×|ôTFFTTFFFñTp€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8¥óqÖ @qÕfÀfH=Ö¡bÀ5ß,PO=Ğå`@Á½¥>ã½>H´9>(õÃ¾ù=Ù>œ(ö=X­¬  A‰T•:IRA”øÕ?›šu%FAE¢;^Ò‰À  À  >¸Ôş@Œ+V“@D—Oß;d@t!`A‰7LNOT_AVAILABLE@qÕfÄCïÍ@Bc À5×|ô@$ğÀ       Ì?ïœÇX×¹¿ë|í    À:÷Îà          ©@qıDj‘ÆÀ5¯§6f‹©TFFTTFFFì?I€                       ø      €       ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      À  ø      ø      ø      ø      ø      ø      ø      8£k + @qıDgHş’=ÅÀ5¯®üç˜’=}!ÿ@Û"Ğå`B=¡aå>+=Ù‡¾Ø*™=škQ=”¯O  AÛõ9IRA$?UL˜_ö”Ay>:7€4B2ff>®{>Z¬@ª9Rñ©ûç@ŠŞõÂ\)@˜@²-VNOT_AVAILABLE@qıDj‘Æ@oÒÀ5¯§6f‹©?Òe?È´9     E?î¢±}EQ¿áûç`   À;V           ¨@rŸÛ¾“_À,~Y~Ñ‹0TTFFTTFF€   €                       ø           Bï?©™™    @/|í    @3@   @0Ù    ?©™™    ?°å`@   A\?©™™    @0ã`   ?ª¬    @*áG    ?«¥ã`   @XÀ     =nÕö@XÀ     @y¦À   @P    ?¯;d`   @1³3@   @,Æ§à   ?ïvŸÓ”í:1 Û9 @rŸÕnå=áä÷À,~h™»-=Øb@TÉ…ğoi>+>Iº^>'ï¾š^5ºo>yÀì  A‰=q:Ä›¦A“ò?–‡+IºA€	;´9XÀ  À  >ˆ´9@‡_¸Që…@H¹XbMÓ@h‘$İ/NOT_AVAILABLE@rŸÛ¾“_@CÍ6À,~Y~Ñ‹0@"€À       ´}?îúÈµ¦'¿õ®€   À:Ã`          §@qôt]À-D•GòªTTFFTTFFH4€                       ø           O¾?ª¬    @/–    @3\í    @0ÄZ    ?ª¬    ?©™™™™™šA\zá?ª¬    @0á@   ?©™™    @+)ûà   ?¬¬@   @XÀ     =_è@XÀ     @®Hà   @
+Ş à   ?¯;d`   @1ıóÀ   @,èõÀ   ?êã¢³·î:C1mã€@qôt]××Ü=ş‘ À-D¡¨Ü=ü„¶@
+˜üPHğ>>«>t¼j>^5?¾ºCş=ç8>«…  AŠòå:Ä›¦A–ˆ1?¡©ûçl‹DAP±;£×
+À  À  ?®@†z¬1&é@?;dZ¬@jã¥ãS÷ÏNOT_AVAILABLE@qôt]@mrGÀ-D•Gòª@VğÀ       ±??îôWšµ,Á?Ã÷Îà   À:©xà          ¦@qş,ñAnÀ-hß' ãøTTFFTTFF¥€                       ø           Gå"?©™™    @-Ö    @1½²    @/Ó    ?©™™    ?©™™™™™šAO?©™™    @.LIÀ   ?©™™    @)vE    ?©™™    @XÀ     =amÌ@XÀ     @ -à    ?ÿø     ?©™™™™™š@0`     @+Që€   ?ï¤V®Oï:!` -€@qş,ŒnÏË=t!À-híÎæö£=g°@£n.±Ä=€Ñ·>¸>“½‡+=âMÓ?ÅÖ  A€Åm:Ñ·A‰‰l?„¯O„MAq;»™À  À  <İ/@…Úûçl‹D@ZñG®zá@}]²-VNOT_AVAILABLE@qş,ñAn@o À-hß' ãø?ÿÅ>îV     °‹g?î‹ênl©À¿á7KÀ   À9ø`          ¥@rvŠyQÀ-—/ïó·TTFFTTFFÜu€                       ø           ¯™?©™™™™™š@,dZ    @0ÿ|à   @-§l€   ?©™™    ?©™™™™™šAD¸R?©™™    @,Ü¬    ?©™™    @(&é€   ?ª¬    @XÀ     =dù.@XÀ     ?ûHè    ?øˆe    ?©™™™™™š@/cT    @)äZ    ?î=[èkú~:ŒÁu @rvº.(=nËûÀ-—?…©[.=f1ù@–»˜Çâ‚=‹C–=áG®=ÊÀƒ¾°oi=œàv>¼¹$  Avş]:ªdÃA„I?wÁ½¥œàAeä;IRÀ  À  >©xÕ@Š'"Ğå`B@gFMÒñ©ü@{ÇG®záNOT_AVAILABLE@rvŠyQ?ÚGEÀ-—/ïó·?ÄC-?ò°!     ®T§?ï%ûD^ä¿÷X`   À;²           ¤@r0]t¡^À+şÃ>Çz£TTFFTTFF€   €                       ø           Cà½?ª¬    @.ë…    @2‡+    @0#×    ?©™™    ?­²-    AWSø?©™™    @/ZŸÀ   ?©™™    @*Oà   ?ª¬    @XÀ     =_¿ƒ@XÀ     @¦L    ?şw1€   ?¬(õÀ   @1.V    @,=p    ?æŞÆn :ˆ ,l @r0]kICÓ=šŸ¾À+şÑñ—ûë=Šr@@N¤¨ÁU=²şÅ>hs=ûçm¾¸R=nËû>¥¡Ë  A†G:IRA÷f?Ë)^	AzN<;^Ò‰À  À  >   @Œs`A‰7L@PŠñ©ûçm@s×KÆ§ïNOT_AVAILABLE@r0]t¡^@2aÀ+şÃ>Çz£?ó¹Œ>mà     «6s?ì‚RÕ	À b@   À:Æ           £@qî+ÒpáÑÀ0‰@?‚+QTTFFTTFF­°€                       ø           lõo?©™™    @+<j€   @02-    @,`A€   ?©™™    ?¬(õÀ   A:í‘?©™™    @+³¶@   ?©™™    @'¥à   ?©™™    @XÀ     =_¿ƒ@XÀ     ?÷X`   ?ôv_à   ?­/    @-éxà   @(ËÆ    ?ë¨gïx¡8¾° -€@qî+ÏqÏ=T,=À0‰H0=_¤@@
+Ü‘ÑN;Í=:“=Àƒ=§ï¾‘u=¾vÉ>óM  Al;>íA{ôñ?†»˜Çâ‚AA\0U;Îp;À  À  >NÙ@w¹n—P@XXå`A‰7@e”£×
+=qNOT_AVAILABLE@qî+ÒpáÑ?ºÀƒÀ0‰@?‚+Q?£²ÿÀ       W6L?î¨‘ZÄîÇ¿äbMà   À;€Ä           ¢@qä‘êj¹ÕÀ1GÍ¼ì„ùTTFTTTFFå€                       ø           U¿ˆ?ªŸ¾€   @0I7@   @3Ó÷À   @10 À   ?©™™    ?´zá@   Ae¸?©™™    @0˜“€   ?ª¬    @+İ²    ?«"Ğà   @XÀ     =¡ˆU@XÀ     @+¢¶    @'İ    ?²-`   @2eã`   @-í‘`   ?îUà™ØPÇ8¼ŒÀ "¸ @qä‘ã·ï¡? U2À1GÕT,‰j>áò@ÄĞ©*0?‹¬?d“?=ó¶½‚@¸¾K¬q>w2  Ağ¤<	 'A™>«?«À6âëA„Ö9<V¡bÀ  À  @²@`'t¼j~ú@4“t¼j@T³÷ÎÙ‡NOT_AVAILABLE@qä‘êj¹ÕA]µÀ1GÍ¼ì„ùA8&éÀ       N‚3?íOÜ]oÅâ¿ö¬@   À:æé€          ¡@qÖf›)‰À1æ‘›¨¥TTFTTTFF‰Ğ€                       ø           ^;”?©™™    @0Â€   @3“tÀ   @0ş5@   ?ªŸ¾€   ?²n—€   Aa"Ñ?ª¬    @0eÀ   ?©™™    @+¥ã`   ?­/    @XÀ     =…»¥@XÀ     @]}À   @Ÿ;`   ?° Ä    @2/\    @-ˆ´@   ?ï}Š8¼J0 3  @qÖf•«æ]>¡bÀ1îd¾Â>‹¬@‡ü¹#¢œ>LM>Ÿ¾w>™™š¾'8>^>•µt  AE¢:ù	lA˜h§?¥fÏAò×Aƒç8<(ÁUÀ  À  >ß¾w@×$İ/@9úŸ¾vÈ´@Zx£×
+=qNOT_AVAILABLE@qÖf›)‰@šëîÀ1æ‘›¨¥@”ùÛÀ       M?î~< 0¿ò‹C    À;º            @r›tı¥TÀ2"¡¾ÌÇTTFFTTFF
+Ê"€                       ø           '®×?©™™™™™š@,Y€   @0w
+@   @-B`   ?©™™    ?©™™™™™šADvÉ?©™™    @,¹Û    ?©™™    @(k…    ?©™™    @XÀ     =amÌ@XÀ     ?òiD`   ?óëî    ?©™™™™™š@.t9`   @*V    ?îè°ŞÓÉ8¸®è  @r›rü´=
+	À2*&¬•‰<ıó¶@
+t‡ü¹#£=U›=—P=£×
+¾\>’:*?s  Aqéy:IRA€„?fğ¸ºÇAc$:ŞÒ‰À  À      @œì‹C•@wğfffff@„Q²-VNOT_AVAILABLE@r›tı¥T?“J#À2"¡¾ÌÇ?Ÿ_p?4zá     >k½?îØqÆÈS	¿Û@   À:¥ã`          Ÿ@qï´7}½À3JŸ|•
+TTFTTTFF öŠ€                       ø           wÂ•?©™™    @-wÎà   @1‰xà   @.´¼`   ?©™™    ?«¥ã`   ALÔş?©™™    @-ñª    ?©™™    @)7KÀ   ?©™™    @XÀ     =_¿ƒ@XÀ     @Ÿòà   ?øŒ~    ?¬(õÀ   @0:^@   @+ß@   ?èPåÎá
+ô8¸ˆ "N @qï´7Üc=qÀ3J¦Ë#=‹(@
+Û‹¬q³=°U2>hs=ÊÀƒ¾Ö>–¡b¾¯\)  A~Å:·€4Aˆ$©?wXâe+ÔAnMj;^Ò‰À  À      @‡øfffff@g¹Û"Ğå`@t3®záHNOT_AVAILABLE@qï´7}½@ÿ—À3JŸ|•
+?Äcñ>© '     ;Âd?î¿ { `?Ä“€   À;„           @r	412–ÅÀ2rÅ¢yTTFFTTFFj€                       ø           (ˆ?©™™    @*"à   @,Oà   @XÀ     @XÀ     ?­/    A8~ú@XÀ     @XÀ     @XÀ     @&âMà   ?©™™    @0Pb@   =hÀ–?¾5?€   ?äg8    ?âPH    ?­/    @XÀ     @'¹X    ?æ]¥L*?8¯AI ã=€@r	4.sT¼<°ò|À2rÍ+IÌQ<£×
+@
+œàuöı"<¾í='ï=P¾±‚ª=†Â'>¥8ï  AXè§9Ñ·Aa¶F?Z6âëC-AN¼:IRÀ  À      @¦x~ùÛ"Ñ@…¹;dZ¬@Œ,Iº^5NOT_AVAILABLE@r	412–Å?#9ÁÀ2rÅ¢y?‚AÀ       aò?ïÛğĞ÷sã¿âvÈÀ   À:ÁG           @rz#Ô_WÀ2póÙ@5–TTFFTTFF€   €                       ø           $?ª¬    @/-‘`   @2Ğå`   @0\í    ?©™™    ?±&é€   AZ Å?©™™    @/·KÀ   ?©™™    @*®€   ?ªŸ¾€   @XÀ     =ĞÃ@XÀ     @Úº    @	cT    ?±©ûà   @1†$à   @,¸`   ?ï\‰ñÛçÇ8­ù/ @rz }¸å>"œxÀ2pû:ƒs>	Ş@×Ûô‡ı>>‘ >m‘h>Që…¾ùÀì>”ê>o·é  A‡ò°:ŞÒ‰A’³3?‹¥ãS÷ÎÙA}Ìd;ŒçÀ  À  >¦ff@„ˆ…¸Qì@T$j~ùÛ#@oµ²-VNOT_AVAILABLE@rz#Ô_W@fÕĞÀ2póÙ@5–@K =õY´     öV?ïEÂïŠV°¿æn—€   À:'l€          œ@r
+¥ëæöøÀ2´lœ˜ºTTFFTTFFík€                       ø           *°?©™™™™™š@/áÊÀ   @3…¡À   @0Ó3@   ?ª¬    ?©™™™™™šA_¾w?©™™    @0=óÀ   ?©™™    @+}p    ?¯;d`   @XÀ     =‡2@XÀ     @ş\    @U    ?©™™™™™š@2|à   @-:á@   ?è-¹JæAs8­» ö€@r
+¥ëd7Æ>ôˆÀ2´sErÀ>×Ü@
+üPHğ>6E¢>„“>hr°¾Ñø¡>ˆK^>N¾à  A‹ÍŸ:Ñ·A—?¡4êJŒA‚På<»™À  À  >ÿ|î@…Ğ     @@$›¥ãSø@]Ÿ²-VNOT_AVAILABLE@r
+¥ëæöø@òåÀ2´lœ˜º@`ú­À       !Ù?îK—«l+¿»dZ    À9f§à          ›@röm}JÈÀ2Ó†k“TTFFTTFFåç€                       ø           $Å%?©™™    @-]²    @1qª    @.Ã•€   ?ªŸ¾€   ?¯¾vÀ   ALıô?©™™    @-ıóÀ   ?ª¬    @)9X    ?©™™    @XÀ     =yı‚@XÀ     @p£à   @XDà   ?®¸Qà   @0<j€   @*ıóÀ   ?ëf ÿŞ¦¼8­´¹ øÌ @rönã¦=’n˜À2Ó–;yro={çm@˜üPHğ=òä>˜b>@ƒ?A4¿:¬Ú¿PŞÓ  AÌÍ:kíúAˆ?æ?}ã¼ÓZ†An¥ã;»™À  À  =¡ÊÁ@’‚;dZ¬@c:~ùÛ"Ñ@}JA‰7KÇNOT_AVAILABLE@röm}JÈ@“…À2Ó†k“@:Â'>9Œ~     Á?î«ÃvûÓÁ?ËC•€   À;Pb@          š@rƒå"Œ¥À3tN§ˆTTFFTTFFJ€                       ø           'Ë?©™™    @.2-    @2lÌÀ   @/Ş5@   ?©™™    ?®¸Qà   ASC–?©™™    @.Á‰@   ?©™™    @)çï    ?ª¬    @XÀ     =nÕö@XÀ     @$
+=€   @Ì˜`   ?¬¬@   @1'ï    @+§ï    ?ìør¿ +8­¢p $€@rƒŞ»B|>ú­À3{§U*ê>   @	€4mÅÖ9>S&?%`B>Ôıô?#Š¿?}¿.—  A„­à:·€4A¸†?Œ¬1&éyAvÅm;šuÀ  À  ?1&é@ˆ(õÂ\@SY©ûçl‹@l¢\(õÃNOT_AVAILABLE@rƒå"Œ¥A QìÀ3tN§ˆ@ÎdÃÀ       Õ?ïºçW%Vî¿õt¼`   À:õÀ          ™@r
+€³QwÀ0ˆõR÷FFTFTTTF±Î€                       ?ëq¡ ˆ?     ZœÒ?ªŸ¾€   @1)º`   @5<¬    @2<j€   ?©™™™™™š?½²-    ArõÃ?©™™™™™š@1zŸÀ   ?©™™™™™š@- A€   ?©™™™™™š@XÀ     =ã$·@XÀ     @'5    @"ñN@   ?¶E¡À   @3Ôzà   @/œ)    ?¤áp`ä>Ê8»¡¡ rc @r
+€­bû(>ÀN¥À0ˆ•*ç\> 4n@	¯O„M>ÕÏ«??|î?j=1Ä3¾ß;<Ôıô  A–è
+;y	lA n/?¼ú¬Ùè>BAŒ–<IRÀ  À  ?bJ@qáãS÷ÎÙ@#0£×
+=q@LLIº^5?NOT_AVAILABLE@r
+€³QwA9¨XÀ0ˆõR÷AŠrÀ       J6Ê?NûĞ¿ôÀƒ    À<s¶@          ˜@rõ³BFÀ0°‹5tHUFFTFTTTF¾€                       ?êE?€Tq     W€r@XÀ     @XÀ     @XÀ     @XÀ     ?Î¸Qà   ?«¥ã`   @ñhs@XÀ     @$Æ    ?©™™™™™š@æf`   @XÀ     @XÀ     =ub^@XÀ     ?ún—€   ?ú1ø    ?¬(õÀ   @&¸`   @¡ÊÀ   ?â]N°~ƒ?:ù Äæ @rõ®©k=NÙÀ0°’¸éô=@ƒ@
+t¼j~ú=×Ü=Û"Ñ=Ù‡¾’×s>M„M>Ùè>  A;Ä›¦AŞÓ?‘ÑN;Í5¨@ÿÒ <•+À  À      @fÊ“t¼@O\(õÂ@MèõÂ\)NOT_AVAILABLE@rõ³BF?Ót¼À0°‹5tHU?ÑÅ?];     ¡pö?Tf2XOÜ¿ï;d`   À: Ä           —@r%³9±ëÀ.¬÷ĞSFFTFTTTFæı€                       ?èo"¨çe€     S_s?ª¬    @0>vÀ   @3Á‰@   @1ş    ?«"Ğà   ?©™™™™™šAdÌÍ?©™™    @0…ã`   ?ª¬    @,9X    ?¬(õÀ   @XÀ     =›H¦@XÀ     @Y`   @èÛ€   ?©™™™™™š@2Tş    @-èõÀ   ?âV¶äs[§:ù €@r%³3ßŸ>R½À.¬İî@>
+Œ@=<64>.c >\)>vÈ´¾ˆÎ=¥ã>p¾  AÊÁ:ŞÒ‰A™F¨?§1ÅoA„OB;¾íÀ  À  ?G®@„DéxÔıô@7ò° Ä›¦@goŸ¾vÉNOT_AVAILABLE@r%³9±ë@ŠËûÀ.¬÷ĞS@oFÜÀ       £ô—?è±d»W¿óãT    À<,IÀ          –@rO|gãÀ0‘½FZ FFTFTTTF{%                       ?é×w7Nø     G–Y@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«¥ã`   AdZ@XÀ     @!áG    ?©™™    @ $İ    @XÀ     @XÀ     =^!P@XÀ     @¨X€   ?ı·€@   ?­²-    @XÀ     @ ŸÀ   ?áåg@y:8ºïP  	€@rOw†“ê=¨$À0‘ÄÆŸ;c=×Ü@	Îp:û=¹õZ>™š=õÂ¾´mÆ=ûµ¼P© AÖ9:IRAc?_!-w1ÅA!–:ªdÃÀ  À  >0 Å@Ft¼j~ú@‚I
+=p£×@‹S÷ÎÙNOT_AVAILABLE@rO|gã@BÄÀ0‘½FZ ?í¼À       GnŠ;ÙN®@HˆÓ¿ğ“tÀ   À:–‡           •@r~€®2¥À1Ín”d#âFFTTTTTF>-€                       ?é»´3„É–     <¯~?©™™™™™š@,ÌÀ   @0m‘`   @-å`   ?©™™™™™š?©™™™™™šABõÃ?©™™™™™š@,„    ?©™™™™™š@'¶ÈÀ   ?©™™™™™š@XÀ     =c+Î@XÀ     ?õã¼à   ?ğ«6€   ?©™™™™™š@.—@   @)¬@   ?Ö¢×ğ~lí8¯oY ò· @r~xOeı=EÀ1Ív4ØäX=R½@$tSó=Rñª=´9X=‰7L¾:Cş=£×
+½	  ApÚQ:oAÊX?xüPHğAa©“:ëíúÀ  À  > Äœ@¡îÌIº^5@fF¸Që…@‚¤n—OßNOT_AVAILABLE@r~€®2¥?¯çÀ1Ín”d#â?…Y´À       ö;t]òzÿ«o¿ü=p    À;l€          ”@rvC|À1oq[9PFFTFTTTFÕ“€                       ?èÍ©*½_     "^?©™™™™™š@.e`@   @2Tzà   @/ñª    ?©™™™™™š?° Ä    AU%?©™™™™™š@.ñª    ?©™™™™™š@*3¶@   ?©™™™™™š@XÀ     =j¹ç@XÀ     ?ÿØ­    ?üÃa    ?¬¬@   @1ã`   @+Ó÷À   ?ÓònI™:F8º„x a÷€@rv[Ìô=ˆ1'À1ox{·©=ƒ¯¸@´9XbN=®}V>o=í‘h¾ºÔ,>A½¥>v`  A„}‹:kíúAØ?ì¿±[W?Awä;Ñ·À  À  >>vÉ@’¤)ûçl‹@Qó"Ğå`B@e:n—OßNOT_AVAILABLE@rvC|?şÅmÀ1oq[9P?æ	?Sø     Fò?Ú-3ËÀ ~ùà   À9@A€          “@rM(áÀ0¿„‘FFTFTTTF6± 7                      ?èn4®c     wø?©™™    @%,‹@   @%ùÛ    @%ş    ?©™™    ?©™™™™™šAûç?©™™    @%!G    ?©™™    @#Që€   ?©™™    @*å`@   =c+Î?¹™™™™™š?óL˜`   ?ğMj    ?¬(õÀ   @%¸`   @#8Õ    >ù˜âzŒ:á èö€@rM%ß‹2=%zxÀ0–h—ı=#×
+@Gâ‚@·€=H´9=Ÿ¾w=‡+¾î±Ä=º)Ç>ÅÖ  A*Xy9Ñ·A/·?M}¿HË’A"À:ƒoÀ  À      @¦Ä­V@’Ù¬1'@‘oJÀƒoNOT_AVAILABLE@rM(á?šdÃÀ0¿„‘?‚kQÀ       ¤`?ä_– ¾¿İOß@   À;%ã`          ’@r|ñôFÀ0 \ÈvQFFTFTTTF´ k                      ?ïœRp]     ¥È?©™™™™™š@*Pb@   @- A€   @+®    ?©™™™™™š?©™™™™™šA7+?©™™™™™š@*©ûà   ?©™™™™™š@&¸`   ?©™™™™™š@19™    =dù.?¹™™™™™š@Jõ    @|6    ?¬(õÀ   @+åã`   @(®    ?ä2ê?: èw @r|êmH>A:“À0 cæ ;ğ>2°!@Ü]cˆf>\wš>·ÎÙ> Äœ¾‹ŸV=Ùè>>…¸  A^L0:ƒoAiG®?kÚQÎ_AQ\û:ªdÃÀ  À  ?Æ‡+@‘¢Ğå`B@t;¶E¡ÊÁ@‰^Oß;dNOT_AVAILABLE@r|ñôF@²W¨À0 \ÈvQ@›á±?qv     ¤5ß?à’.PnT¢¿ù¥ã`   À;âMà          ‘@r‚(÷ùÀ1Î #ÑS`FFTFTTTF:!€                       ?êš]gGP     ¾?©™™™™™š@0k    @4/    @1w@   ?©™™™™™š?©™™™™™šAgP?©™™™™™š@0Ñª    ?©™™™™™š@,-‘`   ?©™™™™™š@XÀ     =±Øœ@XÀ     @÷š`   @ÇÈ@   ?©™™™™™š@2ã`   @.,‹@   ?ŞFd¥êd 8¯oX y`€@r‚AW>\Æ?À1Îµ+r>3œ@+Iº^>c¼Ó>½p¤>›"Ñ¾Æ?>Hè§=Ş5?  AÚº;»™A¼?´M:’£A†Ø<}ó¶À  À  >÷KÇ@|ü5?|í‘@+]²-V@Qtí‘hr°NOT_AVAILABLE@r‚(÷ù@·¼ÓÀ1Î #ÑS`@–>BÀ       ö?–ÿ${õÀn    À:Ñë€          @roÕO/òÀ1}\ÔDÏäFFTTTTTFt—€                       ?ë¶¥Íz¯     ‡Á?©™™™™™š@,!ÊÀ   @/¾ùà   @-®    ?©™™™™™š?­/    ADV?©™™™™™š@,~ùà   ?©™™™™™š@(LÌÀ   ?©™™™™™š@1µ    =pø?¹™™™™™š?ùÄ›    ?õ1    ?¯;d`   @-äZ    @)çl€   ?Ÿ·Pñ»À™€       ø      À  ø      À  ø      À  ?š·/?š·À  À  À  € À  À  À  ø      À  À  À  À  À  ø      ø      ø                   ø      À  ø      À  À  €       ø      ?î:7+À:Ìnîzá       @r;oj¤—À.Àë>LÎFFTTTTTF½ı€                       ?èzq     rõ?©™™™™™š@1&à   @4şùà   @2!‰@   ?©™™™™™š?©™™™™™šApj?©™™™™™š@1p À   ?ª¬    @-Z    ?°bMà   @XÀ     =¸š¯@XÀ     @9	`   @eã`   ?©™™™™™š@3„    @/8Qà   ?ºĞ\4éø:˜  @€@r;fœmê>aä÷À.À"½…¦>Zu@ŸòäŠr>ƒFÜ>àÄœ>Ú¬¾šû>>«>ìq  A•½;^Ò‰A¢m)?½Vlô!-A‹yr<Åm]À  À  >«@t?xÔıó¶@"ô9XbN@F’-VNOT_AVAILABLE@r;oj¤—@ÙÈKÀ.Àë>LÎ@Ó/À       ¥ş?um‘Ãqë¿ş“€   À<1           @r†yà>À0\O4$š FFTTTTTF´Â€                       ?ìÒ]
+’´     ãN?©™™™™™š@1ä    @6‰7@   @3HrÀ   ?©™™™™™š?©™™    A{?©™™™™™š@2m‘`   ?©™™™™™š@.ÿ|à   ?©™™    @XÀ     >3@XÀ     @3a–`   @/Ë…    ?ÁG®    @5Æ    @0À   ?µõÂŸ|(û8»Ÿá 1\€@r†oDxV?*¬ÚÀ0\VÚ§”Ñ?o @—$tS?"×s?   ?ƒ33¾¶z½Ş Ò>µY´  AŸL˜;ÔıôA©xÕ?Õ?|í‘hsA“ê=N_À  À  ?¢n˜@dÿ…¸Qì@
+(õÂ\)@5š^5?|îNOT_AVAILABLE@r†yà>A›³À0\O4$š A~\)À       J0?x$Åc½À1    À;í           @rñ@ZÊÀ/#¹ PFFTTTTTFæ€                       ?êÁ¢9œƒ     	“?©™™™™™š@2NÙ    @6İ²    @3€     ?©™™™™™š?©™™    BÆ  ?©™™™™™š@2Û¥à   ?©™™    @/‰7@   ?©™™    @XÀ     BÆ  @XÀ     @63İ    @4°N    ?©™™™™™š@5%ã`   @0Ä    ?À¯ï}:QØ kÂ @rèl ?UsëÀ/K…HW?^\’@šu%F?hy>?·+?ªÀƒ¾¤êK=»/ì>óMj  A¢ Å<t¼Aª¿H?àdÂø7´¢A–¹õ=ƒFÜÀ  À  ?dİ/@^“t¼j@ ó¶E¡ÊÁ@0ò-VNOT_AVAILABLE@rñ@ZÊA±íÀ/#¹ PA¥‚uÀ       ¥-?g/¸¶EßL¿ş¬    À< ƒ           Œ@r¤´‹ÈÀ/ëMbèFFTTTTTF€   €                       ?ìM;¢-ÿ     	8?©™™™™™š@3Rñ    @8–‡    @4áG    ?©™™™™™š?©™™™™™šBÆ  ?©™™™™™š@3Û"à   ?©™™™™™š@0¥ã`   ?´ıóÀ   @XÀ     BÆ  @XÀ     ?ûvÄKèÀ ?ûvÄKèÀ ?©™™™™™š@7`   @1¬‹@   ?ÈR5¡7î€       ø      À  ø      À  ø      À  ?€Ï?€‡À  À  À  € À  À  À  ø      À  À  À  À  À  ø      ø      ø                   ø      À  ø      À  À  €       ø      ?çûÖ7+À;¼L.zá       ‹@rº×—VÀ.W“‘ZÅnFFTTTTTF“Î€                       ?î¶²F#?o     à?©™™™™™š@1ğ£à   @6…¡À   @3>ùà   ?©™™™™™š?©™™    A{¸?©™™™™™š@2T9`   ?©™™™™™š@.âMà   ?©™™    @XÀ     >,ä@XÀ     @3~ƒà   @1L˜`   ?©™™™™™š@5¡À   @0lIÀ   ?º¦½8Äæï:ĞÑ E» @rºÑÑ%B?'çÀ.W¢Ëúî?	*0@ÅğoiDg?3{J? å`?Ù¾š¹õ=ƒo>Úû  A·€;Ñ·A¡cñ?ÎšÔ,<íA“°Š=0‰ À  À  ?ù‡@e?ï²-@)ûçl‹D@97
+=p£×NOT_AVAILABLE@rº×—VA›ôÀ.W“‘ZÅnAŠdÃÀ       ¦ª%=ç‹²JŸ¡;¿ó¾vÀ   À:úá@          Š@r	öÎAÜÀ.‚íÇ0FFTTTTTF?-€                       ?îøxİ8	n     Ç–?ª¬    @0ÊÀ€   @4¶ÈÀ   @1áG    ?©™™™™™š?©™™    Ajıô?©™™™™™š@1Â€   ?©™™™™™š@,¢Mà   ?³¶E    @XÀ     =£#@XÀ     @Ü)    @ç8    ?©™™™™™š@3^vÀ   @.¶E    ?Û»¢P®¡:$À í @r	õy;C>[ôˆÀ.‚&Ş$.Ò>Fö”@-V“>€ù	>åãT>Ö¾&ff>`.>µ  A“ƒä;0ò|A æ›?Àò{²şÅmA‰c <<jÀ  À  >üj@ydZ¬@ gl‹C•@W†—Oß;NOT_AVAILABLE@r	öÎAÜ@ŞáHÀ.‚íÇ0@Ï9ÁÀ       ¬ÀÇ?o}ô%xë¿Ò=p    À:xÕ           ‰@rRŒ\3À0 ˜  ñ*FTTFTTTFã                       ?ëÅ@²<c     G˜@XÀ     @XÀ     @XÀ     @#“÷À   ?©™™    ?¬(õÀ   A/?©™™    @#£×    ?©™™    @!V    @XÀ     @'ËÆ    =hÀ–?¹™™    ?ô€@   ?ñÔ•    ?­²-    @%~ùà   @!ì‹@   ?èYúİcÕ–:^a Û=€@rRšï=*ÍŸÀ0 Ÿ×÷zW=,Ùè@ ZQÎ_=Tıô=©ûç=“t¼;K)_½¼í=cSø A ŸV9IRA&së?S©*0U2aA­C:Ä›¦B?\)@z=q    @©¥$İ/@Œ‘l‹C•@‡<Òñ©ûçNOT_AVAILABLE@rRŒ\3?¤êÀ0 ˜  ñ*?¤©?ÀŒç     ¢P¶8®¸NIe:¿ç…À   À9•?€          ˆ@r ¾€—êîÀ/wÊ^’Å[FTTFTTTF’€                       ?ïë;Eg¯     7û®?©™™    @+S÷À   @/hõÀ   @,6E    ?©™™    ?©™™™™™šA>§ğ?©™™    @+·Îà   ?©™™    @'²°    ?©™™    @2øÕ    =^!P?Ôzá@   ?ÿ…À   ?ûvÈÀ   ?©™™™™™š@-5Â€   @),@   ?ï+5AâêÜ:Çé É§€@r ¾yìÃÌ=„“À/wÙ.ú§A=ƒ{J@í(Œç=¶E¢>J=ãSø¾µ">0¾>cn/  AhÀƒ:IRAu‹D?nOv_Ø­¬AZÎ:Ñ·À  À  >ó33@JÀƒo@r…t¼j~ú@…Š^5?|îNOT_AVAILABLE@r ¾€—êî?ü(öÀ/wÊ^’Å[?Û¶F?Iûç     £k?¸òáG7ô¿öÀƒ    À:@            ‡@r¦ìƒÁÀ1-V“~JFTTFTTTF˜` XEB(K2)?               ?ïü›»Ã)     5­?©™™    @(}p    @*3¶@   @(øQà   ?©™™    ?«¥ã`   A/hs?©™™    @(Ä    ?©™™    @%´¼`   ?©™™    @-)    =c+Î?¹™™™™™š?ğbÀ   ?î‰     ?¬(õÀ   @)IÀ   @&‘ë€   ?ïïfÕ^;Ì8ºq ÜY€@r¦è® =£À1-^4Í÷=»™@ÿ—$tS=2•ê=‡+=}ó¶¾­„>êK>“÷Ï  AHùÛ9IRAO§ğ?`bMÒñ©üA?éâ:IRB*£×?Ë…    @°t$“t¼@ñ©ûçm@ŒSr° ÄœNOT_AVAILABLE@r¦ìƒÁ?ƒûÀ1-V“~J?tM=Éº^     F7ø?Fµ­ ¹ö½¿éó¶@   À:ß@          †@r\|"T-À0ÿİMHiCFTTFTTTFÄú€                       ?ïÊéæô@Ì     5«`?©™™™™™š@*Ó    @,Â`   @*z^@   ?©™™™™™š?©™™™™™šA7P?©™™    @*Y€   ?©™™™™™š@'b@   ?©™™™™™š@0p£à   =_¿ƒ?¹™™™™™š?ûj    ?óÉ†    ?¬(õÀ   @+,‹@   @'ë…    ?îƒ¥%?ì[8º¬Q ê¤€@r\so¸›=8QìÀ0ÿä‹&B—=$?æ@ATÉ…ğo=SÃa=ãSø=£×
+> ŞÓ¾ÅS&¾Ão  AXö+:7€4Aaö”?a4êJŒAMß;;*dÃÀ  À  >\)@˜æÁ‰7KÇ@€Që…¸@z$¼j~ùÛNOT_AVAILABLE@r\|"T-?ÛP±À0ÿİMHiC?L0À       F’?ß¤Áj!kS¿ıxÕ    À9©ûà          …@qûR"^TÀ1˜I¶£FTTTTTTF’€                       ?ï~ùÆıè     ?¨?©™™™™™š@/S÷À   @3(1    @0’°    ?©™™™™™š?©™™™™™šAZ—?©™™™™™š@/çï    ?ª¬    @*æé€   ?ªŸ¾€   @XÀ     =ˆgP@XÀ     @4mÀ   @    ?©™™™™™š@1ÍÓ    @,›¥à   ?î›uÂ¢ŸÙ8»1` ~R€@qûR È­=è	ÕÀ1Ÿ¿ëjU=Òó@;˜Çâ‚A=õöı>xÔş>F§ğ=ë…¾\¿<ˆÎp  A‰e`:Ñ·A•.I?¢ñ©ûçl‹A·€;·€4À  À  >8Qì@…r° Äœ@=bIº^5@h;dZ¬NOT_AVAILABLE@qûR"^T@q£nÀ1˜I¶£@@¨ÁÀ       Hha?##Çù\Ğ¿Ùûç`   À:qª           „@rJ°u†À0S{¯Ò*FTTFTTTF'o€                       ?îĞã¡zW     ”^?©™™™™™š@0Ë…    @4´9`   @1ÓtÀ   ?©™™™™™š?©™™™™™šAmï?©™™™™™š@1"à   ?©™™™™™š@-n    ?©™™™™™š@7¼)    =µ5Ü?ÊÀƒ    @E8à   @qA    ?©™™™™™š@3C×    @.âĞà   ?ééGíŸàø:° X @rJ«ë2>M„MÀ0[™¨ï>Dg8@t¼j~ú>rşÅ>ĞbN>Éº^¾Š>;dZ>İó¶  A“­¬;>íA 49?°°ò{²şÅA‰s¶<o À  À  ?H1'@wC?|í‘h@0¨1&éxÕ@Q!&éxÔşNOT_AVAILABLE@rJ°u†@Ê)ÇÀ0S{¯Ò*@ÃŠ	À       ¤$K?ã(şØ·.¿îéxà   À:³÷À          ƒ@r¶j“ØÌÀ0“ZÊ¿RıFTTTTTTFqm€                       ?íZé¯¬'     y?©™™™™™š@0Zá@   @3ì@   @1MOà   ?©™™™™™š?©™™™™™šAg•?©™™™™™š@0³÷À   ?©™™™™™š@,,‹@   ?©™™™™™š@7ùà   =ˆgP?Àå`@   @¼Ó`   @ôˆ    ?©™™™™™š@2¢@   @-şvÀ   ?êà¿ÜÛ&:A ü @r¶dk|Š>*™1À0“bªQ‡8>Î@Xâe,>Gy§>¢Ğå>‹Æ¨¾¡‰7=Ğå`>•%F  Aöı;oA›F¨?ª¹õY³Ğ}A†~<,1À  À  ?/ @ XbMÓ@4Ì‹C•@YÂáG®{NOT_AVAILABLE@r¶j“ØÌ@æ›À0“ZÊ¿Rı@‡¤@À       ¡öA>ôW'	ëRõ¿ôéxà   À;ç+           ‚@rrxïf;À0LONÇKIFTTFTTTF€                       ?îøäØôŒ     <?©™™™™™š@/¾vÀ   @3$›    @0¸Qà   ?©™™™™™š?©™™™™™šA^r°?©™™™™™š@0 ƒ    ?©™™™™™š@+oÀ   ?©™™™™™š@62°    =yı‚?¾¸Qà   @ Ü6    @¯·à   ?©™™™™™š@1Ğ£à   @-*    ?ì\Úeq::U° 1”€@rrr–Kå>‹Æ¨À0LV¹bú>‰*0@F
+¦L/ƒ>¸†Y?C–?Ğå¾¯Aò>d%¯>¿|î  A‹ó¶;ŒçA”t?¦È´9XbA?æ;Ë)_À  À  ?ï;d@oH´9Xb@8`A‰7KÇ@eß¾vÈ´9NOT_AVAILABLE@rrxïf;Aá±À0LONÇKI@ı}¿À       ¢5…?Ã;Uñ4i3¿õ™™    À:Gl€          @r}"AÄÀ0vÍ¸ÚtFTTTTTTF€                       ?ï˜#ïtË2      ñ@XÀ     @XÀ     @XÀ     @$ ƒ    @XÀ     ?«¥ã`   AÛ#?©™™    @XÀ     @XÀ     @!H´@   @XÀ     @'° À   =›H¦?¹™™    ?ó]Ì`   ?ğ:)À   ?¬(õÀ   @XÀ     @!ûç`   ?îp¤Ñò,w8ºû¡p€@r}¨Âğ=,qÀ0vÕ*†M=Çã@k…¸Qì=D2Ê=Ÿ¾w=…¸¾t9X=«ŸV=º^5 A Ûõ:7€4A&‹¬?`bMÒñ©üA4:ŞÒ‰A|õÃ>Â\    @–Ü9XbN@Wûçl‹D@„ñ©ûçmNOT_AVAILABLE@r}"AÄ?šîcÀ0vÍ¸Út?ÑN?ÎùÛ     G—?#o{š´†Ş¿ê~ùà   À:`            €@r
+‡Ğ¡À. ¥JàvTFTFTTTFŞ€                       ?ëÑì…•KÎ     l}@XÀ     @XÀ     @&Ö‡    @XÀ     @XÀ     ?«"Ğà   A^5@XÀ     @%åã`   ?©™™    @#j    ?©™™    @)m`   =amÌ?¹™™    ?ö“İ    ?ñÄ2À   ?«¥ã`   @XÀ     @$•€   ?á‡XÃ-Ã3: ñ%õ @r
+‡Ş#z=6®}À.ão^=0¾@	6z–¼=5së=º^5=“t¼¼Æ?¼êJŒ½¡–S  A0v`:7€4A5ªÎ?]}¿HË’A)÷:ƒoBp¤@5¸    @—Å&éxÔş@‚¡;dZ¬@‘›¤İ/ NOT_AVAILABLE@r
+‡Ğ¡?´íÀ. ¥Jàv?!–À       ¬²¯?ïñU¨ÿ¿ä Ä    À;`          @r[…ïKZÀ.œÂ¢–/TFTFTTTFX€                       ?è3şª]æ-     m<?ª¬    @(fé€   @XÀ     @XÀ     @XÀ     ?©™™™™™šA-÷Ï@XÀ     @XÀ     @XÀ     @%—
+@   @XÀ     @-e`@   =nÕö?¹™™    ?ñ°‰    ?ğR½@   ?­²-    @XÀ     @&gl€   ?İMıÈ%:—‰ çË€@r[²Q=+À.œÒhV»=	7L@
+SóMj=&µ=‘hs=‡+¾Âe=·KÇ>¼‘Ñ  AH;9Q·AO‘?_!-w1ÅA>“:Ñ·B \?ª=q    @±rDZ¬@üdZ¬@…I`A‰7LNOT_AVAILABLE@r[…ïKZ?„MÀ.œÂ¢–/?‚•ê> A‰     ¥ü—?ïÉ½>r‰¦¿ìıóÀ   À;[¥à          ~@r
+‹ùpÀ/÷$	 [TFTFTTTT©¿P€                       Ã ÓF]æ‘     
+ıi?©™™™™™š@4@     @3Tzà   @3ã•€   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3ó3@   ?©™™™™™š@XÀ     ?©™™™™™š@3Äİ    BÆ  ?½ó¶@   @%Ì@   @%ñ@   @XÀ     @3    @XÀ     §ê§å€è\:@) /ğ€@r
+‹Uùj>¶‡+À/÷4a‰ng>¬Iº@	Æ?¼>Ï²?3÷Ï?-‘h¾©…ğ=ÁTÊ?‡”  Aš;0; .Aš¯ƒ?§Xâe,Aš¢h=sMjÀ  À  ?VÈ´@kéó¶E¡Ë@8Ÿ¾vÉ@2KIº^NOT_AVAILABLE@r
+‹ùpA.`BÀ/÷$	 [A(ŠÀ       ¤Ôó?ïÿUğÄñ¿ıl‹@   À<®           }@rÚ>öÀ/ªj÷ÖÍTFTTTTTT€   €                       B"G     :œn?Äİ/    @3Iûà   @2àA€   @3KÆ    ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3D›    ?©™™™™™š@XÀ     ?©™™™™™š@3|à   BÆ  ?½ó¶@   @)óÀ   @!†f`   ?Ãn    @3(1    @3€     9<`jÛÖ:(I ‹î€@rÓ¾æ~>ÉùÀ/ª!^'0N>’{³@
+weıŠÚº>É '?St¼?£×=M½UÏ«¾µ"  A—'ğ;–»™A–Ö9? ò{²şÅmA—;=£×
+À  À  >uÂ@m©V“@@j~ùÛ"Ñ@+"MÒñ©üNOT_AVAILABLE@rÚ>öALïÀ/ªj÷ÖÍA33À       ¤Œ\?ïÿ×bh’§¿õ®€   À:}²           |@r>¬iüÀ0·Ù²zTFTFTTTT©¿O€                       ´›øáuåš     
+ğk?©™™™™™š@4h1    @3´ş    @4—€   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@4(´@   ?©™™™™™š@XÀ     ?©™™™™™š@48Qà   BÆ  ?½ó¶@   @*3¶@   @)c€   @XÀ     @3×@   @XÀ     ’òJ¾ó: "œ @r>¦ç$…>ŞƒäÀ0¿OoÃ¡>Ô9X@æfffff>üÆ??XQì?Q©ü¾¥¸=†Â'?
+JŒ  Ağ;°ò|Aœß¤?©³Ğ|„µİAœ¥z=ˆšÀ  À  ?c×
+@i¬1'@5£×
+=p¤@0D›¥ãSøNOT_AVAILABLE@r>¬iüAQ²À0·Ù²zAKüÀ       ¤LO?ïÿjRŸ›N¿ñ`A€   À:rn           {@rÁ£gÀ0b•D;TFTFTTTFn2                       ?é… I*<¾     G˜!@XÀ     @XÀ     @(Ç+    @XÀ     @XÀ     ?«"Ğà   @¹¡Ë@XÀ     @"àÄ    ?©™™™™™š@ˆ1    ?¯;d`   @XÀ     =hÀ–@XÀ     ?öµ€   ?ó0U@   ?¬(õÀ   @XÀ     @šŸÀ   ?ÊÖÄİ·g:
+ æ€@rÁ	Ve=;˜ÈÀ0j3?0=9Œ~@	ÿ—$tS=f1ù=¶E¢=²-¾îŠr=ğ:û>¡TÊ  A ff:IRA
+‘ ?dzáG®{@éòå;r{³B%Qì>8Qì    @œ”]/Ÿ¾@{k‡+@rkhr° ÅNOT_AVAILABLE@rÁ£g?°­¬À0b•D;?™‚ª>LÌÍ     ¤*4?ïÿóOõÎ¿é    À:ÿ;`          z@r'z|¦wÀ01emTFTFTTTF§Y 5                      ?éEñ     G—ï@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬¬@   A|î@XÀ     @%8Qà   ?©™™    @"‰7@   @XÀ     @(Éº`   =dù.?¹™™    ?ñ hà   ?ğsêÀ   ?¬(õÀ   @XÀ     @#49`   ?áæy!rÍé:¡ æ @r'vğ‚û=	 'À01lşV)Ô=ä&@	¸ºÇË=#S=Oß=‡+¾—ö>`u÷>¦éy A*6ã9IRA/¯O?M}¿HË’A"v`:Q·Bzá@Ò\    @©7}ó¶E¢@‘ğ²-V@”¦‡+JNOT_AVAILABLE@r'z|¦w?ˆGÀ01em?ƒŸV?·®     ¤·?ïùoÈ^k¿è(õÀ   À:Ñª           y@rk{÷’À0L»ª¥*}TFTFTTTF 
+                      ?è†N‚9¶Ê     G—@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«¥ã`   @¾J@XÀ     @í‘`   ?©™™    @%ã`   @XÀ     @XÀ     =hÀ–@XÀ     ?òûÀ   ?ñˆe    ?¬(õÀ   @XÀ     @ÊÀ€   ?àj3 ±Ğ2: A æË @rkyCÛ=!aåÀ0LÃAcÑ¤=¥ã@	’×süP=49X=›¥ã=‘hs¾²a|=úCş>„o  Aú­:oAÁ¾?[ÚQÎ_@íN<:ŞÒ‰B#33>aG®    @ŸZúáG®@„ Ÿ¾vÉ@„eA‰7KÇNOT_AVAILABLE@rk{÷’?—Ø®À0L»ª¥*}?ŒC->¥ã     ¤Ú?ïÿìÕ‡‚¿ä Ä    À:åÀ          x@róS[À/Ì,ÌJrŸTFTFTTTT€   €                       ÅEt¨ª”)     
+Šı?©™™™™™š@4f$à   @3‘ë€   @3ã•€   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@4á@   ?·
+=€   @XÀ     ?©™™™™™š@4c×    BÆ  ?¾vÈÀ   @1Œd    @,    @XÀ     @3¾¸`   @XÀ     ­r:Èà +:yá ‹€@róSŸE?"eÀ/Ì=ÊØg?;d@E8ï4Ö¡?ß¤?Äœ?l1>
+	¾‰­C=£×
+  Aœ@ƒ;Çâ‚Aœ/?¨†YJôğØAš¼=–¼À  À  >Ş¸R@f6\(õÃ@6¯Ÿ¾vÉ@.ÂIº^5NOT_AVAILABLE@róS[AŒc À/Ì,ÌJrŸAdğØÀ       ¢ ƒ?ïúXdÃg™?À Ä    À<¾5@          w@rÅ_r×8À0?š¹›úTFTFTTTFXY b                      ?í<]·Ã     5Ÿ?©™™™™™š@(ÊÀ€   @+=p    @)Tş    @XÀ     ?¬¬@   A.vÉ?©™™    @)zà   ?©™™    @%|j€   ?©™™    @.Æ§à   =hÀ–?¹™™™™™š@	.}`   @¸À   ?¬¬@   @XÀ     @&Àƒ    ?ãRã:Wa Ü[ @rÅVc‡a=Ïv`À0?¢gé}C=âe@êOv`>²->Oß;>6E¢¾ØQì>ra|>yrG  AOz;kíúAWŒ?]}¿HË’ADe:·€4B3áH@ÌÍ?@A‰@rÍXbMÓ@‚Z¬1@ˆNûçl‹DNOT_AVAILABLE@rÅ_r×8@IsëÀ0?š¹›ú@0mÆÀ       ¢:Ì?ë’ÕT²=¿şÔş    À;Éxà          v@rêXbäôÀ0V?3ÙŒ©TFTFTTTT©¿N€                       É¹–ãû!‰     ?©™™™™™š@4*=€   @3%ã`   @3š    ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3Ğ À   ?©™™™™™š@XÀ     ?©™™™™™š@3©ûà   BÆ  ?½ó¶@   @!Æµ    @!T9`   ?¾¸Qà   @3^¸`   @3„İ    ÅDBä-+:U) B©€@rêPÚ"u>™õZÀ0VFµ§p`>ß¤@	®záG®>³33?°!? ¾™e,=¼£?ğ  A˜Ø;†YKA—Ğå?§Xâe+ÔA—<6=ôğØÀ  À      @paOß;d@7Ò° Ä›¦@")xÔıó¶NOT_AVAILABLE@rêXbäôA5¨À0V?3ÙŒ©A
+¡ËÀ       ¢3Õ?ïÿN­:ì]¿ù²    À:šá@          u@r¿Ç_iÀ0]R¶À£TFTFTTTF°` K                      ?éd®ûuĞ     V<&?ªŸ¾€   @(ËÆ    @*‡®    @XÀ     @XÀ     ?¯¾vÀ   A1&é@XÀ     @XÀ     @XÀ     @%Òñ    ?©™™    @,øQà   =›H¦?¹™™™™™š?ğê³`   ?ïeı€   ?±©ûà   @XÀ     @&İ²    ?äZC­áÄ:TY Û— @r¿zÉC=OßÀ0]çºw'=
+Úº@
+‘ÑN;Í6=.æ2=‹C–=%¾½—ö><„¶>™c  AKÆ¨9IRARÓÃ?[ÚQÎ_ABL0:ƒoB×
+@™G®    @®\÷ÎÙ@ƒı´9Xb@áG®{NOT_AVAILABLE@r¿Ç_i?‡U›À0]R¶À£?{/ì>E¡Ë     ¢1W?ï×æ@ó´ë¿æn—€   À:Şùà          t@r¦û?ã À0EÚÉ±™¨TFTFTTTF4c                       ?èæŞ+Ò     WG@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?ªŸ¾€   @À´9@XÀ     @¦é€   ?©™™    @V    @XÀ     @'B@   =wª?¹™™    ?ôÑ·    ?òşÅ`   ?¬(õÀ   @XÀ     @%ã`   ?ŞY\ÈsO:N‘ ×M @r¦õg#‘=/·éÀ0Eâik±X=!ÊÁ@
+ñ²•éâ=+6z=¬1=²-¾µ+½›ÚQ>ë¹Œ  Aò|:oA?Z6âëC-@ğå`:ù	lB&zá>\)    @ É|í‘hs@…¥=p£×
+@‚,$İ/ NOT_AVAILABLE@r¦û?ã ?¦¹À0EÚÉ±™¨?—ö+>›¥ã     ¢8?ïÿÛóŸ¾¿óãT    À;İ           s@rt|Ñâ¶À0U€=~ÅìTFTFTTTT©¿M€                       ÃÛQ=Î 1     Æœ?©™™™™™š@3Ñë€   @2Ï\    @3a    ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3˜“€   ?©™™™™™š@XÀ     ?©™™™™™š@3VE    BÆ  ?½ó¶@   @ ¤@   @      ?¼j    @3²    @3w
+@   Ê”{øxe:M( W €@rtyQà>~«6À0U‡ò®xñ>—é@Õ2a|Ú>æ§ğ?1'>ÎV¿&éy>‹¹Œ=Ø­¬  A–m‘;XDĞA•æ›?Ÿ!-w1ÅA•Î¥=nc À  À  >ò-@tq+Iº@AàA‰7KÇ@2§+IºNOT_AVAILABLE@rt|Ñâ¶Aı"À0U€=~Åì@È  À       ¢ù?ïÿÊ£	™ƒ¿ç×
+@   À;På`          r@rdìªHûÀ0[»¸bPTFTFTTTT€   €                       †L~¿İ      ?©™™    @3O    @3Àƒ    @4×    ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@4é€   ?©™™™™™š@XÀ     ?©™™™™™š@4†§à   BÆ  ?¾5?€   @)(€   @)jJ€   @XÀ     @3ÓtÀ   @XÀ     Píúese:J‰ İ\ @rdäØ–¶>Î_À0[Ão1	d>Ç°@Ëûµsë>ç8?Rñª?Q©ü¾¤g8>e®æ>­;  Aı;Ñ·AØâ?¥Y³Ğ|„¶A›«6=¦µÀ  À      @ePÄ›¥ãT@:1&éxÕ@*¬‹C•NOT_AVAILABLE@rdìªHûALiDÀ0[»¸bPAKRTÀ       ¢	?ïş
+–ENù¿ú—@   À;VÈÀ          q@rû“G¬"À0…¿RôÊTFTFTTTT©¿2€                       Í¼64‡˜     ?©™™™™™š@3ÍOà   @2ªÀ€   @3@ƒ    ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3~vÀ   ?©™™™™™š@XÀ     ?©™™™™™š@2Òñ    BÆ  ?º¬    @ŞìÀ   @"`   ?»dZ    @2÷
+@   @37KÀ   Ùót!¹:Da ,v @rû‘ç>o iÀ0…Æ¹	nç>pØE@şùÛ"Ğå>•¨X>Õ>¶È´¾¾\’=múD>¥+Ô  A•;;e`BA•1?Ÿ!-w1ÅA•b=Gâ‚À  À      @sRÌÌÌÌÍ@Aà£×
+=q@6E`A‰7LNOT_AVAILABLE@rû“G¬"@Î÷fÀ0…¿RôÊ@±ËÀ       ¢ M?ïÿªß¯`ô¿Ş§ï    À;$›           p@rá¥ØîÀ0ÎT/móıTFTFTTTT€   €                       ¶ô yQ     .?©™™™™™š@4Ff`   @3Š=€   @3Ûd`   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@4°    ?©™™™™™š@XÀ     ?©™™™™™š@49€   BÆ  ?¾5?€   @(,¿À   @&QÑ@   @XÀ     @3£×    @XÀ     ¡vœvP«`:1 Á°€@ráœÕüˆ>ÎŠrÀ0Î[ĞHË×>ÁG®@YJôğØE?ÈK?Gl‹?8Qì¾áTÊ=ê~ú>äêK  A›Q·;­«ŸA›Å?¤É…ğoiDA›tˆ=ïÒ À  À  ?K…@ii¸Që…@:º¬1'@"‹Æ§ï²NOT_AVAILABLE@rá¥ØîAAeşÀ0ÎT/móıA2ŠÀ       ¡I‡?ïÿ|§bâs¿ş\    À;õÀ          o@ruÕŞŞÀ0>;¶äëîTFTFTTTT€   €                       ·ı0´Á^ö     Iš?©™™™™™š@3Ù™    @3Z    @3uÂ€   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3¬‹@   ?©™™™™™š@XÀ     ?©™™™™™š@35    BÆ  ?½ó¶@   @#Ì`   @ +ÓÀ   @XÀ     @3;d`   @XÀ     ·ğğZ+ú8»áY @¶€@romÛÚ>ª™1À0>C]ŸÑÃ>£×@	·KÆ§ï>¥ğo?!ÊÁ?`B¾¬cñ½ÓZ†>cˆ  A—Üû;–»™A—Ú?§Á½¥œàA—=aG®À  À      @m»÷ÎÙ‡@7kÆ§ï²@3¹™™™™šNOT_AVAILABLE@ruÕŞŞAîcÀ0>;¶äëîA^À       K"3?ïÿŞxO»C¿õÊÀ€   À;²           n@r	Ä˜©bBÀ0ÀA™ÀTFTFTTTFJ &                      ?çı‚MéšQ     n^@@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«"Ğà   Aå`@XÀ     @$Š=€   ?©™™    @!Ö‡    @XÀ     @(¥à   =c+Î?¹™™    ?öMj    ?ò7´    ?¬(õÀ   @XÀ     @"©ûà   ?àl•o¬	8»¿  Ë @r	Ä•ÛFª=LÌÍÀ0Gÿ®=¿@
+”Fs×Ü=^ Ò=¸Qì=•¾¡½¥><„¶½ŸŠ	  A$àß:oA*Q?UL˜_ö”A9X:7€4B#¸?O\)    @¡h™™™š@Š&Iº^@—ç8Që…NOT_AVAILABLE@r	Ä˜©bB?²kQÀ0ÀA™À?‘½¥À       J›?ïşìáWÜg¿ãŸÀ   À:¯ß@          m@rõÎze¼À0&ÁÌåTFTFTTTFéÊ€ low S/N               ?ïG(v4NÂ     Úx@XÀ     @XÀ     @'
+À€   @&9Û    ?©™™    ?¬(õÀ   A!?©™™    @&hõÀ   ?©™™    @#ûd`   ?©™™    @)‰º`   =dù.?¹Û"à   ?÷¥    ?ò–»    ?«¥ã`   @&m`   @$uÂ€   ?ÁÎÒåHD8ºú™ @rõÇã®=RñªÀ0.—@°–="œx@	BZîcŠ=["Ñ=Â\=™™š¾ö+<?±[</O  A2ß;:kíúA7„M?]}¿HË’A+â‚:kíúBD¸@{    @“ÁzáG®@‚t¼j~ú@’ô–‡+NOT_AVAILABLE@rõÎze¼?½(À0&ÁÌå?”µİ>dZ     G“¿?ïue¡ß¿ù
+=€   À;ÃT           l@rCÈ{ÑªÀ0¨#¨§¾TFTFTTTFñß Q                      ?íïZh¨_8     5£½?ª¬    @'° À   @(Ø`   @'ff`   ?©™™™™™š?©™™™™™šA#™š?©™™™™™š@'“÷À   ?©™™™™™š@$äİ    ?©™™™™™š@,l@   =fÕ?¹™™™™™š?öiD`   ?ò-à    ?¬¬@   @'ò°    @$àÄ    ?àY;8=ÜÊ8ºó@  €@rC¾FëV= .À0¨*Ù„ï}=!ÊÁ@	º’£S&=P|…=¸Qì=•>9¦µ¾Kàß¾s  A6ê³9Ñ·A<¿?b¼£n/A/b·:kíúB&\)?ª=q    @¨TzáG®@~?/Ÿ¾w@’’hr° ÅNOT_AVAILABLE@rCÈ{Ñª?³J#À0¨#¨§¾?‘o >·ÎÙ     G{Ê?ï’¡­n ùÀS÷À   À9{ç`          k@rä·è…À0Õùi¢áTFTFTTTFÓ/ =                      ?ïù"ÌÙÉµ      g@XÀ     @XÀ     @&4¼`   @%o    ?©™™    ?«"Ğà   A›¦?©™™    @%²-    ?©™™    @#6E    ?©™™    @*öÈÀ   =_¿ƒ?¹™™™™™š?òø     ?ò“tÀ   ?¬(õÀ   @&B@   @#ÚŸÀ   ?±Lgc÷“8ºÚ9 ÷: @rä²«+Ç=IRÀ0Ö çÈšô=(ÁU@	Şš=?±[=›¥ã=™™š¾Ìd>ìÀ>ÇRT  A-Û#9Ñ·A2×s?R¼£n/A&£:Q·B*áH?™š    @§òáÊÀƒ@©~ùÛ"Ñ@”ç-VNOT_AVAILABLE@rä·è…?—ÅÀ0Õùi¢á?”›¦?     G)0?ïığ0‡ÇG¿ğ—@   À:Ó           j@r6AŸÁÀ0ÕÆÎW.TFTFTTTFÔh Eclipsing Binary?     ?é…·¾j–     |“@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?¬(õÀ   @åxÕ@XÀ     @XÀ     @XÀ     @H´@   @XÀ     @'5@   =amÌ?¹Û"à   ?õJõ    ?ñïÀ   ?«¥ã`   @XÀ     @†$à   ?áùT­šñ8º×á ûn€@r6=á…Á=0‰ À0ÕÍ…tH§="œx@	ÙJôğØE=Yc=° Å=“t¼¿P> A‰>‡8  AÇz:7€4Aâë?b×süPHAÏB;7€4B'ë…>k…    @—lbMÒñª@~záG®@x4Ä›¥ãTNOT_AVAILABLE@r6AŸÁ?ªW¨À0ÕÆÎW.?|îÀ       G!?ïÿÄÒM¯'¿é`A€   À:“3@          i@r@ƒ`G>À0á]¨Ù{ÒTFTFTTTT€   €                       Æ¨Ø§Ï     êğ?©™™™™™š@3å`@   @2Ñª    @3eÀ   ?©™™™™™š@XÀ     BÆ  ?©™™™™™š@3§+    ?©™™™™™š@XÀ     ?©™™™™™š@3Æ    BÆ  ?¹™™™™™š@$)†    @"ÙÀà   ?¹™™    @3    @3KÀ   ÌJäF8ºÎ¨ 6 @r@|y±>Â\À0ádğŒ½ç>Ñ³@
+ˆšu%F>Á–S?&ff?¥ã¾¸R=ĞH>çï  A–°U;ŒçA–\û?“&Á½¥A—²ÿ=‡_pÀ  À      @oÔ(õÂ\@M¡ÊÀƒ@0o²-VNOT_AVAILABLE@r@ƒ`G>A!L0À0á]¨Ù{ÒAÎÀ       G ?ïÿcWÊ‹>¿÷hrÀ   À9ÌÌÀ          h@r:sà;À1ÇQvğTFTFTTTFi=                       ?çåå@V¦     |Ñ@XÀ     @XÀ     @XÀ     @XÀ     @XÀ     ?«¥ã`   @½¡Ë@XÀ     @XÀ     @XÀ     @ß;`   @XÀ     @XÀ     =ƒ"Ğ@XÀ     ?ú½<@   ?÷(õÀ   ?«¥ã`   @XÀ     @³3@   ?Ü£7¦Ú‰D8º¥è  y€@r:‡+=€IÀ1ÎÍY*ç=t!@
+SZ…‡“Ş=Š¦L=İ/=¾vÉ¾ªÚº»ºÇ>¨$  A rG9Ñ·A	ë?Vğ¸ºÇ@êËû;*dÃB'{>B\    @§Óˆ1&éy@‡Œ/Ÿ¾w@zfzáG®NOT_AVAILABLE@r:sà;?ÕéâÀ1ÇQvğ?¹G®=Æ§ğ     F€'?ïÿè=á–¿õ×
+@   À:…ã`          g@rÿIA˜À1Io8„òTFTFTTTFİ	 ,                      ?ï˜ä*½     i@XÀ     @XÀ     @XÀ     @%:^@   ?©™™    ?¬(õÀ   Açm?©™™    @%G+    ?©™™    @"Ø`   @XÀ     @,bĞà   =dù.?»"Ğà   ?ö‡    ?ó=Ù€   ?¬¬@   @%C`   @#z^@   ?åê©+ oş8º‹ Ù! @rÿ@uRs=:ÇÀ1I÷€=0‰ @
+²şÅm\û=Yè>=¶E¢=Ÿ¾w¿ Ñ·=_¤@>áÊÁ  A+£9Ñ·A/ùr?_!-w1ÅA#Ô,:-àB,…?5Â    @£…ß;dZ@‚¸Që…@3`A‰7LNOT_AVAILABLE@rÿIA˜?°´9À1Io8„ò?™îÌ?Ÿ;d     F*)?ïè´ªò(¿ıÂ`   À;$İ           f@r…+bÀ1 ÉhTFTFTTTF’R€                       ?ê«Š÷â     KÍ?©™™    @*;d`   @,˜“€   @XÀ     ?«¥ã`   ?¬(õÀ   A9¡Ë@XÀ     @*o    ?©™™    @&şùà   ?©™™    @0h´@   =c+Î?¹™™™™™š?çŸÀ   ?äMÓ    ?¬(õÀ   @+¥à   @("Mà   ?åT€%£8ºY-!€@r…'í<Çâ‚À1”—ÓÜ
+<°ò|@
+P°ò{²ÿ<Ñ·=@ƒ='ï¾’ÊX=gÕg>:“  AY4×9Ñ·Aağ?c©*0U2aAN_Ù:Ä›¦À  À      @£h     @|a¸Që…@‡I¸Që…NOT_AVAILABLE@r…+b?8ÔşÀ1 Éh?"n˜À       F»?ïåçËãN¿äõÂ€   À:t¼`          e@rZX|­À-öîõTvTTTFTTTFE€                       ?ïÎª¦T%`     h?©™™™™™š@(Â`   @*šŸÀ   @)1    ?©™™    ?©™™™™™šA1/?©™™    @(øQà   ?©™™    @&KC    ?©™™    @-¼j€   =c+Î?ºŸ¾€   @ hà   ?ùm]    ?¬(õÀ   @)zá@   @&ÎÙ    ?î¡ùy3³ô:b)Fá€@rZUÇ`;=IîÌÀ-öş´Pi!=-«Ÿ@
+‚Iº^5=ƒä&>zá=Ğå`>íV¿µ¿+k  AKE99IRARØ?b×süPHAAµt:-àB&…@Z=q    @­§]/Ÿ¾@|ìõÂ\)@Û"Ğå`NOT_AVAILABLE@rZX|­@GÀ-öîõTv?Ëjè>·KÇ     ­²•?îÊÏrNÛ¿ãt¼`   À;æé€          d@r²şêéÀ.—û³\fÈTTTFTTTF&€                       ?ïåÈ4_     \<?©™™™™™š@.b@   @1ÚŸÀ   @/bĞà   ?©™™™™™š?©™™™™™šAR^5?©™™™™™š@.ŒIÀ   ?©™™™™™š@)¸Qà   ?©™™™™™š@XÀ     =™À@XÀ     ?ıä%    ?û/ƒ€   ?±©ûà   @0Ÿ¾€   @+’ñ    ?ï§-àíäÉ:$$€@r²ù•÷.=gl‹À.˜
+?ë-°=Ró@Ùb¶®}=y	l=õÂ=áG®½Š	=Ç®>×Ü  AúD:ƒoAŠàB?–ğ¸ºÇAsN<;XDĞÀ  À  =í‘h@‘YäZ¬@HH“t¼j@t®bMÒòNOT_AVAILABLE@r²şêé?ï!-À.—û³\fÈ?Ù|>Æ€     ¬¾,?í°¨ïy2‰¿î° À   À9Çï           c@ra¹¼ÈÀ.¾<ÁõàTTTFTTTFÁÙ€                       ?ïù£N.˜     NÌ?©™™™™™š@+u?€   @/    @,]/    ?©™™™™™š?¬(õÀ   A@§ğ?©™™™™™š@+ÚŸÀ   ?©™™™™™š@'åã`   ?©™™™™™š@1¶E    =c+Î?¹™™™™™š?éx@   ?é    ?¬(õÀ   @-`   @)NV    ?ïFš	nˆ:°€@raµë^<Ë)_À.¾Lt5j<¾ß¤@	SÃa@O<áG®=På`=På`¾QÎ>(õÃ>Óá  Ah:oAsƒ{?kÚQÎ_A[J;	 'À  À      @¢È_¾vÈ´@sÖƒn—@€IÌÌÌÌÍNOT_AVAILABLE@ra¹¼È?KÀÀ.¾<Áõà?H ?V     ¬g8?ïE€Ä s¿êñª    À;|à          b@r	<©RÀ.À†¡@PTTTFTTTF¼õ€                       ?ìÚ²ÃÑ1H     nñ?©™™™™™š@)49`   @+®    @)¸Qà   ?©™™    ?©™™™™™šA4‡+?©™™    @)j    ?©™™    @&…¡À   ?©™™™™™š@-Òñ    =^!P?¹™™™™™š?ìVÕÀ   ?é–À   ?©™™™™™š@*2-    @'Ÿ¾€   ?ëIï!.n:
+ñæ @r	<§Ô§<ô!À.À”ìLú<ğØE@<ì¿±[=óM=ixÕ=Tıô¾mBÄ=ŠqŞ>d?æ  ANä9Ñ·AUø8?S©*0U2aAE„M:IRB'¸R?î{    @¥ò-V@‹T^5?|î@‹Ú—Oß;NOT_AVAILABLE@r	<©R?b¶®À.À†¡@P?L„¶>JÀƒ     ¬[?î>?À2ÈÉ¿ŞÙ€   À9S¶@          a@rYeL
+À.øÈ×¦™TTTFTTTFB
+€                       ?ïé¤~òoK     ğÄ?©™™™™™š@.dZ    @2-‘`   @/ËC    ?©™™™™™š?©™™™™™šATáH?©™™™™™š@.âMà   ?©™™™™™š@*;`   ?©™™™™™š@5*    =fÕ?¾vÈÀ   ?şoÒ    ?ükPÀ   ?©™™™™™š@0Ú^@   @+ñ&à   ?ï¤Ÿ—Ü:™M€@rVsaD=€Ñ·À.ø.ıÏ½-=Š	@	¥zxl"h=¥zx=ûçm=ë…¾²ä>@7>´zá  A„{:IRAUĞ?Ë)^	AvÒ‰;—$À  À  =¼j@Œ+Iº@P–fffff@q8Ä›¥ãTNOT_AVAILABLE@rYeL
+?ó~‘À.øÈ×¦™?ãZ†>Òñª     ¬R ?ïÛ“\G»¿ä Ä    À:ò-           `@r«–Ö4™À.„Êa„øTTTFTTTF˜€                       ?ïâ@`ªIë     B?©™™™™™š@-Ä    @1¬@   @/      ?©™™    ?©™™™™™šANå`?©™™™™™š@.49`   ?©™™    @)‚@   ?©™™    @XÀ     =hÀ–@XÀ     ?ú    ?ö™™    ?©™™™™™š@0\)    @+8Õ    ?ï«5ÎqHé:Ï	 øc€@r«‘4À±=f1ùÀ.”6l.m=\]d@
+ä%®æ1ù=†YK=×
+==º^5¾À.=IîÌ>¤“  A€x:ƒoA‰ö?ƒ©*0U2aApAò:ªdÃÀ  À  >W
+=@‘½ùÛ"Ğå@\3Æ§ï²@‰é´9XbNOT_AVAILABLE@r«–Ö4™?Ğ ÅÀ.„Êa„ø?´ÌÍ>2{³     ¦£ı?ïÚùªF©ú¿óC•€   À;S÷À          _@r)3À.\¬pf‰TTTFTTTF‰ç€                       ?ïRâM¼(     lØ?©™™™™™š@/n—€   @34zà   @0¡ÊÀ   ?©™™™™™š?©™™™™™šA[`B?©™™™™™š@0f`   ?©™™    @*ê    ?ª¬    @XÀ     =wª@XÀ     @<Ó`   @²    ?©™™™™™š@1Ô¼`   @,±ª    ?í÷œ/ä0:Èy ö' @r)ŠÊ–‹=Ô,=À.\¼bÅ^=Î_@³œ¾ß¤=ù¦µ>G®>2-¾µéâ=eÉ>À·€  A‰ôT:ªdÃA•së?š…‡“İ—öA€RT;£×
+À  À  >Æ§ğ@ŠG®zá@D÷+Iº@k,Z¬1NOT_AVAILABLE@r)3@Aæ›À.\¬pf‰@,í‘À       ¦8?îãÄ£jèz¿æ^5@   À;È´@          ^@r¬`¹mÀ.ï½«—TTTFTTTFVj€                       ?î–.äÿ¡Â     f´?©™™™™™š@.üí    @2·Îà   @0K…    ?©™™™™™š?©™™™™™šAXƒ?©™™™™™š@/å`   ?©™™    @*˜“€   ?ª¬    @XÀ     =^!P@XÀ     @^    @($    ?©™™™™™š@1Z    @,s3@   ?ëÅîR’B:’ ä¦€@r¬ZõÄé=¤?æÀ.ï%–¾y=£×
+@(ÁTÉ…ğ=áG®>¾w>Oß¾Ï„>J#:>‡°  A‡>B:-àA‘‘?•L˜_ö”A|>«<C–À  À  >m‘h@’fffff@JOß;dZ@_Ç²-VNOT_AVAILABLE@r¬`¹m@ôñÀ.ï½«—@	A =ô!     ¥ê¹?îïNhi=Ò¿ó²-    À<ş           ]@rŸŠœaÜÀ.qAÆ$æTTTFTTTF@†€                       ?ï`oùŞ×     á«?©™™™™™š@.Ñh€   @2f§à   @01&à   ?©™™™™™š?©™™™™™šAWçm?©™™™™™š@/ZŸÀ   ?©™™™™™š@*ff`   ?©™™™™™š@XÀ     =_¿ƒ@XÀ     @GÀ   @´Ö    ?©™™™™™š@10b@   @,@ƒ    ?î ²åu Ç:|©â @rŸˆc›™=ùÛ#À.€¼ámÔ=¥zx@Ë’:)Çz>8ï>H´9>n˜¾„Š=Î;Í¾·  A‡*e;-àAt?‘N;Í5¨XA{&é;­«ŸÀ  À  =å`B@"vÈ´9X@P\(õÃ@idbMÒñªNOT_AVAILABLE@rŸŠœaÜ@B8†À.qAÆ$æ@¦µÀ       ¥¨µ?î‚¢ÀŒ¿Şff`   À;n—€          \@rŒVv@À.‰D¢Ü¹TTTTFTTTF0q€                       ?ïª²#òú1     ,'?©™™    @+uÂ€   @.éxà   @,+…    ?©™™™™™š?©™™™™™šA?®?©™™™™™š@+Û"à   ?©™™™™™š@'·KÀ   ?©™™™™™š@1Ò-    =_¿ƒ?ÁG®    ?ò)^    ?êÍ€   ?©™™™™™š@-,‹@   @)/À   ?èô:YÕ_:yéµ @rƒÊe=²-À.‰S¡t<âë@	®}Vlô=P=•=]/¾hs;-à¾÷Ï  Ag0U:IRArm]?fğ¸ºÇAZhs:ù	lÀ  À      @ydZ¬@x‹?|í‘h@”1&éxÕNOT_AVAILABLE@rŒVv@?‘JõÀ.‰D¢Ü¹T?Vlô>İ/     ¥Ÿy?îübø©
+‡¿ı;d`   À9ªÀ€          [@rú"À/ÇâfÃØTTTFTTTFé`€                       ?ïõ–ş¦ª     ë3?©™™    @+`   @.§à   @+“÷À   ?©™™™™™š?©™™™™™šA>Ÿ¾?©™™™™™š@+k    ?©™™™™™š@'ŒIÀ   ?©™™™™™š@1StÀ   =j¹ç?¹™™™™™š@÷š`   ?ü4    ?©™™™™™š@,aÊÀ   @(Ö    ?ïæR”¡:b±Ã @röV¥Õ=.}VÀ/Ö¼x)=–¼@	Vlô!-=‡+>5?}=çl‹?5öı¿/ƒ{¿A‚ª AağØ:7€4Akö”?v‡+IºAV÷;oÀ  À      @˜x’n—P@hÂ5?|í‘@ãS÷ÎÙNOT_AVAILABLE@rú"@/¼ÓÀ/ÇâfÃØ?à‰ >¥`B     ¥Qá?ïÀÛà×T|¿é‡    À:Pb@          Z@r–Ò-ÏÀ/&ˆ4iTTTFTTTF×9€                       ?ïÏ˜c	*6     ú´?©™™™™™š@.I7@   @2À   @/œ¬    ?©™™™™™š?©™™™™™šARñª?©™™™™™š@.Àƒ    ?©™™™™™š@)ã×    ?©™™™™™š@4¬@   =s&ì?¾¸Qà   ?şU›@   ?ús    ?©™™™™™š@0·Îà   @+Àƒ    ?ïj^äÉ:Oé €@r‘¥ß=×ÜÀ/&–ŞLQÁ=l¿±@¿¼=!–=ùÛ#=Û"Ñ¾pò|»*dÃ>^Ov  Aƒ,¥:ƒoAŒyÛ?€Ë)^	AuFÜ;XDĞÀ  À  >!ÊÁ@5Æ§ï²@`•™™™™š@t[Û"Ğå`NOT_AVAILABLE@r–Ò-Ï?ò¬ÚÀ/&ˆ4i?Ó˜È>´9X     ¥?ï@œ)´S¿ñ©ûà   À9^¸`          Y@rîÔ+À/¿(ş_˜¡TTTFTTTF` J                      ?ïûó	û†     Wé@XÀ     @XÀ     @'bMà   @&`Ä    ?©™™    ?«¥ã`   A
+=?©™™    @&q&à   ?©™™    @#È1    ?©™™    @*>vÀ   =dù.?¹™™™™™š?ñe”    ?ï#¢    ?¬¬@   @&‡®    @$vÈÀ   ?íïQıb¾:B¡ ı€@rêÁTÌ=hsÀ/¿8^Û^‰=:*@
+c¼ÓZ…ˆ=5ÜÆ=\)=%¾Æ¹>Š	>|¹$  A419Ñ·A9‘ ?S©*0U2aA,m]:kíúB${?ÈõÃ    @¤
+ïŸ¾w@‹­n—P@‘øG®záNOT_AVAILABLE@rîÔ+?‹,¥À/¿(ş_˜¡?y?bN     ¤İ´?ïø‡ÕÅ¿ëÆ§à   À;?|à          X@rQ¹º»À/Ebİ=.öTTTFTTTF€                       ?ï›y`äå     	ë³?©™™™™™š@.\¬    @2ŒÌÀ   @0Mà   ?©™™™™™š?©™™™™™šAS?}?©™™™™™š@.äZ    ?©™™    @)ß¾€   ?ªŸ¾€   @XÀ     =fÕ@XÀ     @§ï    @ ñŞ`   ?©™™™™™š@1%À   @+¸Qà   ?îôo¿õŠ:.¨ VO€@rQµÇ”€=´êÀ/Eqsñæv=“@O@'»/ìW=Èğ>)ûç>Iº¾¨õÃ=Åm]>#ñA  A…(X:·€4AAò?–Ov_Ø®Aw¬Ú;7€4À  À  >†$İ@ˆd/Ÿ¾w@IV“u@x€V“uNOT_AVAILABLE@rQ¹º»@%?}À/Ebİ=.ö@óÀ       ¤µ?íÓš8
+Æ¿êñª    À9ÙÛ           W@rØ¦¿·À/›ñ
+Ë‰LTTTFTTTFº€                       ?ï¸u¥×qÇ     
+ƒt?©™™™™™š@/ÌÀ   @2ÀA€   @0P£à   ?©™™™™™š?©™™™™™šAXÈ´?©™™™™™š@/–‡    ?©™™™™™š@*ŠÀ€   ?©™™™™™š@5›ç`   =ĞÃ?¾ùÛ    @
+ùr@   @yÛ    ?©™™™™™š@1g+    @,m`   ?ïU ÷M`:& #ú @rØsmÔ=ÛÀÀ/›ÿùäùº=ÊŒ@	ùrGE9=Ğ|…>^5?>Iº^½÷1¼•+>	 '  A‡Gã:IRA’o?“óMjA|Å;´9XÀ  À  >Ÿ;d@Œ!¼j~ùÛ@Lmó¶E¡Ë@h²fffffNOT_AVAILABLE@rØ¦¿·@WË’À/›ñ
+Ë‰L@CÎÙ? Ò     ¤‡’?ïÔV©àW@¿Ş    À:v‡           V@rüè¬6À/³átß TTTFTTTF}s ?SB2?                  ?ï÷¬ö!     Wï@XÀ     @XÀ     @'>vÀ   @&'l€   ?©™™    ?¬¬@   AÄœ?©™™    @&j    ?©™™    @#° À   ?©™™    @+aG    =fÕ?¹™™™™™š?õu    ?ğì¿À   ?¬¬@   @&`A€   @$X“€   ?ç£ÇŞõ…X:9 íù @rüæ¯²=(ÁUÀ/³ğ«xè=&µ@	cS÷ÎÙ=€  =° Å=‹C–¿tT>ß;=UÏ«  A3E99Ñ·A8ÌÍ?UL˜_ö”A+b·:ŞÒ‰B"  ?³33    @£0/Ÿ¾@‰…Ÿ¾vÈ´@ƒÜ•$İNOT_AVAILABLE@rüè¬6?«¬qÀ/³átß ?‡eş?I­C     ¤j=?ïğÚ.æ™¿á²-    À:õ?€          U@rjõóØÀ/ìôŸè|ÑTTTFTTTFé $                      ?ï¦Ğv­     _g@XÀ     @XÀ     @XÀ     @#õÂ€   ?©™™    ?¬(õÀ   A~ú?©™™    @$®    ?©™™    @!‚`   @XÀ     @*6ÈÀ   =ub^?¹™™™™™š?óG®    ?ğä÷`   ?­²-    @$$Z    @""Mà   ?îN1çB6D:é ì€@rjòÙ=.}VÀ/íãèYà=2-@
+¶z–¼=F§ğ=Ÿ¾w=‹C–¾àƒ<Ú¹õ>µfÏ  A"²–9Ñ·A(¢4?PbMÒñ©üA—$:Ñ·B(¸=áG®    @¥¶¨r° Å@‘ˆzáG®@„Óıó¶E¢NOT_AVAILABLE@rjõóØ?š=qÀ/ìôŸè|Ñ?‡'»À       ¤JR?ïÿ}a›%â¿ê^5@   À;`          T@rm‚¾À0 Â¡zK‘TTTFTTTF±ä ^                      ?ïçJ…aå     5›t?©™™    @(Ïß@   @XÀ     @(Â@   @XÀ     ?¬¬@   A1t¼?©™™    @*§l€   ?©™™    @&™    @XÀ     @-¼í    =dù.?¹™™™™™š?ôk¹€   ?ñˆe    ?¬(õÀ   @XÀ     @&Ü)    ?ïqZ,Ñf½:p È€@rmc†7=4¢4À0 Ê	SÖ=:Ç@Û‹¬q³=|¹$=§ï=‘hs¾Ú¬Ú=‰Ş>u¨X  ALB[9IRAS^5?X“t¼j~úABÎp:Ñ·B*{>¸R    @¯¾33333@†Z§ï²-@„ı1&éyNOT_AVAILABLE@rm‚¾?£]ÌÀ0 Â¡zK‘?ŒC->—eş     ¤H™?ïş§-é7¿å¡ÊÀ   À:=²           S@r99BÓÀ0Æ‘íTTTFTTTF.Å M                      ?ïõÁ•#ÿø     5œÕ?©™™    @'“€   @(«    @'gl€   ?©™™    ?«¥ã`   A#Æ¨?©™™    @'G+    ?©™™    @$Oß@   ?©™™    @,aG    =c+Î?¹™™™™™š?ó]Ì`   ?ğ·`   ?¬(õÀ   @'‰7@   @%¸`   ?ï¹ƒ¢UVŒ:I ì' @r6=xŒ=&L0À0
+i¿İ=¾w@	àªdÂø8=K)_=Ÿ¾w=‰7L¾÷
+==¹#£>¡½¥  A;¶®9Q·AA¥z?_!-w1ÅA3YK:ƒoB#ë…A(ö    @±š^5?}@–XbMÓ@ôí‘hr°NOT_AVAILABLE@r99BÓ?šîcÀ0Æ‘í?…¸»?,=     ¤A?ïé‰8b=¿äQë€   À;h€          R@r·Bøš}À0[ñµ’ŞTTTFTTTFi# 6                      ?ïàÁ€A     x?²ñª    @'¸`   @&ıp    @'å`   ?©™™™™™š?«"Ğà   AJ?©™™™™™š@)`   ?©™™™™™š@#ŒÌÀ   ?©™™™™™š@*
+@   =_¿ƒ?¹™™™™™š?ğx    ?î1    ?¬¬@   @&ê    @$2°    ?ïñ>‘tÜ:
+Y î”€@r·Bhà=YKÀ0cÃõ‡ß<ÿ—$@	ÏAò×s=¬q=…¸=yÛ#¾¤µİ=hs>¹Û#  A1É†:IRA7	?`bMÒñ©üA*G®:ªdÃB\?:áH    @›g Ä›¥ã@!C•%@‰H©ûçl‹NOT_AVAILABLE@r·Bøš}?€[ÀÀ0[ñµ’Ş?pA‰?E”¯     ¤)¡?ïİä¬š^¿Ç
+=€   À;·Îà          Q@r0ºıJ!À0ƒ{&TTTTFTTTF<E a                      ?ïş§‹`Y     ”Â?©™™™™™š@(šŸÀ   @*)ûà   @(NV    ?©™™    ?¬(õÀ   A0\?©™™    @(Ù™    ?©™™    @%ë    ?©™™    @-™    =_¿ƒ?¹™™™™™š?îŞ à   ?ì
+¦@   ?¬¬@   @)    @&Ä›    ?ï,C¬S :
+ RÍ @r0·4æ=MÀ0‹Gº´[=%@	ÿ.Hè§=™š=}ó¶=ixÕ¾›˜È=Ú¬>†ö”  AIŒ~9Ñ·APH€?]}¿HË’A@j:Q·BG®?•Â    @¤t¼j@ƒUfffff@–L["Ğå`NOT_AVAILABLE@r0ºıJ!?vğÀ0ƒ{&T?`U2>‰7     ¤(²?ïyET–a¿éÂ`   À;£×           P@r¤!ã³!À0½*!ÏyTTTFTTTF5µ€                       ?ïóİ¡æ     ?©™™™™™š@.$à   @1äZ    @/dZ    ?©™™™™™š?©™™™™™šAOÊÁ?©™™™™™š@.\    ?©™™™™™š@)šŸÀ   ?©™™™™™š@4G®    =dù.?½ó¶@   ?ı1À   ?úâë    ?©™™™™™š@0¡‰@   @+r°    ?ïÙÓº_õĞ:	Y çØ€@r¤Ú
+Î=yrGÀ0Ä¯M¨-=uÂ@aG®zá=\)=ñ©ü=İ/¾¯ùr=ÿ.I>¼í‘  A‚™Î:Ñ·A‹Á¾?•ÏªÍƒäAsâë;£×
+À  À  >@ƒ@…Å¶E¡ÊÁ@Iv§ï²-@k97KÆ§ğNOT_AVAILABLE@r¤!ã³!?éŒ~À0½*!Ïy?×Y?4zá     ¤&˜?ï1fãd½Q¿ä¬@   À:¦§à          O@r&~/RJÀ0¹ÂïS_TTTFTTTFW [                      ?ïúgD¸€Ä     5`?©™™™™™š@(<j€   @)šŸÀ   @(MÓ    ?©™™    ?«¥ã`   A-;d?©™™    @(NÙ    ?©™™    @%‹C    ?©™™    @,å`   =fÕ?¹™™™™™š?í×à   ?ëXâ    ?¬(õÀ   @(¯    @&C`   ?ïg»€¦O¨:ù æş @r&zÄİ¹<õÂÀ0Á]Ï¾@<ç°@	Ù³Ğ|„¶=+=q©ü=aG®¾í)=Ùc>šxl  AE¥ã9Q·AL0¾?[ÚQÎ_A<º^:·€4B(ÌÍ?.{    @·˜Ôıó¶@ƒtn—P@ˆqáG®{NOT_AVAILABLE@r&~/RJ?l¿À0¹ÂïS_?ZÇ>²°!     ¤%N?ïéÓÖ¼?{¿çC•€   À:ó¶@          N@r´_,À0 a¯TTTFTTTFæ€                       ?ïúj“”     5<?©™™    @'ÊÀ€   @) ƒ    @'ÓtÀ   ?©™™    ?¬(õÀ   A)"Ñ?©™™    @'àA€   ?©™™    @$÷Îà   ?©™™    @+©ûà   =dù.?¹™™™™™š?ğ†Y@   ?íœà   ?¬(õÀ   @(@   @%²°    ?î¾°c—Ã:h RÏ€@r´1Ï‹=çÀ0 áDø[=‡”@
+Xâe,=#n/=‰7L=q©ü¾‚ÃÊ=¾«6>;d  AAê:IRAGGE?r¼£n/A8Mj;-àÀ  À      @5ÎÙ‡+@nĞbMÒñª@~í+IºNOT_AVAILABLE@r´_,?„2ÊÀ0 a¯?hŒç>£{J     ¤#Y?ïìÌw‹à¿ğ¸Qà   À:’ñ           M@r‹”A•÷À0/†Â›ÁHTTTFTTTF²€                       ?ïİÿq=     ;_?©™™™™™š@/Á    @3b@   @0Â`   ?©™™™™™š?©™™™™™šA^“u?©™™™™™š@0'®    ?©™™™™™š@+V    ?©™™™™™š@6Ff`   =wª?ÀbMà   @
+Ãa    @ÇÀ   ?¬¬@   @2l€   @-¸`   ?ïµæÕ([é:Ğ Á @r‹N”=èr°À0/JDI—=Ö8†@eÉã½>•>]/>D›¦¾À'R=ƒ{J>Èš  A‹8»:·€4A–²? ¾í(ŒçAO;ï4×À  À  >Àƒ@‡ÉIº^5?@@›çl‹C–@b‡•$İNOT_AVAILABLE@r‹”A•÷@V	À0/†Â›ÁH@>8†À       ¤5?ï]ššÁİ¿ğÙ€   À:¯À          L@r“£üÀ0/ü¼Œ_`TTTFTTTF¯>                       ?íˆşiÂQú     G—Ú@XÀ     @XÀ     @XÀ     @#]/    ?©™™    ?­/    Aó¶?©™™    @"‹C    ?©™™    @ ˜`   @XÀ     @'Tzà   =ˆgP?¹™™    ?òO€   ?íZ…€   ?©™™™™™š@#•    @"å`@   ?ëÁ¾ÚEa¼: ç_ @r“¡†ğ=PÀ00 Œğš=éâ@	)*0U2a=A½¥=•=q©ü¾ø­¬>BJ=£S  Aí9IRA"@?UL˜_ö”AìW:ŞÒ‰B'õÃ?Ğ£×    @©b<í‘hs@Šs…¸Qì@ƒòIº^5NOT_AVAILABLE@r“£ü?ò|À0/ü¼Œ_`?jÔ,À       ¤Q?ïÿĞ¶Ÿ¿ä(õÀ   À:1&à          K@r½$t À0/3ºóGTTTFTTTF³õ€ low S/N               ?ïóÔ0eµ     5@XÀ     @XÀ     @(^5@   @&çl€   ?©™™    ?©™™™™™šA?©™™    @&Ù™    ?©™™    @$V    ?©™™    @,ÿ|à   =c+Î?¹™™™™™š?ğòà   ?í*    ?©™™™™™š@'m‘`   @%Ÿ¾€   ?îÔä[ =:È RÒ @r½hü-=µİÀ0/:…f¬<ı!ÿ@	t¼j~ú= .=…¸=q©ü¾«’:>5%F>hÁU  A9çm:Ñ·A@©ü?x“t¼j~úA0‹¬;ŒçBõÃ@#×
+    @„İ£×
+=q@f˜ Ä›¥ã@oéãS÷ÎÙNOT_AVAILABLE@r½$t ?€ÿ—À0/3ºóG?hÁU?¾w     ¤A?ïK_y$ñï¿÷÷Îà   À:AÊÀ          J@r9¬nøÀ068ë¢p›TTTFTTTFŒ€                       ?ïŞ1Í–å     —Ú?©™™™™™š@/À   @2¯    @0E`@   ?©™™™™™š?©™™™™™šAWÒò?©™™™™™š@/}p    ?©™™™™™š@*ƒ•€   ?©™™™™™š@5‹    =pø?¾vÈÀ   @ ¯·à   ?üØDà   ?©™™™™™š@1Y™    @,bMà   ?ï§åúã:a æ’€@r9¨t¯©=ŒçÀ06@mQá=V@
+6®}Vlô=ÃÉï>	7L=í‘h¾Ñ&é>I7L>\]d  A†ÿ.:ƒoA‘o?ŠkP°ò{³A{Ğå;·€4À  À      @‘C%ãS÷Ï@Uñ©ûçm@h	©ûçl‹NOT_AVAILABLE@r9¬nø@}¿À068ë¢p›?æÂ'>©7L     ¤Ú?ïé…"7•¿ën    À:š^@          I@räó¾ÂãÀ0AÖ{ÇTTTFTTTFKz                       ?ïÕã¿0§ü     G—#@XÀ     @XÀ     @XÀ     @%vÈÀ   ?©™™    ?«¥ã`   A£×?©™™    @$F§à   ?©™™    @!šŸÀ   @XÀ     @($Z    =fÕ?¹™™    ?ğI`   ?íp£à   ?¬¬@   @$/À   @"dİ    ?í¸+y_@€: Ñ æù€@räñBG=çÀ0AİÑèµ=M@	ßoÒòå=%=‰7L=q©ü¾½!ÿ>æ›>Sİ˜ A#˜_:7€4A)cˆ?S©*0U2aA²–:kíúB$™š>³33    @™İÅ¡ÊÀƒ@‹²-V@“«’n—PNOT_AVAILABLE@räó¾Âã?„êKÀ0AÖ{Ç?k…À       ¤	°?ïşêã$¿àí‘`   À;lÌÀ          H@r$¹÷À.İ²v­‚ñTTTFTTTF}€                       ?ï¾d"ñ•$     ed®?©™™    @.    @2¸`   @/£T    ?©™™    ?©™™™™™šARJ?©™™™™™š@.©ûà   ?©™™    @)ÊÀ€   ?©™™    @XÀ     =c+Î@XÀ     @QÀ   @ åı€   ?©™™™™™š@0Çl€   @+›"à   ?ï
+¬DˆŸ<:ó ŞY @r$±ÓV’=¢h
+À.İÁ€d¾—=ŒIº@	£×
+=p¤=¦éy>¾w>C–¾l1=>ß¤>I7L  Aƒ)_:-àAŒ;?—$tSóMAtÇ:Ä›¦À  À  >œ(ö@"Ğå`B@Hë…¸R@‡     NOT_AVAILABLE@r$¹÷@ˆÎÀ.İ²v­‚ñ@/ì?¼j     £ã§?ïÌÁ24º¿øÙ€   À:¥¡À          G@rÔrÿ.§À/k¼«1:˜TTTFTTTF1÷€                       ?î8D´´ÓQ     ÖQ?©™™™™™š@.àÄ    @2±&à   @0;¥à   ?©™™™™™š@XÀ     AX$İ?©™™    @/m‘`   ?©™™    @XÀ     ?ª¬    @XÀ     =_è@XÀ     @:’    ?ÿ1&à   ?¯;d`   @1R°    @,H1    ?ëP­Â !:Ö Ëİ @rÔl_¬’=¨ŒçÀ/kÌ`§.à=¥zx@ÈK]Ìd=áä÷>¸R>%¾äx>¡Ë>hXy  A†ú­:ªdÃA‘Œ³?Ov_Ø­¬A{‘Ñ;­«ŸÀ  À      @‰lIº^@RMÒñ©ûç@iÀ(õÂ\NOT_AVAILABLE@rÔrÿ.§@Ô•À/k¼«1:˜?ù‰7>´ã½     £“y?ïk¼y®ĞL¿ö—@   À;Ö           F@rb9,éºÀ0¼lTTTFTTTF™€                       ?ïïš”È9R     5‘?©™™™™™š@)Ã•€   @+øÕ    @*“€   ?©™™    ?¬(õÀ   A6‹D?©™™    @)î€   ?©™™    @&œ¬    ?©™™™™™š@0Ù    =_¿ƒ?¹™™™™™š?ä;Í@   ?â Ä    ?¬(õÀ   @*¦f`   @'®—€   ?ï»µò:q Ó€@rb5\<³g¡À0†¹€ëQ<¯O@
+(Xy=Ù<Æ?='ï=P¾¶ı"=)“>($  AU;:oA]Hé?b×süPHAJ‡ı;#×
+B*×
+@
+=q    @æ-V@~å`A‰7@{¦záG®NOT_AVAILABLE@rb9,éº?!ŞjÀ0¼l?%>¦éy     ¢†Ş?ïÅ#8îá¿è9X    À;O\           E@r8 øÖôÀ/×¬õ®•TTTFTTTF ò€                       ?íÇÄ|{ù     ?©™™™™™š@.O\    @2–E    @0®    ?©™™™™™š?©™™™™™šAS?}?©™™™™™š@.î€   ?©™™™™™š@)İ²    ?©™™™™™š@XÀ     =nÕö@XÀ     @ŠÚÀ   @¯·à   ?©™™™™™š@1.—€   @+Ÿ;`   ?êKM‘Š4±:oh -›€@r7øÎšò=ÑN<À/×»©_YŠ=ŸŠ	@.}Vlô=Ò½<>‚J>333>:áH¾Hè§¾ÄtT  A…1[:ªdÃAÉº?“àŞÒˆÎAwx;°ò|À  À  >Ù@‹Ä›¥ãT@M+C•%@i
+“t¼NOT_AVAILABLE@r8 øÖô@|VÖÀ/×¬õ®•@-}¿À       ¢Ó?ïtŸ2:‚}¿ûÒñ    À; Ä           D@rÓ ãÇ²À0-£|ÏTTTFTTTF¼ €                       ?ïòİ¶9     [ú‡?©™™    @'ÍOà   @XÀ     @('l€   ?©™™    ?«"Ğà   A{?©™™™™™š@$”zà   ?©™™    @!ß¾€   @XÀ     @(b@   =amÌ?¹™™    ?õ}V`   ?ñl‹@   ?¬(õÀ   @,%ã`   @"‚`   ?ïNfÈC?*:bÉ ãê€@rÓQ$=,qÀ0-«tpÓ=Ft@Á½¥=,1=²-=\)=Yè>¼Ÿ¾w¼¯O  A%ß¤:IRA+ ?`bMÒñ©üAâ:-àB-\)=õÂ    @İNÙ‡+@€Ï\(õÃ@†Æ§ï²NOT_AVAILABLE@rÓ ãÇ²?«ê³À0-£|Ï?‹dZÀ       ¢^?ïşÊ0Oß¿ö^5@   À;V           C@rˆ13À0>¼¸r@ÈTTTFTTTF] *                      ?ïÌRé¨A     -ß€@XÀ     @XÀ     @XÀ     @$†§à   @XÀ     ?«"Ğà   A©ü?©™™    @$šŸÀ   ?©™™    @!ûç`   @XÀ     @(9Û    =c+Î?¹™™    ?ù½¥    ?õ*0`   ?¬(õÀ   @XÀ     @"£×    ?îV3m:ap í€@r‚sç=iá±À0>ÄY­º=JW¨@VÕÏªÍŸ=h§=Ôıô=®{½õÂ½-à¾9Àì A%_p:Q·A*Á¾?X“t¼j~úAİ˜:ªdÃB-ë…>³33    @”wcS÷ÎÙ@†?¬1'@‰¡A‰7KÇNOT_AVAILABLE@rˆ13?Íí)À0>¼¸r@È?©QƒÀ       ¢Yæ?ïı¢tù¿ô-`   À;
+=€          B@rS04Œ`À0A*JÆyTTTFTTTFO~€                       ?ï÷,eP)%     aµ´?©™™    @*˜“€   @-¿|à   @+Iº`   ?©™™    ?¬(õÀ   A;ûç?©™™    @+`   ?©™™™™™š@''ï    ?©™™    @1G+    =yı‚?º^5@   ?è:û€   ?ç'À   ?­²-    @+õÂ€   @(‚`   ?ïy«zòÎ:`Ø b=€@rS+ÆØ™<Ä›¦À0A2õ9<¼j@
+Éº^5?}<æ1ù=H´9=<j¾2a|=û²ÿ>–8†  A_RT9Ñ·Ai…?dzáG®{AS<Ÿ;0ò|À  À      @§šU$İ@{t¼j~ú@yd-VNOT_AVAILABLE@rS04Œ`?A×ÜÀ0A*JÆy?8y>>œ(ö     ¢Xf?ïÅán˜!U¿î$İ    À;ª           A@rC$@bWÀ0" 0.îkTTTFTTTFùÒ€                       ?ï½hæ¼|’     º]?©™™™™™š@,¼j€   @0¸“€   @-£×    ?©™™™™™š?©™™™™™šAHE¢?©™™™™™š@-¸`   ?©™™™™™š@(Ä    ?©™™™™™š@3 À   =_¿ƒ?½ó¶@   ?ñ
+¦@   ?î²•à   ?©™™™™™š@.äİ    @*NV    ?îsuÜ*´:]¹ Ûü @rC”Ì‘=+À0"§­Ş‰=–¼@
+&Á½¥=,Ùè=Oß=}ó¶¾±u=¥ãT>²£ Au:IRAÉº?x“t¼j~úAf~:ëíúÀ  À      @œr° Äœ@fµ©ûçl‹@‚zûçl‹DNOT_AVAILABLE@rC$@bW?ˆU2À0" 0.îk?u”¯?-<6     ¢N?ï"©õ ©¿ö´9`   À:ŒIÀ          @@rÇ®ÛKÀ05)÷TTTFTTTF’ê                       ?ïí‹KT     G—ê?¶    @%ó¶@   @XÀ     @&yX    ?©™™    ?©™™™™™šAV?©™™™™™š@#%ã`   ?©™™    @"_;`   @XÀ     @&¶ÈÀ   =lÁ%?¹™™    @µ%@   @‰îÀ   ?±©ûà   @*‡+    @!-`   ?îvUÍx?„:\q Û` @rÇ©âˆ>h>BÀ05çš¡>`ù	@.}Vlô>Œ¿±>äİ/>ÊÀƒ¾Ö_Ù=P>A×Ü  AbN9IRAñA?Z6âëC-A»0;-àB"ë…@¸?¾w@­å’n—P@…œj~ùÛ#@~IS÷ÎÙNOT_AVAILABLE@rÇ®ÛK@İ©*À05)÷@ÄOvÀ       ¢Je?ïş¦×rÄ¿ğéxà   À;nÙ           ?@rõò‡À03
+)-›¦TTTFTTTF l                      ?ïøÓ*/Pd     HÇ?©™™™™™š@+<í    @.‰7@   @,¥à   ?©™™™™™š?¬(õÀ   A?C–?©™™™™™š@+å`   ?©™™™™™š@'ˆ´@   ?©™™™™™š@1ƒ`   =c+Î?¹™™™™™š?éŸU    ?ç£n    ?«¥ã`   @,Ø“€   @(ò°    ?ïqÀƒÊ{¾:[ Ùè @rõí]Ö<Ü]dÀ03·C=ä<Ô,=@
+kC,¥z<ù	l=Tıô=D›¦¾¦ö”= 'R>Ã,¥  Ae6:7€4Ap/ƒ?h“t¼j~úAX‘Ñ;0ò|À  À      @—s1&éy@vØ$İ/ @y*bMÒòNOT_AVAILABLE@rõò‡?Lú­À03
+)-›¦?=q>B\     ¢F?ïî]|e ¿îE¡À   À:Æf`          >@r–ÀğºWÀ06¬¥+qiTTTFTTTFŠ                       ?ïE]KÜ+ı     W2@XÀ     @XÀ     @XÀ     @$î—€   ?©™™    ?«¥ã`   Ar°?©™™    @#m`   ?©™™    @!¦f`   @XÀ     @'På`   =c+Î?¹™™    ?ùÙè@   ?öiD`   ?ÄıóÀ   @&Ö‡    @"…¡À   ?èëïÌîú*:Y± 9€@r–¸Q¼=W
+=À06´5™ÅZ=F?@	Ö¡aä÷f=V=Ôıô=¸Qì¾ù#£>K)_>|î AË)9IRA$€4?UL˜_ö”Aó;»™B.™š@‚=q=áG®@ªJô¼j~ú@Š¿|í‘hs@|ôÀƒn˜NOT_AVAILABLE@r–ÀğºW?ÎÏBÀ06¬¥+qi?³J#À       ¢AÜ?ïò¼y¿ıX`   À:Î—€          =@rñş\À04ÈÿÉˆTTTFTTTF”‘ \                      ?ïÈLA[     xè?©™™    @'³¶@   @XÀ     @'÷KÀ   ?©™™    ?¬¬@   A'ë…?©™™    @'Ş¸`   ?©™™    @$âMà   @XÀ     @,NV    =dù.?¹™™™™™š?òÅm`   ?ğ    ?¬(õÀ   @(šŸÀ   @%É7@   ?îU}ïµÙd:W¸ ä @rñüúŒƒ=	À04Ğfò•Æ=8ºÇ@Ëûµsë=j³h=›¥ã=…¸¾óg¡>\‘Ñ>*~ú  ABö+9Q·AIÜÆ?S©*0U2aA9¥:-àBA=q@à£×    @¶úŒIº^5@‹™í‘hr°@“t¼jNOT_AVAILABLE@rñş\?–+kÀ04ÈÿÉˆ?€ ?"{³     ¢;ú?ïYægE¿ÎùÛ    À:<j€          <@rõÍÕØ±À0Bhªw- TTTFTTTFHC A                      ?ïøë,×     5Ÿ„?©™™™™™š@)•€   @+ùX    @) Ä    ?©™™    ?«¥ã`   A-ûç?©™™    @)X`   ?©™™    @%ŠÀ€   ?©™™™™™š@0A    =c+Î?¹™™™™™š?ìÕÏ    ?êœw    ?¬¬@   @*r°    @&äZ    ?ï¹§¤#ˆ:VÉ ÛK @rõÉjÚü<éxÕÀ0BpÌ‚<ÿ—$@	ö+jçÕg=7€4=m‘h=]/¾È>B>”ğØ>>Åm  AR%F9Ñ·A\	?dzáG®{AFFt:kíúB„{AC…=²-@£áp Ä›¦@{-V@“äZ¬NOT_AVAILABLE@rõÍÕØ±?f®}À0Bhªw- ?Tã½À       ¢8è?ïÇÛÿØ¿îIÀ   À:YX           ;@rî0Â•‘À0JôZÌ:’TTTFTTTFà€                       ?ïïY<Ò
+{     5á?©™™™™™š@.6ÈÀ   @2      @/    ?©™™™™™š?©™™™™™šAR›¦?©™™™™™š@.›"à   ?©™™™™™š@)×
+@   ?©™™™™™š@5“€   =c+Î?½ó¶@   ?ı¯O    ?ù¹Œ€   ?©™™™™™š@0£`   @+° À   ?ïÃ‰dË;Ï:V8 "7 @rî.).[=k…À0JûÅbE&=‰ '@
+ÇË)^=´9X=õÂ=Ôıô¾ú¬Ú>–4=/·é  A‚ŠÛ:Q·A‹†Â?‚£S&ÂAt%;†YKÀ  À      @•]™™™™š@]öéxÔıô@pŸ®záHNOT_AVAILABLE@rî0Â•‘?ízxÀ0JôZÌ:’?ÍÌd>­Oß     ¢7/?ïÌoÉ˜¿á²-    À:HrÀ          :@rªÑ	âÀ0OßíŒœTTTFTTTFûG€                       ?ïš#=»2     G— @XÀ     @XÀ     @XÀ     @$¦é€   ?©™™    ?©™™™™™šAñª?©™™    @$¯    ?©™™    @#„›    @XÀ     @*“÷À   =c+Î?¹™™™™™š?ñ    ?íæšà   ?¬(õÀ   @$Â`   @"­‘`   ?íõœŒiìo:Ui ÜY€@rªÎJ™3=OßÀ0OçL›J<û~‘@
+#n.±Ä3=)“=Oß=uÂ¾Íw2>333>^	  A&c :oA,©?PbMÒñ©üA‚ª:kíúB+(öAff    @¡GÍOß;d@º™™™™š@’Ê$İ/ NOT_AVAILABLE@rªÑ	â?ˆ ÅÀ0OßíŒœ?o4×À       ¢4 ?ïşáßE ‡¿â° À   À:¾€          9@r9ÜîìÀ0VŞ˜8TTTFTTTFÓr (                      ?ï±·¤B¨     G—<@XÀ     @XÀ     @XÀ     @$Y€   ?©™™    ?«¥ã`   A?}?©™™    @$$Z    ?©™™    @!±&à   @XÀ     @*Û¥à   =dù.?¹™™™™™š?ò×s    ?ò<6    ?­²-    @%@   @"["à   ?îëåqİ{:T¡ ÚÊ @r9Öfš=ÇãÀ0VæbÓ¤=éâ@öı!ÿ.I=D›¦=›¥ã=•¾²Ta>kP±>¦
+¦  A$$9IRA)Ìd?@bMÒñ©üAB[:Ä›¦À  À      @¯kA$İ/@¡œöE¡ÊÁ@‡Û"Ğå`NOT_AVAILABLE@r9Üîì?–»™À0VŞ˜8?‘á±À       ¢2C?ïı¥ú«Ñœ¿ö5?€   À:k           8@r×‘CVÀ0RŒí3«›TTTFTTTFë¿ 0                      ?ïô å[     G—@?©™™    @%ff`   @XÀ     @&€     ?©™™™™™š?«¥ã`   Aƒ?©™™™™™š@&t¼`   ?©™™™™™š@!ò-    @XÀ     @(bĞà   =dù.?¹Û"à   ?õ›¥à   ?óº^@   ?¬¬@   @':^@   @"­`   ?ï<§C³ü1:Sp   @rÑ®‹ª=)“À0R”aÉb!=7€4@	×Ûô‡ü¹=poi=²-=¡ÊÁ¾ã¼Ó>‰ù>p‰   A%ß¤9Ñ·A+„¶?@bMÒñ©üA£:IRB&(ö?LÌÍ    @¤§Ñë…¸@¡@õ?|í‘@Œ´záG®NOT_AVAILABLE@r×‘CV?¬İ/À0RŒí3«›?Òò?´Æ?     ¢.<?ïÿups¢ë¿ô    À:l@          7@r2ÆŸÈCÀ0[éĞ)•ÔTTTFTTTF¶×€                       ?ïõ	…ÀRû     5Ÿ:?©™™    @*1ª    @,­‘`   @*–    ?©™™™™™š?¬¬@   A:b?©™™    @*t¼`   ?©™™™™™š@&ıp    ?©™™™™™š@0^¸`   =hÀ–?¹™™™™™š?í·é    ?ê ÑÀ   ?¬¬@   @+X`   @(F$à   ?ïÈ¥…:QÙ Ú€@r2Âµ<ÿ—$À0[ñ7,<üPH@	ùÛ"Ğå`=(ÁU=uÂ=Tıô¾Å>BÃÊ>8Ôş  AY‹¬9IRAb`ª?a4êJŒAN²:IRÀ  À  >!ÊÁ@©·[¥ãSø@Ç\(õÂ@Œ ñ©ûçmNOT_AVAILABLE@r2ÆŸÈC?m¿HÀ0[éĞ)•Ô?PÀ       ¢)Z?ïÜm‘¤’¿ë®€   À;BMà          6@rÇÇr3¾À0]D
+£ mTTTFTTTF¯€                       ?ïXù¼ï´Ô     TNE?ª¬    @0Îà   @3hõÀ   @0ô9`   ?©™™™™™š?´zá@   AbÔş?©™™™™™š@0d    ?©™™™™™š@+½óÀ   ?©™™™™™š@6eÀ   =ƒ"Ğ?ÀÄ›    @
+¯·à   @Ù€   ?¯¾vÀ   @2'l€   @-†§à   ?í‡e“è*N:Q¹ Ú€@rÇÂ)Óµ=éùÀ0]KÀP7=ğ@
+ùÛ"Ğå`>ÚQ>\(ö>D›¦¾Ä%¯>,Ùè>—s  A-¬:ŞÒ‰A—iD?¦z–»™Aƒ†Â<ATÊÀ  À  >}ó¶@ƒæZ¬1@8´9XbN@Vé7KÆ§ğNOT_AVAILABLE@rÇÇr3¾@U}¿À0]D
+£ m@>È´À       ¢(ø?ïÇ¹§­œš¿ñ÷Îà   À:Û¥à          5@rtAŞ¿À0b]ÂÄÇVTTTFTTTF‘x j                      ?ïİ8b-ÈV     Z£?©™™™™™š@*cT    @.[¥à   @+9X    ?©™™™™™š?©™™™™™šA6İ/?©™™™™™š@*ËC    ?©™™™™™š@'&f`   ?©™™™™™š@1ñ&à   =hÀ–?½ó¶@   ?èe    ?åL˜`   ?©™™™™™š@,EÀ   @(bĞà   ?ìF U‘¹™:Q™ Ú€@rt	‚Êõ<Îp;À0berèå8<Í„@
+ÿ.Hè§=‡”=H´9=0 Å¾Í„M>F$İ>/iD  A`ƒ:Q·AlüP?pË)^	ARÕg;e`BÀ  À      @–p¾vÈ´@p‹;dZ¬@sŒIº^5?NOT_AVAILABLE@rtAŞ¿?@Ë)À0b]ÂÄÇV?*dÃÀ       ¢(‘?ïÁø¯ŸÑ¿ó‰7@   À;>ùà          4@r'­ÍiÀ0k¬ïx#TTTFTTTF_g€                       ?ìó’‹A     Iô¸?©™™    @)9Û    @+İ²    @XÀ     @XÀ     ?®5?€   A2¬@XÀ     @XÀ     @XÀ     @%âĞà   ?©™™    @/ÚŸÀ   =|\‰?½ó¶@   ?åxÕ    ?ãˆe    ?¯;d`   @XÀ     @'+…    ?èLËLy¤U:Q! Ùç€@r'DK<µÀ0k@Û<³g¡@
+	 'RTa<êJŒ=0 Å=¾w¾ÈõÃ>P©>„İ/  AS#£:7€4A\E9?h“t¼j~úAGç:ŞÒ‰À  À      @—†ÎÙ‡+@v¯/Ÿ¾w@„U×
+=p¤NOT_AVAILABLE@r'­Íi?+Æ¨À0k¬ïx#?C-?N($     ¢'?ïĞïW4¿è´9`   À:Û"à          3@ræÙÎhÀ0?E
+Z¨ÁTTTFTTTFZ. i                      ?ïÎkcD¾J     5 ?©™™™™™š@)÷KÀ   @,èrÀ   @*¦f`   ?©™™™™™š?«"Ğà   A5V?©™™    @*D›    ?©™™™™™š@&dZ    ?©™™™™™š@0Æ§à   =_¿ƒ?¹™™™™™š?øıŠà   ?õ~ùà   ?©™™™™™š@+U    @'åã`   ?îË²ÿô:Nà $=€@ræÔ‘ç=TıôÀ0?L«›Î=6E¢@¬¥zxl"=gÕg=ÎÙ=²-¾˜†Y=É…ğ>‘©ü  AZ+k9Ñ·Adcñ?b×süPHAN :kíúB,¸R@Î{>³33@§\ÌÌÌÌÍ@}ïûçl‹D@“R/Ÿ¾wNOT_AVAILABLE@ræÙÎh?ÇìWÀ0?E
+Z¨Á?«÷ÏÀ       ¢ ?ïZqoîU¿ñÒñ    À;rÀ          2@rC2.ÑÀ0b*í´£áTTTFTTTF’ª€                       ?îĞrˆI6˜     U ?ª¬    @0¿¾€   @4v    @1®—€   ?©™™™™™š?·ÎÙ    Aj›¦?©™™™™™š@1$à   ?©™™™™™š@,ÅÀ   ?©™™™™™š@7vÈÀ   =œÔF?ÇÎÙ    @Ø`   @×ÁÀ   ?±©ûà   @3"`   @.¨rÀ   ?êÛ.;»Ã:I™ &Ú€@r? û>7€4À0b2ŠÀé>/ƒ{@
+†ö”Fs‚>Pÿ—>´9X>¬1¾o =ÜÆ?>Ìcñ  A’´×;	 'A¾B?¯Ø­«ŸU›Aˆ¤@<uÀ  À  >×P@¯t¼j~ú@1q©ûçl‹@\ùë…¸RNOT_AVAILABLE@rC2.Ñ@®ÀƒÀ0b*í´£á@¦¾À       ¢?ëÙäãÀYg¿ë¥ã`   À:ûd`          1@rşÂT"íÀ0kë)TTTFTTTFZ€                       ?ïôB³=·     5¢%@XÀ     @XÀ     @(p£à   @')xà   ?©™™    ?«¥ã`   A#G®?©™™    @')ûà   ?©™™    @$C•€   ?©™™    @-µÂ€   =c+Î?¹™™™™™š?òlô    ?ğ$İ    ?¬(õÀ   @'X`   @%$à   ?ï‘PÆxİ:Eù Ø˜ @rş¿ =wšÀ0kò€ü@å=_@	ü„µÜÆ?=E=—P=…¸¾ë)_>ç>.²  A;89Q·AA]Ì?`bMÒñ©üA2£:Ñ·BZ®@¸R    @²:1ë…¸@€—1&éy@…vÈ´9XNOT_AVAILABLE@rşÂT"í?“g¡À0kë)?&é?ó¶     ¢?ïèR{”œ¯¿æ    À:BMà          0@rPĞqÀ0pDI…—õTTTFTTTFA"€                       ?ï¡‡ñÜ‡c     )?©™™™™™š@.¥ã`   @2È1    @04¼`   ?©™™™™™š?©™™™™™šAVE¢?©™™™™™š@/?|à   ?©™™™™™š@*&é€   ?©™™™™™š@6§à   =|\‰?¾vÈÀ   @œÀ   ?ÿµÜÀ   ?©™™™™™š@1rn    @,$à   ?ïW¸	Ò\‹:E¹ Ø6 @rP€==¤xÀ0pK±·M*=¡ÿ.@fšÔ,<Ÿ=Ö>™š>o¾ãñA=şùÛ>‘N<  A†–S:IRA‘½Ù?‘4êJŒAzE¢;‰ 'À  À  >W
+=@Œ9$İ/ @P!hr° Å@pOß;dNOT_AVAILABLE@rPĞq@àvÀ0pDI…—õ?ı®æ?õZ     ¢P?ï–oS?y¿òb@   À:@            /@r@÷ô©òÀ0%uÃÂ•TTTFTTTFê€                       ?ïÑ~£Dé!     2C?©™™™™™š@.Rn    @2+Æ    @/ºá@   ?©™™™™™š?©™™™™™šARñª?©™™™™™š@.Å¡À   ?©™™    @)ÚŸÀ   ?©™™    @XÀ     =c+Î@XÀ     @
+<j€   @ŸU    ?©™™™™™š@0Åã`   @+Á    ?ï9¤ì:=˜ 'õ @r@ğIÌ£=ÀN¥À0%}M5g=¦L0@	&€IQƒ=ÑÎ>Xb>!ÊÁ>Kû¾”¾)Çz  AƒƒG:·€4A#n?‰Î_oÒ Au¬q;Q·À  À  >„“@ˆ6Që…¸@U~éxÔıô@u@›¥ãSøNOT_AVAILABLE@r@÷ô©ò@QãTÀ0%uÃÂ•@ú­?O²     ¡ìs?ï•0kn¿ú“€   À:¸“€          .@r½Âç#nÀ0)<	¯¹éTTTFTTTFÕ€                       ?ïÚôÜ%Êu     +![?ª¬    @*“tÀ   @-l‹@   @+p À   ?ª¬    ?©™™™™™šA;
+=?«"Ğà   @*Õ    ?©™™    @'[¥à   ?©™™    @0é7@   =_¿ƒ?¼¬@   ?óóM`   ?í©ûà   ?¬(õÀ   @+¼j€   @(m‘`   ?î‡ş\ËÇK:<ñ Ğş€@r½»§ ü=áÀ0)C¤±¨<õÂ@
+ÚQÎ=)ûç=£×
+=uÂ>N¾à¾ÆYK¾r-  A^5¨:IRAgâë?fOv_Ø®ARjè:IRÀ  À      @š¬®záH@xîùÛ"Ğå@ŒùÛ"ĞåNOT_AVAILABLE@r½Âç#n?ŸškÀ0)<	¯¹é?mOß>ñhs     ¡ê›?ï®AÅïÖ¿ø¬@   À:ótÀ          -@r	dI¹À0™¸|ç9éTTTFTTTFJÔ +                      ?ïÛ`U¿?     G–¨@XÀ     @XÀ     @XÀ     @$“÷À   ?©™™    ?«"Ğà   AKÇ?©™™    @$±&à   ?©™™    @"V‡    @XÀ     @(B`   =_¿ƒ?¹™™    ?ômÅà   ?ñQ‚    ?¬(õÀ   @$†§à   @"áG    ?îëq0¿ñ¥:I Æ}€@r	`Ls='çÀ0™À]=2•ê@	p¸ºÇ=v”F=§ï=\)¾ê>…ãT=…‡”  A&•9Ñ·A+®æ?Vğ¸ºÇAJŒ:-àB'zá?Që…    @¤     @ˆzáG®@®¬1'NOT_AVAILABLE@r	dI¹?£n/À0™¸|ç9é?ŠŒÀ       ¡€à?ïş•­ûK¿íOß@   À:î—€          ,@r]3°Â¼À0Ÿ¸¤¸
+èTTTFTTTF%“€                       ?ïÀEb<?     ?©™™™™™š@,ËÆ    @0Ä›    @-À     ?©™™™™™š?©™™™™™šAH$İ?©™™™™™š@-,‹@   ?©™™™™™š@(Š=€   ?©™™™™™š@3®€   =c+Î?½ó¶@   ?ñœà€   ?ïŒ~    ?©™™™™™š@/›    @*LÌÀ   ?îûŞP^k:ñ Æ«€@r].mÀ=»™À0Ÿ¿ş2?=á@
+t‡ü¹#£=?±[=‘hs=ƒo¾Àëî>9#£>}Vm  Av  :IRA‚oÒ?|C,¥zxlAf×s:ù	lÀ  À      @šSŞ5?|î@cÊ—Oß;@‚‹C•NOT_AVAILABLE@r]3°Â¼?ŒçÀ0Ÿ¸¤¸
+è?|cñ>ÈõÃ     ¡|¨?în±ôÈá¿ó¸`   À:@          +@r[“–9À0Çc‘á¨TTTFTTTF0  D                      ?ïøpd}     5¨?©™™™™™š@(‹Æ    @+s¶@   @)'l€   ?©™™    ?©™™™™™šA+¸?©™™    @)ß@   ?©™™    @%œ¬    ?©™™™™™š@/V    =fÕ?¹™™™™™š?óC•€   ?îû~    ?©™™™™™š@)“÷À   @&şvÀ   ?ïÄ*oåè:	 ÄF€@r[ÕüÛ='ïÀ0ÇjóÅßD=àv@
+Yb¶®}=Gâ‚=Ÿ¾w=}ó¶¾Ç8<§ï>t¼  ALP;»™AUˆÎ?4êJŒAA®};ëíúÀ  À      @}­xÔıó¶@`4     @bÌ›¥ãSøNOT_AVAILABLE@r[“–9?š¬À0Çc‘á¨?wÛõ?gl‹     ¡nD?ïšzU	/[¿ó    À:)º`          *@rzˆ°‚À0Ê0.OoTTTFTTTF²€                       ?ï¬1qğÓî     5¨?©™™™™™š@)|à   @+xÕ    @)´¼`   ?©™™    ?©™™™™™šA6n˜?©™™    @)Oß@   ?©™™    @&ğ À   ?©™™    @/Æ$à   =c+Î?¹™™™™™š?ç”¯@   ?âÀƒ    ?©™™™™™š@*
+=€   @'ÊÀ€   ?ïBìşì: Ãv @rz›«¨Ì<Í„À0Ê7­Íäh<¸Qì@	N;Í5¨X<ú¬Ú=D›¦=¥ã¾ÚCş>   >®  AR½<:IRAZfÏ?kÚQÎ_AH¶F:Ä›¦B*áHA$õÃ    @Ç7KÆ§ğ@sÿãS÷ÎÙ@†²A‰7KÇNOT_AVAILABLE@rzˆ°‚?<¥zÀ0Ê0.Oo?>;dZ     ¡PT?ï¿˜kV
+ ¿ãl‹@   À:’°           )@r"œQ„ØÀ0‘‹'q,TTTFTTTF|m€                       ?ïg
+z~æv     ç¶?©™™    @-wKÀ   @1şvÀ   @/    ?©™™™™™š?©™™™™™šAL“u?©™™    @.n    ?©™™    @)    ?ª¬    @XÀ     =hÀ–@XÀ     @±    @ '`   ?©™™™™™š@0”zà   @*ÍÓ    ?îÛAsV:wQ ÀÛ @r"™è~>+P±À0‘’¬>kQ@«Iº^>=Ù>¶E¢>®—½£¢œ>0¾>qA   A‡ı:IRA‹ÀO?Œ¾ß¤?æAp¤@;oÀ  À  ?™‡@}fffff@Sáë…¸R@(õÂ\NOT_AVAILABLE@r"œQ„Ø@°…ˆÀ0‘‹'q,@©;À       —f“?ïŒ|¯ƒáÀ¿àbMà   À:¤İ           (@rT=åáÀ0ÌIzQOµTTTFTTTF€€                       ?ïVÒ€J´     à?©™™™™™š@-~vÀ   @1½óÀ   @.¼í    ?©™™™™™š?©™™™™™šAKãT?©™™    @-Â@   ?©™™    @(ûd`   ?©™™    @XÀ     =j¹ç@XÀ     ?ÿ²•à   ?ı+ÓÀ   ?­²-    @0©ûà   @*Ã•€   ?íy‡âÒ:]I °æ€@rT6#ÛV=ƒ¯¸À0ÌPì	[§=m‘h@	Áò×s= ù	>o=ñ©ü¾»~‘>1A >¶ı"  A€È:-àAŠ?Š	Ş ÒAnq;ƒoÀ  À  >–@÷ÎÙ‡@aˆ‹C•@pÈ° Ä›¦NOT_AVAILABLE@rT=åá?ı”¯À0ÌIzQOµ?é^À       —&?ï¶JõP©¿úQë€   À:aÊÀ          '@rïÃÀ<NÀ/ŞìäÑB¬TTTFTTTFÍ€                       ?ïÛÌaÂ0     ä!?©™™™™™š@/åã`   @3f$à   @0ñë€   ?©™™™™™š?©™™™™™šA`1'?©™™™™™š@09€   ?©™™™™™š@+;d`   ?©™™™™™š@57
+@   =j¹ç?¾5?€   @    @™0À   ?©™™™™™š@2:    @-/    ?ïºKŒ[8»ï94€@rï¾îJ> À/Şû¤„ºÕ>Æ¨@‹'»/ì>8Ôş>ŒIº>k…¾±N<=ê>8ï5  AŒ	;‰ 'A—«?§Á½¥œàA‚iy<–»™À  À  ?,‹D@pIn—P@7`     @M‚-VNOT_AVAILABLE@rïÃÀ<N@ˆ1À/ŞìäÑB¬@dÉ†À       KT-?ï 
+–g¼{¿ğn—€   À:"`          &@r4chÀ0E$É³[ÅTTTFTTTF8n /                      ?ï£æKİK     5–?©™™    @'çl€   @XÀ     @$×
+@   ?¸Ôş    ?¬(õÀ   A´9?©™™    @XÀ     @XÀ     @"^¸`   @XÀ     @(!G    =fÕ?¹™™    ?ù Ä    ?ôBÃÀ   ?¬(õÀ   @*¡G    @#`   ?í®ögÙD8»à î @r‡ü=A½¥À0E,N;D=49X@@N¤¨Á=eÉ=ÎÙ=§ï=Ä›¦¾i­C¾:Cş  A'zá:IRA,c?UL˜_ö”A L˜:IRB(ff?.{    @šqÎÙ‡+@‰œÊÀƒo@dZ¬NOT_AVAILABLE@r4ch?É%À0E$É³[Å?¢?¤ÌÍ     Kd?ïøkvã¿ÖÈ´@   À:¤›           %@r$¹JÀ0IdxŒ,TTTFTTTF©€                       ?ïè¥%<Aı     ğ½?©™™™™™š@.§à   @1ß|à   @/G®    ?©™™™™™š?©™™™™™šAQX?©™™™™™š@.vE    ?©™™™™™š@)¥`@   ?©™™™™™š@4¸Õ    =s&ì?½ó¶@   @„ê@   @ b@   ?©™™™™™š@0‡®    @+Š=€   ?ï¸›ĞJw8»µ¹u€@r$·Í3=”FtÀ0Il3®-ÿ=q@
+ãˆe”¯O=Ä2Ê>B\>“>†éy¾†šÔ¾İŠÛ  AÆÜ:-àA‹{?ƒt¼j~ùÛAr¹$;*dÃÀ  À  >“u@×•$İ@\~E¡ÊÀƒ@zL£×
+=qNOT_AVAILABLE@r$¹J@<'RÀ0IdxŒ,@ ƒ>Ë’     J{?ïÆ·?Àí¿ŞV    À;eã`          $@r§a¿tÀ0O§”¡:·TTTFTTTFüx€                       ?ïìÈ©ò     5ş?©™™™™™š@)Oà   @,‡®    @*      ?©™™™™™š?¬(õÀ   A2 Å?©™™    @*´@   ?©™™    @&•€   ?©™™™™™š@/¾ùà   =^!P?¹™™™™™š?îT`    ?èÎp@   ?©™™™™™š@*şùà   @'–‡    ?ïNB¦Èe8»µ‰0 @r¤¦V+<Û‹¬À0O¯0æ<Ú¹õ@	¢3œ¾à= I=yÛ#=LÌÍ>På`¾†Â¾Oùr  AU.²;#×
+A^9Á?‚:)Çy¦µAIáH;Û‹¬BZáHAQÂ    @zè¼j~ùÛ@^©ë…¸R@d9hr° ÅNOT_AVAILABLE@r§a¿t?r£À0O§”¡:·?Fs‚?-Oß     Jzf?ïÀ&Pz•Ì¿â—@   À:OÀ          #@r„¢–dÓÀ0Sgl&UTTTTTTTFç€                       ?ïÆë§ò°î     V?©™™™™™š@/¬‹@   @3@A€   @0§+    ?©™™™™™š?©™™™™™šA]²?©™™™™™š@0)ûà   ?©™™™™™š@+LÌÀ   ?©™™™™™š@6Gl€   =…»¥?¾ùÛ    @p£à   @>(    ?©™™™™™š@1ã•€   @-)    ?ïKèà‹Té8»³8 €@r„›3û˜>#×
+À0Sná!<>2-@záG®>‰kº>¹X>†$İ>‚u%¾³Ãa¾µL˜  AŠ¤İ;»™A–{?¥sê³g ùAS[;ù	lÀ  À  >Ä“@}Ä(õÂ\@9ìÌÌÌÌÍ@aòvÈ´9XNOT_AVAILABLE@r„¢–dÓ@³…À0Sgl&U@ñAÀ       Jr?îıjb!)Z¿ù¸`   À:mOà          "@r	à©€#À0Uÿ¬?†TTTFTTTFÛK O                      ?ïûg9x\     5r@XÀ     @XÀ     @)•    @(ixà   ?©™™    ?¬(õÀ   A*Ôş?©™™    @($Z    ?©™™    @%5?€   ?©™™    @,å`   =_¿ƒ?¹™™™™™š@Ô,@   @    ?¬(õÀ   @(KC    @&    ?ï¸ï³{“á8»²¨ ş€@r	à¤ÄÏ4=r×À0U‡‡s\Z=JÀƒ@	ffffff=ÅÖ9>ƒ•>%ãT?;/ì¿'šk¿1Å  ABÖ¡9Q·AI(?]}¿HË’A:?æ:-àB.…?«…    @²ÜP Ä›¦@ƒJ
+=p£×@“´9XbNOT_AVAILABLE@r	à©€#@~¡bÀ0Uÿ¬?†@  >º¹õ     Joı?ïÚêŞÃî¤¿ìİ/    À:° À          !@rÌ+óßòÀ0\^367TTTFTTTF´H€                       ?ïLøÊËŠ     ı!?©™™™™™š@.ñ    @2‚`   @/ì‹@   ?©™™™™™š?©™™™™™šAPV?©™™™™™š@.¬‹@   ?©™™™™™š@)•    ?©™™™™™š@5¯ß@   =_¿ƒ?¾5?€   @‚Zà   @d÷`   ?©™™™™™š@13÷À   @+eã`   ?î
+nÄzf_8»²` Á€@rÌ#ú¬<=á°ŠÀ0\eÈ"Ai=À7@¨õÂ\)>J>ˆ1'>A‰7>½¥¾{¾Åğo  A„¶F:Ä›¦AP?•ÏªÍƒäAvrG;#×
+À  À  >­V@‡È´9X@I…?|í‘h@zÎn—OßNOT_AVAILABLE@rÌ+óßò@„×À0\^367@;'»À       Jo?ï¸5º–	l¿û¸`   À:ŞvÀ           @r¾Ó}À0=yÙ¿1UTTTFTTTFdH BSB2                   ?ïşÕ
+ú§¸     xÉ?©™™    @&)ûà   @(@   @(xQà   ?©™™    ?«¥ã`   AÎÙ?©™™    @&]/    ?©™™    @#—@   ?©™™    @,
+@   =_¿ƒ?¹™™™™™š@ ğo`   ?ù)Ç€   ?¬(õÀ   @' ƒ    @$NÙ    ?ïıÂ“d8»¯p   @r¹»4`=Š	À0=zIÃQ=V8†@	g ù	kº=iù>Iº=ÎÙ¾6ã½»/ì¾Çy§  A5($:oA;=q?b¼£n/A,´¢:·€4B'p¤@ö{    @¢«MOß;d@UÒñ©ûç@‡í
+=p£×NOT_AVAILABLE@r¾Ó}@ƒ{À0=yÙ¿1U?ÉN<?†}V     JdÆ?ïê_8LÙ¿íG®    À;®           @r
+³È–:À0O?ag>¢TTTFTTTFşÆ€                       ?ïêœ¦É¦m     Á¬?©™™™™™š@*#T    @,˜“€   @*­`   ?©™™™™™š?¬(õÀ   A9V?©™™    @*m`   ?©™™™™™š@&Ø“€   ?©™™™™™š@06ÈÀ   =hÀ–?¹™™™™™š?éO€   ?åg¡    ?¬(õÀ   @*ûd`   @( ƒ    ?ï±œcpÃ8»­p €@r
+³d…ß<Ù‡À0OF½)-Û<¹#£@	Aò×s<ù	l=På`=0 Å¾hÁU=˜üP=¥®æ  AXR½:oA`ãT?]}¿HË’AM‘Ñ:·€4À  À      @¡‘ãS÷ÎÙ@‚‡/Ÿ¾w@ˆÌõÂ\)NOT_AVAILABLE@r
+³È–:?JxlÀ0O?ag>¢?+=>¨õÃ     J^œ?ïÔÒ@êµ^¿çn    À:÷À          @r÷É´À0T½•Á*ªTTTFTTTFßŠ                        ?ïªX˜Ç<°     G–ê@XÀ     @XÀ     @XÀ     @$1ª    ?©™™    ?©™™™™™šA  ?©™™    @$|í    ?©™™    @#F$à   @XÀ     @)Ÿ¾€   =s&ì?¹™™™™™š@XDà   ?ÿ¾ß    ?¬¬@   @$¡G    @"›"à   ?î{"![¬z8»«Q€€@ròíÜ=Ïv`À0TÅùª¨=ŠqŞ@bMÒñª=UÏ«>H´9>o¾¿|î>“¶F¿=í)  A%„¶:IRA+ä?S©*0U2aA½<:ƒoB%  >€      @š=W
+=p¤@Œ™-V@h¢Ğå`BNOT_AVAILABLE@r÷É´@BÂ'À0T½•Á*ª?ıöıÀ       JW~?ïı+Hw¿ìƒ`   À:NV           @r098…ØÀ0X2#üTTTFTTTFÌw                       ?ïk-1Qv     G—@XÀ     @XÀ     @XÀ     @$‰@   ?©™™    ?«¥ã`   A‡?©™™    @#öE    ?©™™    @!r°    @XÀ     @)Ù™    =c+Î?¹™™™™™š?öƒà   ?òÀ@   ?¬¬@   @$Tzà   @"\    ?í‘SûUj8»ªy€@r06õì=B&À0X!ŞŠ7=kQ@	ÜÆ?=Gâ‚=º^5=›¥ã¾…¼>ÈK¼†YK  A!–¼:-àA'C–?R¼£n/Aéy:·€4B(G®>uÂ    @¡n—Oß@öõÂ\)@ˆN(õÂ\NOT_AVAILABLE@r098…Ø?´ôÀ0X2#ü?– ÒÀ       JTÎ?ïÿXóP†¿ŞÈ´@   À:äİ           @rª"_?DÀ0{hÆ®sÈTTTFTTTFÿÛ€ Eclipsing Bin?        ?ïÁß‘Q     5 ¨?©™™™™™š@(ó¶@   @*° À   @)ë€   ?©™™    ?©™™™™™šA1ãT?©™™    @)(rÀ   ?©™™    @&fé€   ?©™™™™™š@-ë    =_¿ƒ?¹™™™™™š?ñ>«@   ?î%®à   ?©™™™™™š@)¶E    @'bMà   ?îÿÂî/¦d8»¥Y€€@rª!$|/=İ˜À0{pIĞ¡Í=Îp@	ÊôğØDĞ=	=Oß=yÛ#¾d÷f¼£×
+>‡ ù  AL–S9IRAS¬Ú?Vğ¸ºÇAC%¯:Q·B9\?ç®    @¬‹Á‰7KÇ@ˆ¡$İ/ @”şµ?|í‘NOT_AVAILABLE@rª"_?D?‰õZÀ0{hÆ®sÈ?q-w>yÛ#     JC±?ï¢0Rg¿Ğ´9`   À:Ÿ|à          @r†'BÀ0w¼Ôµ TTTFTTTF€                       ?ïìÛ}BgA     AEª?©™™    @);ç`   @+U    @)¯À   ?©™™    ?©™™™™™šA3X?©™™    @)Ó    ?©™™    @&ŒÌÀ   ?©™™™™™š@/^¸`   =_¿ƒ?¹™™™™™š?ç'À   ?âù	`   ?¬(õÀ   @*²    @'@ƒ    ?ï×-ÇFš8»i
+,€@r†$n®<Ä›¦À0wÄB</<±Ä3@	’¼£n<ÒˆÎ=<j=¥ã¾ÌÙè=Ôıô>FÜ]  AP‡+:Q·AX(?dzáG®{AFØ:ªdÃB#ff?½p¤    @•Úe`A‰7@{]dZ¬@‰¶Oß;dNOT_AVAILABLE@r†'B?8y>À0w¼Ôµ ?ÈK>œ(ö     J'q?ïÖk¥¡¿ã;d`   À:Rn           @rã¼{	ĞÀ0ÑÚNß ïTTTFTTTFí¦ L                      ?ïşöŸ8     M4@?©™™    @(	7@   @)¿|à   @(Ôzà   ?©™™™™™š?¬(õÀ   A,V?©™™™™™š@({d`   ?©™™™™™š@%r-    ?©™™™™™š@,H´@   =c+Î?¹™™™™™š?úã¼à   ?óA `   ?¬(õÀ   @)¤Z    @&A‰@   ?ïùğÖÑ
+Ï8»‚‰  @rã¹1şÂ=I…ğÀ0Ñá‘üF=„o@	!–R½<=Ã•=İ/=Ÿ¾w¿64>®Ëû¼–»™ ADj9Q·AJ®}?]}¿HË’A;Åm:-àB+p¤?µÂ    @²½³¶E¡Ë@‚ÇOß;d@È5?|í‘NOT_AVAILABLE@rã¼{	Ğ?×çÀ0ÑÚNß ï?š	>t¼j     IÂ×?ï¸šÈÒª¾¿æE¡À   À9¼¬           @qıÎÛ¿À1(,¾¹’TTTFTTTFºˆ€                       ?ï¼‡º3g     m\?©™™    @*49`   @,±ª    @+²    ?©™™    ?¬¬@   A9‘h?ª¬    @*l‹@   ?©™™    @&äZ    ?©™™    @0h1    =hÀ–?¿;d`   ?òà   ?ê­«    ?¬(õÀ   @+6E    @(¥à   ?ï/ÌT‘tS8»$0 + @qıÍœ4<óMjÀ1(42So­<è§@	‰7KÆ§ğ=²-=•=]/>§»0¾ºû¾—Xâ  AYë…:IRAb´¢?uµsê³g¡ANşÅ:Ä›¦À  À      @š‰äZ¬@iŸçl‹C–@†|XbMÓNOT_AVAILABLE@qıÎÛ¿?è§À1(,¾¹’?Um]>‘      H7M?ï´ıˆŞ°¿Ğå`@   À:hrÀ          @rúºÀ0cAæ÷šTTTFTTTFŒ^ GEclipsing Bin?        ?ïÿû÷»>Y     5¡Î?©™™™™™š@'¡À   @'ûç`   @(h€   ?©™™™™™š?¬(õÀ   A%o?©™™™™™š@'KC    ?©™™™™™š@$‰@   ?©™™™™™š@-ï    =c+Î?¹™™™™™š?õ@   ?îÒˆÀ   ?¬(õÀ   @'¡ÊÀ   @%%ã`   ?ïÿ‰š´=8ºÿy»€@ró½d=:^5À0cHœLÃz=M@	‘4êJŒ=6E¢=®{=}ó¶¾(ö=/O¾\Æ?  A:R½9IRA?ÛŒ?eL˜_ö”A2l":IRÀ  À      @­Š÷ÎÙ@z"     @Œ²-VNOT_AVAILABLE@rúº?¨bÀ0cAæ÷š?v”F>œ£     G£n?ïì)æ\2¿õ™™    À:Ù           @r<zçıÀ0mI®pêoTTTFTTTFRo e                      ?ïÈ+BÉÓ     YY?©™™    @+C•€   @/"Mà   @,Ù    ?©™™™™™š?¬¬@   A>Iº?©™™™™™š@+«…    ?©™™™™™š@'xÕ    ?©™™™™™š@2;ç`   =c+Î?¹™™™™™š@®±À   ?ÿ˜Çà   ?¬¬@   @,÷KÀ   @)
+=€   ?íÃ!Œ]j8ºığ M© @r<t(:A=¼jÀ0mQ¥ü=óM@	]—ö+jè=­à>+>J¾±³>5¨¾PË)  AgG®9Ñ·Aszá?r×süPHAYÌd:Ñ·À  À  >àA‰@¥q©ûçm@mk×
+=p¤@…+İ/Ÿ¾NOT_AVAILABLE@r<zçı@%uÀ0mI®pêo?üÆ??B£     G_?í†Fd†R¿ô9X    À;»d`          @rb¦cEcÀ0}\ ÍŒTTTFTTTFô€                       ?ïñ¶2j     ’
+?©™™™™™š@)Rn    @+F$à   @)‚@   ?©™™    ?¬¬@   A4¸R?©™™    @)¤Z    ?©™™    @&n€   ?©™™™™™š@.ËC    =hÀ–?¹™™™™™š?ñ—$€   ?é§†À   ?¬(õÀ   @*ŸÀ   @'U    ?ïÕ¨ÅL8ºûI§€@rb¡²%W=¯OÀ0}cxİæÀ<Ú¹õ@	ª0U2a|=ä&=‘hs=Tıô¾cˆ=©ûç¾Öı"  APœx:ƒoAXO?m}¿HË’AFĞ;-àÀ  À      @‘Z¬1@s
+r° Äœ@}©ûçl‹NOT_AVAILABLE@rb¦cEc?Œ¹$À0}\ ÍŒ?M<6>V     G•õ?ïĞ…à"X>¿ïçl€   À:é€          @rd 9W À0(lš³TTTFTTTFéÍ V                      ?ïõz`ŸÿR     5¡o?©™™™™™š@'ûç`   @*"Ğà   @(O\    ?©™™    ?¬(õÀ   A*Qì?©™™    @(X“€   ?©™™    @$ıp    ?©™™    @-µÂ€   =dù.?¹™™™™™š?÷Ú`   ?óbÀ   ?¬(õÀ   @(äZ    @%÷Îà   ?ïĞ©–Ñ]¼8ºû›€@rdšÕÏm=RˆÎÀ0/ˆ‡»-=5ÜÆ@
+¸ºÇ=r×=¾vÉ=¡ÊÁ¾Á£n>Vğ=B&  AF¡b9Ñ·ANƒ?`bMÒñ©üA<ó:ù	lB,ë…@®    @¥ Š=p£×@ûçl‹D@‚:\(õÃNOT_AVAILABLE@rd 9W ?¸ŞÓÀ0(lš³?›û?IX     G•R?ïÃé&âmŸ¿òQë€   À:Š=€          @r"ï®À0“Œ „ÙETTTFTTTF€   €                       ?ïåk„'½•     j?ª¬    @,iûà   @0:á@   @,«    ?«"Ğà   ?¯¾vÀ   AAÎÙ?©™™    @,Ç®    ?«"Ğà   @(	7@   ?ª¬    @3.—€   =‹$»?½ó¶@   @Ö    @"3    ?°bMà   @.œ)    @)’n    ?ï¡<…ëÆ‹8ºö¡ ¬î @r"”Ä=cSøÀ0““D¦.E=<Ó[@	'†Â&€=§»0>n—>?2×¿*	¿NÒ‰  As»™:oA€¥ã?z6âëC-Ab;Í<üPHÀ  À  ;£×
+@Ÿ‚Iº^@e#•$İ@A ƒn—NOT_AVAILABLE@r"ï®@f°!À0“Œ „ÙE@À       G‡?ímŒa;f¿ğ´9`   À9ÀA€          @rZùıåıÀ0‘çUº÷¬TTTFTTTFz:€ EB (K2),low S/N       ?ïóÑÃ_·Š     5¤ˆ?©™™™™™š@(]²    @*ÅÀ   @)1ª    ?©™™    ?©™™™™™šA+"Ñ?©™™    @(/    ?©™™    @%Â`   ?©™™™™™š@.vÈÀ   =c+Î?¹™™™™™š@
+g¡    @\Æ@   ?©™™™™™š@)LÌÀ   @&ñª    ?ï¤äšÄ…8ºóù×€@rZ÷½h=šŸ¾À0‘îõ®ZØ='»@
+6âëC-=ùÛ#>Z¬>\)?'$t¿V¿2GE  AK\û;ŒçATÃa? –»˜Çâ‚A@Šr<-«ŸÀ  À  =—P@o49XbN@@¿Ÿ¾vÉ@Y€ Ä›¥ãNOT_AVAILABLE@rZùıåı@S=À0‘çUº÷¬@
+æ2?uÂ     G~?ïsbŸ¸‚¿Ş—@   À;¡À          @rRFÃwÀ0VëTTTFTTTF4p )Sinusoidal light curve?ïÇ@7Ú §     T|@XÀ     @XÀ     @XÀ     @$p À   @XÀ     ?«"Ğà   A¾w?©™™    @$‘h€   ?©™™    @"å`   @XÀ     @*Ã•€   =c+Î?¹™™™™™š?õ/ƒ€   ?ñ5?€   ?¬(õÀ   @XÀ     @"ª    ?î‘™ MĞ8ºë¡… @rR@„=7€4À0^_Ó¯}=ö+@
+i­BÃÉï==¥=®{=Oß¾‹ÓÃ<¬1=%  A%b:7€4A*8?M}¿HË’A·é:IRB*ÌÍ>Ñë…    @˜4	7KÆ¨@“)ûçl‹@‹L1&éyNOT_AVAILABLE@rRFÃw?©|À0Vë?‰©üÀ       Gbş?ïşÁ‡k[ß¿ô(õÀ   À:l‹@          @rQ2Ï­tÀ0¦>+›TTTFTTTFı€                       ?ïâÒL7-É     Õ#?©™™™™™š@,9X    @0+C    @,öE    ?©™™™™™š?¬(õÀ   AEV?©™™™™™š@,ŒÌÀ   ?©™™™™™š@(B`   ?©™™™™™š@3 ƒ    =fÕ?º^5@   ?òÙ`   ?ï†Â    ?©™™™™™š@.Æ    @)ÍÓ    ?ïEñ[º[ê8ºë«€@rQ/Ò="œxÀ0¦E€¤x=@¸@	ˆe”¯O=(ÁU=›¥ã=ƒo¾›Í6>$tT=Á \  Aoí:oA|1?t¼£nA`ı‹;	 'À  À  =e`B@¡|É7KÆ¨@kÎn—Oß@±33333NOT_AVAILABLE@rQ2Ï­t?–ËûÀ0¦>+›?|6?.Åm     Gai?ïr>-¸¸ª¿äIº`   À:6‡           @rYT€=†À0áÛë›ìqTTTFTTTF‡» I                      ?ïÿüææ%     5ªÎ?ªŸ¾€   @&¸`   @(	7@   @'Ú    ?©™™™™™š?¬(õÀ   A"¼j?©™™™™™š@'dZ    ?©™™™™™š@$5Â€   ?©™™™™™š@+éxà   =dù.?¹™™™™™š?ñÁTÀ   ?îN¤    ?¬(õÀ   @'\    @$Ü¬    ?ïÿ° §ƒ8ºàÈ  I€@rYQ´=ÑNÀ0áãeŞ= I@
+Y‡+=:*=“t¼=yÛ#¾@I¼-«Ÿ>&  A75¨9Ñ·A<y§?Z6âëC-A/–S:ªdÃB'{?aG®    @¤2ß¾vÈ´@„ğ£×
+=q@‰*²-VNOT_AVAILABLE@rYT€=†?
+¦À0áÛë›ìq?ru%>¤›¦     G@Š?ï÷,‹#¿ãOà   À:}/           @r
+Dv9(|À0±	|Ã„TTTFTTTF»a€                       ?ïñŸ]ÿ     5£©?©™™    @+b@   @-Á‰@   @+X`   ?©™™    ?¬¬@   A>Ÿ¾?©™™™™™š@+@     ?¬(õÀ   @'}p    ?ª¬    @1m‘`   =lÁ%?¹™™™™™š?èÈ´@   ?åXà   ?¬(õÀ   @,Ù    @(Ê=€   ?ïc4©8ºß± úí€@r
+Dp¯<Ë)_À0± Ş
+<·€4@
+"3œ¾à<Ùè>=LÌÍ=,1¾
+=<û~‘>q  AbÛõ:IRAlè§?yÎ_oÒ AVx;-àÀ  À      @›ŠLÌÌÌÍ@e`Që…¸@nôzáG®NOT_AVAILABLE@r
+Dv9(|?FE¢À0±	|Ã„?(ºÇ><j     G<®?ïé„ğÒÏ ¿òÌÌÀ   À:É7@          @rÑ,À0²«:ÃlÉTTTFTTTF±L€                       ?ïÁÀUÆó¶     K?ªŸ¾€   @/§ï    @3L@   @0»ç`   ?©™™™™™š?²ñª    A^ÌÍ?©™™™™™š@00b@   ?©™™™™™š@+<í    ?©™™™™™š@XÀ     =¡ˆU@XÀ     @àà   @²•à   ?±&é€   @1üj€   @-C    ?ïs¥8ºŞé ú(€@rÏ‹ß=ó¶FÀ0²²ÄÙ{k=Ù³Ğ@ûJ#9Àì>E9>wÎÙ>KÆ¨=vı"½ò{³=“@O  AŠè
+:·€4A•Sø?­Vlô!-A’o<K)_À  À  >—
+=@‡nG®zá@2ï\(õÂ@UÚĞå`A‰NOT_AVAILABLE@rÑ,@p_À0²«:ÃlÉ@E”¯À       G9Æ?ï|lR;i¿Özà   À:¸`          @râûÉºtÀ0÷ãG
+‰$TTTFTTTFù™€                       ?ï¾oG{E«     3ë?©™™™™™š@0h€   @3ƒ`   @0íOà   ?©™™™™™š?©™™™™™šAb¬?©™™™™™š@0g+    ?©™™™™™š@+¶E    ?©™™™™™š@6‘ë€   =™À?À£×    @ç¡    @SÃ`   ?©™™™™™š@2=p    @-vE    ?ïw'LwH8ºÒi ÷İ€@râ÷H’=ñA À0÷ê§Åª>ğ@üÚQÎ>7ÎÙ>n—>H´9¾øl">j™1>=Vm  AŒë:Ä›¦A˜?IQ‚©“Aƒcñ;¾íÀ  À  >¸Ôş@†.Û"Ğå`@SMÒñ©ü@g‚ñ©ûçmNOT_AVAILABLE@râûÉºt@g=À0÷ãG
+‰$@BÀ       GW?ï›¨í-h¿î\    À:%¡À          @rWÒö÷À1šŒˆ¹øTTTFTTTF5Ì€                       ?ïvS E¸     ŸÒ?©™™    @*B@   @,¿|à   @*¤İ    ?©™™™™™š?¬(õÀ   A9ûç?©™™    @*‹C    ?©™™™™™š@' Ä    ?©™™™™™š@0f$à   =_¿ƒ?¹™™™™™š?éúD    ?è¡aà   ?­/    @+7Îà   @(9X    ?í„  İª€8ºÈ! ñ• @rWÆ5<ÔıôÀ1¡³<
+¦<Ğå`@	•µsê³h=ğo=Tıô=LÌÍ¾Éº^>O\)>Âe  AY¼Ó:oAbˆf?_!-w1ÅANë…:·€4À  À      @¢Ë‘hr°!@‚"xÔıó¶@ˆ!¼j~ùÛNOT_AVAILABLE@rWÒö÷?OÒ À1šŒˆ¹ø?E>™=Ù     Fê?îV¦°ÿ;¿öĞå`   À9X`          @r×ŒêVÀ12ÇÏ‹9TTTFTTTF1Ú ;                      ?ïë›P     5­w@XÀ     @XÀ     @XÀ     @%k…    @XÀ     ?¬(õÀ   AĞå?©™™    @%Ã`   ?©™™    @#\)    @XÀ     @+‡    =c+Î?¹™™™™™š?÷Ö8€   ?ó-à    ?«¥ã`   @XÀ     @#Ø`   ?îş’2IÕ8ºÈ ñö€@rÖü<­‚=CÉïÀ1:\7q=>í@&éxÔıô=poi=Ä›¦=²-¿°Š>MOß>ğ  A.”¯9Ñ·A3}V?PbMÒñ©üA'c :kíúB.ë…?W
+=    @£İyÛ"Ğå@‘fffff@’º‡+NOT_AVAILABLE@r×ŒêV?¾±ÄÀ12ÇÏ‹9?™o >ù0¾     Féş?ïù ›;âV¿ò      À:Ü¬           
+@rò“ÁµºÀ0¿Ÿçî:TTTFTTTFc³€                       ?ïöUßH°     W€Z?©™™    @)`   @+º^@   @)µ?€   ?©™™    ?©™™™™™šA1X?©™™    @)²°    ?©™™    @&ŠÀ€   ?©™™™™™š@//    =^!P?¹™™™™™š?çùr@   ?äÚ`   ?©™™™™™š@*wKÀ   @'†$à   ?ïÁÀ°G·ï8º¾‘ ìo @ròŒ•2­<ÒˆÎÀ0¿';té<­«Ÿ@
+Q‚©“á<ğØE=D›¦='ï¾—>Ov=kíú  AP§;	 'AXÂø?}ã¼ÓZ†AF/ì;—$À  À      @€ŒŸ¾vÉ@c‘hr°!@qgp£×
+=NOT_AVAILABLE@rò“Áµº??Ë’À0¿Ÿçî:? ŞÓ>Òñª     FÉ†?ïef¾OZ¿øZ    À:6           	@rDÍO‡/À0ß!ÇR0òTTTFTTTF™  YSB2, EB(K2)           ?ïÒØÕÀÁ¾     G•ª?©™™    @(/    @)Ş¸`   @(|í    ?©™™    ?«¥ã`   A+¾w?©™™    @(gï    ?©™™    @%Tş    ?©™™    @-Ó÷À   =^!P?¹™™™™™š?øhÛ€   ?ô '`   ?¬(õÀ   @(Ö    @&%`@   ?íËµ@ia8º¸°  H @rDË_6_=NÙÀ0ß)zAÇ=2-@
+:’£S=HK^=È´9=©ûç½Î¤©½5së>ixÕ  AE³h:7€4AL,=?j6âëC-A<À;IRÀ  À      @—¥ãS÷Ï@uMÒñ©ü@{¿/Ÿ¾wNOT_AVAILABLE@rDÍO‡/?ÃFÜÀ0ß!ÇR0ò?¥;>‘ë…     F·ù?ïËB±¿ÚMÓ    À;Iûà          @r%«é±À0ôV8c§TTTFTTTFs€                       ?ïñ¤) Ö3     »?©™™™™™š@.      @1çï    @/W@   ?©™™™™™š?©™™™™™šAQxÕ?©™™™™™š@.{ç`   ?©™™™™™š@)­`   ?©™™™™™š@4®Ù    =c+Î?¾5?€   @_    @ f2    ?­²-    @0™€   @+    ?ïÉ¤õå†8º­` ² @r5é=ŸU›À0ô]-ş=…‡”@
+b¶®}Vm=µÜÆ>>vÉ>+>qÄ3¾YÎ¾…zx  AèÜ:ªdÃA‹—?€Ë)^	Ará±;ÁTÊÀ  À  =¾vÉ@‰À‡+@`ˆ9XbN@g ƒn—NOT_AVAILABLE@r%«é±@8ÂøÀ0ôV8c§@1>ŞOv     F•‹?ïŞW†Ó¿õçl€   À:wÎà          @rÍÕ™œkÀ1(³Z~TTTFTTTFYr€                       ?ïæ("ğ®     5®R?©™™    @)W
+@   @+m`   @)ŠÀ€   ?©™™    ?«¥ã`   A4›¦?©™™    @)µÂ€   ?©™™    @&iûà   ?©™™™™™š@0À   =dù.?¹™™™™™š?ïJ#@   ?éeı€   ?¬¬@   @*`   @'Tzà   ?ïiËÎkQ8º¦8  |€@rÍĞ,]<êJŒÀ1/ğôlu<İ/@	Åo =
+Úº=%=På`>)^¾ŸH€¾jdÃ  AP„¶:oAWù	?Z6âëC-AF¿H:IRB)\)@ff    @¡àÙ‡+@…81&éxÕ@‹åÈ´9XNOT_AVAILABLE@rÍÕ™œk?zQÀ1(³Z~?K/ì>x†Y     F?ïsUÂœ¿òbMà   À9©ûà          @r\š©•À1H8›EùÜTTTFTTTFâÎ€                       ?ïÌ·n4Á     Wz8?©™™    @/¾ùà   @3=p    @0¾5@   ?©™™™™™š?±ë…    A_®?©™™™™™š@0?;`   ?©™™™™™š@+q&à   ?©™™™™™š@6t9`   =s&ì?Àƒ`   @
+-BÀ   @Ô•    ?­²-    @2 Ä    @-Pb@   ?ï_“Ğ	QŠ8º”q àì @r\”Ğdb=Üú­À1H@ÜN£=Ó&@{~ÿ—$=üÚ>Xb>LÌÍ¾¥‡”=ş‘ >ëx  A‹m]:Ä›¦A–Ö?“&Á½¥Aùr;IRÀ  À  >{çm@‡\÷ÎÙ‡@Lö‡+J@|ÊÀƒoNOT_AVAILABLE@r\š©•@QjÀ1H8›EùÜ@F¤©À       FH¥?ï¬à_cH
+¿óÆ§à   À:aG           @rrÜÌQÀ180iKÀjTTTFTTTFOW Z                      ?ïÙ¶Ï¤‹     Ë?©™™    @'Ã`   @)¬    @'ã×    ?©™™    ?«¥ã`   A*ñª?©™™    @'öÈÀ   ?©™™    @%>ùà   ?©™™    @+£T    =c+Î?¹™™™™™š?ñ [À   ?î‰     ?©™™™™™š@("à   @&NV    ?éúvø?8ºa ÚÏ€@rrÙàhV=À187ºÀg…=¬q@
+“t¼j=¿=Oß=}ó¶¾šîc=7€4>«)_  AAs‚9Q·AGN¥?]}¿HË’A90¾:kíúB+£×?=p¤    @³h9™™™š@‚©hr° Å@’a]/Ÿ¾NOT_AVAILABLE@rrÜÌQ?‰ŞÀ180iKÀj?tM>\(ö     F4¨?ï½Ùv§A«¿ãÆ§à   À9ï\           @rùªÀ1D	C/ŒTTTFTTTFÿ*€                       ?ïò²¢€µ     )Œ?©™™™™™š@.IÀ   @1íÓ    @/ff`   ?©™™™™™š?©™™™™™šAQÂ?©™™™™™š@.‚@   ?©™™™™™š@)·Îà   ?©™™™™™š@4®€   =_¿ƒ?¾vÈÀ   ?û”F€   ?÷Xâ    ?¬¬@   @0›"à   @+„›    ?ïÈ¬Ì»ÔR8ºY Ü^ @rX8=dŠÀ1DÑ¶Vï=["Ñ@;dZ¬=“t¼=ãSø=Àƒ¾±‚ª>6®}>=ŠÛ  A‚-w:ƒoA‹kQ?‚×süPHAsN¥;e`BÀ  À  =ë…@ÕA‰7KÇ@]€1&éxÕ@snzáG®NOT_AVAILABLE@rùª?Ü¢4À1D	C/Œ?ºÇ>Ç†Â     F1?ïÏQ	«¿ö Ä    À:Çï           @r~”zËÎÀ1»XWÆ@TTTFTTTFó(€                       ?ïx°à{     ~U?©™™™™™š@)²    @,    @*`   ?©™™™™™š?©™™™™™šA4ff?©™™    @)ğ£à   ?©™™™™™š@&V‡    ?©™™™™™š@0s3@   =_¿ƒ?¹™™™™™š?òó@   ?ñqu€   ?¬(õÀ   @*¤İ    @'‹Æ    ?í„ÎÃ8ºz™*=€@r~‘¯= 'RÀ1ÂŠ8*=Ft@
+È´9Xb=>í=™™š=\)¾™õZ>I…ğ>¤Š  AU@¸:IRA^.²?fOv_Ø®AJ6z:Ñ·BáH@333>q©ü@ùV“u@xÁãS÷ÎÙ@… Àƒn˜NOT_AVAILABLE@r~”zËÎ?”wšÀ1»XWÆ@?‹‹¬>áG®     Eó@?íˆŠYşÊ¿çt¼`   À9~ùà          @r
+ìêÏAÀ1©rºé§TTTFTTTF?1€                       ?ïóò eVR     6±¹?©™™™™™š@)B@   @+På`   @)¡ÊÀ   ?©™™    ?«"Ğà   A4zá?©™™    @)‘h€   ?©™™    @&J=€   ?©™™™™™š@.»d`   =_¿ƒ?º¬    ?ì]c€   ?æ!–`   ?©™™™™™š@)ú^@   @'ˆ1    ?ïÒ6ğ„L8º&±– @r
+ì}Ü­<ò{³À1©yš½|i<¸Qì@
+\(õÂ<ù	l=ixÕ=8Qì;Ë)_¼(ÁU½°ò|  APxÕ:oAX‘?b¼£n/AF¡b:·€4B2ë…@N¸R    @ŸQG®zá@4í‘hr°@ˆø^5?|îNOT_AVAILABLE@r
+ìêÏA?bëÀ1©rºé§?1³>wÎÙ     DÆÚ?ïÑ¤&_‚¿àbMà   À:Ûd`          @réæ„©À1Tz¯½îTTTFTTTF.€                       ?ïÙ Á‡ù†     ®•?©™™™™™š@*„    @-49`   @+	º`   ?«"Ğà   ?¬¬@   A;l‹?©™™    @*Ã`   ?©™™    @'5Â€   ?©™™    @0ÌIÀ   =fÕ?¹™™™™™š?æ1ø    ?ãt¼`   ?¬(õÀ   @+­‘`   @(u?€   ?ïU€Nc8¯ô	 Û©€@réáê<¾ß¤À1TæSh<·€4@	¢Ğå`A‰<Ö¡b=8Qì=¾w¾u%F<è§>"ë  AaTÊ:oAhj?—Ûô‡ü¹$AS—ö<"3œÀ  À      @ Ã¬1'@GP Ä›¥ã@[G®záHNOT_AVAILABLE@réæ„©?1ÅÀ1Tz¯½î?¥ãÀ       !n?ï\Ü}§¿ğ¼j€   À9 À                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

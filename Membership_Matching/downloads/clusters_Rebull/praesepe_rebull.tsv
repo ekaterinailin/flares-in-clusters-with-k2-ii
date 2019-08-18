@@ -1,0 +1,1014 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2018-12-05T08:37:38 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	votable-version=1.99+ (14-Oct-2013)
+#INFO	-ref=VIZ5c0785e20a08
+#INFO	-out.max=9999
+#INFO	queryParameters=30
+#-oc.form=dec
+#-out.max=9999
+#-out.add=_RAJ,_DEJ
+#-nav=cat:J/ApJ/839/92&tab:{J/ApJ/839/92/table1}&key:source=J/ApJ/839/92/table1&HTTPPRM:&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/ApJ/839/92/table1
+#-order=I
+#-out=EPIC
+#-out=RAJ2000
+#-out=DEJ2000
+#-out=Ksmag
+#-out=V-Ks
+#-out=PPer
+#-out=SPer
+#-out=LC
+#-out=S/M
+#-out=DD
+#-out=DDmov
+#-out=Shch
+#-out=Beat
+#-out=CPeak
+#-out=Close
+#-out=Res
+#-out=RV
+#-out=C
+#-out=Simbad
+#Simbad=Simbad
+#
+
+#RESOURCE=yCat_18390092
+#Name: J/ApJ/839/92
+#Title: Praesepe members with K2 light curve data (Rebull+, 2017)
+#Table	J_ApJ_839_92_table1:
+#Name: J/ApJ/839/92/table1
+#Title: Periods and supporting data for Praesepe members with K2 light curves
+#Column	_RAJ2000	(F11.7)	Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ2000	(F11.7)	Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	EPIC	(I9)	Ecliptic Plane Input Catalog identifier	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(A11)	Hour of Right Ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A11)	Degree of Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Ksmag	(F5.2)	[6/15.4]? Apparent Ks band Vega magnitude (1)	[ucd=phot.mag;em.IR.K]
+#Column	V-Ks	(F5.2)	[0.3/7.8]? The (V-Ks) color index (2)	[ucd=phot.color;em.opt.V;em.IR.K]
+#Column	PPer	(F7.4)	[0.04/34.3]? Primary period taken to be the rotation period	[ucd=time.period]
+#Column	SPer	(F7.4)	[0.04/24.6]? Secondary period	[ucd=time.period]
+#Column	LC	(F6.3)	[0/0.3]? LC used as best (4)	[ucd=time.period]
+#Column	S/M	(a9)	Single or multi-period star indicator (5)	[ucd=meta.note]
+#Column	DD	(A3)	Double-dip LC indicator (163 "yes")	[ucd=meta.code]
+#Column	DDmov	(A3)	Moving double-dip LC indicator (121 "yes")	[ucd=meta.code]
+#Column	Shch	(A3)	Shape changer indicator (297 "yes")	[ucd=meta.code]
+#Column	Beat	(A3)	Full LC has beating visible indicator (77 "yes") (6)	[ucd=meta.code]
+#Column	CPeak	(A3)	Complex, structured peak and/or wide peak indicator (68 "yes") (6)	[ucd=meta.code]
+#Column	Close	(A3)	Resolved close periods indicator (68 "yes") (6)	[ucd=meta.code]
+#Column	Res	(A3)	Resolved distant periods indicator (71 "yes") (6)	[ucd=meta.code]
+#Column	RV	(I3)	Display the new Keck radial velocity measured for this star (table 12) [NULL integer written as an empty string]	[ucd=meta.ref.url]
+#Column	C	(I3)	Link to other data from this paper (tables 4-6, 9-11) for this star [NULL integer written as an empty string]	[ucd=meta.ref.url]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+deg	deg	 	"h:m:s"	"d:m:s"	mag	mag	d	d	d
+_RAJ2000	_DEJ2000	EPIC	RAJ2000	DEJ2000	Ksmag	V-Ks	PPer	SPer	LC	S/M	DD	DDmov	Shch	Beat	CPeak	Close	Res	RV	C	Simbad
+123.2471250	+20.2482222	211999629	08 12 59.31	+20 14 53.6	12.68	 4.65	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+123.9637500	+16.7044167	211756862	08 15 51.30	+16 42 15.9	12.51	 4.90	 1.4548	 2.6271	 0.019	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  1	Simbad
+124.0647083	+19.9991389	211984209	08 16 15.53	+19 59 56.9	10.89	 2.46	13.7543	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+124.7653333	+18.7100278	211898878	08 19 03.68	+18 42 36.1	11.92	 5.10	 0.0750	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  2	Simbad
+125.8891667	+23.0021944	212148559	08 23 33.40	+23 00 07.9	13.31	 4.94	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+125.8961250	+22.0975000	212103962	08 23 35.07	+22 05 51.0	 9.87	 2.19	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.0388750	+20.0235833	211985684	08 24 09.33	+20 01 24.9	12.19	 4.14	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+126.1385000	+19.2953056	211938090	08 24 33.24	+19 17 43.1	12.20	 5.24	10.1055	       	 0.009	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.2793333	+20.7903056	212032123	08 25 07.04	+20 47 25.1	10.54	 2.10	22.6623	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+126.3072083	+17.6125556	211820823	08 25 13.73	+17 36 45.2	14.23	 5.53	 1.1362	       	 0.042	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.3172083	+18.9107778	211912350	08 25 16.13	+18 54 38.8	14.27	 6.31	 0.2602	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.3426250	+20.3657500	212006725	08 25 22.23	+20 21 56.7	14.33	 6.56	 0.2029	 0.2349	 0.076	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+126.3542917	+20.2215833	211998019	08 25 25.03	+20 13 17.7	11.93	 4.48	17.7894	 0.5120	 0.008	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+126.3910000	+16.6446667	211752612	08 25 33.84	+16 38 40.8	13.58	 5.21	 1.1755	       	 0.085	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.4234167	+19.5117778	211952571	08 25 41.62	+19 30 42.4	14.17	 5.43	 0.2776	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.4765417	+22.9811667	212147595	08 25 54.37	+22 58 52.2	11.28	 3.39	14.0673	       	 0.004	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.5050833	+22.2555556	212111862	08 26 01.22	+22 15 20.0	13.17	 5.33	 1.6193	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.5558333	+16.9182222	211771942	08 26 13.40	+16 55 05.6	10.68	 2.59	12.2891	       	 0.024	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.5727083	+19.7265833	211966707	08 26 17.45	+19 43 35.7	12.98	 5.08	 9.2765	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.5970417	+19.5510556	211955066	08 26 23.29	+19 33 03.8	13.70	 5.47	 1.5361	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.6387500	+17.2608056	211796017	08 26 33.30	+17 15 38.9	12.28	 4.63	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.6450417	+19.5662778	211956071	08 26 34.81	+19 33 58.6	12.43	 5.16	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.6466667	+20.1823889	211995609	08 26 35.20	+20 10 56.6	10.56	 3.51	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+126.6640000	+16.8646667	211768266	08 26 39.36	+16 51 52.8	10.74	 2.31	12.1032	       	 0.017	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.7532917	+21.5663056	212076029	08 27 00.79	+21 33 58.7	14.11	 6.06	 0.3194	       	 0.054	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.7743333	+19.6214167	211959781	08 27 05.84	+19 37 17.1	13.41	 5.73	 0.2853	 0.3060	 0.050	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+126.7782083	+17.3225833	211800408	08 27 06.77	+17 19 21.3	11.44	 3.67	17.0446	       	 0.002	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.8492917	+23.4528056	212168580	08 27 23.83	+23 27 10.1	13.97	 5.60	 1.0487	       	 0.097	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.8776667	+20.2182778	211997840	08 27 30.64	+20 13 05.8	10.90	 3.14	12.9691	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.8789167	+22.1500556	212106559	08 27 30.94	+22 09 00.2	13.65	 5.16	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.8945000	+16.0249444	211708306	08 27 34.68	+16 01 29.8	12.87	 5.03	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.9608333	+20.2433889	211999343	08 27 50.60	+20 14 36.2	11.07	 3.33	14.5730	       	 0.009	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.9622500	+19.8057500	211971819	08 27 50.94	+19 48 20.7	11.78	 4.16	16.9716	       	 0.029	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+126.9789583	+16.7131389	211757464	08 27 54.95	+16 42 47.3	10.16	 2.43	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+126.9921667	+22.1020556	212104191	08 27 58.12	+22 06 07.4	 8.63	 1.07	 1.1329	       	 0.001	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.0040833	+19.9047778	211978243	08 28 00.98	+19 54 17.2	10.49	 2.27	10.6707	       	 0.011	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.0841667	+19.2585278	211935588	08 28 20.20	+19 15 30.7	13.38	 5.07	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+127.0872083	+19.8440278	211974283	08 28 20.93	+19 50 38.5	 9.43	 1.50	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.1122083	+20.1047500	211990768	08 28 26.93	+20 06 17.1	13.38	 5.23	 1.6090	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.1455833	+21.7950833	212088355	08 28 34.94	+21 47 42.3	10.73	 2.10	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.2300000	+19.6933611	211964473	08 28 55.20	+19 41 36.1	13.34	 5.24	 0.6228	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.3062083	+19.4799722	211950505	08 29 13.49	+19 28 47.9	 9.65	 1.62	 7.9873	       	 0.020	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.3241667	+17.7031944	211827220	08 29 17.80	+17 42 11.5	12.10	 4.98	12.2172	       	 0.027	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.3286250	+20.7179722	212027816	08 29 18.87	+20 43 04.7	12.40	 4.63	23.8033	       	 0.030	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.3293750	+21.7155556	212084014	08 29 19.05	+21 42 56.0	14.40	 5.89	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.4309167	+18.5633889	211888866	08 29 43.42	+18 33 48.2	14.96	 6.01	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.4350417	+20.6730833	212025207	08 29 44.41	+20 40 23.1	 9.81	 2.15	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+127.4734583	+22.4422778	212121350	08 29 53.63	+22 26 32.2	 8.78	 1.10	 5.5063	 6.5599	 0.001	multi    	no 	no 	no 	no 	yes	yes	no 	  0	  0	Simbad
+127.4877500	+18.5666667	211889082	08 29 57.06	+18 34 00.0	11.30	 4.27	12.3485	 1.8738	 0.030	multi    	no 	no 	no 	no 	no 	yes	yes	  0	  0	Simbad
+127.4945417	+19.4830556	211950696	08 29 58.69	+19 28 59.0	14.61	 5.95	 3.2524	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.5110000	+19.9364167	211980234	08 30 02.64	+19 56 11.1	14.26	 6.67	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.5122083	+17.9505833	211845069	08 30 02.93	+17 57 02.1	13.72	 5.79	 1.3286	 0.6650	 0.020	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+127.5367083	+23.5601111	212173061	08 30 08.81	+23 33 36.4	 9.74	 2.50	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+127.5712500	+15.6625000	211681193	08 30 17.10	+15 39 45.0	13.91	 5.45	 1.6324	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.6465000	+16.3215278	211729756	08 30 35.16	+16 19 17.5	12.53	 4.68	 2.3891	       	 0.039	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.6610417	+17.4720556	211810915	08 30 38.65	+17 28 19.4	11.82	 4.18	19.2197	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.6774167	+19.3751944	211943375	08 30 42.58	+19 22 30.7	13.77	 5.48	 1.4307	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7021250	+21.6125833	212078515	08 30 48.51	+21 36 45.3	14.00	 5.81	 1.3162	       	 0.078	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7125833	+19.3524444	211941802	08 30 51.02	+19 21 08.8	11.19	 3.57	14.3207	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7141667	+18.8976389	211911467	08 30 51.40	+18 53 51.5	13.39	 5.21	 2.1744	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7311250	+19.5554722	211955365	08 30 55.47	+19 33 19.7	 9.37	 1.43	 6.8203	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.7323750	+17.1396111	211787610	08 30 55.77	+17 08 22.6	12.46	 4.76	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+127.7400000	+20.6624444	212024569	08 30 57.60	+20 39 44.8	11.72	 3.69	15.3935	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.7455000	+18.6947500	211897821	08 30 58.92	+18 41 41.1	11.59	 3.83	16.7230	       	 0.011	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+127.7508333	+19.4044444	211945337	08 31 00.20	+19 24 16.0	13.99	 5.70	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7816250	+16.5844444	211748286	08 31 07.59	+16 35 04.0	12.62	 5.50	 9.0389	       	 0.031	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.7935000	+21.5895556	212077235	08 31 10.44	+21 35 22.4	11.21	 2.83	32.2096	       	 0.010	single   	yes	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+127.7943333	+20.6642222	212024672	08 31 10.64	+20 39 51.2	14.02	 5.41	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.8045833	+20.9000833	212038642	08 31 13.10	+20 54 00.3	12.80	 5.11	18.4233	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.8205000	+19.3552778	211942008	08 31 16.92	+19 21 19.0	11.89	 4.73	23.1920	 2.7498	 0.008	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+127.8405000	+22.0475833	212101360	08 31 21.72	+22 02 51.3	 9.23	 1.39	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.8620833	+18.6823333	211896957	08 31 26.90	+18 40 56.4	13.32	 6.47	 0.2383	 0.4392	 0.023	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+127.8744583	+20.4104167	212009427	08 31 29.87	+20 24 37.5	10.77	 4.02	 1.5574	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  2	Simbad
+127.8744583	+21.4441111	212069380	08 31 29.87	+21 26 38.8	14.80	 6.60	 0.2672	       	 0.124	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.8935417	+17.3065278	211799259	08 31 34.45	+17 18 23.5	14.37	 5.56	 0.5752	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+127.8997500	+20.4053333	212009131	08 31 35.94	+20 24 19.2	14.18	 6.08	 0.2431	 0.2898	 0.049	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+127.9185417	+19.7983889	211971354	08 31 40.45	+19 47 54.2	11.03	 4.15	 8.2967	 9.3744	 0.035	multi    	no 	no 	no 	yes	yes	yes	yes	  0	  1	Simbad
+127.9466250	+18.0562222	211852745	08 31 47.19	+18 03 22.4	13.85	 5.49	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+127.9761250	+18.7600278	211902283	08 31 54.27	+18 45 36.1	13.76	 5.16	 2.1775	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0078333	+19.9797500	211983023	08 32 01.88	+19 58 47.1	13.21	 5.19	22.9460	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0113333	+20.7724167	212031039	08 32 02.72	+20 46 20.7	13.25	 5.33	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0222500	+19.3001389	211938397	08 32 05.34	+19 18 00.5	11.79	 3.33	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0304167	+19.6066667	211958800	08 32 07.30	+19 36 24.0	14.44	 5.70	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0331250	+18.7407500	211900943	08 32 07.95	+18 44 26.7	12.57	 4.84	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0410000	+15.8578611	211695681	08 32 09.84	+15 51 28.3	14.82	 6.22	 1.7667	       	 0.064	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0744167	+19.5470833	211954836	08 32 17.86	+19 32 49.5	13.02	 5.12	24.2728	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0787083	+19.0523889	211921859	08 32 18.89	+19 03 08.6	12.83	 4.95	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.0925000	+17.9130278	211842313	08 32 22.20	+17 54 46.9	 9.11	 1.31	 2.3904	 2.9778	 0.001	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+128.1351667	+20.8447222	212035441	08 32 32.44	+20 50 41.0	12.72	 4.68	16.8542	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.1392083	+20.0800833	211989185	08 32 33.41	+20 04 48.3	10.63	 2.66	11.7041	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.1397083	+21.7757778	212087322	08 32 33.53	+21 46 32.8	14.07	 6.31	 1.8118	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.1468333	+18.7360000	211900653	08 32 35.24	+18 44 09.6	13.95	 5.63	 1.9178	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.1523750	+23.3907222	212165910	08 32 36.57	+23 23 26.6	12.66	 4.79	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.1867083	+18.0361389	211851325	08 32 44.81	+18 02 10.1	11.75	 4.92	 1.1687	 3.9818	 0.019	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+128.1949583	+19.9976944	211984130	08 32 46.79	+19 59 51.7	12.95	 4.97	29.5905	       	 0.056	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2032083	+18.6779722	211896670	08 32 48.77	+18 40 40.7	12.47	 5.23	 6.9619	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2071250	+18.7017222	211898294	08 32 49.71	+18 42 06.2	10.06	 2.98	17.8079	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  1	  1	Simbad
+128.2176250	+19.9766389	211982810	08 32 52.23	+19 58 35.9	10.56	 2.49	11.3230	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2212500	+18.5081389	211884968	08 32 53.10	+18 30 29.3	12.27	 4.44	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+128.2318750	+18.7328056	211900414	08 32 55.65	+18 43 58.1	10.60	 2.44	10.9654	       	 0.001	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2419583	+22.2056389	212109351	08 32 58.07	+22 12 20.3	12.87	 4.68	10.5697	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2461250	+17.3065278	211799258	08 32 59.07	+17 18 23.5	12.19	 4.84	24.0487	       	 0.015	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2482500	+20.1207778	211991806	08 32 59.58	+20 07 14.8	13.90	 5.59	 0.3627	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2515833	+20.7194444	212027909	08 33 00.38	+20 43 10.0	11.98	 4.90	14.6658	       	 0.037	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2601250	+18.8510833	211908380	08 33 02.43	+18 51 03.9	13.51	 4.90	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2620417	+18.6826111	211896979	08 33 02.89	+18 40 57.4	10.68	 2.65	13.1088	       	 0.006	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2732083	+18.9301944	211913733	08 33 05.57	+18 55 48.7	12.19	 4.98	12.5740	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2739583	+19.0411111	211921097	08 33 05.75	+19 02 28.0	14.63	 5.74	 0.4626	       	 0.052	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2768750	+18.6948889	211897829	08 33 06.45	+18 41 41.6	12.59	 4.64	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2790833	+17.7116944	211827807	08 33 06.98	+17 42 42.1	13.34	 5.42	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2800833	+17.1044444	211785147	08 33 07.22	+17 06 16.0	14.10	 6.41	 0.3310	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2810833	+20.1300556	211992423	08 33 07.46	+20 07 48.2	10.93	 2.93	12.8959	       	 0.006	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.2821667	+18.7543611	211901894	08 33 07.72	+18 45 15.7	13.57	 5.11	 1.6660	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2851667	+20.4436944	212011416	08 33 08.44	+20 26 37.3	11.94	 5.09	15.6958	       	 0.038	single   	yes	no 	no 	no 	no 	no 	no 	  1	  0	Simbad
+128.2957500	+19.4894722	211951112	08 33 10.98	+19 29 22.1	12.91	 5.47	 2.3126	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.2986667	+16.2642778	211725787	08 33 11.68	+16 15 51.4	14.24	 5.89	 2.0599	       	 0.054	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3062083	+20.5503889	212017838	08 33 13.49	+20 33 01.4	12.48	 5.07	 0.6692	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3080417	+20.7134167	212027544	08 33 13.93	+20 42 48.3	14.40	 5.80	 0.4556	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3093750	+20.6058889	212021131	08 33 14.25	+20 36 21.2	13.79	 5.36	 1.2287	       	 0.087	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3100000	+19.0768056	211923569	08 33 14.40	+19 04 36.5	12.09	 4.30	15.4629	       	 0.038	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.3142500	+20.7024722	212026921	08 33 15.42	+20 42 08.9	10.44	 2.27	 9.7813	12.0918	 0.009	multi    	no 	no 	yes	no 	yes	yes	no 	  0	  0	Simbad
+128.3156667	+23.1620278	212155860	08 33 15.76	+23 09 43.3	13.72	 5.52	 1.0809	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3233750	+19.4306667	211947170	08 33 17.61	+19 25 50.4	10.86	 2.92	12.4899	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.3249583	+19.2757778	211936741	08 33 17.99	+19 16 32.8	12.81	 5.39	 2.2922	       	 0.076	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3313333	+18.6829722	211897010	08 33 19.52	+18 40 58.7	12.37	 5.02	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3413333	+22.0928889	212103723	08 33 21.92	+22 05 34.4	14.40	 5.69	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3478333	+20.3008889	212002808	08 33 23.48	+20 18 03.2	14.13	 6.04	 0.3312	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3525833	+19.8827500	211976838	08 33 24.62	+19 52 57.9	12.78	 5.46	 1.4849	 1.3121	 0.017	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+128.3594583	+23.5200556	212171351	08 33 26.27	+23 31 12.2	12.37	 4.80	10.7107	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3625000	+19.3413056	211941071	08 33 27.00	+19 20 28.7	11.35	 4.08	15.7822	       	 0.006	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.3675417	+18.7267222	211899994	08 33 28.21	+18 43 36.2	14.02	 5.43	 1.6285	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.3914167	+20.0737778	211988831	08 33 33.94	+20 04 25.6	12.55	 4.71	14.5407	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.3936250	+19.9516111	211981232	08 33 34.47	+19 57 05.8	14.32	 5.66	 0.7991	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.4098750	+20.4812500	212013705	08 33 38.37	+20 28 52.5	13.43	 5.19	 2.1436	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.4456667	+21.4410000	212069223	08 33 46.96	+21 26 27.6	11.15	 3.51	14.7248	       	 0.008	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9153750	+19.1268333	211926825	08 35 39.69	+19 07 36.6	12.29	 4.99	 5.6644	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9172917	+18.7078611	211898716	08 35 40.15	+18 42 28.3	12.36	 4.98	 1.9731	24.5828	 0.028	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+128.9309583	+16.7559722	211760567	08 35 43.43	+16 45 21.5	13.14	 5.40	13.8092	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9358750	+18.9606111	211915709	08 35 44.61	+18 57 38.2	13.55	 5.31	 1.5591	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9381250	+19.6405556	211961037	08 35 45.15	+19 38 26.0	10.54	 2.36	10.9779	       	 0.021	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.9448750	+19.8709167	211976081	08 35 46.77	+19 52 15.3	11.06	 3.39	14.9227	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+128.9470833	+19.5896389	211957616	08 35 47.30	+19 35 22.7	13.47	 5.27	 1.1823	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9594167	+19.8500278	211974687	08 35 50.26	+19 51 00.1	13.56	 5.28	 0.8967	       	 0.057	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9669583	+20.2663056	212000760	08 35 52.07	+20 15 58.7	13.84	 7.52	 0.3928	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9854583	+20.6186111	212021901	08 35 56.51	+20 37 07.0	14.08	 5.78	 1.2169	       	 0.086	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9872500	+20.8263056	212034371	08 35 56.94	+20 49 34.7	 9.83	 2.02	 1.2105	       	 0.024	multi    	no 	no 	yes	yes	no 	no 	no 	  0	  2	Simbad
+128.9883750	+19.3517778	211941765	08 35 57.21	+19 21 06.4	14.15	 5.62	 0.6014	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9977083	+20.0779167	211989060	08 35 59.45	+20 04 40.5	13.00	 5.42	 1.7604	       	 0.073	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+128.9994583	+19.5255000	211953521	08 35 59.87	+19 31 31.8	10.57	 2.60	11.8159	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0019167	+17.9759167	211846954	08 36 00.46	+17 58 33.3	12.00	 4.52	 0.9054	       	 0.016	multi    	no 	no 	yes	yes	no 	no 	no 	  0	  0	Simbad
+129.0067500	+19.9586944	211981687	08 36 01.62	+19 57 31.3	14.32	 5.97	 1.8499	       	 0.049	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0100833	+19.0740278	211923388	08 36 02.42	+19 04 26.5	14.25	 5.53	 0.3267	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0135000	+20.8376944	212035051	08 36 03.24	+20 50 15.7	13.78	 5.45	 1.8774	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0138750	+19.4246667	211946732	08 36 03.33	+19 25 28.8	13.66	 5.27	 1.6009	       	 0.015	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0184167	+19.9202500	211979237	08 36 04.42	+19 55 12.9	11.16	 3.49	15.7923	       	 0.005	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0262917	+20.6833056	212025814	08 36 06.31	+20 40 59.9	11.45	 4.20	17.3696	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0358333	+19.9570278	211981575	08 36 08.60	+19 57 25.3	13.20	 5.60	 1.0214	       	 0.017	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0360000	+18.7474722	211901402	08 36 08.64	+18 44 50.9	11.29	 3.39	14.5630	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0373333	+19.1585833	211928930	08 36 08.96	+19 09 30.9	12.38	 5.16	 8.2879	 7.1417	 0.015	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.0374167	+19.2300000	211933636	08 36 08.98	+19 13 48.0	12.04	 4.37	18.7654	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0475833	+19.8778333	211976535	08 36 11.42	+19 52 40.2	11.66	 3.83	18.5444	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0501667	+17.8796389	211839847	08 36 12.04	+17 52 46.7	13.55	 5.52	 1.2449	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0502917	+18.7354722	211900619	08 36 12.07	+18 44 07.7	12.96	 5.34	 1.7025	 2.0028	 0.016	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.0587083	+19.6214722	211959786	08 36 14.09	+19 37 17.3	10.36	 2.19	10.8197	 4.8287	 0.005	multi    	no 	no 	yes	no 	yes	no 	yes	  0	  0	Simbad
+129.0595000	+19.4250556	211946750	08 36 14.28	+19 25 30.2	11.91	 4.90	 1.8669	 2.2234	 0.038	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.0605000	+15.9198889	211700306	08 36 14.52	+15 55 11.6	12.48	 4.32	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0647083	+20.6860278	212025985	08 36 15.53	+20 41 09.7	11.63	 3.78	17.3754	       	 0.010	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0662083	+20.1202500	211991772	08 36 15.89	+20 07 12.9	11.75	 3.97	16.7750	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0665417	+20.5531111	212018005	08 36 15.97	+20 33 11.2	11.23	 3.34	13.4600	       	 0.016	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0673333	+19.3779444	211943550	08 36 16.16	+19 22 40.6	13.70	 5.63	 1.2976	 2.5742	 0.023	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.0677500	+17.3816389	211804579	08 36 16.26	+17 22 53.9	 9.86	 1.60	10.9104	 9.2507	 0.033	multi    	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+129.0682917	+19.5420000	211954532	08 36 16.39	+19 32 31.2	 9.52	 2.01	 9.2486	 4.1644	 0.012	multi    	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+129.0726667	+20.3415278	212005201	08 36 17.44	+20 20 29.5	 7.17	 0.36	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0791667	+18.9189722	211912940	08 36 19.00	+18 55 08.3	12.35	 4.62	17.7643	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0798333	+19.8985833	211977843	08 36 19.16	+19 53 54.9	12.57	 4.99	 9.4229	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0806667	+20.6796389	212025597	08 36 19.36	+20 40 46.7	13.89	 6.62	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0849583	+20.1167500	211991549	08 36 20.39	+20 07 00.3	12.90	 4.95	22.7847	       	 0.009	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0909167	+20.2054722	211997061	08 36 21.82	+20 12 19.7	12.17	 4.81	10.2164	       	 0.028	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0933750	+20.1186111	211991662	08 36 22.41	+20 07 07.0	13.45	 5.29	 2.3188	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.0945417	+19.1914722	211931128	08 36 22.69	+19 11 29.3	10.26	 2.15	 9.7992	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.0969583	+18.5450556	211887567	08 36 23.27	+18 32 42.2	14.71	 6.56	 1.7425	       	 0.049	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1130000	+19.8651667	211975682	08 36 27.12	+19 51 54.6	11.23	 4.21	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.1158750	+17.9148333	211842439	08 36 27.81	+17 54 53.4	 9.40	 1.40	 7.6620	 6.6705	 0.014	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  0	Simbad
+129.1179167	+20.2285833	211998436	08 36 28.30	+20 13 42.9	10.44	 2.15	10.3341	 8.6556	 0.018	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  0	Simbad
+129.1243333	+18.9658333	211916015	08 36 29.84	+18 57 57.0	 8.30	 1.12	 9.1745	       	 0.002	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.1270833	+19.9205278	211979250	08 36 30.50	+19 55 13.9	13.87	 5.98	 2.1871	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1300833	+19.5925833	211957804	08 36 31.22	+19 35 33.3	13.01	 5.05	13.8595	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.1356667	+16.3839722	211734093	08 36 32.56	+16 23 02.3	11.51	 3.84	15.4465	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.1390833	+19.9150556	211978879	08 36 33.38	+19 54 54.2	12.01	 4.30	20.3130	       	 0.019	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1454583	+20.2751944	212001288	08 36 34.91	+20 16 30.7	12.14	 4.57	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1517500	+19.1851944	211930699	08 36 36.42	+19 11 06.7	11.20	 3.28	13.5080	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.1555833	+16.0223333	211708110	08 36 37.34	+16 01 20.4	13.88	 5.74	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1644583	+20.3760833	212007343	08 36 39.47	+20 22 33.9	12.75	 5.03	16.9780	 1.4406	 0.018	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.1667917	+20.6099167	212021375	08 36 40.03	+20 36 35.7	10.08	 1.78	 9.0406	 4.4147	 0.010	multi    	yes	yes	yes	no 	yes	no 	yes	  0	  0	Simbad
+129.1715833	+20.2777500	212001425	08 36 41.18	+20 16 39.9	13.16	 5.09	 8.3635	       	 0.030	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1742083	+20.4110833	212009464	08 36 41.81	+20 24 39.9	10.52	 2.37	10.8936	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.1757083	+20.2730278	212001169	08 36 42.17	+20 16 22.9	13.54	 5.32	 1.9370	       	 0.034	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1778750	+18.8952222	211911279	08 36 42.69	+18 53 42.8	10.84	 3.43	12.5493	       	 0.003	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1875417	+20.1460556	211993420	08 36 45.01	+20 08 45.8	13.78	 5.33	 2.2254	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1905000	+20.1239444	211992034	08 36 45.72	+20 07 26.2	 9.94	 1.71	 9.0478	       	 0.009	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.1941667	+19.7622222	211969069	08 36 46.60	+19 45 44.0	 9.62	 1.77	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.1962500	+18.5796667	211889983	08 36 47.10	+18 34 46.8	10.59	 2.22	 9.6362	       	 0.005	single   	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+129.1999583	+18.8827778	211910450	08 36 47.99	+18 52 58.0	 7.94	 0.68	13.0114	       	 0.001	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.2039167	+19.3164444	211939462	08 36 48.94	+19 18 59.2	11.95	 4.54	 1.1716	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2040000	+19.2573333	211935509	08 36 48.96	+19 15 26.4	 9.69	 1.61	 7.4753	       	 0.010	single   	yes	yes	yes	no 	yes	no 	no 	  0	  1	Simbad
+129.2059583	+22.2683889	212112533	08 36 49.43	+22 16 06.2	13.87	 6.01	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2105000	+18.6816944	211896912	08 36 50.52	+18 40 54.1	13.34	 5.30	13.8160	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2127500	+19.0718056	211923230	08 36 51.06	+19 04 18.5	13.24	 4.81	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2150833	+18.8386667	211907530	08 36 51.62	+18 50 19.2	13.48	 5.37	 2.0630	       	 0.013	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2151250	+19.0763889	211923534	08 36 51.63	+19 04 35.0	10.85	 3.16	12.0174	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2251667	+19.6171667	211959502	08 36 54.04	+19 37 01.8	13.81	 5.44	 1.8995	 0.9482	 0.035	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.2254167	+18.7568333	211902072	08 36 54.10	+18 45 24.6	10.47	 2.26	 9.3682	       	 0.019	single   	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+129.2332500	+19.5991667	211958252	08 36 55.98	+19 35 57.0	12.43	 4.69	11.7122	       	 0.031	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2343750	+18.9633056	211915860	08 36 56.25	+18 57 47.9	10.91	 4.06	 4.8164	       	 0.050	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.2357500	+20.3194722	212003893	08 36 56.58	+20 19 10.1	11.23	 4.40	 2.1273	16.3989	 0.030	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.2366250	+19.0911111	211924546	08 36 56.79	+19 05 28.0	10.97	 3.70	14.8159	 1.1948	 0.014	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.2409167	+21.5654722	212075988	08 36 57.82	+21 33 55.7	11.12	 3.33	13.9346	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2443333	+18.8311667	211907026	08 36 58.64	+18 49 52.2	13.26	 5.91	 1.0035	 0.5021	 0.012	multi    	no 	no 	no 	no 	no 	yes	yes	  0	  0	Simbad
+129.2495417	+20.4065000	212009190	08 36 59.89	+20 24 23.4	11.32	 3.55	14.9257	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2584167	+19.6047778	211958646	08 37 02.02	+19 36 17.2	 8.06	 1.14	 4.4134	 2.0927	 0.004	multi    	no 	no 	no 	yes	yes	no 	yes	  0	  2	Simbad
+129.2611667	+19.3284167	211940224	08 37 02.68	+19 19 42.3	12.19	 4.65	11.8342	       	 0.049	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2646250	+19.5359722	211954140	08 37 03.51	+19 32 09.5	12.10	 4.41	19.1421	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2655833	+18.6673333	211895966	08 37 03.74	+18 40 02.4	10.89	 3.10	14.6054	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2743750	+19.2830278	211937242	08 37 05.85	+19 16 58.9	13.31	 6.03	 0.4652	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2797500	+20.7788611	212031440	08 37 07.14	+20 46 43.9	12.76	 5.22	17.1764	       	 0.008	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2818750	+19.9576111	211981626	08 37 07.65	+19 57 27.4	13.58	 5.49	 1.8825	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.2975833	+20.2294167	211998489	08 37 11.42	+20 13 45.9	14.60	 6.73	 0.2880	       	 0.044	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.2978333	+19.8036667	211971690	08 37 11.48	+19 48 13.2	 9.69	 1.63	 8.2423	       	 0.009	single   	no 	no 	yes	no 	yes	no 	no 	  0	  1	Simbad
+129.2985833	+20.2846944	212001830	08 37 11.66	+20 17 04.9	 9.32	 1.68	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.2995833	+20.6798611	212025613	08 37 11.90	+20 40 47.5	12.29	 4.62	20.4103	       	 0.015	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3025417	+20.5448333	212017486	08 37 12.61	+20 32 41.4	11.37	 3.30	14.0674	       	 0.016	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3076250	+17.5135278	211813885	08 37 13.83	+17 30 48.7	10.51	 3.31	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.3181667	+19.4861944	211950897	08 37 16.36	+19 29 10.3	10.47	 3.44	13.1000	15.6779	 0.020	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+129.3245000	+19.4880556	211951021	08 37 17.88	+19 29 17.0	14.35	 5.98	 0.4945	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3329167	+19.0533611	211921927	08 37 19.90	+19 03 12.1	11.83	 4.86	 2.0410	 0.3161	 0.014	multi    	no 	no 	yes	yes	no 	no 	yes	  0	  0	Simbad
+129.3350000	+20.5355278	212016898	08 37 20.40	+20 32 07.9	14.02	 6.06	 0.3286	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3425833	+20.1770000	211995288	08 37 22.22	+20 10 37.2	 9.80	 1.60	 7.8258	       	 0.014	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3434583	+22.0334167	212100611	08 37 22.43	+22 02 00.3	12.25	 5.26	 1.3418	 1.8003	 0.036	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.3451250	+17.6875556	211826149	08 37 22.83	+17 41 15.2	13.10	 5.21	 7.1752	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3452083	+17.3332500	211801146	08 37 22.85	+17 19 59.7	13.54	 6.00	 0.2603	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3507917	+19.4169722	211946212	08 37 24.19	+19 25 01.1	11.54	 4.35	16.6713	       	 0.010	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3520417	+16.0691111	211711533	08 37 24.49	+16 04 08.8	14.27	 6.09	 1.7506	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3520417	+19.7866667	211970684	08 37 24.49	+19 47 12.0	13.54	 5.23	 1.6261	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3550000	+20.3555000	212006082	08 37 25.20	+20 21 19.8	11.59	 4.01	17.8195	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3552500	+20.1096944	211991074	08 37 25.26	+20 06 34.9	14.63	 6.17	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3599167	+19.4868889	211950941	08 37 26.38	+19 29 12.8	10.83	 2.98	12.2687	       	 0.029	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3599583	+19.1321111	211927213	08 37 26.39	+19 07 55.6	11.19	 3.53	14.7906	       	 0.041	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3627083	+18.9766667	211916756	08 37 27.05	+18 58 36.0	12.47	 4.80	23.8186	       	 0.013	single   	yes	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.3627500	+18.8109444	211905676	08 37 27.06	+18 48 39.4	13.47	 5.25	 1.1188	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3647500	+19.6175278	211959522	08 37 27.54	+19 37 03.1	 9.81	 1.85	 8.8734	       	 0.023	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.3662083	+19.9035000	211978157	08 37 27.89	+19 54 12.6	12.53	 4.94	 1.7868	       	 0.038	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3664167	+19.5625278	211955820	08 37 27.94	+19 33 45.1	 8.46	 1.27	 3.6189	 6.6047	 0.004	multi    	no 	no 	no 	yes	yes	yes	yes	  0	  1	Simbad
+129.3674583	+19.1623056	211929178	08 37 28.19	+19 09 44.3	 8.40	 1.07	 0.8405	 0.8194	 0.001	multi    	no 	no 	no 	yes	yes	yes	no 	  0	  1	Simbad
+129.3685833	+20.6079167	212021253	08 37 28.46	+20 36 28.5	11.49	 3.91	 7.2379	       	 0.071	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.3725000	+18.6931944	211897713	08 37 29.40	+18 41 35.5	13.15	 4.81	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.3793333	+19.1039444	211925371	08 37 31.04	+19 06 14.2	10.77	 3.22	13.1039	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3814583	+22.8665278	212142153	08 37 31.55	+22 51 59.5	12.01	 4.66	34.2175	       	 0.006	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3833750	+16.9598889	211774926	08 37 32.01	+16 57 35.6	13.09	 5.08	 1.9022	       	 0.057	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3842917	+18.8839444	211910532	08 37 32.23	+18 53 02.2	12.04	 4.09	20.7767	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3851250	+19.5216111	211953263	08 37 32.43	+19 31 17.8	11.79	 4.41	 1.7991	       	 0.029	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3877083	+20.6694444	212025000	08 37 33.05	+20 40 10.0	13.68	 5.17	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3877917	+18.6543056	211895099	08 37 33.07	+18 39 15.5	 9.28	 1.41	 7.3144	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.3904167	+19.3109722	211939094	08 37 33.70	+19 18 39.5	12.02	 4.68	 0.9534	       	 0.021	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3908750	+20.0136667	211985076	08 37 33.81	+20 00 49.2	 7.95	 0.74	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3957083	+18.9354722	211914072	08 37 34.97	+18 56 07.7	12.85	 4.53	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.3960833	+20.2240278	211998178	08 37 35.06	+20 13 26.5	11.36	 4.01	15.5714	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4007917	+19.4318333	211947247	08 37 36.19	+19 25 54.6	10.60	 3.07	11.5693	       	 0.004	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4010000	+19.2650556	211936017	08 37 36.24	+19 15 54.2	10.76	 2.71	11.9169	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4033333	+18.6112778	211892173	08 37 36.80	+18 36 40.6	14.13	 6.35	 0.4864	       	 0.064	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4052917	+21.8068333	212088961	08 37 37.27	+21 48 24.6	14.20	 5.79	 0.5954	       	 0.076	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4191667	+19.5508889	211955047	08 37 40.60	+19 33 03.2	12.80	 5.00	32.0641	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4195833	+19.5184167	211953002	08 37 40.70	+19 31 06.3	 7.66	 0.59	 0.0872	 0.1219	 0.010	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.4254167	+16.4355000	211737793	08 37 42.10	+16 26 07.8	14.02	 5.58	 1.4447	       	 0.046	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4265000	+19.1337500	211927313	08 37 42.36	+19 08 01.5	 8.58	 1.24	 3.0773	 3.3031	 0.002	multi    	no 	no 	no 	yes	yes	yes	no 	  0	  1	Simbad
+129.4433333	+19.5992778	211958260	08 37 46.40	+19 35 57.4	10.24	 2.05	 9.4200	       	 0.020	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4442083	+19.4383333	211947686	08 37 46.61	+19 26 18.0	 9.28	 1.39	 5.9339	       	 0.028	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.4448333	+19.2671944	211936163	08 37 46.76	+19 16 01.9	 6.16	 0.71	 0.0825	       	 0.004	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.4455000	+19.1821667	211930492	08 37 46.92	+19 10 55.8	12.31	 4.43	21.7757	       	 0.021	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4474583	+19.1068611	211925552	08 37 47.39	+19 06 24.7	10.20	 2.08	 9.3611	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4546250	+17.2550000	211795614	08 37 49.11	+17 15 18.0	11.39	 3.85	15.9450	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4550417	+20.7852222	212031837	08 37 49.21	+20 47 06.8	14.58	 5.89	 1.6343	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4555000	+19.9628889	211981954	08 37 49.32	+19 57 46.4	14.22	 6.23	 0.2796	 0.4112	 0.042	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.4575833	+19.5140833	211952707	08 37 49.82	+19 30 50.7	11.78	 4.05	15.1348	       	 0.031	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4576667	+20.7946389	212032381	08 37 49.84	+20 47 40.7	13.78	 5.67	 1.7156	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4581250	+19.8913333	211977390	08 37 49.95	+19 53 28.8	 9.33	 2.05	 6.7890	       	 0.027	single   	no 	no 	yes	yes	no 	no 	no 	  0	  3	Simbad
+129.4660417	+19.4148333	211946055	08 37 51.85	+19 24 53.4	10.62	 2.30	17.4593	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.4670417	+19.9871944	211983461	08 37 52.09	+19 59 13.9	 9.69	 1.57	 7.9332	       	 0.014	multi    	yes	yes	yes	no 	yes	no 	no 	  0	  1	Simbad
+129.4747083	+22.2931111	212113749	08 37 53.93	+22 17 35.2	12.69	 4.65	10.9105	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4773333	+20.1367500	211992843	08 37 54.56	+20 08 12.3	11.82	 4.09	18.6868	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.4786667	+19.4860278	211950886	08 37 54.88	+19 29 09.7	12.90	 5.02	 4.5398	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4876250	+19.2361944	211934056	08 37 57.03	+19 14 10.3	10.04	 1.80	 9.0816	       	 0.023	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  0	Simbad
+129.4880000	+19.4638611	211949413	08 37 57.12	+19 27 49.9	12.77	 5.03	 1.3341	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4885833	+22.6820556	212133159	08 37 57.26	+22 40 55.4	13.15	 5.18	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.4897917	+18.9731111	211916505	08 37 57.55	+18 58 23.2	13.85	 6.05	 0.2312	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5025417	+18.9646944	211915940	08 38 00.61	+18 57 52.9	12.35	 5.11	17.7581	       	 0.010	single   	yes	no 	no 	no 	no 	no 	no 	  1	  0	Simbad
+129.5047083	+19.9786111	211982945	08 38 01.13	+19 58 43.0	12.86	 5.46	 0.5372	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5056667	+20.5415278	212017273	08 38 01.36	+20 32 29.5	13.88	 5.98	 1.0867	 0.4031	 0.021	multi    	no 	no 	no 	no 	no 	yes	yes	  0	  0	Simbad
+129.5102917	+20.6212222	212022062	08 38 02.47	+20 37 16.4	14.01	 5.83	 1.0913	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5188750	+17.2564722	211795706	08 38 04.53	+17 15 23.3	14.52	 6.26	 1.1380	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5192500	+20.6597778	212024396	08 38 04.62	+20 39 35.2	13.14	 5.09	16.6434	       	 0.051	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5243750	+20.1228056	211991949	08 38 05.85	+20 07 22.1	14.07	 5.68	 2.0227	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5279583	+20.1623333	211994382	08 38 06.71	+20 09 44.4	13.98	 5.56	 0.4497	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5281667	+19.5715833	211956421	08 38 06.76	+19 34 17.7	13.39	 5.31	20.3237	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5291667	+18.6640000	211895744	08 38 07.00	+18 39 50.4	12.56	 5.24	 2.3806	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5295833	+17.3105556	211799551	08 38 07.10	+17 18 38.0	11.81	 4.12	18.5184	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5298333	+17.7823889	211832848	08 38 07.16	+17 46 56.6	12.12	 4.63	 0.8985	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5304167	+20.4487778	212011731	08 38 07.30	+20 26 55.6	12.04	 4.44	20.9370	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5315833	+19.9878611	211983499	08 38 07.58	+19 59 16.3	 9.90	 2.18	 8.9763	       	 0.022	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5321667	+17.0506667	211781289	08 38 07.72	+17 03 02.4	 8.70	 1.07	 0.6141	 0.4084	 0.001	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.5333333	+20.0640278	211988223	08 38 08.00	+20 03 50.5	13.48	 5.25	 1.1647	       	 0.050	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5337083	+18.7416389	211901010	08 38 08.09	+18 44 29.9	13.81	 5.58	 0.4720	       	 0.031	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5337083	+20.4395000	212011152	08 38 08.09	+20 26 22.2	 9.93	 1.79	 9.1716	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5340417	+20.4461111	212011557	08 38 08.17	+20 26 46.0	12.02	 4.40	21.6255	       	 0.027	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5517917	+20.1340556	211992683	08 38 12.43	+20 08 02.6	14.02	 5.55	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5557083	+20.3957500	212008544	08 38 13.37	+20 23 44.7	12.16	 4.23	26.2632	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5568333	+17.2543611	211795569	08 38 13.64	+17 15 15.7	11.31	 3.18	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.5592083	+19.7898056	211970874	08 38 14.21	+19 47 23.3	10.91	 3.87	16.2925	       	 0.012	single   	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+129.5594167	+19.3653889	211942703	08 38 14.26	+19 21 55.4	 9.19	 1.69	 7.2257	 9.5535	 0.007	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  1	Simbad
+129.5624583	+20.5678333	212018902	08 38 14.99	+20 34 04.2	 9.72	 1.62	 9.3952	       	 0.016	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5689583	+18.9913056	211917723	08 38 16.55	+18 59 28.7	12.57	 4.67	29.4875	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5706250	+20.3097778	212003318	08 38 16.95	+20 18 35.2	13.24	 6.48	 2.7768	       	 0.012	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5863333	+21.4405833	212069197	08 38 20.72	+21 26 26.1	14.76	 6.90	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5891250	+20.4480833	212011680	08 38 21.39	+20 26 53.1	11.50	 3.79	16.0621	       	 0.011	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.5895417	+20.1373611	211992880	08 38 21.49	+20 08 14.5	13.54	 5.96	 0.2356	 0.2238	 0.024	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.5902500	+18.6110833	211892153	08 38 21.66	+18 36 39.9	10.18	 3.10	27.2247	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.5911250	+20.0932222	211990019	08 38 21.87	+20 05 35.6	13.89	 6.01	 0.4121	       	 0.030	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5953750	+21.4334722	212068782	08 38 22.89	+21 26 00.5	14.13	 5.85	 1.8929	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.5994167	+20.7280000	212028430	08 38 23.86	+20 43 40.8	11.30	 3.20	15.2159	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.6012083	+20.1060556	211990866	08 38 24.29	+20 06 21.8	 9.18	 1.37	 4.2552	 4.6043	 0.013	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  1	Simbad
+129.6035833	+16.9767500	211776073	08 38 24.86	+16 58 36.3	12.35	 4.56	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.6057083	+18.9416111	211914465	08 38 25.37	+18 56 29.8	11.73	 4.98	 4.6967	 1.1250	 0.007	multi    	no 	no 	no 	yes	no 	yes	yes	  0	  0	Simbad
+129.6057083	+20.3558333	212006108	08 38 25.37	+20 21 21.0	14.03	 5.54	 3.1588	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6155417	+19.7654444	211969273	08 38 27.73	+19 45 55.6	11.77	 4.26	17.6420	       	 0.064	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6174583	+21.5461111	212074908	08 38 28.19	+21 32 46.0	10.20	 3.11	13.8226	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.6234583	+19.8624722	211975510	08 38 29.63	+19 51 44.9	10.93	 3.10	11.7804	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.6347083	+18.7813333	211903709	08 38 32.33	+18 46 52.8	12.53	 4.67	13.5071	       	 0.009	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.6367500	+19.7738056	211969807	08 38 32.82	+19 46 25.7	12.01	 4.26	18.1597	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.6395000	+22.6763889	212132877	08 38 33.48	+22 40 35.0	13.92	 5.23	 0.8564	 1.6773	 0.013	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.6421667	+20.7747778	212031189	08 38 34.12	+20 46 29.2	13.36	 5.35	 2.2085	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6551250	+19.0211111	211919747	08 38 37.23	+19 01 16.0	10.61	 3.13	12.7555	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6561667	+19.2579444	211935558	08 38 37.48	+19 15 28.6	12.40	 5.25	 0.5186	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6577500	+19.9897500	211983602	08 38 37.86	+19 59 23.1	 7.61	 0.53	 0.0514	 0.0575	 0.001	multi    	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6627500	+20.1707778	211994910	08 38 39.06	+20 10 14.8	12.28	 4.94	 0.7384	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6630833	+17.4968056	211812724	08 38 39.14	+17 29 48.5	13.96	 5.68	 0.6078	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6664583	+17.9058056	211841807	08 38 39.95	+17 54 20.9	13.94	 5.33	 2.0070	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6678333	+17.9331944	211843786	08 38 40.28	+17 55 59.5	14.55	 6.09	 0.7027	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6679167	+17.5805278	211818650	08 38 40.30	+17 34 49.9	13.00	 5.28	 0.2759	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6720000	+19.9964167	211984058	08 38 41.28	+19 59 47.1	14.27	 6.01	 0.6962	       	 0.036	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6727083	+19.4217222	211946518	08 38 41.45	+19 25 18.2	11.19	 3.38	14.3182	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6733333	+19.5716667	211956426	08 38 41.60	+19 34 18.0	13.96	 5.54	 0.6074	       	 0.115	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6737083	+18.5712500	211889413	08 38 41.69	+18 34 16.5	14.67	 6.14	 1.3923	19.2487	 0.050	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.6808333	+17.9380000	211844142	08 38 43.40	+17 56 16.8	14.09	 5.65	 0.3981	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.6830000	+19.2940000	211938003	08 38 43.92	+19 17 38.4	11.96	 4.80	 0.3637	 0.3151	 0.023	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.6903750	+20.6621944	212024554	08 38 45.69	+20 39 43.9	13.60	 5.32	 1.3398	 0.6706	 0.023	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.6920833	+20.5767778	212019439	08 38 46.10	+20 34 36.4	10.31	 2.13	 9.3682	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.6956250	+19.5009167	211951863	08 38 46.95	+19 30 03.3	 8.22	 0.78	 0.5125	 0.5950	 0.001	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.6994583	+21.7592778	212086391	08 38 47.87	+21 45 33.4	13.53	 5.97	 0.7733	       	 0.058	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7006667	+16.5321944	211744621	08 38 48.16	+16 31 55.9	15.09	 7.33	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.7083333	+20.0676111	211988454	08 38 50.00	+20 04 03.4	 9.37	 1.43	 5.9093	 8.5138	 0.003	multi    	no 	no 	yes	no 	yes	no 	no 	  0	  1	Simbad
+129.7110000	+21.3853056	212066114	08 38 50.64	+21 23 07.1	13.20	 5.61	 4.2888	 0.4631	 0.013	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.7113333	+19.4150278	211946063	08 38 50.72	+19 24 54.1	12.33	 4.71	21.5812	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7126250	+19.3093056	211938988	08 38 51.03	+19 18 33.5	13.04	 6.71	 1.0879	 0.5438	 0.011	multi    	no 	no 	no 	no 	no 	yes	yes	  0	  0	Simbad
+129.7126250	+19.8505833	211974724	08 38 51.03	+19 51 02.1	12.36	 5.08	33.1746	       	 0.020	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7230417	+19.5713611	211956407	08 38 53.53	+19 34 16.9	10.97	 3.19	13.2909	       	 0.002	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7257083	+19.8623333	211975504	08 38 54.17	+19 51 44.4	14.35	 5.58	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7281667	+20.7880000	212031993	08 38 54.76	+20 47 16.8	14.06	 5.87	 1.1639	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7298750	+20.2191389	211997888	08 38 55.17	+20 13 08.9	12.55	 5.06	 0.9711	       	 0.051	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7302500	+19.2838056	211937293	08 38 55.26	+19 17 01.7	11.74	 4.18	18.1973	       	 0.032	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7311250	+19.8426111	211974178	08 38 55.47	+19 50 33.4	13.58	 5.21	 1.6990	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7319167	+17.2526389	211795467	08 38 55.66	+17 15 09.5	12.71	 4.84	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7357917	+20.8577222	212036187	08 38 56.59	+20 51 27.8	13.12	 5.71	 0.7683	 1.1867	 0.014	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.7372500	+18.8581944	211908826	08 38 56.94	+18 51 29.5	12.16	 4.87	24.8265	       	 0.021	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7384167	+20.1815278	211995540	08 38 57.22	+20 10 53.5	10.72	 3.21	11.6881	       	 0.014	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7406667	+18.7752500	211903302	08 38 57.76	+18 46 30.9	12.71	 5.13	 2.7076	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7430000	+19.6137500	211959273	08 38 58.32	+19 36 49.5	11.04	 2.70	13.3949	       	 0.021	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7577083	+17.8557500	211838068	08 39 01.85	+17 51 20.7	11.77	 4.13	18.8731	       	 0.075	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7595000	+19.3262222	211940093	08 39 02.28	+19 19 34.4	10.26	 2.07	 9.7645	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7621250	+19.5325833	211953944	08 39 02.91	+19 31 57.3	11.96	 5.07	 1.9628	10.0905	 0.025	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+129.7628333	+19.4043056	211945329	08 39 03.08	+19 24 15.5	13.41	 5.32	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7633750	+20.0437778	211986948	08 39 03.21	+20 02 37.6	11.05	 3.39	13.5573	       	 0.022	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7649583	+19.9997500	211984243	08 39 03.59	+19 59 59.1	 7.77	 0.54	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7660833	+20.7632222	212030517	08 39 03.86	+20 45 47.6	11.72	 4.24	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.7664167	+20.5673056	212018862	08 39 03.94	+20 34 02.3	12.28	 4.63	 3.6779	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7670833	+19.5226667	211953336	08 39 04.10	+19 31 21.6	10.86	 2.88	12.6313	       	 0.005	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.7712917	+19.7573056	211968779	08 39 05.11	+19 45 26.3	13.16	 5.25	17.9581	       	 0.065	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7717917	+20.1171667	211991571	08 39 05.23	+20 07 01.8	 8.41	 0.98	 0.7856	       	 0.001	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.7771667	+17.0168056	211778856	08 39 06.52	+17 01 00.5	12.68	 5.36	 1.6925	 4.2903	 0.008	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.7786250	+20.3483889	212005623	08 39 06.87	+20 20 54.2	11.91	 4.29	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.7789583	+19.7855556	211970613	08 39 06.95	+19 47 08.0	14.14	 6.08	 1.0071	       	 0.103	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.7878750	+19.5924167	211957791	08 39 09.09	+19 35 32.7	 7.88	 0.62	 0.0587	 0.0644	 0.009	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.7895417	+21.4099722	212067464	08 39 09.49	+21 24 35.9	 9.34	 1.38	 7.1176	 4.8558	 0.001	multi    	no 	no 	yes	no 	yes	yes	no 	  0	  0	Simbad
+129.7910417	+19.7830000	211970427	08 39 09.85	+19 46 58.8	11.35	 4.68	 4.3794	 2.0661	 0.011	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.7923333	+20.4083889	212009294	08 39 10.16	+20 24 30.2	11.00	 3.19	13.7765	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8007083	+19.1156111	211926132	08 39 12.17	+19 06 56.2	 9.26	 1.32	 5.8684	 5.3634	 0.017	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  0	Simbad
+129.8023750	+21.5991667	212077781	08 39 12.57	+21 35 57.0	14.00	 5.41	 1.4692	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8029583	+19.5046667	211952098	08 39 12.71	+19 30 16.8	14.34	 6.78	 1.4775	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8105000	+20.0220000	211985566	08 39 14.52	+20 01 19.2	11.72	 4.22	17.4255	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8125000	+20.2107778	211997380	08 39 15.00	+20 12 38.8	 9.65	 1.66	 8.1225	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8136250	+19.2865000	211937468	08 39 15.27	+19 17 11.4	12.21	 4.52	17.6353	       	 0.009	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8140833	+19.3245556	211939989	08 39 15.38	+19 19 28.4	13.99	 5.56	 0.9182	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8154167	+19.3340000	211940576	08 39 15.70	+19 20 02.4	14.18	 5.60	 1.8481	       	 0.025	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8157917	+20.0705556	211988628	08 39 15.79	+20 04 14.0	10.87	 4.12	 7.9644	       	 0.012	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.8193750	+17.4628889	211810283	08 39 16.65	+17 27 46.4	 9.97	 1.72	 8.9809	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8199167	+19.7951944	211971189	08 39 16.78	+19 47 42.7	12.08	 4.39	19.5847	       	 0.024	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8251667	+20.7392500	212029094	08 39 18.04	+20 44 21.3	12.06	 4.07	20.0160	       	 0.025	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8270833	+19.3789444	211943617	08 39 18.50	+19 22 44.2	14.01	 6.01	 0.5535	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8285833	+20.4644444	212012721	08 39 18.86	+20 27 52.0	12.23	 4.19	21.9089	       	 0.006	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8287083	+18.8101389	211905618	08 39 18.89	+18 48 36.5	12.79	 5.36	16.3635	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8306667	+18.6395556	211894087	08 39 19.36	+18 38 22.4	14.53	 6.43	 1.1608	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8316667	+20.2918056	212002298	08 39 19.60	+20 17 30.5	13.16	 6.26	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8387917	+22.0890833	212103507	08 39 21.31	+22 05 20.7	13.06	 5.05	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.8397500	+20.7581667	212030244	08 39 21.54	+20 45 29.4	10.03	 1.88	 9.2312	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8410417	+19.8611944	211975426	08 39 21.85	+19 51 40.3	10.37	 2.18	12.5389	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8422917	+20.7995278	212032714	08 39 22.15	+20 47 58.3	13.36	 5.62	 0.4249	 0.5491	 0.026	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.8435000	+20.0819722	211989299	08 39 22.44	+20 04 55.1	12.51	 4.63	12.7906	       	 0.007	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8477917	+18.6664722	211895899	08 39 23.47	+18 39 59.3	11.86	 4.43	20.5367	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8540417	+19.4593333	211949097	08 39 24.97	+19 27 33.6	 9.00	 1.48	 3.9402	 4.2608	 0.009	multi    	no 	no 	yes	yes	yes	yes	no 	  0	  1	Simbad
+129.8589167	+18.8047222	211905265	08 39 26.14	+18 48 17.0	14.02	 5.74	 0.8072	       	 0.031	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8611250	+20.4311944	212010627	08 39 26.67	+20 25 52.3	12.66	 4.91	 4.7204	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8636250	+20.7330833	212028729	08 39 27.27	+20 43 59.1	14.51	 6.10	 0.5091	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8690833	+19.4736389	211950081	08 39 28.58	+19 28 25.1	 9.53	 2.08	10.1754	       	 0.007	multi    	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.8725000	+19.7865833	211970678	08 39 29.40	+19 47 11.7	10.06	 2.56	13.7124	       	 0.007	multi    	yes	yes	yes	yes	yes	no 	no 	  0	  0	Simbad
+129.8767500	+20.0690278	211988531	08 39 30.42	+20 04 08.5	 8.81	 1.50	 7.2198	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8777083	+17.9809167	211847321	08 39 30.65	+17 58 51.3	13.51	 5.33	 0.5571	       	 0.015	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8779583	+18.9481389	211914889	08 39 30.71	+18 56 53.3	13.84	 5.42	 1.0397	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8789167	+19.9671944	211982230	08 39 30.94	+19 58 01.9	12.69	 5.42	 1.1772	 1.0962	 0.020	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.8822917	+19.4048889	211945362	08 39 31.75	+19 24 17.6	12.73	 5.04	 9.1621	       	 0.044	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8834583	+20.6556389	212024154	08 39 32.03	+20 39 20.3	 9.77	 2.25	10.5626	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8944167	+19.8000556	211971468	08 39 34.66	+19 48 00.2	12.38	 5.65	 3.8734	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8980417	+18.8768889	211910082	08 39 35.53	+18 52 36.8	 9.33	 1.40	 6.6839	       	 0.025	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.8987083	+21.7392222	212085291	08 39 35.69	+21 44 21.2	14.66	 5.76	 0.6852	       	 0.063	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.8993750	+23.0947778	212152808	08 39 35.85	+23 05 41.2	13.30	 5.51	 1.7289	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9006667	+18.6802500	211896805	08 39 36.16	+18 40 48.9	13.89	 5.98	 0.9645	       	 0.099	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9017917	+19.2605000	211935711	08 39 36.43	+19 15 37.8	11.01	 3.27	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.9018750	+19.4855278	211950844	08 39 36.45	+19 29 07.9	11.39	 3.75	16.1866	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9042917	+17.7888333	211833336	08 39 37.03	+17 47 19.8	11.60	 3.90	16.8567	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.9047500	+19.8160833	211972478	08 39 37.14	+19 48 57.9	11.39	 3.76	16.0335	       	 0.017	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9098333	+19.4408333	211947849	08 39 38.36	+19 26 27.0	10.29	 2.33	11.3283	       	 0.008	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.9152083	+19.1156111	211926133	08 39 39.65	+19 06 56.2	14.03	 5.86	 1.5551	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9169583	+18.8470000	211908085	08 39 40.07	+18 50 49.2	14.02	 5.77	 1.6194	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9187500	+19.3149722	211939364	08 39 40.50	+19 18 53.9	13.23	 5.18	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9191250	+18.6163056	211892510	08 39 40.59	+18 36 58.7	13.00	 5.54	 1.4160	 0.4121	 0.024	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+129.9209583	+19.9913333	211983725	08 39 41.03	+19 59 28.8	11.32	 4.03	 4.1651	       	 0.023	single   	yes	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.9235833	+19.4834444	211950716	08 39 41.66	+19 29 00.4	14.17	 6.80	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.9239583	+20.0282500	211985987	08 39 41.75	+20 01 41.7	11.76	 3.65	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9251250	+20.2958333	212002525	08 39 42.03	+20 17 45.0	13.14	 5.26	12.5489	       	 0.081	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+129.9272917	+19.3080000	211938911	08 39 42.55	+19 18 28.8	12.70	 5.35	 1.3400	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9316667	+20.4943056	212014467	08 39 43.60	+20 29 39.5	12.75	 5.24	21.8779	       	 0.049	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9361250	+19.2752222	211936696	08 39 44.67	+19 16 30.8	 7.09	 0.58	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9383750	+20.1242778	211992053	08 39 45.21	+20 07 27.4	12.30	 5.19	 5.0754	 1.8247	 0.022	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+129.9405000	+18.9761111	211916718	08 39 45.72	+18 58 34.0	12.56	 4.86	15.4504	       	 0.064	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.9406250	+19.3669722	211942823	08 39 45.75	+19 22 01.1	 9.26	 1.41	 5.7940	 6.3943	 0.016	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+129.9440417	+19.2177500	211932810	08 39 46.57	+19 13 03.9	11.51	 3.77	16.1411	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.9460833	+19.8276111	211973205	08 39 47.06	+19 49 39.4	10.44	 2.29	10.5084	       	 0.010	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+129.9617917	+19.5505556	211955036	08 39 50.83	+19 33 02.0	10.00	 1.80	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9637083	+20.5805278	212019656	08 39 51.29	+20 34 49.9	11.59	 4.64	 1.8362	       	 0.042	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9680417	+19.3126389	211939206	08 39 52.33	+19 18 45.5	 9.01	 1.24	 3.1433	       	 0.008	multi    	no 	no 	no 	yes	yes	no 	no 	  0	  0	Simbad
+129.9693333	+20.5128889	212015538	08 39 52.64	+20 30 46.4	12.52	 5.02	 0.9029	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9698333	+20.0181111	211985346	08 39 52.76	+20 01 05.2	12.66	 5.02	 9.0546	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9715000	+19.4010278	211945119	08 39 53.16	+19 24 03.7	13.01	 5.02	13.9819	       	 0.017	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+129.9763750	+20.5601944	212018408	08 39 54.33	+20 33 36.7	 8.38	 0.98	 1.5882	 1.7784	 0.001	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+129.9767083	+19.4603056	211949163	08 39 54.41	+19 27 37.1	13.36	 5.31	 1.2713	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9794167	+20.0650000	211988287	08 39 55.06	+20 03 54.0	 8.96	 1.15	 3.2908	 3.6513	 0.003	multi    	no 	no 	no 	yes	yes	yes	no 	  0	  0	Simbad
+129.9859583	+17.1759444	211790121	08 39 56.63	+17 10 33.4	14.84	 6.69	 0.6376	       	 0.055	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9914583	+18.6858056	211897200	08 39 57.95	+18 41 08.9	14.63	 5.84	 0.6558	       	 0.051	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9919167	+19.2016389	211931736	08 39 58.06	+19 12 05.9	 8.48	 1.01	10.2845	14.9918	 0.001	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  1	Simbad
+129.9932083	+20.1582222	211994121	08 39 58.37	+20 09 29.6	 8.10	 0.88	 0.8876	 0.2712	 0.002	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+129.9942500	+16.2961944	211727975	08 39 58.62	+16 17 46.3	14.18	 5.59	 0.9136	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9961667	+20.0314444	211986176	08 39 59.08	+20 01 53.2	 8.21	 1.02	 0.6848	       	 0.001	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+129.9992500	+19.5667222	211956096	08 39 59.82	+19 34 00.2	 9.48	 2.43	11.5009	       	 0.006	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+129.9999167	+19.5778889	211956852	08 39 59.98	+19 34 40.4	10.55	 2.27	10.7508	       	 0.020	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0002500	+17.3683056	211803674	08 40 00.06	+17 22 05.9	14.06	 5.71	 1.1923	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0025833	+19.8065278	211971871	08 40 00.62	+19 48 23.5	 9.08	 1.22	 2.9618	       	 0.017	multi    	no 	no 	yes	yes	no 	no 	no 	  0	  0	Simbad
+130.0029583	+19.3096389	211939015	08 40 00.71	+19 18 34.7	10.92	 3.49	14.2415	 3.0861	 0.012	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.0053750	+20.1356111	211992776	08 40 01.29	+20 08 08.2	 8.62	 1.05	 1.1779	 1.2021	 0.001	multi    	no 	no 	no 	yes	yes	no 	no 	  0	  0	Simbad
+130.0055833	+20.3729167	212007145	08 40 01.34	+20 22 22.5	14.21	 5.65	 0.8702	       	 0.051	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0070833	+18.9998333	211918335	08 40 01.70	+18 59 59.4	 8.70	 1.28	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  3	Simbad
+130.0092500	+18.9491389	211914960	08 40 02.22	+18 56 56.9	11.16	 4.33	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.0103750	+19.2776944	211936878	08 40 02.49	+19 16 39.7	13.23	 4.94	16.9511	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0145833	+23.2881389	212161536	08 40 03.50	+23 17 17.3	13.41	 5.56	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0152917	+19.9165278	211978983	08 40 03.67	+19 54 59.5	12.35	 5.29	 1.3743	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0162917	+18.9326111	211913907	08 40 03.91	+18 55 57.4	14.17	 5.85	 0.4181	       	 0.076	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0172917	+19.4139444	211945980	08 40 04.15	+19 24 50.2	12.97	 5.13	 2.6209	       	 0.067	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0172917	+19.7844444	211970520	08 40 04.15	+19 47 04.0	10.00	 2.05	10.4418	       	 0.022	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0237917	+19.0251667	211920022	08 40 05.71	+19 01 30.6	10.01	 2.61	 4.6753	       	 0.060	multi    	yes	yes	yes	yes	yes	no 	no 	  0	  1	Simbad
+130.0262500	+19.4540556	211948738	08 40 06.30	+19 27 14.6	 8.87	 1.37	 5.9003	       	 0.000	multi    	no 	no 	no 	no 	yes	no 	no 	  0	  0	Simbad
+130.0264583	+19.3073333	211938860	08 40 06.35	+19 18 26.4	 9.23	 1.74	 7.8007	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0339583	+20.2184722	211997857	08 40 08.15	+20 13 06.5	13.81	 6.16	 0.8311	       	 0.030	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0403333	+19.6214167	211959779	08 40 09.68	+19 37 17.1	10.13	 1.83	 7.9621	       	 0.012	multi    	yes	yes	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.0417500	+20.4189444	212009944	08 40 10.02	+20 25 08.2	11.31	 4.18	19.1984	 4.4107	 0.014	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.0441667	+20.3473333	212005551	08 40 10.60	+20 20 50.4	14.41	 6.57	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0452083	+18.9825000	211917139	08 40 10.85	+18 58 57.0	12.01	 4.71	 1.9666	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0463333	+21.6431944	212080115	08 40 11.12	+21 38 35.5	14.79	 6.14	 0.4991	       	 0.078	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0477083	+20.0675556	211988451	08 40 11.45	+20 04 03.2	11.84	 5.17	 0.7984	 0.9807	 0.012	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+130.0544583	+19.7638333	211969170	08 40 13.07	+19 45 49.8	14.28	 5.71	 0.3516	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0545833	+20.0578056	211987847	08 40 13.10	+20 03 28.1	12.25	 5.11	 0.8377	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0560417	+19.7788056	211970147	08 40 13.45	+19 46 43.7	10.64	 2.51	11.6111	       	 0.024	single   	yes	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.0574167	+19.7488611	211968228	08 40 13.78	+19 44 55.9	11.88	 4.15	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.0594167	+18.9587222	211915602	08 40 14.26	+18 57 31.4	10.82	 2.88	12.7269	       	 0.035	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0633333	+20.0872222	211989620	08 40 15.20	+20 05 14.0	12.69	 5.60	 0.8827	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0639583	+19.9942778	211983916	08 40 15.35	+19 59 39.4	 8.04	 0.77	 0.6109	 0.2379	 0.001	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.0645833	+19.4586111	211949039	08 40 15.50	+19 27 31.0	10.69	 3.22	12.0433	       	 0.016	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0654583	+19.9150556	211978880	08 40 15.71	+19 54 54.2	10.01	 2.69	10.5060	       	 0.015	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.0704167	+20.7117222	212027446	08 40 16.90	+20 42 42.2	12.97	 5.09	 5.3117	       	 0.065	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0705833	+20.7001667	212026805	08 40 16.94	+20 42 00.6	14.26	 5.64	 0.6001	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0710833	+18.6082778	211891961	08 40 17.06	+18 36 29.8	13.35	 5.31	 1.5866	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0734167	+19.7875556	211970750	08 40 17.62	+19 47 15.2	 8.58	 1.36	 6.7540	       	 0.006	multi    	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.0788750	+20.1918056	211996186	08 40 18.93	+20 11 30.5	10.04	 2.93	12.0009	       	 0.014	multi    	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.0800417	+18.6340278	211893704	08 40 19.21	+18 38 02.5	14.30	 6.07	 0.7828	       	 0.070	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0825833	+18.9273056	211913532	08 40 19.82	+18 55 38.3	11.54	 4.57	16.3091	 2.8016	 0.015	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.0838750	+19.3490000	211941583	08 40 20.13	+19 20 56.4	 6.05	 0.74	 0.1413	 0.4815	 0.004	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.0888750	+19.1817500	211930461	08 40 21.33	+19 10 54.3	10.76	 3.11	14.8981	       	 0.020	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.0929583	+20.1067500	211990908	08 40 22.31	+20 06 24.3	 8.85	 1.23	 2.5578	 2.6889	 0.005	multi    	yes	no 	no 	yes	yes	yes	no 	  0	  0	Simbad
+130.0933750	+20.6408611	212023280	08 40 22.41	+20 38 27.1	11.22	 3.39	14.9813	       	 0.019	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.0946667	+19.4647500	211949471	08 40 22.72	+19 27 53.1	 9.34	 1.34	 6.8695	       	 0.005	multi    	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.0977500	+19.8349722	211973658	08 40 23.46	+19 50 05.9	 7.59	 0.43	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1063750	+19.4757500	211950227	08 40 25.53	+19 28 32.7	 8.76	 1.12	 0.8984	       	 0.001	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1093750	+19.2194167	211932923	08 40 26.25	+19 13 09.9	10.46	 2.44	10.6856	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1107083	+20.2536667	211999969	08 40 26.57	+20 15 13.2	12.19	 4.43	22.9904	       	 0.017	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1142917	+19.2780278	211936906	08 40 27.43	+19 16 40.9	 9.65	 1.52	 8.7884	 3.9003	 0.010	multi    	yes	yes	yes	yes	yes	yes	yes	  0	  0	Simbad
+130.1176250	+18.9358056	211914098	08 40 28.23	+18 56 08.9	11.71	 4.03	17.3542	       	 0.006	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1192917	+20.3124444	212003469	08 40 28.63	+20 18 44.8	 9.46	 2.13	 8.1555	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.1217083	+18.9526111	211915202	08 40 29.21	+18 57 09.4	10.86	 4.19	 5.5034	 2.0045	 0.006	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  1	Simbad
+130.1274167	+19.9330000	211980039	08 40 30.58	+19 55 58.8	12.39	 4.83	16.5750	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1320000	+19.8502778	211974702	08 40 31.68	+19 51 01.0	 9.91	 1.72	 8.4511	       	 0.004	multi    	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.1326667	+20.2016667	211996831	08 40 31.84	+20 12 06.0	 9.83	 1.69	 8.7366	10.1151	 0.011	multi    	yes	yes	yes	no 	yes	yes	no 	  0	  0	Simbad
+130.1373333	+19.1943056	211931309	08 40 32.96	+19 11 39.5	 7.96	 0.69	 0.0608	 0.0637	 0.004	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.1394167	+19.6335833	211960587	08 40 33.46	+19 38 00.9	10.17	 2.00	 9.7007	       	 0.032	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1399583	+18.6744722	211896418	08 40 33.59	+18 40 28.1	 9.83	 1.77	 9.6739	       	 0.014	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1456250	+20.6010278	212020850	08 40 34.95	+20 36 03.7	13.96	 5.54	 0.7920	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1470000	+19.2050833	211931973	08 40 35.28	+19 12 18.3	12.85	 4.79	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1509583	+21.5616944	212075775	08 40 36.23	+21 33 42.1	 9.97	 1.67	 9.0139	       	 0.006	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1510833	+17.9500833	211845034	08 40 36.26	+17 57 00.3	12.58	 5.08	 1.3311	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1578333	+18.7001111	211898181	08 40 37.88	+18 42 00.4	 9.70	 2.29	 2.5241	       	 0.000	single   	no 	no 	no 	no 	no 	no 	no 	  0	  2	Simbad
+130.1578333	+20.3382778	212005017	08 40 37.88	+20 20 17.8	11.37	 3.49	15.6061	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1634583	+19.2282778	211933524	08 40 39.23	+19 13 41.8	 7.23	 0.57	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1640417	+19.9399444	211980450	08 40 39.37	+19 56 23.8	12.69	 5.37	 1.0251	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1646667	+18.8182778	211906187	08 40 39.52	+18 49 05.8	11.00	 3.10	13.1930	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1735833	+19.5001944	211951824	08 40 41.66	+19 30 00.7	13.54	 5.87	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.1745833	+19.2237222	211933215	08 40 41.90	+19 13 25.4	 9.06	 1.54	 6.1123	       	 0.010	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.1769583	+19.5660000	211956059	08 40 42.47	+19 33 57.6	 9.71	 1.65	 8.2856	       	 0.016	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1783750	+18.7376667	211900755	08 40 42.81	+18 44 15.6	12.38	 4.49	18.4498	       	 0.011	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1843750	+20.4718333	212013132	08 40 44.25	+20 28 18.6	10.40	 3.53	 2.1293	 4.3668	 0.023	multi    	no 	no 	no 	yes	yes	yes	yes	  0	  1	Simbad
+130.1954583	+20.4747500	212013297	08 40 46.91	+20 28 29.1	11.68	 4.44	18.7527	 1.0196	 0.017	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.1983750	+18.9033056	211911846	08 40 47.61	+18 54 11.9	 9.69	 1.76	 8.6051	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.1991250	+20.4799444	212013619	08 40 47.79	+20 28 47.8	12.25	 4.91	 7.3830	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2013333	+19.9218889	211979334	08 40 48.32	+19 55 18.8	 9.51	 1.52	 7.9323	       	 0.025	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2160417	+19.9417500	211980574	08 40 51.85	+19 56 30.3	12.40	 4.70	25.9637	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2179167	+19.1744444	211929980	08 40 52.30	+19 10 28.0	12.10	 5.33	 1.1832	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2188333	+19.4831944	211950703	08 40 52.52	+19 28 59.5	 9.05	 1.28	 3.8218	 1.9610	 0.005	multi    	no 	no 	no 	yes	yes	yes	yes	  0	  0	Simbad
+130.2219167	+18.7483056	211901458	08 40 53.26	+18 44 53.9	13.67	 5.57	 1.3982	       	 0.054	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2242500	+19.3788889	211943613	08 40 53.82	+19 22 44.0	11.63	 4.08	16.3780	       	 0.009	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2248750	+20.0900833	211989807	08 40 53.97	+20 05 24.3	12.88	 4.83	20.4638	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2251250	+21.7566944	212086248	08 40 54.03	+21 45 24.1	14.24	 5.84	 1.8940	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2267917	+16.0168889	211707676	08 40 54.43	+16 01 00.8	14.31	 6.85	 0.3088	 0.3926	 0.034	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.2286250	+19.9351667	211980170	08 40 54.87	+19 56 06.6	10.13	 1.97	 9.1156	       	 0.035	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2304583	+18.5830556	211890216	08 40 55.31	+18 34 59.0	11.13	 3.17	12.5019	       	 0.036	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2321250	+18.8261667	211906702	08 40 55.71	+18 49 34.2	13.45	 5.16	 2.0945	       	 0.012	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2362083	+19.7347778	211967293	08 40 56.69	+19 44 05.2	10.21	 1.95	 9.1577	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2367500	+19.7699444	211969550	08 40 56.82	+19 46 11.8	13.99	     	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2372083	+19.9348333	211980142	08 40 56.93	+19 56 05.4	 8.05	 0.66	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2396250	+20.4781667	212013502	08 40 57.51	+20 28 41.4	14.31	 5.64	 0.2319	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2410000	+23.1213611	212154066	08 40 57.84	+23 07 16.9	14.17	 5.83	 0.6684	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2419583	+20.2139722	211997576	08 40 58.07	+20 12 50.3	14.01	 5.81	 0.9403	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2435000	+18.8461944	211908029	08 40 58.44	+18 50 46.3	13.13	 5.16	 2.8988	       	 0.030	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2443750	+18.6750278	211896450	08 40 58.65	+18 40 30.1	10.49	 3.18	12.3757	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2447083	+22.4805000	212123277	08 40 58.73	+22 28 49.8	14.89	 6.00	 0.3888	       	 0.059	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2454167	+19.2379722	211934172	08 40 58.90	+19 14 16.7	13.98	 6.38	 0.2493	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2531667	+16.6133333	211750366	08 41 00.76	+16 36 48.0	 9.33	 1.97	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2573333	+17.8143056	211835162	08 41 01.76	+17 48 51.5	13.51	 5.49	 1.3075	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2609167	+20.4576944	212012299	08 41 02.62	+20 27 27.7	10.29	 2.06	 9.6222	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2630833	+18.9319444	211913859	08 41 03.14	+18 55 55.0	13.10	 5.05	12.3775	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2630833	+19.3025556	211938530	08 41 03.14	+19 18 09.2	14.21	 5.69	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2639167	+18.6210556	211892816	08 41 03.34	+18 37 15.8	14.36	 7.78	 0.4173	 0.2236	 0.031	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.2721250	+20.4734722	212013222	08 41 05.31	+20 28 24.5	11.41	 3.56	15.5886	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2740833	+17.5411667	211815922	08 41 05.78	+17 32 28.2	12.16	 4.71	 0.8684	       	 0.047	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2768333	+19.1029167	211925319	08 41 06.44	+19 06 10.5	14.17	 5.80	 0.2920	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2787500	+19.4436111	211948030	08 41 06.90	+19 26 37.0	12.85	 5.03	25.2429	       	 0.032	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2801667	+19.4468889	211948267	08 41 07.24	+19 26 48.8	10.29	 2.10	 9.7514	       	 0.013	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2806667	+19.0712222	211923188	08 41 07.36	+19 04 16.4	 8.64	 1.54	 7.8855	       	 0.005	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.2810417	+21.9156944	212094548	08 41 07.45	+21 54 56.5	14.25	 5.72	 6.8039	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2885833	+17.5713889	211817992	08 41 09.26	+17 34 17.0	13.86	 5.65	 2.1808	       	 0.032	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2895833	+19.1556667	211928727	08 41 09.50	+19 09 20.4	13.74	 7.35	 0.1594	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2900000	+19.8551667	211975006	08 41 09.60	+19 51 18.6	 8.94	 1.76	 3.0675	       	 0.035	multi    	no 	no 	yes	yes	no 	no 	no 	  0	  2	Simbad
+130.2907917	+19.9353333	211980180	08 41 09.79	+19 56 07.2	10.76	 2.88	13.4609	       	 0.015	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2917500	+19.5088889	211952381	08 41 10.02	+19 30 32.0	 8.91	 1.21	 3.0579	       	 0.006	multi    	no 	no 	no 	yes	yes	no 	no 	  0	  0	Simbad
+130.2923333	+19.2036944	211931872	08 41 10.16	+19 12 13.3	13.90	 6.01	 5.1363	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2926250	+22.1292222	212105502	08 41 10.23	+22 07 45.2	14.21	 5.53	 0.3550	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2929167	+19.8186111	211972627	08 41 10.30	+19 49 07.0	 9.75	 1.75	 9.0541	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.2938333	+19.9351667	211980169	08 41 10.52	+19 56 06.6	11.97	 4.88	 9.9669	       	 0.010	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2944583	+19.8295833	211973314	08 41 10.67	+19 49 46.5	 8.19	 0.85	 0.7522	 0.6970	 0.030	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+130.2947917	+19.0316389	211920429	08 41 10.75	+19 01 53.9	12.84	 5.63	 1.2931	 2.2844	 0.024	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.2960417	+20.8327222	212034762	08 41 11.05	+20 49 57.8	10.12	 1.80	17.0159	       	 0.009	single   	no 	no 	yes	no 	yes	no 	no 	  1	  1	Simbad
+130.2960833	+20.3773611	212007419	08 41 11.06	+20 22 38.5	11.82	 3.99	19.0205	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.2970833	+19.5296111	211953774	08 41 11.30	+19 31 46.6	11.94	 4.57	28.0301	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.2984167	+22.2643611	212112321	08 41 11.62	+22 15 51.7	12.10	 4.52	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.3073333	+19.9219722	211979345	08 41 13.76	+19 55 19.1	 7.77	 0.56	 0.0644	 0.0437	 0.002	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.3080417	+18.9691389	211916232	08 41 13.93	+18 58 08.9	11.76	 4.62	29.0024	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3085417	+20.7415833	212029226	08 41 14.05	+20 44 29.7	12.15	 5.31	 1.5228	 1.7599	 0.035	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+130.3120833	+17.4601667	211810140	08 41 14.90	+17 27 36.6	13.95	 5.47	 1.4169	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3142083	+20.0377500	211986537	08 41 15.41	+20 02 15.9	11.02	 3.29	13.5544	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3142500	+19.0862222	211924229	08 41 15.42	+19 05 10.4	12.25	 4.61	21.3709	       	 0.008	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3178333	+20.8151944	212033679	08 41 16.28	+20 48 54.7	14.48	     	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3228750	+20.5425000	212017328	08 41 17.49	+20 32 33.0	13.11	 5.34	14.9493	       	 0.042	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3241250	+17.0557222	211781646	08 41 17.79	+17 03 20.6	13.25	 5.51	 1.3354	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3266667	+19.2609444	211935741	08 41 18.40	+19 15 39.4	 7.29	 0.63	 0.0701	 0.0778	 0.005	multi    	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3295833	+19.0885000	211924377	08 41 19.10	+19 05 18.6	12.87	 5.94	 5.3704	       	 0.009	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3300833	+20.7775556	212031366	08 41 19.22	+20 46 39.2	10.70	 2.72	12.4003	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3309583	+20.1050556	211990785	08 41 19.43	+20 06 18.2	11.14	 2.58	22.2923	       	 0.004	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.3320417	+19.0984444	211925013	08 41 19.69	+19 05 54.4	14.00	 5.67	 0.8587	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3330000	+19.6346389	211960649	08 41 19.92	+19 38 04.7	10.76	 2.77	11.8729	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3347500	+18.9619167	211915785	08 41 20.34	+18 57 42.9	13.16	 5.29	 3.1293	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3351667	+19.6229167	211959857	08 41 20.44	+19 37 22.5	11.79	 4.05	18.2372	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3369167	+20.3466111	212005504	08 41 20.86	+20 20 47.8	12.27	 4.61	22.3508	       	 0.011	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3440833	+18.9338611	211913977	08 41 22.58	+18 56 01.9	10.54	 2.42	10.6618	       	 0.028	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3495417	+20.2491667	211999682	08 41 23.89	+20 14 57.0	10.78	 3.89	15.2074	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3519167	+20.1304167	211992451	08 41 24.46	+20 07 49.5	11.64	 4.82	 1.4001	 0.7487	 0.047	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+130.3576667	+19.9435556	211980688	08 41 25.84	+19 56 36.8	 9.33	 1.39	 6.7847	       	 0.015	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.3583750	+21.5736667	212076402	08 41 26.01	+21 34 25.2	14.03	 5.55	 0.6577	       	 0.080	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3584167	+19.9875278	211983476	08 41 26.02	+19 59 15.1	13.08	 4.96	 4.3029	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3589167	+17.8035278	211834355	08 41 26.14	+17 48 12.7	12.77	 5.01	21.2769	       	 0.047	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3616667	+19.8768333	211976466	08 41 26.80	+19 52 36.6	13.77	 5.57	 1.6351	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3623750	+19.5424444	211954550	08 41 26.97	+19 32 32.8	 8.72	 1.13	 3.5848	 1.9763	 0.002	multi    	no 	no 	no 	yes	yes	yes	no 	  0	  0	Simbad
+130.3649583	+19.2775833	211936869	08 41 27.59	+19 16 39.3	11.72	 4.28	19.7161	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3695000	+19.7466667	211968088	08 41 28.68	+19 44 48.0	 9.47	 1.46	 7.5631	       	 0.012	multi    	yes	yes	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.3699583	+19.9755833	211982734	08 41 28.79	+19 58 32.1	12.10	 4.70	 1.0231	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3707917	+18.7597500	211902261	08 41 28.99	+18 45 35.1	14.19	 5.81	 0.8646	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3779167	+18.8718611	211909748	08 41 30.70	+18 52 18.7	10.15	 2.82	 2.4224	       	 0.065	single   	no 	no 	yes	no 	no 	no 	no 	  0	  2	Simbad
+130.3847917	+18.6696389	211896120	08 41 32.35	+18 40 10.7	12.92	 4.85	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.3855000	+20.1018889	211990578	08 41 32.52	+20 06 06.8	13.72	 5.24	 1.2572	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.3897500	+19.5500556	211955007	08 41 33.54	+19 33 00.2	13.68	 5.42	 4.2558	 4.6079	 0.020	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.3909167	+19.9690833	211982334	08 41 33.82	+19 58 08.7	 9.93	 1.78	 8.9246	       	 0.007	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.3909583	+22.7987778	212138965	08 41 33.83	+22 47 55.6	12.93	 5.30	32.0709	 5.8661	 0.010	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.3987083	+18.7430556	211901114	08 41 35.69	+18 44 35.0	12.32	 4.82	 8.6076	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.3999583	+19.1070556	211925563	08 41 35.99	+19 06 25.4	10.98	 3.19	13.6065	       	 0.035	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4008333	+19.1426389	211927867	08 41 36.20	+19 08 33.5	 8.35	 0.97	 1.1200	 1.1828	 0.000	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+130.4020833	+20.5678333	212018903	08 41 36.50	+20 34 04.2	13.18	 5.35	 6.1720	       	 0.056	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4024583	+22.4128333	212119822	08 41 36.59	+22 24 46.2	12.28	 4.94	16.3918	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4025833	+18.9043056	211911911	08 41 36.62	+18 54 15.5	12.44	 4.77	 1.0888	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4057083	+20.2102222	211997350	08 41 37.37	+20 12 36.8	13.33	 5.09	20.3246	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4058333	+19.5205278	211953172	08 41 37.40	+19 31 13.9	10.73	 2.82	13.4672	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4065833	+20.5334167	212016785	08 41 37.58	+20 32 00.3	14.35	 5.82	 0.5205	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4103333	+17.6400000	211822797	08 41 38.48	+17 38 24.0	11.43	 3.81	14.7373	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.4125833	+19.2657500	211936067	08 41 39.02	+19 15 56.7	10.57	 2.52	10.1755	       	 0.017	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4166667	+20.6721944	212025163	08 41 40.00	+20 40 19.9	 8.59	 1.03	 1.0631	 1.0297	 0.001	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+130.4239167	+19.8326389	211973504	08 41 41.74	+19 49 57.5	13.60	 5.18	 2.3194	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4239583	+20.3189722	212003867	08 41 41.75	+20 19 08.3	14.34	 5.91	 0.2171	       	 0.030	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4251667	+20.5688889	212018959	08 41 42.04	+20 34 08.0	13.83	 5.54	 0.8593	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4308750	+21.4973333	212072268	08 41 43.41	+21 29 50.4	13.63	 6.41	 0.5282	       	 0.047	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4320000	+19.9621111	211981916	08 41 43.68	+19 57 43.6	10.26	 2.09	 9.4566	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4325417	+20.2268611	211998346	08 41 43.81	+20 13 36.7	 9.14	 1.33	 5.5208	       	 0.007	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.4328333	+19.3022500	211938509	08 41 43.88	+19 18 08.1	11.64	 3.83	16.7320	       	 0.012	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4338750	+20.6044167	212021051	08 41 44.13	+20 36 15.9	12.99	 5.14	 7.4103	       	 0.043	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4395417	+19.2672778	211936168	08 41 45.49	+19 16 02.2	 8.93	 1.24	 4.8999	 5.3585	 0.003	multi    	no 	no 	yes	no 	yes	yes	no 	  0	  0	Simbad
+130.4496667	+20.3895833	212008129	08 41 47.92	+20 23 22.5	14.23	 5.67	 0.3302	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4507500	+19.4586667	211949049	08 41 48.18	+19 27 31.2	10.73	 2.93	11.2072	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4555833	+19.1963611	211931411	08 41 49.34	+19 11 46.9	10.83	 3.67	13.6375	 2.0925	 0.013	multi    	yes	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.4560000	+20.0767222	211988997	08 41 49.44	+20 04 36.2	11.97	 4.97	19.6297	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4566667	+18.8401944	211907634	08 41 49.60	+18 50 24.7	14.76	 6.26	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4607500	+19.4943056	211951438	08 41 50.58	+19 29 39.5	14.12	 5.64	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4662917	+20.3466111	212005503	08 41 51.91	+20 20 47.8	12.19	 4.49	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.4665833	+20.1669722	211994672	08 41 51.98	+20 10 01.1	10.09	 1.97	 9.5487	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4714167	+20.1594444	211994195	08 41 53.14	+20 09 34.0	 7.79	 0.74	 0.4699	       	 0.001	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4722917	+19.2655000	211936049	08 41 53.35	+19 15 55.8	13.89	 5.55	 0.3628	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4732917	+19.6085000	211958929	08 41 53.59	+19 36 30.6	13.67	 5.35	 1.2340	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4735000	+20.6210556	212022052	08 41 53.64	+20 37 15.8	14.07	 5.66	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4765000	+19.2574167	211935518	08 41 54.36	+19 15 26.7	 9.64	 1.77	 4.1844	       	 0.052	single   	no 	no 	yes	no 	no 	no 	no 	  0	  2	Simbad
+130.4781250	+19.6169167	211959487	08 41 54.75	+19 37 00.9	14.54	 6.03	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4908750	+18.9117222	211912407	08 41 57.81	+18 54 42.2	 8.43	 1.02	 2.0297	 2.1023	 0.000	multi    	no 	no 	no 	yes	yes	no 	no 	  0	  1	Simbad
+130.4951250	+20.1075000	211990953	08 41 58.83	+20 06 27.0	10.60	 2.59	11.3381	       	 0.021	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.4965000	+18.7186389	211899457	08 41 59.16	+18 43 07.1	14.77	 6.89	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.4972500	+19.7458333	211968029	08 41 59.34	+19 44 45.0	11.89	 4.23	16.8076	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5066250	+19.4461389	211948214	08 42 01.59	+19 26 46.1	13.33	 5.03	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5186667	+19.5451944	211954717	08 42 04.48	+19 32 42.7	13.77	 5.77	 0.8016	       	 0.017	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5270417	+19.4112222	211945791	08 42 06.49	+19 24 40.4	 7.43	 0.53	 0.0583	 0.1265	 0.008	multi    	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5305000	+18.6213611	211892842	08 42 07.32	+18 37 16.9	14.71	 6.14	 0.2744	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5327083	+22.1847500	212108286	08 42 07.85	+22 11 05.1	13.02	 5.10	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.5428750	+18.7667500	211902720	08 42 10.29	+18 46 00.3	13.75	 5.48	 1.0630	       	 0.133	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5450000	+18.9343611	211914004	08 42 10.80	+18 56 03.7	 7.35	 0.56	 0.0545	 0.0530	 0.010	multi    	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5478750	+19.2770000	211936827	08 42 11.49	+19 16 37.2	10.17	 1.99	 7.9021	       	 0.029	single   	no 	no 	yes	yes	no 	no 	no 	  0	  0	Simbad
+130.5513750	+19.2135000	211932539	08 42 12.33	+19 12 48.6	10.83	 2.87	13.3385	       	 0.002	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5527500	+21.9968889	212098754	08 42 12.66	+21 59 48.8	 9.72	 2.05	23.6009	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  1	  1	Simbad
+130.5529583	+18.6836389	211897054	08 42 12.71	+18 41 01.1	13.56	 5.17	 3.2090	       	 0.010	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5535417	+19.2677222	211936199	08 42 12.85	+19 16 03.8	10.48	 3.02	10.8071	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5546250	+19.3146667	211939350	08 42 13.11	+19 18 52.8	14.31	 6.21	 1.7646	       	 0.255	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5568750	+19.8357222	211973710	08 42 13.65	+19 50 08.6	12.05	 4.32	21.7100	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5645833	+19.8160000	211972472	08 42 15.50	+19 48 57.6	12.62	 4.75	16.9625	       	 0.012	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5693333	+20.0923333	211989950	08 42 16.64	+20 05 32.4	10.99	 3.27	13.6357	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5730417	+17.9874444	211847798	08 42 17.53	+17 59 14.8	12.83	 5.09	19.4067	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5784167	+20.4097222	212009372	08 42 18.82	+20 24 35.0	10.19	 2.23	 9.8695	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5801250	+19.0374444	211920850	08 42 19.23	+19 02 14.8	12.53	 4.69	24.9155	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5836667	+19.1515278	211928486	08 42 20.08	+19 09 05.5	10.70	 2.81	11.9071	       	 0.006	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5838333	+20.0365833	211986473	08 42 20.12	+20 02 11.7	 8.41	 1.30	 7.3948	 6.5208	 0.006	multi    	no 	no 	no 	yes	yes	yes	no 	  0	  0	Simbad
+130.5842083	+21.7455278	212085656	08 42 20.21	+21 44 43.9	14.49	 5.97	 0.1771	       	 0.094	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5879583	+20.0557778	211987717	08 42 21.11	+20 03 20.8	13.27	 5.27	 3.9045	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5917917	+18.7682778	211902826	08 42 22.03	+18 46 05.8	14.00	 5.77	 2.6290	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.5945000	+20.1183889	211991655	08 42 22.68	+20 07 06.2	 9.91	 2.18	12.5998	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.5992500	+19.3867778	211944193	08 42 23.82	+19 23 12.4	13.40	 5.65	 0.4795	 0.2838	 0.017	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.6168333	+17.2468056	211795051	08 42 28.04	+17 14 48.5	13.11	 4.88	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6236667	+19.3312778	211940389	08 42 29.68	+19 19 52.6	14.05	 5.67	 1.1804	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6245000	+19.9754444	211982727	08 42 29.88	+19 58 31.6	13.73	 5.55	 0.5854	       	 0.037	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6280833	+19.1160556	211926166	08 42 30.74	+19 06 57.8	13.59	 5.56	 1.2148	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6282083	+19.4919444	211951283	08 42 30.77	+19 29 31.0	13.23	 4.98	19.6005	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6335833	+18.5911111	211890774	08 42 32.06	+18 35 28.0	11.79	 4.17	 9.4285	       	 0.007	single   	no 	no 	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.6343750	+19.3961667	211944807	08 42 32.25	+19 23 46.2	 9.46	 1.55	10.0241	       	 0.013	single   	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.6417500	+19.6033889	211958562	08 42 34.02	+19 36 12.2	12.11	 4.85	 1.2763	       	 0.009	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6456250	+18.9293889	211913669	08 42 34.95	+18 55 45.8	13.32	 5.12	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6541250	+20.1421389	211993172	08 42 36.99	+20 08 31.7	10.87	 3.12	11.9702	       	 0.020	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.6567083	+19.9885833	211983544	08 42 37.61	+19 59 18.9	13.39	 5.34	 1.6909	       	 0.050	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6596250	+18.5410556	211887287	08 42 38.31	+18 32 27.8	14.78	 6.22	 0.5630	       	 0.060	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6642917	+19.4144167	211946007	08 42 39.43	+19 24 51.9	13.50	 5.23	 2.2521	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.6667500	+22.9496389	212146111	08 42 40.02	+22 56 58.7	13.91	 7.19	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6675417	+19.1330556	211927269	08 42 40.21	+19 07 59.0	10.19	 1.95	 9.3863	       	 0.021	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.6696250	+19.5431667	211954593	08 42 40.71	+19 32 35.4	 8.72	 1.08	 0.4142	 0.6202	 0.001	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+130.6707083	+19.5328889	211953966	08 42 40.97	+19 31 58.4	14.09	 5.49	 2.0749	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.6752917	+19.2922778	211937872	08 42 42.07	+19 17 32.2	11.05	 3.68	13.4691	 1.8714	 0.033	multi    	no 	no 	no 	no 	no 	yes	yes	  0	  0	Simbad
+130.6770000	+19.0996944	211925093	08 42 42.48	+19 05 58.9	 9.88	 1.75	 8.4887	       	 0.011	multi    	yes	yes	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.6821250	+19.6231389	211959869	08 42 43.71	+19 37 23.3	 9.80	 2.28	10.6285	       	 0.011	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.6850417	+19.5799444	211956984	08 42 44.41	+19 34 47.8	 8.63	 1.09	 0.4794	 0.9488	 0.001	multi    	no 	no 	no 	yes	yes	no 	yes	  0	  1	Simbad
+130.6885417	+18.8600556	211908953	08 42 45.25	+18 51 36.2	 9.17	 1.59	10.3340	       	 0.004	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.6889583	+20.5926111	212020360	08 42 45.35	+20 35 33.4	14.13	 5.50	 0.5242	       	 0.044	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7019583	+20.5734167	212019252	08 42 48.47	+20 34 24.3	10.26	 2.17	11.1621	       	 0.005	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.7070000	+18.8597222	211908928	08 42 49.68	+18 51 35.0	11.74	 4.26	13.1493	       	 0.069	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7080833	+17.6413056	211822895	08 42 49.94	+17 38 28.7	14.79	 6.31	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7104167	+19.9177222	211979060	08 42 50.50	+19 55 03.8	12.66	 4.83	24.4293	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7105000	+20.3344167	212004774	08 42 50.52	+20 20 03.9	14.07	 5.65	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7177500	+19.8626111	211975518	08 42 52.26	+19 51 45.4	12.21	 4.78	 3.9744	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7211250	+20.8191944	212033939	08 42 53.07	+20 49 09.1	 8.06	 0.78	 0.4758	 0.3128	 0.006	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.7295833	+20.5205833	212016014	08 42 55.10	+20 31 14.1	14.57	 6.42	 0.8467	       	 0.085	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7361667	+20.5117222	212015476	08 42 56.68	+20 30 42.2	13.48	 5.35	 1.3868	       	 0.016	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7364167	+20.0716944	211988700	08 42 56.74	+20 04 18.1	12.79	 5.24	 6.4560	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.7378333	+18.9242778	211913330	08 42 57.08	+18 55 27.4	10.21	 2.24	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7522500	+20.3377778	212004983	08 43 00.54	+20 20 16.0	 9.77	 1.67	 8.9347	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.7522500	+21.3911389	212066424	08 43 00.54	+21 23 28.1	14.07	 6.22	 0.1117	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.7577917	+19.9012778	211977997	08 43 01.87	+19 54 04.6	14.05	 5.47	 0.9806	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7600417	+19.1675556	211929531	08 43 02.41	+19 10 03.2	10.16	 1.95	 9.8752	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.7620417	+21.7537778	212086091	08 43 02.89	+21 45 13.6	13.07	 5.87	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7720000	+19.4651389	211949501	08 43 05.28	+19 27 54.5	11.55	 3.73	16.1302	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7731667	+18.9183333	211912899	08 43 05.56	+18 55 06.0	14.31	 5.83	 0.7739	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7747083	+19.4375556	211947631	08 43 05.93	+19 26 15.2	 8.46	 1.48	 4.7357	       	 0.018	single   	no 	no 	yes	no 	no 	no 	no 	  0	  2	Simbad
+130.7756250	+19.4144722	211946016	08 43 06.15	+19 24 52.1	12.79	 5.09	 8.1905	       	 0.013	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7765000	+19.3940833	211944662	08 43 06.36	+19 23 38.7	15.40	 7.07	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7779167	+19.7915556	211970966	08 43 06.70	+19 47 29.6	10.77	 2.87	12.7365	 0.9569	 0.017	multi    	yes	no 	yes	no 	no 	no 	yes	  0	  0	Simbad
+130.7793750	+19.0683333	211922975	08 43 07.05	+19 04 06.0	 8.36	 1.20	 4.9297	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.7808333	+19.2376111	211934148	08 43 07.40	+19 14 15.4	12.22	 4.48	23.2925	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7810000	+19.2386667	211934221	08 43 07.44	+19 14 19.2	12.62	 5.27	 2.9542	       	 0.018	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.7849583	+19.4683333	211949728	08 43 08.39	+19 28 06.0	12.39	 5.31	 3.2510	 4.4473	 0.022	multi    	no 	no 	no 	yes	no 	yes	yes	  0	  0	Simbad
+130.7947917	+19.5262778	211953567	08 43 10.75	+19 31 34.6	10.01	 1.76	 9.1078	       	 0.028	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8001667	+18.6958333	211897893	08 43 12.04	+18 41 45.0	14.03	 5.42	 0.3991	       	 0.017	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8027083	+19.5747222	211956610	08 43 12.65	+19 34 29.0	13.46	 5.27	 2.1117	       	 0.017	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8038333	+18.5308056	211886612	08 43 12.92	+18 31 50.9	12.28	 4.59	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.8052500	+20.0044444	211984495	08 43 13.26	+20 00 16.0	14.28	 5.86	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8111250	+17.7083611	211827577	08 43 14.67	+17 42 30.1	13.61	 5.51	 1.4197	       	 0.033	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8134167	+20.0655556	211988324	08 43 15.22	+20 03 56.0	10.68	 2.90	10.9414	       	 0.015	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8160833	+19.1091944	211925698	08 43 15.86	+19 06 33.1	13.34	 5.26	 6.2382	       	 0.039	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8242917	+20.5103889	212015396	08 43 17.83	+20 30 37.4	 9.78	 2.05	 9.0884	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8267917	+19.5188333	211953038	08 43 18.43	+19 31 07.8	12.68	 4.77	23.8069	       	 0.017	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8338750	+20.0738333	211988832	08 43 20.13	+20 04 25.8	13.88	 5.63	 0.9900	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8341250	+19.7690278	211969494	08 43 20.19	+19 46 08.5	 9.36	 1.43	 6.3818	       	 0.026	single   	yes	yes	yes	no 	no 	no 	no 	  0	  1	Simbad
+130.8345417	+20.0793056	211989144	08 43 20.29	+20 04 45.5	13.56	 5.38	 7.4301	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8433333	+19.2001944	211931651	08 43 22.40	+19 12 00.7	12.65	 4.96	21.9034	       	 0.010	single   	yes	no 	no 	no 	no 	no 	no 	  1	  0	Simbad
+130.8440417	+21.6716944	212081702	08 43 22.57	+21 40 18.1	 8.97	 1.62	11.2833	       	 0.015	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8496667	+18.6791944	211896749	08 43 23.92	+18 40 45.1	12.16	 4.31	21.0303	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8542083	+20.5653611	212018728	08 43 25.01	+20 33 55.3	11.40	 3.78	16.4023	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8649583	+19.8279167	211973228	08 43 27.59	+19 49 40.5	12.92	 5.11	19.2476	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8793750	+18.5485000	211887839	08 43 31.05	+18 32 54.6	10.74	 2.93	12.6890	       	 0.018	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8849167	+19.7438056	211967873	08 43 32.38	+19 44 37.7	10.22	 2.09	10.0064	       	 0.012	multi    	no 	no 	yes	yes	yes	no 	no 	  0	  0	Simbad
+130.8859167	+19.9925000	211983811	08 43 32.62	+19 59 33.0	12.92	 5.11	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.8905833	+19.4068611	211945502	08 43 33.74	+19 24 24.7	13.24	 5.66	 0.6931	 1.4924	 0.013	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+130.8942500	+18.6221667	211892898	08 43 34.62	+18 37 19.8	 9.60	 2.53	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8942500	+18.7538333	211901847	08 43 34.62	+18 45 13.8	13.30	 5.43	 4.4450	       	 0.102	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8972917	+19.0039444	211918605	08 43 35.35	+19 00 14.2	11.79	 4.89	16.4106	       	 0.032	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.8979167	+19.4565000	211948895	08 43 35.50	+19 27 23.4	13.60	 5.51	 1.3212	       	 0.029	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.8980417	+20.1895833	211996051	08 43 35.53	+20 11 22.5	 8.92	 1.21	 3.6478	       	 0.002	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9035000	+20.5401111	212017183	08 43 36.84	+20 32 24.4	12.59	 4.95	 0.7397	       	 0.013	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9037083	+20.5371944	212016988	08 43 36.89	+20 32 13.9	11.94	 3.91	19.9561	       	 0.008	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9294583	+17.9083056	211841991	08 43 43.07	+17 54 29.9	11.31	 4.11	15.0679	       	 0.059	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9314583	+19.0758611	211923502	08 43 43.55	+19 04 33.1	10.79	 2.59	11.6995	       	 0.019	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9363750	+19.0662500	211922849	08 43 44.73	+19 03 58.5	11.87	 4.20	18.8313	       	 0.041	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+130.9439167	+17.1567222	211788820	08 43 46.54	+17 09 24.2	10.35	 2.49	11.6641	       	 0.011	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9505833	+18.8007500	211905009	08 43 48.14	+18 48 02.7	 8.93	 1.18	 4.0454	 1.8537	 0.001	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+130.9551667	+17.6592778	211824166	08 43 49.24	+17 39 33.4	14.31	 6.67	 0.1657	 0.2064	 0.047	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.9565000	+17.1543889	211788655	08 43 49.56	+17 09 15.8	13.93	 7.04	 0.3634	 0.3522	 0.029	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+130.9600417	+17.4188056	211807213	08 43 50.41	+17 25 07.7	13.92	 5.75	 0.6136	       	 0.051	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9618750	+20.3657500	212006723	08 43 50.85	+20 21 56.7	11.51	 3.73	18.6690	       	 0.009	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9657083	+17.6555833	211823898	08 43 51.77	+17 39 20.1	13.20	 4.86	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9658750	+19.9135833	211978779	08 43 51.81	+19 54 48.9	10.97	 3.12	13.5950	       	 0.009	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9777917	+18.8935833	211911179	08 43 54.67	+18 53 36.9	10.41	 2.26	10.2967	       	 0.031	single   	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+130.9860417	+19.2716667	211936457	08 43 56.65	+19 16 18.0	14.61	 5.87	 0.3533	       	 0.052	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9862917	+19.7256111	211966629	08 43 56.71	+19 43 32.2	10.53	 2.70	12.0732	       	 0.019	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+130.9914167	+19.5164167	211952875	08 43 57.94	+19 30 59.1	14.51	 5.82	 0.2927	       	 0.042	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+130.9968750	+19.3161389	211939447	08 43 59.25	+19 18 58.1	12.16	 4.63	18.5849	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0027500	+20.6459167	212023593	08 44 00.66	+20 38 45.3	14.27	 5.60	 0.5745	       	 0.028	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0162500	+19.0202222	211919680	08 44 03.90	+19 01 12.8	13.82	 6.03	 0.3071	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+131.0291250	+19.7916944	211970974	08 44 06.99	+19 47 30.1	12.65	 5.16	 1.4536	 1.3449	 0.010	multi    	no 	no 	no 	yes	no 	yes	no 	  0	  0	Simbad
+131.0305417	+20.0769167	211989010	08 44 07.33	+20 04 36.9	 9.06	 1.09	 3.6816	 7.0382	 0.003	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  1	Simbad
+131.0455417	+21.7939722	212088298	08 44 10.93	+21 47 38.3	12.72	 4.94	15.2874	       	 0.039	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0485000	+20.2166667	211997741	08 44 11.64	+20 13 00.0	12.86	 5.58	 1.3824	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0488333	+16.5423333	211745306	08 44 11.72	+16 32 32.4	13.62	 5.35	 1.0393	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0498333	+17.9021667	211841501	08 44 11.96	+17 54 07.8	 8.78	 1.18	 1.8829	 0.8960	 0.001	multi    	no 	no 	no 	yes	yes	no 	yes	  0	  0	Simbad
+131.0513333	+20.7169444	212027753	08 44 12.32	+20 43 01.0	13.54	 5.68	 0.9975	       	 0.084	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0551667	+18.8198333	211906287	08 44 13.24	+18 49 11.4	10.94	 3.24	12.1985	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.0552917	+18.9834444	211917204	08 44 13.27	+18 59 00.4	11.31	 3.35	14.3652	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.0710833	+18.7365833	211900700	08 44 17.06	+18 44 11.7	10.26	 2.08	11.0069	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.0730833	+22.7511389	212136619	08 44 17.54	+22 45 04.1	12.51	 4.45	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0760417	+20.8301111	212034597	08 44 18.25	+20 49 48.4	13.46	 5.63	 2.7560	 0.7596	 0.016	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+131.0797083	+18.9360833	211914124	08 44 19.13	+18 56 09.9	12.06	 4.96	18.0676	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0885000	+19.9365833	211980252	08 44 21.24	+19 56 11.7	13.26	 5.36	13.2579	       	 0.020	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.0967083	+20.2321389	211998650	08 44 23.21	+20 13 55.7	13.35	 5.42	 2.0868	       	 0.022	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1064583	+22.5997500	212129124	08 44 25.55	+22 35 59.1	12.97	 5.01	 6.7967	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1105000	+19.7933056	211971074	08 44 26.52	+19 47 35.9	10.91	 3.18	14.3115	       	 0.012	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.1133750	+18.8724167	211909798	08 44 27.21	+18 52 20.7	13.64	 5.48	 1.3744	       	 0.013	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1153750	+18.9693333	211916235	08 44 27.69	+18 58 09.6	12.87	 5.26	16.6552	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1327500	+19.5548056	211955324	08 44 31.86	+19 33 17.3	12.96	 5.23	 5.9612	       	 0.047	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1341667	+21.4037500	212067143	08 44 32.20	+21 24 13.5	11.22	 4.74	18.9531	       	 0.006	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.1357917	+21.6831389	212082288	08 44 32.59	+21 40 59.3	12.45	 4.94	 3.9776	       	 0.083	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1370833	+18.9640556	211915918	08 44 32.90	+18 57 50.6	12.39	 4.74	 4.6652	       	 0.030	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.1437083	+20.3415278	212005204	08 44 34.49	+20 20 29.5	13.26	 5.01	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1505833	+18.5991944	211891359	08 44 36.14	+18 35 57.1	10.65	 3.70	12.7863	       	 0.031	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.1516250	+19.2882500	211937592	08 44 36.39	+19 17 17.7	14.63	 5.82	 0.2054	       	 0.050	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1686667	+21.7649444	212086697	08 44 40.48	+21 45 53.8	12.34	 4.86	24.9967	       	 0.023	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1697917	+20.1936111	211996321	08 44 40.75	+20 11 37.0	11.07	 3.17	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.1867083	+19.4061389	211945445	08 44 44.81	+19 24 22.1	12.34	 4.98	21.3491	       	 0.006	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2029583	+20.2905278	212002216	08 44 48.71	+20 17 25.9	10.51	 2.36	10.8862	 5.6105	 0.017	multi    	no 	no 	yes	yes	no 	yes	yes	  0	  0	Simbad
+131.2215000	+16.9669444	211775403	08 44 53.16	+16 58 01.0	13.68	 5.25	 0.5402	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2244583	+21.6184722	212078811	08 44 53.87	+21 37 06.5	12.01	 4.46	23.8745	       	 0.011	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2495417	+20.0989722	211990403	08 44 59.89	+20 05 56.3	12.96	 5.07	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2610000	+20.5121389	212015504	08 45 02.64	+20 30 43.7	11.10	 4.09	24.1059	       	 0.010	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.2660000	+21.4716944	212070886	08 45 03.84	+21 28 18.1	14.23	 5.66	 0.5789	       	 0.046	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2675833	+20.3577222	212006227	08 45 04.22	+20 21 27.8	 9.13	 1.27	 3.6691	       	 0.009	multi    	yes	yes	yes	yes	yes	no 	no 	  0	  0	Simbad
+131.2725000	+22.6825278	212133190	08 45 05.40	+22 40 57.1	14.28	 6.03	 1.6128	       	 0.038	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2745833	+19.2992778	211938350	08 45 05.90	+19 17 57.4	13.55	 5.30	26.4715	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2754583	+20.4536944	212012042	08 45 06.11	+20 27 13.3	14.68	 6.27	 0.7241	       	 0.075	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.2806250	+20.3949444	212008490	08 45 07.35	+20 23 41.8	10.05	 1.86	11.0930	 4.5692	 0.009	multi    	no 	no 	yes	no 	yes	no 	yes	  0	  0	Simbad
+131.2855833	+19.1522778	211928526	08 45 08.54	+19 09 08.2	13.58	 5.58	 1.7955	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3014583	+19.3068611	211938817	08 45 12.35	+19 18 24.7	13.83	 5.78	 0.4644	       	 0.024	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3102083	+19.5556944	211955381	08 45 14.45	+19 33 20.5	13.90	 5.99	 0.8757	 0.4002	 0.028	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+131.3122500	+18.7610833	211902344	08 45 14.94	+18 45 39.9	13.41	 5.23	 5.7800	       	 0.050	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3250000	+18.8903611	211910977	08 45 18.00	+18 53 25.3	 8.60	 1.06	 2.2942	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3298750	+19.0030000	211918547	08 45 19.17	+19 00 10.8	10.90	 2.98	12.8311	       	 0.007	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3355417	+18.8753611	211909987	08 45 20.53	+18 52 31.3	 7.84	 0.72	 0.0435	 0.0486	 0.003	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+131.3376250	+18.8257222	211906671	08 45 21.03	+18 49 32.6	14.22	 5.82	 0.6325	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3381667	+18.8843056	211910548	08 45 21.16	+18 53 03.5	13.63	 5.17	 2.1317	       	 0.010	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3430833	+19.8278056	211973218	08 45 22.34	+19 49 40.1	12.50	 5.40	 1.7383	 8.4047	 0.023	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+131.3433333	+19.0356111	211920710	08 45 22.40	+19 02 08.2	12.83	 5.46	 1.3322	 2.4081	 0.018	multi    	no 	no 	no 	yes	no 	no 	yes	  0	  0	Simbad
+131.3570833	+18.7133333	211899094	08 45 25.70	+18 42 48.0	10.44	 2.43	12.3875	       	 0.003	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3582917	+20.4229444	212010154	08 45 25.99	+20 25 22.6	11.21	 3.56	14.7165	       	 0.009	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3582917	+20.4273889	212010383	08 45 25.99	+20 25 38.6	10.88	 3.33	14.4700	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3595833	+19.7843889	211970517	08 45 26.30	+19 47 03.8	11.72	 4.74	 0.9071	       	 0.007	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3609583	+19.2368611	211934092	08 45 26.63	+19 14 12.7	13.04	 5.51	 1.0330	 0.6037	 0.008	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+131.3664167	+21.6535556	212080687	08 45 27.94	+21 39 12.8	 9.26	 1.30	 4.9122	       	 0.005	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.3667917	+21.8007778	212088614	08 45 28.03	+21 48 02.8	13.24	 4.73	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3677083	+20.3954167	212008515	08 45 28.25	+20 23 43.5	 7.86	 0.77	 0.0587	 0.0513	 0.006	multi    	no 	no 	no 	no 	no 	yes	no 	  0	  0	Simbad
+131.3691250	+18.9966667	211918097	08 45 28.59	+18 59 48.0	14.40	 5.59	 0.2576	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3770417	+20.5901667	212020223	08 45 30.49	+20 35 24.6	 8.77	 1.05	 0.9516	 2.2123	 0.001	multi    	no 	no 	no 	yes	yes	yes	yes	  0	  0	Simbad
+131.3840833	+18.9644722	211915935	08 45 32.18	+18 57 52.1	12.92	 4.97	18.2413	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.3928750	+16.9110000	211771406	08 45 34.29	+16 54 39.6	14.16	 5.41	 0.9324	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4035417	+18.5986944	211891321	08 45 36.85	+18 35 55.3	12.06	 5.17	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4036667	+18.7236389	211899790	08 45 36.88	+18 43 25.1	13.68	 5.38	 1.8267	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4187083	+20.1737222	211995082	08 45 40.49	+20 10 25.4	12.59	 4.75	26.5908	       	 0.014	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4203333	+18.5826111	211890182	08 45 40.88	+18 34 57.4	14.08	 5.62	 2.3401	       	 0.038	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4412083	+20.4947222	212014492	08 45 45.89	+20 29 41.0	12.10	 4.46	17.8294	       	 0.023	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4438750	+19.0494722	211921647	08 45 46.53	+19 02 58.1	 7.53	 0.50	 1.8150	 1.7000	 0.001	multi    	no 	no 	no 	no 	yes	no 	no 	  0	  1	Simbad
+131.4491250	+20.7129167	212027502	08 45 47.79	+20 42 46.5	13.24	 5.42	 6.2031	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4498333	+19.6051944	211958687	08 45 47.96	+19 36 18.7	13.00	 5.52	 1.1931	 0.2369	 0.021	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+131.4528333	+21.5323611	212074153	08 45 48.68	+21 31 56.5	12.57	 5.10	15.3599	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.4641250	+19.4243333	211946708	08 45 51.39	+19 25 27.6	12.18	 4.60	21.0295	       	 0.019	single   	yes	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+131.4700000	+19.3168333	211939484	08 45 52.80	+19 19 00.6	12.10	 4.42	       	       	      	timescale	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+131.5081250	+20.5341944	212016828	08 46 01.95	+20 32 03.1	14.36	 6.25	 0.5861	       	 0.059	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.5382917	+21.6080000	212078299	08 46 09.19	+21 36 28.8	13.18	 5.55	 1.5918	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.5429167	+22.9957778	212148248	08 46 10.30	+22 59 44.8	15.09	 6.86	 0.3636	       	 0.127	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.9535833	+18.6054167	211891774	08 47 48.86	+18 36 19.5	12.77	 5.29	 0.5939	 1.1955	 0.013	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+131.9597500	+19.8678611	211975860	08 47 50.34	+19 52 04.3	14.64	 6.35	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.9604583	+19.1530556	211928574	08 47 50.51	+19 09 11.0	13.57	 5.16	 1.4922	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.9742917	+19.1314722	211927174	08 47 53.83	+19 07 53.3	13.54	 5.24	 1.8778	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.9780000	+20.0618889	211988080	08 47 54.72	+20 03 42.8	12.03	 4.16	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+131.9812500	+19.7683056	211969443	08 47 55.50	+19 46 05.9	11.90	 3.55	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0009583	+20.4018889	212008913	08 48 00.23	+20 24 06.8	13.69	 5.45	 2.2464	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0053750	+19.8275278	211973202	08 48 01.29	+19 49 39.1	13.51	 5.32	 1.6312	       	 0.015	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0072500	+18.6771111	211896596	08 48 01.74	+18 40 37.6	 8.81	 1.66	 2.9752	       	 0.014	single   	no 	no 	yes	no 	no 	no 	no 	  0	  2	Simbad
+132.0206250	+19.4705000	211949871	08 48 04.95	+19 28 13.8	12.54	 4.67	15.9493	       	 0.028	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.0310000	+19.9164167	211978972	08 48 07.44	+19 54 59.1	13.40	 5.37	 1.9338	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0425000	+19.1499444	211928367	08 48 10.20	+19 08 59.8	14.78	 6.49	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0546667	+21.4334444	212068777	08 48 13.12	+21 26 00.4	14.28	 5.63	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0615000	+22.5590278	212127087	08 48 14.76	+22 33 32.5	11.65	 4.18	18.4042	       	 0.053	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0719167	+16.9131944	211771577	08 48 17.26	+16 54 47.5	10.60	 3.01	11.1526	       	 0.020	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.0727500	+17.5407222	211815893	08 48 17.46	+17 32 26.6	10.84	 2.98	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0938333	+18.6124167	211892240	08 48 22.52	+18 36 44.7	12.32	 4.54	20.7332	       	 0.030	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.0982083	+19.8365833	211973760	08 48 23.57	+19 50 11.7	12.84	 4.88	13.1716	       	 0.015	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.1060000	+19.1609167	211929081	08 48 25.44	+19 09 39.3	13.72	     	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1084583	+22.6086667	212129540	08 48 26.03	+22 36 31.2	13.41	 5.24	 2.0978	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1252500	+18.9509444	211915085	08 48 30.06	+18 57 03.4	14.36	 6.31	 0.6935	       	 0.083	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1273333	+19.7519722	211968460	08 48 30.56	+19 45 07.1	14.56	 6.19	 0.7938	       	 0.031	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1332917	+17.7283056	211828967	08 48 31.99	+17 43 41.9	13.36	 5.36	 1.1265	       	 0.035	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1362500	+16.9398889	211773459	08 48 32.70	+16 56 23.6	11.47	 4.35	 5.9188	       	 0.048	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+132.1421250	+19.0213056	211919763	08 48 34.11	+19 01 16.7	14.49	 7.02	 0.5438	       	 0.062	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.1437500	+19.9326111	211980019	08 48 34.50	+19 55 57.4	11.89	 4.57	25.6268	 1.0524	 0.019	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+132.2047500	+20.2242500	211998192	08 48 49.14	+20 13 27.3	11.83	 4.19	18.8523	       	 0.007	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.2082500	+20.4433056	212011394	08 48 49.98	+20 26 35.9	11.86	 4.13	18.3688	       	 0.008	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.2343750	+23.3323611	212163442	08 48 56.25	+23 19 56.5	10.86	 4.10	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.2495833	+20.6987500	212026716	08 48 59.90	+20 41 55.5	13.72	 5.77	 0.2993	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.2604167	+21.5567222	212075509	08 49 02.50	+21 33 24.2	12.45	 5.38	 5.1339	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.3115000	+20.7169167	212027750	08 49 14.76	+20 43 00.9	10.82	 2.91	20.8374	       	 0.002	single   	no 	no 	yes	no 	no 	no 	no 	  1	  1	Simbad
+132.3187917	+21.5867500	212077095	08 49 16.51	+21 35 12.3	11.53	 4.88	 1.1331	       	 0.063	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.3348333	+16.4484167	211738707	08 49 20.36	+16 26 54.3	13.62	 5.67	 0.3034	 0.1126	 0.015	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+132.3420000	+22.2727500	212112752	08 49 22.08	+22 16 21.9	12.23	 4.81	 4.1243	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.3501667	+20.2351389	211998837	08 49 24.04	+20 14 06.5	13.42	 5.65	 0.6686	 1.0755	 0.016	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+132.3615000	+18.5220833	211885995	08 49 26.76	+18 31 19.5	11.39	 4.01	 9.1528	       	 0.045	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+132.3912500	+20.5080833	212015247	08 49 33.90	+20 30 29.1	 8.37	 1.00	 0.3535	 0.7234	 0.000	multi    	no 	no 	no 	no 	no 	no 	yes	  0	  0	Simbad
+132.4514583	+16.1309444	211716023	08 49 48.35	+16 07 51.4	10.44	 2.06	13.3008	       	 0.012	single   	no 	no 	yes	no 	yes	no 	no 	  0	  0	Simbad
+132.4644167	+19.8331944	211973540	08 49 51.46	+19 49 59.5	14.13	 6.56	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.4973750	+19.1669444	211929493	08 49 59.37	+19 10 01.0	13.01	 5.12	14.6203	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.5427500	+20.1485833	211993552	08 50 10.26	+20 08 54.9	11.25	 3.72	15.4537	       	 0.014	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+132.5568750	+19.6900000	211964245	08 50 13.65	+19 41 24.0	14.51	 6.45	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.5772500	+19.4285000	211947006	08 50 18.54	+19 25 42.6	10.53	 2.19	 8.4193	       	 0.008	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.6469583	+20.7104444	212027377	08 50 35.27	+20 42 37.6	13.40	 5.50	 1.1090	       	 0.029	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.6505000	+19.9518611	211981243	08 50 36.12	+19 57 06.7	14.33	 5.55	 1.5096	       	 0.040	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.7076667	+19.8101111	211972086	08 50 49.84	+19 48 36.4	12.65	 5.15	 7.4872	       	 0.036	single   	no 	no 	no 	no 	no 	no 	no 	  0	  1	Simbad
+132.7495000	+19.0098611	211918998	08 50 59.88	+19 00 35.5	13.65	 5.48	 1.5583	       	 0.055	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.7974583	+16.8867222	211769795	08 51 11.39	+16 53 12.2	12.46	 4.29	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.8202500	+22.2351667	212110857	08 51 16.86	+22 14 06.6	13.53	 5.64	 0.9238	       	 0.056	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+132.8912917	+17.7067500	211827466	08 51 33.91	+17 42 24.3	14.18	 5.55	 1.1353	       	 0.020	single   	yes	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.0143750	+21.3602500	212064701	08 52 03.45	+21 21 36.9	10.17	 2.42	 9.7692	       	 0.008	single   	yes	yes	yes	no 	no 	no 	no 	  0	  0	Simbad
+133.0605000	+19.0608333	211922472	08 52 14.52	+19 03 39.0	11.06	 4.02	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.1652500	+19.4912500	211951223	08 52 39.66	+19 29 28.5	13.76	 5.59	 1.5177	       	 0.075	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.2682500	+17.7419722	211829936	08 53 04.38	+17 44 31.1	12.86	 5.34	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.3193333	+17.1694444	211789682	08 53 16.64	+17 10 10.0	12.52	 4.74	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.3875833	+20.2482222	211999627	08 53 33.02	+20 14 53.6	13.08	 5.12	21.6587	       	 0.022	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.4157083	+16.2286944	211723172	08 53 39.77	+16 13 43.3	12.31	 5.36	28.0260	       	 0.034	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.4444583	+19.3039444	211938625	08 53 46.67	+19 18 14.2	11.16	 3.63	13.8212	       	 0.025	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+133.5208333	+18.4475000	211880808	08 54 05.00	+18 26 51.0	13.91	 5.59	 2.4978	       	 0.028	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.6200417	+21.8183611	212089563	08 54 28.81	+21 49 06.1	14.08	 5.67	 0.3074	       	 0.021	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.6906250	+21.6994167	212083165	08 54 45.75	+21 41 57.9	13.40	 5.23	 1.5346	       	 0.019	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.7592917	+20.3983333	212008710	08 55 02.23	+20 23 54.0	10.95	 3.03	23.5728	       	 0.010	single   	yes	no 	yes	no 	no 	no 	no 	  1	  1	Simbad
+133.7935417	+19.0699167	211923104	08 55 10.45	+19 04 11.7	12.74	 4.93	17.1622	       	 0.026	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+133.9355833	+22.5814167	212128175	08 55 44.54	+22 34 53.1	11.42	 3.88	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+134.0072083	+19.2876389	211937538	08 56 01.73	+19 17 15.5	13.51	 6.00	 0.2518	       	 0.027	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+134.0948333	+19.4271944	211946907	08 56 22.76	+19 25 37.9	12.00	 4.74	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+134.4679167	+18.8352778	211907293	08 57 52.30	+18 50 07.0	14.57	 6.23	       	       	      	         	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+134.5216667	+21.8795000	212092636	08 58 05.20	+21 52 46.2	13.02	 4.78	 4.0667	       	 0.013	single   	no 	no 	yes	no 	no 	no 	no 	  0	  0	Simbad
+135.0442500	+19.1231389	211926605	09 00 10.62	+19 07 23.3	14.01	 5.94	 1.7937	       	 0.032	single   	no 	no 	no 	no 	no 	no 	no 	  0	  0	Simbad
+
