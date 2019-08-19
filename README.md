@@ -17,4 +17,6 @@ Each part is enclosed in one folder that contains
 - relevant ancillary and raw data
 - plots that are included in Ilin+2019 (in prep.)
 
+NOTE: Some folders do not yet exist but will be added soon.
+
 Questions, remarks, ideas for improvement? Open an issue in this repository or send an email to [Ekaterina Ilin](eilin@aip.de).
