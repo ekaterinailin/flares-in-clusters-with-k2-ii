@@ -82,20 +82,20 @@ The following membership studies were used:
 
 
 study/mission     | source         | membership information quantification   | clusters covered
----------|----------------|-----------------------------------------|---------
-Gaia DR2      | Gaia Collaboration 2018    | members list                      | Hyades, M35, Rup 147, Pleiades, Praesepe
-DANCe    | Bouy+2015           | probability                             | M35
-Gaia DR2 | Cantat-Gaudin+2018  | probability                             | M35, Rup147, Pleiades, Praesepe
-         | Curtis+2013         | classifier                             | Rup147
-         | Douglas+2014   | probability                             | Hyades, Praesepe
-         | Douglas+2017   | meta study, members list                              | Praesepe
-Gaia DR2 | Gao 2018       | probability > .65                       | M67
-         | Gonzalez 2016   | classifier       | M67
-DANCe    | Olivares+2018      | probability                             | Pleiades, Rup 147
-DANCe    | Olivares+2019      | probability                             | Rup 147
-         | Rebull+2017         | meta study, classifier                 | Praesepe
-         | Rebull+2016        | meta study, members list                    | Pleiades
-Gaia DR1      | Reino+2018          | probability                             | Hyades
+------------------|----------------|-----------------------------------------|---------------------
+Gaia DR2          | Gaia Collaboration 2018    | members list                      | Hyades, M35, Rup 147, Pleiades, Praesepe
+DANCe             | Bouy+2015           | probability                             | M35
+Gaia DR2          | Cantat-Gaudin+2018  | probability                             | M35, Rup147, Pleiades, Praesepe
+                  | Curtis+2013         | classifier                             | Rup147
+                  | Douglas+2014   | probability                             | Hyades, Praesepe
+                  | Douglas+2017   | meta study, members list                | Praesepe
+Gaia DR2          | Gao 2018       | probability > .65                       | M67
+                  | Gonzalez 2016   | classifier                            | M67
+DANCe             | Olivares+2018      | probability                             | Pleiades, Rup 147
+DANCe             | Olivares+2019      | probability                             | Rup 147
+                  | Rebull+2017         | meta study, classifier                 | Praesepe
+                  | Rebull+2016        | meta study, members list                    | Pleiades
+Gaia DR1          | Reino+2018          | probability                             | Hyades
 
 
 Targets that appear in the Gaia HRD diagrams ([Gaia Collaboration 2018](https://ui.adsabs.harvard.edu/abs/2018A%26A...616A..10G/abstract), [Source Vizier](http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=J/A+A/616/A10)) increase our confidence about their membership if it less certain in some other catalog. All open clusters except for M67 appear in that study. If they do not appear in the diagrams we do take this for a reason to be less confident about a member that would be included in the sample judging by membership probabilities in the other catalogs, because the Gaia selection cuts out strong variables and is incomplete for very faint and very bright targets.
@@ -173,19 +173,19 @@ ADQL query example for matching Gaia IDs to their RA and Dec:
 
 _Rebull+2017 Section 2.5.2.: Target List_
 
-    [Merged] membership lists in Klein-Wassink (1927), Jones & Cudworth (1983), and Jones & Stauffer (1991), with some candidate members deleted due to discrepant photometry or radial velocities (RVs). This list was then merged with half a dozen recent proper motion membership studies (Adams et al. 2002; Kraus & Hillenbrand 2007; Baker et al. 2010; Boudreault et al. 2012; Khalaj & Baumgardt 2013; Wang et al. 2014), retaining stars considered as likely members in those papers. We then merged this Praesepe membership catalog with the list of all stars observed in K2 Campaign 5 within programs targeting Praesepe. About 600 did not have K2 LCs, sometimes due to the star falling in CCD gaps or just completely outside the K2 FOV; in other cases, the star may have been observable, but no LC was obtained. At this point, then, we have a set of 984 Praesepe members or candidate members with K2 LCs.
+_[Merged] membership lists in Klein-Wassink (1927), Jones & Cudworth (1983), and Jones & Stauffer (1991), with some candidate members deleted due to discrepant photometry or radial velocities (RVs). This list was then merged with half a dozen recent proper motion membership studies (Adams et al. 2002; Kraus & Hillenbrand 2007; Baker et al. 2010; Boudreault et al. 2012; Khalaj & Baumgardt 2013; Wang et al. 2014), retaining stars considered as likely members in those papers. We then merged this Praesepe membership catalog with the list of all stars observed in K2 Campaign 5 within programs targeting Praesepe. About 600 did not have K2 LCs, sometimes due to the star falling in CCD gaps or just completely outside the K2 FOV; in other cases, the star may have been observable, but no LC was obtained. At this point, then, we have a set of 984 Praesepe members or candidate members with K2 LCs._
 
 _Rebull+2017 Section 2.5.4: Membership analysis_
 
-    From the initial sample of 984 LCs, then, 943 are members of Praesepe by our criteria.
+_From the initial sample of 984 LCs, then, 943 are members of Praesepe by our criteria._
 
 Rebull+2017 Section 2.6: Bright and faint limits
 
-    We have dropped the brightest ( Ks < 6) and retained the rest. There are two stars with Ks < 6, one of which we determined to be periodic, and both of which are listed in Appendix F. Both of them are discarded from our sample as too bright. There are 21 stars with 6 < Ks < 8; K s =8 is roughly an F5 spectral type. At least 11 of them are likely pulsators (with 6 more likely pulsators that have fainter K s ); see Appendix D. We have left these in the sample to allow for comparison to ourPleiades work (which also included likely pulsators), but have identified those pulsators where necessary in the remaining discussion.
+_We have dropped the brightest ( Ks < 6) and retained the rest. There are two stars with Ks < 6, one of which we determined to be periodic, and both of which are listed in Appendix F. Both of them are discarded from our sample as too bright. There are 21 stars with 6 < Ks < 8; K s =8 is roughly an F5 spectral type. At least 11 of them are likely pulsators (with 6 more likely pulsators that have fainter K s ); see Appendix D. We have left these in the sample to allow for comparison to ourPleiades work (which also included likely pulsators), but have identified those pulsators where necessary in the remaining discussion._
 
 _Agueros+2011 Section 2, as cited as PaperI in Douglas 2014_
 
-    Kraus & Hillenbrand (2007) combined data from SDSS (York et al. 2000), the Two Micron All Sky Survey (2MASS; Skrutskie et al. 2006), and USNO-B1.0 (Monet et al. 2003) to calculate proper motions and photometry for several million sources within 7 deg of Praesepe’s center. This census covers a larger area of sky and is deeper than any previous proper motion study of the cluster. The resulting catalog includes 1129 candidate members with membership probability >50% (hereafter referred to as the P50 stars); 442 were identified as high-probability candidates for the first time. Kraus & Hillenbrand (2007) estimated  hat their survey is >90% complete across a wide range of spectral types, from F0 to M5. 16
+_Kraus & Hillenbrand (2007) combined data from SDSS (York et al. 2000), the Two Micron All Sky Survey (2MASS; Skrutskie et al. 2006), and USNO-B1.0 (Monet et al. 2003) to calculate proper motions and photometry for several million sources within 7 deg of Praesepe’s center. This census covers a larger area of sky and is deeper than any previous proper motion study of the cluster. The resulting catalog includes 1129 candidate members with membership probability >50% (hereafter referred to as the P50 stars); 442 were identified as high-probability candidates for the first time. Kraus & Hillenbrand (2007) estimated  hat their survey is >90% complete across a wide range of spectral types, from F0 to M5. 16_
 
 #### Pleiades
 
