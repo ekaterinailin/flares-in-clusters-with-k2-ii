@@ -85,16 +85,16 @@ study/mission     | source         | membership information quantification   | c
 ------------------|----------------|-----------------------------------------|---------------------
 Gaia DR2          | Gaia Collaboration 2018    | members list                      | Hyades, M35, Rup 147, Pleiades, Praesepe
 DANCe             | Bouy+2015           | probability                             | M35
-Gaia DR2          | Cantat-Gaudin+2018  | probability                             | M35, Rup147, Pleiades, Praesepe
-                  | Curtis+2013         | classifier                             | Rup147
-                  | Douglas+2014   | probability                             | Hyades, Praesepe
-                  | Douglas+2017   | meta study, members list                | Praesepe
+Gaia DR2          | Cantat-Gaudin+2018  | probability                             | M35, Rup 147, Pleiades, Praesepe
+various                 | Curtis+2013         | classifier                             | Rup147
+various            | Douglas+2014   | probability                             | Hyades, Praesepe
+various               | Douglas+2017   | meta study, members list                | Praesepe
 Gaia DR2          | Gao 2018       | probability > .65                       | M67
-                  | Gonzalez 2016   | classifier                            | M67
+various             | Gonzalez 2016   | classifier                            | M67
 DANCe             | Olivares+2018      | probability                             | Pleiades, Rup 147
 DANCe             | Olivares+2019      | probability                             | Rup 147
-                  | Rebull+2017         | meta study, classifier                 | Praesepe
-                  | Rebull+2016        | meta study, members list                    | Pleiades
+various             | Rebull+2017         | meta study, classifier                 | Praesepe
+various             | Rebull+2016        | meta study, members list                    | Pleiades
 Gaia DR1          | Reino+2018          | probability                             | Hyades
 
 
@@ -196,11 +196,11 @@ _Kraus & Hillenbrand (2007) combined data from SDSS (York et al. 2000), the Two 
 
 _Rebull+2016 Section 2.5: Membership and Definition of Sample_
 
-    In order to establish the best possible set of Pleiades members, we evaluated each object using a combination of proper motions and photometric position in an optical color–magnitude diagram (CMD). We primarily used membership probabilities based on recent proper-motion studies (Bouy et al. 2015; see also Sarro et al. 2014 and Lodieu et al. 2012). For objects where the membership probability and the photometric position were inconsistent, we evaluated stars on a case-by-case basis, comparing information from many sources, such as positions and proper motions, radial velocities, X-ray flux, IR flux, and Hα equivalent width. These values are from the literature [...]
+_In order to establish the best possible set of Pleiades members, we evaluated each object using a combination of proper motions and photometric position in an optical color–magnitude diagram (CMD). We primarily used membership probabilities based on recent proper-motion studies (Bouy et al. 2015; see also Sarro et al. 2014 and Lodieu et al. 2012). For objects where the membership probability and the photometric position were inconsistent, we evaluated stars on a case-by-case basis, comparing information from many sources, such as positions and proper motions, radial velocities, X-ray flux, IR flux, and Hα equivalent width. These values are from the literature [...]_
 
 _Olivares+2018: Gaia DR2 Bayesian model_
 
-    From simulations, we estimated that this statistical tool renders kinematic (proper motion) and photometric (luminosity) distributions of the cluster population with a contamination rate of 5.8 ± 0.2%. The luminosity distributions and present day mass function agree with the ones found in a recent study, on the completeness interval of the survey. At the probability threshold of maximum accuracy, the classifier recovers ≈90% of the recently published candidate members and finds 10% of new ones.
+_From simulations, we estimated that this statistical tool renders kinematic (proper motion) and photometric (luminosity) distributions of the cluster population with a contamination rate of 5.8 ± 0.2%. The luminosity distributions and present day mass function agree with the ones found in a recent study, on the completeness interval of the survey. At the probability threshold of maximum accuracy, the classifier recovers ≈90% of the recently published candidate members and finds 10% of new ones._
 
 
 #### M35
