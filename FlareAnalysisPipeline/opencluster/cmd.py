@@ -18,6 +18,8 @@ from dustmaps.bayestar import BayestarWebQuery
 
 from gaia.gaia import calculate_distance_from_parallax
 
+from opencluster import PACKAGEDIR
+
 def interactive_CMD(specs,cid1='g_SDSS',cid2='i_SDSS'):
     '''
     Simplistic tool to create an interactive
@@ -210,7 +212,7 @@ def color_2MASS_to_BB(df):
                        ((A-B) * row.a1_sigma / row.a1)**2 +
                        row.a0_sigma**2) / row.a1
 
-    conv = pd.read_csv('opencluster/static/BB_to_TWOMASS.csv')
+    conv = pd.read_csv('{}/static/BB_to_TWOMASS.csv'.format(PACKAGEDIR))
 
     for index, row in conv.iterrows():
         b1, b2 = list(row.color)
@@ -228,7 +230,7 @@ def color_BB_to_Johnson(df):
     J-K, H-K, J-H, and K using relations from
     Bessel and Brett 1988.
     '''
-    conv = pd.read_csv('opencluster/static/BB_to_Johnson.csv')
+    conv = pd.read_csv('{}/static/BB_to_Johnson.csv'.format(PACKAGEDIR))
     for index, row in conv.iterrows():
 
         b1, b2 = list(row.color) # "JH" -> ["J", "H"]
@@ -274,7 +276,7 @@ def Teff_Boyajian(df):
                      ['J_Johnson','H_Johnson','K_Johnson',
                       'g_SDSS','r_SDSS','i_SDSS',
                       'z_SDSS','y_SDSS','B_K2','V_K2']))
-    bm = pd.read_csv('opencluster/static/boyajian13_optimized_for_Teff_calculation.csv', skiprows=15)
+    bm = pd.read_csv('{}/static/boyajian13_optimized_for_Teff_calculation.csv'.format(PACKAGEDIR), skiprows=15)
 
     for index, row in bm.iterrows():
 
@@ -361,7 +363,7 @@ def Teff_Mann(df):
     Apply color-temperature relations from the Erratum to Mann+2015.
     Gaia uncertainties on extinction NOT included.
     '''
-    mm = pd.read_csv('opencluster/static/mann15_optimized_for_Teff_calculation.csv')
+    mm = pd.read_csv('{}/static/mann15_optimized_for_Teff_calculation.csv'.format(PACKAGEDIR))
     colorcols = dict(zip(['r','z','J','BP','RP', 'E_BP_RP'],
                      ['r_SDSS','z_SDSS', 'J_2MASS',
                       'BP_Gaia','RP_Gaia','e_bp_min_rp_val_Gaia']))

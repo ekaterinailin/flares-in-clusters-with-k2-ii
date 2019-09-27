@@ -37,9 +37,12 @@ from opencluster.lum import (read_Kepler_response,
 from opencluster.radius import (radius_specmatchemp,
                                 radius_mann,
                                 calculate_double_check_radii_mann)
+
 from opencluster.ffd import FFD
 
-TEFFBINS = pd.read_csv('clusters/Teff_bins_merged.csv', dtype={'Teff_min':int,'Teff_max':int,})
+from opencluster import PACKAGEDIR
+
+TEFFBINS = pd.read_csv('{}/clusters/Teff_bins_merged.csv'.format(PACKAGEDIR), dtype={'Teff_min':int,'Teff_max':int,})
 UNITTOMODE = {'erg':'energy','s':'ED', None: None}
 
 from .__init__ import logger
@@ -153,7 +156,6 @@ class OpenCluster(object):
 
         # Add std of individual values to it
 
-        print(std)
         df.Teff_std = np.sqrt(df.Teff_std**2 + std**2)
         df.loc[df.Teff_std/df.Teff_median > .10, "Teff_median"] = np.nan
         df.loc[df.Teff_std/df.Teff_median > .10, teff] = np.nan
@@ -238,7 +240,7 @@ class OpenCluster(object):
                     spec.serr[np.isnan(spec.serr)] = 0.
                     return spec.s, spec.serr, spec.w*u.angstrom
 
-        def SJSspectrum(d, pathtosed="opencluster/static/ML_SEDs/"):
+        def SJSspectrum(d, pathtosed="{}/static/ML_SEDs/".format(PACKAGEDIR)):
             """Only M0-L9 wihout non-integer SpTs. No uncertainties given."""
             try:
                 sed = pd.read_csv("{}{}_SED.txt".format(pathtosed, d.SpT), delim_whitespace=True, names=["wav","val","e_val"])

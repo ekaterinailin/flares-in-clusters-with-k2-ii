@@ -9,4 +9,5 @@ setup(
     description='Analysis for Flares in Clusters II study',
     packages=find_packages(),
     install_requires=['numpy', 'pandas'],
+    package_data={'': ['static/*', 'tests/tesfiles/*', 'clusters/*']},
 )

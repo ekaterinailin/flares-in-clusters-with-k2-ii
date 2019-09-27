@@ -4,6 +4,7 @@ from astropy import units as u
 import copy
 from astropy import constants as const
 from astropy.constants import sigma_sb
+from opencluster import PACKAGEDIR
 
 def remove_outlier_Teffs(df):
     """Remove Teff results that use colors
@@ -44,7 +45,7 @@ def assign_SpT_to_Teff(df):
             return ""
         else:
             return spt
-    conv = pd.read_csv("opencluster/static/mamajek_teff_spt.csv")
+    conv = pd.read_csv("{}/static/mamajek_teff_spt.csv".format(PACKAGEDIR))
     df.loc[~df.Teff_median.isnull(),"SpT"] = df[~df.Teff_median.isnull()].apply(lambda x: matchSpT(x.Teff_median, conv), axis=1)
     return df
 
@@ -122,7 +123,7 @@ def SME_find_library_match(cut, T, Terr, feh, interpolate=False):
             return mr, mrerr
 
 def read_Kepler_response():
-    Kp = pd.read_csv('opencluster/static/Kepler_response.txt',
+    Kp = pd.read_csv('{}/static/Kepler_response.txt'.format(PACKAGEDIR),
                                       skiprows=9,
                                       header=None,
                                       delimiter='\t',
@@ -288,22 +289,21 @@ def projected_luminosity_SED(planck, spectrum, wavelengths, R,
     -------
     Projected luminosity from the stellar SED in erg/s.
     '''
-    R = (R * u.solRad).to('cm')
+    R = (R * u.solRad).to('cm').value
 
-    wavelengths = wavelengths.to('cm')
-    planck = planck * u.Unit('erg * s**-1 * cm**-3')
+    wavelengths = wavelengths.to('cm').value
+    planck = planck
     flux_per_area = np.sum(np.diff(wavelengths) / 2. * (spectrum[1:] * planck[1:] + spectrum[:-1] * planck[:-1])) #trapezoidal rule
-#    flux_per_area = np.trapz(spectrum * planck, x=wavelengths).to('erg * s**-1 * cm**-2')
     if deriv==False:
-        val = (np.pi * R**2 * flux_per_area).to('erg/s')
-        return val.value
+        val = np.pi * R**2 * flux_per_area#).to('erg/s')
+        return val
     elif deriv==True:
-        e_R = (e_R * u.solRad).to('cm')
-        e_planck = e_planck * u.Unit('erg * s**-1 * cm**-3')
+        e_R = (e_R * u.solRad).to('cm').value
+        e_planck = e_planck
         e_fi = spectrum * e_planck
-        e_flux_per_area = (.5 * np.sqrt(np.sum(np.diff(wavelengths)**2 * (e_fi[1:]**2 + e_fi[:-1]**2)))).to('erg * s**-1 * cm**-2')
-        val = (np.pi * R * np.sqrt(4. * flux_per_area**2 * e_R**2 + R**2 * e_flux_per_area**2)).to('erg/s')
-        return val.value
+        e_flux_per_area = (.5 * np.sqrt(np.sum(np.diff(wavelengths)**2 * (e_fi[1:]**2 + e_fi[:-1]**2))))
+        val = (np.pi * R * np.sqrt(4. * flux_per_area**2 * e_R**2 + R**2 * e_flux_per_area**2))
+        return val
 
 
 def projected_luminosity_Kepler(planck, spectrum, wavelengths, Kpresp, R,
@@ -334,17 +334,16 @@ def projected_luminosity_Kepler(planck, spectrum, wavelengths, Kpresp, R,
     assert Kpresp.shape[0] == spectrum.shape[0]
     assert Kpresp.shape[0] == planck.shape[0]
     assert Kpresp.shape[0] == wavelengths.shape[0]
-    R = (R * u.solRad).to('cm')
-    wavelengths = wavelengths.to('cm')
-    planck = planck * u.Unit('erg * s**-1 * cm**-3')
-
-    flux_per_area = np.trapz(spectrum * planck * Kpresp, x=wavelengths).to('erg * s**-1 * cm**-2')
+    R = (R * u.solRad).to('cm').value
+    wavelengths = wavelengths.to('cm').value
+    planck = planck
+    flux_per_area = np.trapz(spectrum * planck * Kpresp, x=wavelengths)
     if deriv == False:
-        val =  (np.pi * R**2 * flux_per_area).to('erg/s')
-        return val.value
+        val =  (np.pi * R**2 * flux_per_area) 
+        return val
     elif deriv == True:
-        e_R = (e_R * u.solRad).to('cm')
-        e_fi = spectrum * Kpresp.values * (e_planck * u.Unit('erg * s**-1 * cm**-3'))
-        e_flux_per_area = (.5 * np.sqrt(np.sum(np.diff(wavelengths)**2 * (e_fi[1:]**2 + e_fi[:-1]**2)))).to('erg * s**-1 * cm**-2')
-        val = (np.pi * R * np.sqrt(4. * flux_per_area**2 * e_R**2 + R**2 * e_flux_per_area**2)).to('erg/s')
-        return val.value
+        e_R = (e_R * u.solRad ).to('cm').value
+        e_fi = spectrum * Kpresp.values * (e_planck )
+        e_flux_per_area = (.5 * np.sqrt(np.sum(np.diff(wavelengths)**2 * (e_fi[1:]**2 + e_fi[:-1]**2))))
+        val = (np.pi * R * np.sqrt(4. * flux_per_area**2 * e_R**2 + R**2 * e_flux_per_area**2))
+        return val

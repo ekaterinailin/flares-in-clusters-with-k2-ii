@@ -19,4 +19,10 @@ Each part is enclosed in one folder that contains
 
 NOTE: Some folders do not yet exist but will be added soon.
 
+## Installation instructions
+
+Dependencies: `dustmaps`, `specmatch-emp`, `bokeh`, `gaia` (in GaiaConvenieceTool), `opencluster` (in FlareAnalysisPipeline).
+
+[...]
+
 Questions, remarks, ideas for improvement? Open an issue in this repository or send an email to [Ekaterina Ilin](eilin@aip.de).

@@ -1,3 +1,6 @@
+import os
+
+PACKAGEDIR = os.path.abspath(os.path.dirname(__file__))
 
 #This I found here: https://stackoverflow.com/questions/20625582/how-to-deal-with-settingwithcopywarning-in-pandas
 from pandas import options
