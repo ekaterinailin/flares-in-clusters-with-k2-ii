@@ -21,8 +21,14 @@ NOTE: Some folders do not yet exist but will be added soon.
 
 ## Installation instructions
 
-Dependencies: `dustmaps`, `specmatch-emp`, `bokeh`, `gaia` (in GaiaConvenieceTool), `opencluster` (in FlareAnalysisPipeline).
+Clone this repository, then run the installation file. This will create a virtual environment and install all required packages:
 
-[...]
+```
+git clone https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii.git
+cd flares-in-clusters-with-k2-ii
+bash installation.sh
+```
+
+Feel free to roam through the project, try the code, and browse the tables.
 
 Questions, remarks, ideas for improvement? Open an issue in this repository or send an email to [Ekaterina Ilin](eilin@aip.de).
