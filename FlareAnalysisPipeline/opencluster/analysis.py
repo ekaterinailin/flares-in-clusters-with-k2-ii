@@ -9,6 +9,7 @@ from astropy import units as u
 from opencluster.opencluster import OpenCluster
 from opencluster.utils import timestamp
 from opencluster.paperplots import save_PP_plots, COLORS_LIST, MARKERS_LIST
+from opencluster import PACKAGEDIR
 
 from .__init__ import logger
 
@@ -23,12 +24,12 @@ COLUMNS = ['h_cluster','cluster', 'Tmin', 'Tmax', 'cutoff_MK',
            'sol_alpha_mean_2','sol_alpha_err_mean_2',
            'sol_alpha_mean_mk','sol_alpha_err_mean_mk',
            'sol_alpha_mean_bauke','sol_alpha_err_mean_bauke',]
-CLUSTERS = pd.read_csv('clusters/cluster_parameters_merged.csv')
+CLUSTERS = pd.read_csv('{}/clusters/cluster_parameters_merged.csv'.format(PACKAGEDIR))
 
 
 
 
-def generate_OpenCluster(cluster, unit=None, clusters=CLUSTERS):
+def generate_OpenCluster(cluster, unit=None, clusters=CLUSTERS, path=""):
     '''
     Generate an OpenCluster object using the
     parameter table stored in clusters.
@@ -44,8 +45,8 @@ def generate_OpenCluster(cluster, unit=None, clusters=CLUSTERS):
         logger.error('Please specify a unit to work with')
     cparams = clusters.loc[(clusters.cluster == cluster),:].iloc[0]
     h_cluster = cparams.h_cluster
-    flares = pd.read_csv('flares/{}_flares.csv'.format(cluster))
-    stars = pd.read_csv('luminosities/{}_luminosities.csv'.format(cluster))
+    flares = pd.read_csv('{}/flares/{}_flares.csv'.format(path, cluster))
+    stars = pd.read_csv('{}/luminosities/{}_luminosities.csv'.format(path, cluster))
     OC = OpenCluster(cluster=cluster, h_cluster=h_cluster,
                      age=cparams['age (Myr)'], u_age_high=cparams.u_age_high, u_age_low=cparams.u_age_low,
                      feh=cparams.FeH, u_feh=cparams.u_feh,

@@ -14,7 +14,7 @@ logname = 'opencluster_{}'.format(logdate)
 logger = logging.getLogger(logname)
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
-fh = logging.FileHandler('ancillary/{}.log'.format(logname))
+fh = logging.FileHandler('{}/{}.log'.format(PACKAGEDIR, logname))
 fh.setLevel(logging.DEBUG)
 # create console handler with a higher log level
 ch = logging.StreamHandler()

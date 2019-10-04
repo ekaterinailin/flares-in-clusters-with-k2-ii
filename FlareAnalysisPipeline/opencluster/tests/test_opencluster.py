@@ -5,6 +5,7 @@ from astropy import units as u
 from ..opencluster import OpenCluster
 from ..lum import read_Kepler_response
 from ..analysis import *
+from .. import PACKAGEDIR
 from copy import deepcopy
 
 import specmatchemp.library
@@ -249,7 +250,7 @@ def test_generate_all_FFDs():
                         'u_feh':0.001,
                         'Teffmax':7000}, ignore_index=True)
     #generate fake OC with observations:
-    OC = generate_OpenCluster('fake', clusters=clusters, unit='erg')
+    OC = generate_OpenCluster('fake', clusters=clusters, unit='erg', path=PACKAGEDIR)
     #add this new step of the analysis and add a mode:
     OC = OC.generate_all_FFDs()
     #test results
@@ -271,7 +272,7 @@ def test_generate_all_FFDs():
 
     #Now everything with ED:
     #generate fake OC with observations:
-    OC = generate_OpenCluster('fake', clusters=clusters, unit='s')
+    OC = generate_OpenCluster('fake', clusters=clusters, unit='s', path=PACKAGEDIR)
     OC.unit = 's'
     OC = OC.generate_all_FFDs()
     #test results

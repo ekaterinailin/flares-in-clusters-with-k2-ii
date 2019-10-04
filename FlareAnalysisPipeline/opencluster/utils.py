@@ -340,7 +340,7 @@ def prepare_and_validate_stars(df, extinction=True):
     df = remove_bad_Gaia_photometry(df)
 
     # Fill in the median cluster distance for targets without Gaia parallax:
-    dft.loc[dft['distance'].isnull(),"distance"] = dft['distance'].median()
+    #df.loc[df['distance'].isnull(),"distance"] = df['distance'].median()
 
     # Use internal Gaia extinction correction to correct BP-RP
     if extinction == True:

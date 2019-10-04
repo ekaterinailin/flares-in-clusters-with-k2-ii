@@ -8,8 +8,10 @@ from ..ffd import FFD
 
 from copy import deepcopy
 
-fstars = pd.read_csv('luminosities/fake_luminosities.csv')
-fflares = pd.read_csv('flares/fake_flares.csv')
+from opencluster import PACKAGEDIR
+
+fstars = pd.read_csv('{}/luminosities/fake_luminosities.csv'.format(PACKAGEDIR))
+fflares = pd.read_csv('{}/flares/fake_flares.csv'.format(PACKAGEDIR))
 
 clusters = CLUSTERS.append({'cluster':'fake',
                         'h_cluster':'Fake Cluster',
@@ -20,7 +22,7 @@ clusters = CLUSTERS.append({'cluster':'fake',
                         'u_age_low':100,
                         'u_feh':0.001,
                         'Teffmax':7000}, ignore_index=True)
-OC = generate_OpenCluster('fake', unit='erg', clusters=clusters)
+OC = generate_OpenCluster('fake', unit='erg', clusters=clusters, path=PACKAGEDIR)
 
 def test_analyse_with_MK():
     #test regular functionality
