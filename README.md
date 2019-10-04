@@ -21,11 +21,16 @@ NOTE: Some folders do not yet exist but will be added soon.
 
 ## Installation instructions
 
-Clone this repository, then run the installation file. This will create a virtual environment and install all required packages:
+Clone this repository, create a virtual environment, activate it, then run the installation file, like so:
 
 ```
 git clone https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii.git
 cd flares-in-clusters-with-k2-ii
+
+python3 -m pip install --user virtualenv
+python3 -m venv flaresinclustersii
+source flaresinclustersii/bin/activate
+
 bash installation.sh
 ```
 
