@@ -427,8 +427,9 @@ def cut_Teff_Mann_on_Teff(df):
     Tmax = 4100.
     teffmann = df.loc[:,df.columns.str.startswith('Teff_Mann')].columns.values
     e_teffmann = df.loc[:,df.columns.str.startswith('e_Teff_Mann')].columns.values
+    print (teffmann, e_teffmann)
     for col, e_col in zip(teffmann, e_teffmann):
-        #print("misfits Teff: ", df.loc[((df.loc[:, col]>Tmax) | (df.loc[:, col]<Tmin)), col].shape[0])
+        print("misfits Teff: ", df.loc[((df.loc[:, col]>Tmax) | (df.loc[:, col]<Tmin)), col].shape[0])
         df.loc[((df.loc[:, col]>Tmax) | (df.loc[:, col]<Tmin)), [col, e_col]] = np.nan
 
     return df

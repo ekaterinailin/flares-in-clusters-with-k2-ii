@@ -43,13 +43,13 @@ def test_SME_find_library_match():
                             'Terr' : [200, 200, 200],
                             'feh' : [.1,.2,.3]})
 
-    T, feh, Terr = 3400., .6, 200
+    T, feh, Terr = 3400., .7, 200
     assert np.isnan(SME_find_library_match(testcut, T, Terr, feh)).all()
     T, feh, Terr = 3500., .15, 200
-    
     assert SME_find_library_match(testcut, T, Terr, feh)[0] == 0
-    assert SME_find_library_match(testcut, T, Terr, feh)[1].equals(pd.Series({'Teff': 3400.0, 'feh': 0.1}))
+    assert SME_find_library_match(testcut, T, Terr, feh)[1].equals(pd.Series({'Teff': 3400.0, 'Terr':200, 'feh': 0.1}))
     T, feh, Terr = np.nan, .15, Terr
+    print(SME_find_library_match(testcut, T, Terr, feh))
     assert np.isnan(SME_find_library_match(testcut, T, Terr, feh)).all()
 
 def test_read_Kepler_response():
