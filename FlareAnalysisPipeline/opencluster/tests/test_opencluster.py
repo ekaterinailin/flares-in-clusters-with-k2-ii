@@ -80,8 +80,8 @@ def test_find_Rstar():
                          ['Rstar', 'Rstar_consistent', 'Rstar_double_check', 'e_Rstar', 'e_Rstar_double_check'])
     assert hyades.stars[hyades.stars.Rstar.isnull()].shape[0] ==  0
     assert hyades.stars[hyades.stars.e_Rstar.isnull()].shape[0] ==  0
-    print(hyades.stars.loc[~hyades.stars.Rstar_consistent.isnull(), ['Rstar', 'Rstar_consistent', 'Rstar_double_check', 'e_Rstar', 'e_Rstar_double_check']].T)
-    assert (hyades.stars.Rstar_consistent.dropna().values == np.array([True, False])).all()
+    
+    assert (hyades.stars.Rstar_consistent.dropna().values == np.array([True])).all()
 
     # Now test the mann mode
     hyades = deepcopy(TestCluster)
@@ -95,7 +95,7 @@ def test_find_Rstar():
     assert hyades.stars[hyades.stars.Rstar.isnull()].shape[0] ==  4
     assert hyades.stars[hyades.stars.e_Rstar.isnull()].shape[0] ==  4
     print(hyades.stars.Rstar_consistent)
-    assert (hyades.stars.Rstar_consistent.dropna().values == np.array([True, False])).all()
+    assert (hyades.stars.Rstar_consistent.dropna().values == np.array([True])).all()
 
 
 def test_find_SED():

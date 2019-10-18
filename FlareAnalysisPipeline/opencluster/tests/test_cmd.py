@@ -152,17 +152,20 @@ def test_Teff_Boyajian():
 def test_Teff_Apsis():
     # create fake data
     teffs = np.linspace(3000,10000,20)
+    bprp = np.linspace(.8,2.5,20)
     teffs[[3,7]] = np.nan
+    
     cols = ["Teff_Apsis", "e_Teff_Apsis"]
     df = pd.DataFrame({"teff_val_Gaia":teffs,
-                       "a":np.random.rand(20)})
+                       "a":np.random.rand(20),
+                       "BPRP_Gaia":bprp})
 
     # call function
     res = Teff_Apsis(df)
 
     # do some checks
     assert res[cols].dropna(how="all").shape[0] == 6
-    assert res.columns.values.shape[0] == 4
+    assert res.columns.values.shape[0] == 5
     assert (res.Teff_Apsis.dropna().values > 4000.).all()
     assert (res.Teff_Apsis.dropna().values < 6750.).all()
     assert (res.e_Teff_Apsis.dropna().values == 175.).all()
@@ -272,12 +275,20 @@ def test_cut_Teff_Mann_on_Teff():
     testdf = pd.DataFrame({'Teff_Mann_BP_RP_nan' : [3000., 2500., 5000.,],
                            'Teff_Mann_BP_RP_FeH' : [3000., 2500., 5000.,],
                            'Teff_Mann_BP_RP_isJH' : [3000., 2500., 5000.,],
-                           'Taff_Mann_BP_RP_isJH' : [3000., 2500., 5000.,],})
+                           'Taff_Mann_BP_RP_isJH' : [3000., 2500., 5000.,],
+                           'e_Teff_Mann_BP_RP_nan' : [300., 250., 500.,],
+                           'e_Teff_Mann_BP_RP_FeH' : [300., 250., 500.,],
+                           'e_Teff_Mann_BP_RP_isJH' : [300., 250., 500.,],
+                           'e_Taff_Mann_BP_RP_isJH' : [300., 250., 500.,]})
     resultdf = pd.DataFrame({'Teff_Mann_BP_RP_nan': {0: 3000.0, 1: np.nan, 2: np.nan},
                              'Teff_Mann_BP_RP_FeH': {0: 3000.0, 1: np.nan, 2: np.nan},
                              'Teff_Mann_BP_RP_isJH': {0: 3000.0, 1: np.nan, 2: np.nan},
-                             'Taff_Mann_BP_RP_isJH': {0: 3000.0, 1: 2500.0, 2: 5000.0}})
-
+                             'Taff_Mann_BP_RP_isJH': {0: 3000.0, 1: 2500.0, 2: 5000.0},
+                             'e_Teff_Mann_BP_RP_nan': {0: 300.0, 1: np.nan, 2: np.nan},
+                             'e_Teff_Mann_BP_RP_FeH': {0: 300.0, 1: np.nan, 2: np.nan},
+                             'e_Teff_Mann_BP_RP_isJH': {0: 300.0, 1: np.nan, 2: np.nan},
+                             'e_Taff_Mann_BP_RP_isJH': {0: 300.0, 1: 250.0, 2: 500.0}})
+    print(cut_Teff_Mann_on_Teff(testdf))
     assert cut_Teff_Mann_on_Teff(testdf).equals(resultdf)
 
 def test_cut_Teff_Mann_on_Mks():

@@ -76,7 +76,7 @@ def SME_find_library_match(cut, T, Terr, feh, interpolate=False):
           #  (cut.Teff <= T + Terr*3) ]
 
     #minimize distance in T-feh space
-    if c.empty:
+    if (c.empty) | (np.isnan(T)):
         #print('No matching entry in library for {}+-100 K and {}+-0.2.'.format(T,feh))
         return np.nan, np.nan
     else:
