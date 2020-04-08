@@ -39,13 +39,13 @@ def custom_detrending(flc):
     flc = flc[np.isfinite(flc.flux)]
 
     #Use lightkurve's SavGol filter while padding outliers with 25 data points around the outliers/flare candidates
-    print(w)
-    flc = flc.detrend("savgol", window_length=w, pad=7)
-    flc.flux[:] = flc.detrended_flux[:]
+  #  print(w)
+  #  flc = flc.detrend("savgol", window_length=w, pad=7)
+  #  flc.flux[:] = flc.detrended_flux[:]
     
     #After filtering, always use a 2.5 hour window to remove the remaining 
-    flcd = flc.detrend("savgol", window_length=25, pad=7)
-    
+   # flcd = flc.detrend("savgol", window_length=25, pad=7)
+    flcd=flc
     # Determine the noise properties with a rolling std, padding masked outliers/candidates
     flcd = refine_detrended_flux_err(flcd, mask_pos_outliers_sigma=1.5, 
                                      std_rolling_window_length=15, pad=25)
