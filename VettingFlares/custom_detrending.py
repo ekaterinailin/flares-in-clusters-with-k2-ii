@@ -207,7 +207,7 @@ def fit_spline(flc, spline_coarseness=12, spline_order=3):
 
 def iteratively_remove_sines(flcd, freq_unit=1/u.day, 
                              maximum_frequency=10, 
-                             minimum_frequency=0.5):
+                             minimum_frequency=0.05):
     def cosine(x, a, b, c, d):
         return a * np.cos(b * x + c) + d
 
