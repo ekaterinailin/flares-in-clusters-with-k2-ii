@@ -1,0 +1,105 @@
+                                                      (Ilin+, 2020)
+================================================================================
+Flares in Clusters. II. Pleiades, Hyades, Praesepe, Ruprecht 147, and M67
+    Authors ?
+    =
+================================================================================
+Keywords: 
+
+Abstract:
+  HERE IS THE PLACE FOR THE ACCEPTED PAPER ABSTRACT
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl   Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .  this file
+stars.csv.cds  176     2112  stellar parameters
+flares.csv.cds 303     3845  stellar flares
+ffds.csv.cds   388       23  flare frequency distributions and power law fit parameters
+
+
+See also:
+None
+--------------------------------------------------------------------------------
+Byte-by-byte Description of file: stars.csv.cds
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+  1-  9   A9     ---    ID           EPIC ID
+ 11- 18   A8     ---    Campaign     K2 observation campaign
+ 20- 37   A18    deg    RAJ2000      Right Ascension
+ 39- 57   A19    deg    DEJ2000      Declination
+ 59- 62   A4     ---    pmem         mean membership probability
+ 64- 67   A4      K     Teff         median stellar effective temperature
+ 69- 74   A6      K     e_Teff       uncertainty on effective temperature 
+ 76- 79   A4  solRad   R            stellar radius
+ 81- 84   A4  solRad   e_R          uncertainty on stellar radius
+ 86-107   A22  erg/s    Lum_bol      projected stellar bolometric luminosity
+109-130   A22  erg/s    e_Lum_bol    uncertainty on projected 
+                                     stellar bolometric luminosity
+132-153   A22  erg/s    Lum_Kepler   projected stellar luminosity in the Kepler 
+                                     band
+155-176   A22  erg/s    e_Lum_Kepler uncertainty on projected stellar luminosity
+                                     in the Kepler band
+
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: flares.csv.cds
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+  1-  9   A9     ---    ID           Description
+ 11- 12   A2     ---    C            Description
+ 14- 21   A8     ---    cstart       Description
+ 23- 30   A8     ---    cstop        Description
+ 32- 49   A18    ---    tstart       Description
+ 51- 68   A18    ---    tstop        Description
+ 70- 87   A18    ---    ED           Description
+ 89-107   A19    ---    e_ED         Description
+109-130   A22    ---    ampl_rec     Description
+132-157   A26    ---    note         Description
+159-164   A6     ---    dtp          Description
+166-187   A22    ---    Lum_Kepler   Description
+189-210   A22    ---    e_Lum_Kepler Description
+212-229   A18    ---    Teff_median  Description
+231-248   A18    ---    Teff_std     Description
+250-271   A22    ---    Lum_bol      Description
+273-294   A22    ---    e_Lum_bol    Description
+296-303   A8     ---    cluster      Description
+
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: ffds.csv.cds
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+  1-  9   A9     ---    Teff              Description
+ 11- 18   A8     ---    cluster           Description
+ 20- 37   A18    ---    alpha_s           Description
+ 39- 58   A20    ---    alpha_s_up_err    Description
+ 60- 79   A20    ---    alpha_s_low_err   Description
+ 81- 98   A18    ---    beta_s            Description
+100-117   A18    ---    beta_s_up_err     Description
+119-136   A18    ---    beta_s_low_err    Description
+138-146   A9     ---    nflares_s         Description
+148-153   A6     ---    nfit_s            Description
+155-172   A18    ---    ED_min            Description
+174-191   A18    ---    ED_max            Description
+193-210   A18    ---    alpha_erg         Description
+212-231   A20    ---    alpha_erg_up_err  Description
+233-252   A20    ---    alpha_erg_low_err Description
+254-275   A22    ---    beta_erg          Description
+277-298   A22    ---    beta_erg_up_err   Description
+300-321   A22    ---    beta_erg_low_err  Description
+323-333   A11    ---    nflares_erg       Description
+335-342   A8     ---    nfit_erg          Description
+344-365   A22    ---    EKp_min           Description
+367-388   A22    ---    EKp_max           Description
+
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+

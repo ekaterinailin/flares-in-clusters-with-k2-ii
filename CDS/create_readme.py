@@ -9,14 +9,15 @@ if __name__ == "__main__":
     tablemaker = CDSTablesMaker(out='ReadMe')
 
     # Add TSV table
-    table = tablemaker.addTable("stars.csv", description="stellar parameters")
-    #table = tablemaker.addTable("flares.csv", description="stellar flares")
+    table1 = tablemaker.addTable("stars.csv", description="stellar parameters")
+    table2 = tablemaker.addTable("flares.csv", description="stellar flares")
+    table3 = tablemaker.addTable("ffds.csv", description="flare frequency distributions and power law fit parameters")
     tablemaker.writeCDSTables()
 
     # Customize ReadMe output
-    tablemaker.title = "Flares in Clusters. II. M35, Hyades, and Ruprecht 147"
+    tablemaker.title = "Flares in Clusters. II. Pleiades, Hyades, Praesepe, Ruprecht 147, and M67"
     tablemaker.author = 'Ilin+'
-    tablemaker.date = 2019
+    tablemaker.date = 2020
     tablemaker.abstract = "HERE IS THE PLACE FOR THE ACCEPTED PAPER ABSTRACT"
 
     # Print ReadMe
